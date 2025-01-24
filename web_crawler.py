@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 import re
 
 base_url = "https://wiki.warthunder.com/"
+v_type="germ_flakpz_1a2_Gepard"
 
 def get_dynamic_headers():
     """生成动态请求头，包含随机UA和时效性参数"""
@@ -49,7 +50,7 @@ def get_ground_data():
         unit_links = [link['href'] for link in links if link['href'].startswith('/unit/')]
         save_text(json.dumps(unit_links), 'ground_unit_links.json')
 
-        ground_type="us_m1a1_hc_abrams"
+        ground_type=v_type
         response = s.get(
             f"https://wiki.warthunder.com/unit/{ground_type}",
             headers=get_dynamic_headers(),
@@ -477,26 +478,30 @@ def parse_armaments_data(html_content):
 
         # 解析可用弹药
         ammo_accordion = weapon_block.find('div', class_='accordion')
-        if ammo_accordion:
-            for item in ammo_accordion.find_all('div', class_='accordion-item'):
-                table = item.find('table', class_='game-unit_belt-list')
-                if table:
-                    for row in table.find_all('tr')[1:]:  # 跳过表头
-                        cells = row.find_all('td')
-                        if len(cells) >= 7:
-                            ammo_data = {
-                                "name": cells[0].get_text(strip=True),
-                                "type": cells[1].get_text(strip=True),
-                                "armor_penetration": {
-                                    "10m": int(cells[2].get_text(strip=True)),
-                                    "100m": int(cells[3].get_text(strip=True)),
-                                    "500m": int(cells[4].get_text(strip=True)),
-                                    "1000m": int(cells[5].get_text(strip=True)),
-                                    "1500m": int(cells[6].get_text(strip=True)),
-                                    "2000m": int(cells[7].get_text(strip=True))
-                                }
+    if ammo_accordion:
+        for item in ammo_accordion.find_all('div', class_='accordion-item'):
+            table = item.find('table', class_='game-unit_belt-list')
+            if table:
+                for row in table.find_all('tr')[1:]:  # 跳过表头
+                    cells = row.find_all('td')
+                    if len(cells) >= 8:  # 修复索引问题，原来cells需要8个元素
+                        # 新增转换处理函数
+                        def safe_convert(text):
+                            return int(text) if text.isdigit() else 0
+                        
+                        ammo_data = {
+                            "name": cells[0].get_text(strip=True),
+                            "type": cells[1].get_text(strip=True),
+                            "armor_penetration": {
+                                "10m": safe_convert(cells[2].get_text(strip=True).replace('—', '0')),
+                                "100m": safe_convert(cells[3].get_text(strip=True).replace('—', '0')),
+                                "500m": safe_convert(cells[4].get_text(strip=True).replace('—', '0')),
+                                "1000m": safe_convert(cells[5].get_text(strip=True).replace('—', '0')),
+                                "1500m": safe_convert(cells[6].get_text(strip=True).replace('—', '0')),
+                                "2000m": safe_convert(cells[7].get_text(strip=True).replace('—', '0'))
                             }
-                            weapon_data["available_ammunition"].append(ammo_data)
+                        }
+                        weapon_data["available_ammunition"].append(ammo_data)
 
         result.append(weapon_data)
 
@@ -506,11 +511,7 @@ def parse_economy_data(html_content):
     soup = BeautifulSoup(html_content, 'html.parser')
     
     result = {
-        "repair_cost": {
-            "AB": {"basic": 0, "reference": 0},
-            "RB": {"basic": 0, "reference": 0},
-            "SB": {"basic": 0, "reference": 0}
-        },
+        "repair_cost": {},
         "crew_training": {
             "basic": 0,
             "experts": 0,
@@ -526,122 +527,141 @@ def parse_economy_data(html_content):
         }
     }
 
-    # 解析维修费用
-    def parse_repair_cost():
-        repair_block = soup.find('span', class_='game-unit_chars-header', string='Repair cost')
-        if not repair_block:
-            return
+    def clean_number(text):
+        """清洗数字并移除所有非数字字符"""
+        return int(re.sub(r"[^\d]", "", text)) if text else 0
 
-        block = repair_block.find_parent('div', class_='game-unit_chars-block')
-        for subline in block.find_all('div', class_='game-unit_chars-subline'):
-            mode_tag = subline.find('span')
-            if not mode_tag:
+    # 解析所有维修费用区块
+    def parse_repair_costs():
+        # 查找所有可能包含维修费用的区块
+        blocks = soup.find_all('div', class_='game-unit_chars-block')
+        
+        for block in blocks:
+            header = block.find('span', class_='game-unit_chars-header')
+            if not header:
                 continue
-
-            mode = mode_tag.get_text(strip=True)
-            value_tag = subline.find('span', class_='game-unit_chars-value')
-            if not value_tag:
-                continue
-
-            values = re.findall(r'[\d,]+', value_tag.get_text())
-            if len(values) == 2:
-                result["repair_cost"][mode] = {
-                    "basic": int(values[0].replace(',', '')),
-                    "reference": int(values[1].replace(',', ''))
-                }
+            
+            header_text = header.get_text(strip=True)
+            
+            # 标准维修费用（AB/RB/SB）
+            if "Repair cost" in header_text:
+                for subline in block.find_all('div', class_='game-unit_chars-subline'):
+                    mode = subline.find('span').get_text(strip=True)
+                    values = subline.find('span', class_='game-unit_chars-value')
+                    if values:
+                        numbers = [clean_number(v) for v in re.split(r"[→/]", values.get_text())]
+                        if len(numbers) >= 2:
+                            result["repair_cost"][mode] = {
+                                "basic": numbers[0],
+                                "reference": numbers[1]
+                            }
+            
+            # 装甲部件维修费用（Hull/Turret）
+            elif "Armor repair" in header_text:
+                for subline in block.find_all('div', class_='game-unit_chars-subline'):
+                    parts = subline.find_all('span')
+                    if len(parts) < 2:
+                        continue
+                    
+                    part_type = parts[0].get_text(strip=True)
+                    values = re.findall(r'\d+', parts[1].get_text())
+                    
+                    if len(values) >= 2:
+                        result["repair_cost"][part_type] = {
+                            "basic": int(values[0]),
+                            "reference": int(values[1])
+                        }
 
     # 解析乘员训练
     def parse_crew_training():
-        crew_block = soup.find('span', class_='game-unit_chars-header', string='Crew training')
-        if not crew_block:
-            return
+        crew_block = soup.find('span', string='Crew training')
+        if crew_block:
+            crew_block = crew_block.find_parent('div', class_='game-unit_chars-block')
+            # 基础训练费用
+            base_cost = crew_block.find('span', class_='game-unit_chars-value')
+            if base_cost:
+                result["crew_training"]["basic"] = clean_number(base_cost.get_text())
+            
+            # 其他训练类型
+            for item in crew_block.find_all('div', class_='game-unit_chars-subline'):
+                key = item.find('span').get_text(strip=True).lower().replace(' ', '_')
+                value = item.find('span', class_='game-unit_chars-value')
+                if value:
+                    result["crew_training"][key] = clean_number(value.get_text())
 
-        block = crew_block.find_parent('div', class_='game-unit_chars-block')
-        main_cost = block.find('span', class_='game-unit_chars-value')
-        if main_cost:
-            result["crew_training"]["basic"] = int(re.sub(r'\D', '', main_cost.get_text()))
+    # 解析奖励系统
+    def parse_rewards():
+        reward_block = soup.find('span', class_='game-unit_chars-header', string='Reward multiplier')
+        if reward_block:
+            block = reward_block.find_parent('div', class_='game-unit_chars-block')
+            lines = block.find_all('div', class_='game-unit_chars-line')
 
-        for subline in block.find_all('div', class_='game-unit_chars-subline'):
-            key_tag = subline.find('span')
-            value_tag = subline.find('span', class_='game-unit_chars-value')
-            if not key_tag or not value_tag:
-                continue
+            # 解析SL奖励
+            if len(lines) >= 2:
+                sl_values = lines[1].find('span', class_='game-unit_chars-value')
+                if sl_values:
+                    values = [clean_number(v) for v in re.split(r'/', sl_values.get_text())]
+                    if len(values) >= 3:
+                        result["rewards"]["SL"] = {
+                            "AB": values[0],
+                            "RB": values[1],
+                            "SB": values[2]
+                        }
 
-            key = key_tag.get_text(strip=True).lower().replace(' ', '_')
-            value = re.sub(r'\D', '', value_tag.get_text())
-            if value:
-                result["crew_training"][key] = int(value)
+            # 解析RP奖励
+            if len(lines) >= 3:
+                rp_value = lines[2].find('span', class_='game-unit_chars-value')
+                if rp_value:
+                    result["rewards"]["RP"] = clean_number(rp_value.get_text())
 
     # 解析改装件系统
     def parse_modifications():
         mods_container = soup.find('div', class_='game-unit_mods-container')
-        if not mods_container:
-            return
-
-        for table in mods_container.find_all('table'):
-            # 每个表格内的行号即为层级（从1开始）
-            for tier, row in enumerate(table.find_all('tr')[1:], start=1):  # 跳过表头
-                for cell in row.find_all('td'):
-                    btn = cell.find('button', class_='game-unit_mod')
-                    if not btn:
-                        continue
-
-                    # 解析基础信息
-                    mod_id = btn.get('data-mod-id', '')
-                    req_id = btn.get('data-mod-req-id', '')
-                    name = btn.find('span').get_text(strip=True)
-
-                    # 解析详细信息
-                    popover = BeautifulSoup(
-                        btn['data-feature-popover'], 
-                        'html.parser'
-                    )
-                    
-                    # 初始化成本值
-                    research_cost = 0
-                    purchase_sl = 0
-                    purchase_ge = 0
-
-                    # 解析研究成本
-                    for cost_line in popover.find_all('div', class_='game-unit_mod-char-line'):
-                        parts = cost_line.find_all('span')
-                        if len(parts) < 2:
+        if mods_container:
+            for table in mods_container.find_all('table'):
+                rows = table.find_all('tr')[1:]  # 跳过表头
+                for tier, row in enumerate(rows, start=1):
+                    for cell in row.find_all('td'):
+                        btn = cell.find('button', class_='game-unit_mod')
+                        if not btn:
                             continue
 
-                        label = parts[0].get_text(strip=True)
-                        value = re.sub(r'\D', '', parts[1].get_text())
-
-                        if 'Research' in label:
-                            research_cost = int(value) if value else 0
-                        elif 'Purchase' in label:
-                            if 'SL' in parts[1].get_text():
-                                purchase_sl = int(value) if value else 0
-                            elif 'GE' in parts[1].get_text():
-                                purchase_ge = int(value) if value else 0
-
-                    # 构建数据对象
-                    mod_data = {
-                        "id": mod_id,
-                        "name": name,
-                        "tier": tier,
-                        "requirements": [req_id] if req_id else [],
-                        "costs": {
-                            "research": research_cost,
-                            "purchase": {
-                                "SL": purchase_sl,
-                                "GE": purchase_ge
+                        mod_data = {
+                            "id": btn.get('data-mod-id', ''),
+                            "name": btn.find('span').get_text(strip=True),
+                            "tier": tier,
+                            "requirements": list(filter(None, [btn.get('data-mod-req-id')])),
+                            "costs": {
+                                "research": 0,
+                                "purchase": {"SL": 0, "GE": 0}
                             }
                         }
-                    }
 
-                    # 按层级存储
-                    if tier not in result["modifications"]["by_tier"]:
-                        result["modifications"]["by_tier"][tier] = []
-                    result["modifications"]["by_tier"][tier].append(mod_data)
+                        popover = BeautifulSoup(btn.get('data-feature-popover', ''), 'html.parser')
+                        for line in popover.find_all('div', class_='game-unit_mod-char-line'):
+                            spans = line.find_all('span')
+                            if len(spans) < 2:
+                                continue
 
-    # 执行解析流程
-    parse_repair_cost()
+                            img = spans[1].find('img')
+                            currency = img.get('alt') if img else ''
+                            value = clean_number(spans[1].get_text())
+
+                            if "Research" in spans[0].get_text():
+                                mod_data["costs"]["research"] = value
+                            elif currency == "SL":
+                                mod_data["costs"]["purchase"]["SL"] = value
+                            elif currency == "GE":
+                                mod_data["costs"]["purchase"]["GE"] = value
+
+                        if tier not in result["modifications"]["by_tier"]:
+                            result["modifications"]["by_tier"][tier] = []
+                        result["modifications"]["by_tier"][tier].append(mod_data)
+
+    # 执行所有解析流程
+    parse_repair_costs()
     parse_crew_training()
+    parse_rewards()
     parse_modifications()
 
     return result
@@ -654,8 +674,7 @@ if __name__ == "__main__":
     print(f"成功获取数据，耗时：{time.time()-start:.2f}s")
     # 此处添加数据处理逻辑...
     # 使用示例
-    html = str_read("us_m1a1_hc_abrams.html")
+    html = str_read(f"{v_type}.html")
     data = {"unit_basic_info":parse_unit_basic_info(html),"survivability":parse_armor_data(html),"mobility":parse_mobility_data(html),"optics":parse_optics_data(html),"armaments":parse_armaments_data(html),"economy":parse_economy_data(html)}
-    save_text(json.dumps(data, indent=4), 'us_m1a1_hc_abrams.json')
-
+    save_text(json.dumps(data, indent=4), f'{v_type}.json')
     
