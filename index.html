@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>从 1 加到 x</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 50px;
+        }
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            box-sizing: border-box;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>从 1 加到 x</h1>
+        <label for="numberInput">请输入一个数字 x：</label>
+        <input type="number" id="numberInput" placeholder="输入一个正整数">
+        <button onclick="calculateSum()">计算</button>
+        <div class="result" id="result"></div>
+    </div>
+
+    <script>
+        function calculateSum() {
+            // 获取用户输入的数字
+            const x = parseInt(document.getElementById("numberInput").value);
+
+            // 检查输入是否有效
+            if (isNaN(x) || x < 1) {
+                document.getElementById("result").innerText = "请输入一个有效的正整数！";
+                return;
+            }
+
+            // 计算从 1 加到 x 的和
+            let sum = 0;
+            for (let i = 1; i <= x; i++) {
+                sum += i;
+            }
+
+            // 显示结果
+            document.getElementById("result").innerText = `从 1 加到 ${x} 的和是：${sum}`;
+        }
+    </script>
+</body>
+</html>
