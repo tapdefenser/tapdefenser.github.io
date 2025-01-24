@@ -9,3 +9,8 @@ def save_text(text, path='temp0.txt'):
     with open(file_path, 'w', encoding='utf-8') as file:
         file.write(text)
     print(f"Saved to {path} successfully")
+
+def str_read(path):
+    file_path = os.path.join(script_dir, path)
+    with open(file_path, 'r', encoding='utf-8') as file:
+        return file.read()
