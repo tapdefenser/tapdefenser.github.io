@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 import re
 
 base_url = "https://wiki.warthunder.com/"
-v_type="germ_leopard_2a4m_can"
+v_type="germ_flakpz_1a2_Gepard"
 
 def get_dynamic_headers():
     """生成动态请求头，包含随机UA和时效性参数"""
@@ -125,28 +125,6 @@ def parse_unit_basic_info(html_content):
             role_div = item.find('div', class_='text-truncate')
             if role_div:
                 result["role"] = role_div.get_text(strip=True)
-
-    # 解析研发和购买成本（修复部分）
-    for item in header.find_all('div', class_='game-unit_card-info_item'):
-        title = item.find('div', class_='game-unit_card-info_title').get_text(strip=True)
-        value_div = item.find('div', class_='game-unit_card-info_value')
-        
-        if not value_div:
-            continue
-            
-        # 提取数值部分（第一个div）
-        value_tag = value_div.find('div')
-        if not value_tag:
-            continue
-            
-        # 清理并转换数值
-        raw_value = value_tag.get_text(strip=True).replace(',', '')
-        if raw_value.isdigit():
-            num_value = int(raw_value)
-            if title == "Research":
-                result["research"]["rp"] = num_value
-            elif title == "Purchase":
-                result["purchase"]["sl"] = num_value
 
     # 解析图片信息
     flag_img = header.find('img', class_='game-unit_template-flag')
@@ -726,7 +704,7 @@ def parse_economy_data(html_content):
 # 执行示例
 if __name__ == "__main__":
     start = time.time()
-    #html_data = get_ground_data()
+    html_data = get_ground_data()
     #print(html_data)
     #print(f"成功获取数据，耗时：{time.time()-start:.2f}s")
     # 此处添加数据处理逻辑...
