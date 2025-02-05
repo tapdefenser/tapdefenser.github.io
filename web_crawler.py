@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 import re
 
 base_url = "https://wiki.warthunder.com/"
-v_type="germ_flakpz_1a2_Gepard"
+v_type="it_fiat_cm52"
 
 def get_dynamic_headers():
     """生成动态请求头，包含随机UA和时效性参数"""
@@ -389,6 +389,24 @@ def parse_optics_data(html_content):
     
     return result
 
+def remove_last_duplicate(s):
+    length = len(s)
+    
+    # 如果字符串长度小于2，则无需处理，直接返回原字符串
+    if length < 2:
+        return s
+    
+    # 遍历字符串，寻找最后一次出现的重复子串
+    for i in range(length, 0, -1):  # i表示可能的子串结尾位置
+        prefix = s[:i]  # 当前考虑的前缀
+        suffix_length = len(prefix)  # 后缀需要匹配的长度
+        
+        # 检查是否以该前缀结尾，并且不是整个字符串本身
+        if s.endswith(prefix) and prefix != s:
+            return s[:-suffix_length]  # 移除匹配的后缀部分
+    
+    # 如果没有找到任何重复项，则返回原始字符串
+    return s
 def parse_armaments_data(html_content):
     soup = BeautifulSoup(html_content, 'html.parser')
     result = []
@@ -507,6 +525,10 @@ def parse_armaments_data(html_content):
                         # 提取基本信息
                         belt_name = popover_soup.find('span').text.strip()
                         belt_type = popover_soup.find('div', style="font-size: .9em").text.split(':')[1].split('<')[0].strip()
+                        
+                        print(belt_type)
+                        belt_type = remove_last_duplicate(belt_type)
+                        print(belt_type)
                         
                         # 提取穿深数据
                         armor_pen = {}
