@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 import re
 
 base_url = "https://wiki.warthunder.com/"
-v_type="germ_flakpz_1a2_Gepard"
+v_type="germ_leopard_2a4m_can"
 
 def get_dynamic_headers():
     """生成动态请求头，包含随机UA和时效性参数"""
@@ -78,25 +78,15 @@ def parse_unit_basic_info(html_content):
     soup = BeautifulSoup(html_content, 'html.parser')
     
     result = {
-        "name": None,
-        "nation": None,
-        "type": None,
+        "name": v_type,
+        "nation": v_type.split('_')[0],
         "rank": None,
         "battle_rating": {
             "AB": None,
             "RB": None,
             "SB": None
         },
-        "game_nation": None,
         "role": None,
-        "research": {
-            "rp": None,
-            "currency": "RP"
-        },
-        "purchase": {
-            "sl": None,
-            "currency": "SL"
-        },
         "images": {
             "country_flag": None,
             "unit_image": None
@@ -107,21 +97,11 @@ def parse_unit_basic_info(html_content):
     if not header:
         return result
 
-    # 解析名称
-    name_tag = header.find('div', class_='game-unit_name')
-    if name_tag:
-        result["name"] = name_tag.get_text(strip=True).replace('&nbsp;', ' ')
-
-    # 解析国家/类型
-    nation_tag = header.find('div', class_='game-unit_nation')
-    if nation_tag:
-        result["nation"] = nation_tag.get_text(strip=True)
-
     # 解析等级
     rank_tag = header.find('div', class_='game-unit_rank')
     if rank_tag:
         rank_value = rank_tag.find('div', class_='game-unit_card-info_value').get_text(strip=True)
-        rank_mapping = {'I':1, 'II':2, 'III':3, 'IV':4, 'V':5, 'VI':6, 'VII':7}
+        rank_mapping = {'I':1, 'II':2, 'III':3, 'IV':4, 'V':5, 'VI':6, 'VII':7, 'VIII':8, 'IX':9, 'X':10}
         result["rank"] = rank_mapping.get(rank_value, None)
 
     # 解析战斗评级
@@ -141,14 +121,7 @@ def parse_unit_basic_info(html_content):
         title = item.find('div', class_='game-unit_card-info_title').get_text(strip=True)
         value_div = item.find('div', class_='game-unit_card-info_value')
         
-        if title == "Game nation":
-            img_tag = item.find('img')
-            if img_tag and 'src' in img_tag.attrs:
-                match = re.search(r'country_(\w+)', img_tag['src'])
-                if match:
-                    result["game_nation"] = match.group(1).upper()
-        
-        elif title == "Main role":
+        if title == "Main role":
             role_div = item.find('div', class_='text-truncate')
             if role_div:
                 result["role"] = role_div.get_text(strip=True)
@@ -375,12 +348,10 @@ def parse_mobility_data(html_content):
     return result
 
 def parse_optics_data(html_content):
-
     def parse_popover_data(popover_html):
         popover_soup = BeautifulSoup(popover_html, 'html.parser')
-        resolution = {"gunner": None, "commander": None, "driver": None}
+        resolution = {}
         
-        # 提取分辨率数据
         specs_rows = popover_soup.find_all(class_="gunit_specs-table_row")
         if len(specs_rows) >= 2:
             values = [div.get_text(strip=True) for div in specs_rows[1].find_all("div")]
@@ -390,33 +361,36 @@ def parse_optics_data(html_content):
                     "commander": values[1],
                     "driver": values[2]
                 }
-        
-        return {
-            "resolution": resolution
-        }
+        # 返回解析结果，若没有解析出resolution，则该键不会出现在返回字典中
+        return {"resolution": resolution} if resolution else {}
+
     soup = BeautifulSoup(html_content, 'html.parser')
     result = {"features": [], "specs": {}}
     
-    # 定位Optics模块
     optics_block = soup.find('div', class_='block-header', string='Optics')
     if not optics_block:
         return result
     optics_block = optics_block.find_parent('div', class_='block')
     
+    # 初始化光学设备列表
+    result["specs"]["optical_devices"] = []
+    
     # 解析特性
     features_div = optics_block.find('div', class_='game-unit_features')
+    seen_devices = set()
     if features_div:
         for btn in features_div.find_all('button'):
-            popover_data = parse_popover_data(btn['data-feature-popover'])
-            result["features"].append({
-                "name": btn.find('span').get_text(strip=True),
-                **popover_data
-            })
+            device_name = btn.find('span').get_text(strip=True)
+            if device_name not in seen_devices:  # 避免重复添加相同的设备
+                seen_devices.add(device_name)
+                popover_data = parse_popover_data(btn['data-feature-popover'])
+                feature_entry = {"name": device_name}
+                feature_entry.update(popover_data)  # 只有当resolution存在时才会添加该键
+                result["features"].append(feature_entry)
     
     # 解析规格表
     specs_table = optics_block.find('div', class_='gunit_specs-table')
     if specs_table:
-        # 光学变焦
         zoom_row = specs_table.find_all(class_='gunit_specs-table_row')[1]
         result["specs"]["optics_zoom"] = {
             "gunner": zoom_row.div.get_text(strip=True),
@@ -424,28 +398,33 @@ def parse_optics_data(html_content):
             "driver": zoom_row.div.find_next_sibling('div').find_next_sibling('div').get_text(strip=True)
         }
         
-        # 光学设备
-        result["specs"]["optical_devices"] = []
+        # 解析光学设备
         device_btns = specs_table.find_all('button', class_='gunit_specs-table_btn')
         for btn in device_btns:
-            popover_data = parse_popover_data(btn['data-feature-popover'])
-            result["specs"]["optical_devices"].append({
-                "name": btn.get_text(strip=True),
-                **popover_data
-            })
+            device_name = btn.get_text(strip=True)
+            if device_name not in seen_devices:
+                seen_devices.add(device_name)
+                popover_data = parse_popover_data(btn['data-feature-popover'])
+                optical_device_entry = {"name": device_name}
+                optical_device_entry.update(popover_data)  # 只有当resolution存在时才会添加该键
+                result["specs"]["optical_devices"].append(optical_device_entry)
     
     return result
 
 def parse_armaments_data(html_content):
     soup = BeautifulSoup(html_content, 'html.parser')
     result = []
+    
+    def safe_convert(value):
+        try:
+            return float(value) if '.' in value else int(value)
+        except:
+            return value
 
-    # 定位Armaments模块
     armaments_block = soup.find('div', id='weapon')
     if not armaments_block:
-        return result
+        return {"armaments": []}
 
-    # 解析每个武器
     for weapon_block in armaments_block.find_all('div', class_='game-unit_weapon'):
         weapon_data = {
             "name": weapon_block.find('span', class_='game-unit_weapon-title').get_text(strip=True),
@@ -458,54 +437,131 @@ def parse_armaments_data(html_content):
         # 解析特性
         features_div = weapon_block.find('div', class_='game-unit_features')
         if features_div:
-            weapon_data["features"] = [
-                btn.find('span').get_text(strip=True)
-                for btn in features_div.find_all('button')
-            ]
+            weapon_data["features"] = [btn.find('span').get_text(strip=True) for btn in features_div.find_all('button')]
 
         # 解析规格
-        specs_blocks = weapon_block.find_all('div', class_='game-unit_chars-block')
-        for block in specs_blocks:
+        for block in weapon_block.find_all('div', class_='game-unit_chars-block'):
+            # 特殊处理炮塔旋转速度
+            header_line = block.find('div', class_='game-unit_chars-line')
+            if header_line:
+                header = header_line.find('span', class_='game-unit_chars-header').get_text(strip=True)
+                if header == "Turret Rotation Speed":
+                    for subline in block.find_all('div', class_='game-unit_chars-subline'):
+                        sub_header = subline.find('span').get_text(strip=True)
+                        value_span = subline.find('span', class_='game-unit_chars-value')
+                        if value_span:
+                            value = ' '.join(value_span.stripped_strings)
+                            key = f"turret_rotation_speed_{sub_header.lower()}"
+                            weapon_data["specs"][key] = value
+                    continue
+
+            # 处理Reload特殊结构
+            reload_header = block.find('span', class_='game-unit_chars-header', string='Reload')
+            if reload_header:
+                subline = block.find('div', class_='game-unit_chars-subline')
+                if subline:
+                    reload_value = subline.find('span', class_='game-unit_chars-value').get_text(strip=True)
+                    weapon_data["specs"]["reload"] = reload_value
+                continue
+
+            # 常规规格处理
             for line in block.find_all('div', class_='game-unit_chars-line'):
                 header = line.find('span', class_='game-unit_chars-header')
                 value = line.find('span', class_='game-unit_chars-value')
-                
-                # 检查header和value是否存在
                 if header and value:
-                    header_text = header.get_text(strip=True)
-                    value_text = value.get_text(strip=True)
-                    weapon_data["specs"][header_text.lower().replace(' ', '_')] = value_text
+                    key = header.get_text(strip=True).lower().replace(' ', '_')
+                    weapon_data["specs"][key] = value.get_text(strip=True)
 
-        # 解析可用弹药
-        ammo_accordion = weapon_block.find('div', class_='accordion')
-    if ammo_accordion:
-        for item in ammo_accordion.find_all('div', class_='accordion-item'):
-            table = item.find('table', class_='game-unit_belt-list')
-            if table:
-                for row in table.find_all('tr')[1:]:  # 跳过表头
-                    cells = row.find_all('td')
-                    if len(cells) >= 8:  # 修复索引问题，原来cells需要8个元素
-                        # 新增转换处理函数
-                        def safe_convert(text):
-                            return int(text) if text.isdigit() else 0
+            for subline in block.find_all('div', class_='game-unit_chars-subline'):
+                parts = list(subline.stripped_strings)
+                if len(parts) >= 2:
+                    key = parts[0].lower().replace(' ', '_') if parts[0] else 'unknown'
+                    value = parts[-1]
+                    weapon_data["specs"][key] = value
+
+        # 解析弹药和弹链
+        for accordion in weapon_block.find_all('div', class_='accordion'):
+            for item in accordion.find_all('div', class_='accordion-item'):
+                if 'ammunition' in item.button.text.lower():
+                    # 解析弹药数据
+                    for btn in item.find_all('button', {'data-feature-popover': True}):
+                        popover_html = btn['data-feature-popover']
+                        popover_soup = BeautifulSoup(popover_html, 'html.parser')
                         
-                        ammo_data = {
-                            "name": cells[0].get_text(strip=True),
-                            "type": cells[1].get_text(strip=True),
-                            "armor_penetration": {
-                                "10m": safe_convert(cells[2].get_text(strip=True).replace('—', '0')),
-                                "100m": safe_convert(cells[3].get_text(strip=True).replace('—', '0')),
-                                "500m": safe_convert(cells[4].get_text(strip=True).replace('—', '0')),
-                                "1000m": safe_convert(cells[5].get_text(strip=True).replace('—', '0')),
-                                "1500m": safe_convert(cells[6].get_text(strip=True).replace('—', '0')),
-                                "2000m": safe_convert(cells[7].get_text(strip=True).replace('—', '0'))
-                            }
+                        # 提取基本信息
+                        ammo_name = popover_soup.find('span').text.strip()
+                        details = {
+                            "type": btn.find_next('td').text.strip() if btn.find_next('td') else None
                         }
-                        weapon_data["available_ammunition"].append(ammo_data)
+                        
+                        # 提取详细参数
+                        for detail_line in popover_soup.find_all('div', class_='game-unit_chars-line'):
+                            key = detail_line.find('div', class_='game-unit_chars-header').text.strip().lower().replace(' ', '_')
+                            value = detail_line.find('div', class_='game-unit_chars-value').text.strip()
+                            details[key] = value
+                        
+                        # 提取穿深数据
+                        armor_pen = {}
+                        table = popover_soup.find('table')
+                        if table:
+                            for row in table.find_all('tr')[1:]:  # 跳过表头
+                                cells = [cell.text.strip() for cell in row.find_all(['th', 'td'])]
+                                if len(cells) >= 4:
+                                    distance = cells[0].replace(' ', '').lower()
+                                    armor_pen[distance] = {
+                                        "0°": safe_convert(cells[1]),
+                                        "30°": safe_convert(cells[2]),
+                                        "60°": safe_convert(cells[3])
+                                    }
+                        
+                        weapon_data["available_ammunition"].append({
+                            "name": ammo_name,
+                            "details": details,
+                            "armor_penetration": armor_pen
+                        })
+
+                elif 'belts' in item.button.text.lower():
+                    # 解析弹链数据
+                    for btn in item.find_all('button', {'data-feature-popover': True}):
+                        popover_html = btn['data-feature-popover']
+                        popover_soup = BeautifulSoup(popover_html, 'html.parser')
+                        
+                        # 提取基本信息
+                        belt_name = popover_soup.find('span').text.strip()
+                        belt_type = popover_soup.find('div', style="font-size: .9em").text.split(':')[1].split('<')[0].strip()
+                        
+                        # 提取穿深数据
+                        armor_pen = {}
+                        table = popover_soup.find('table')
+                        if table:
+                            for row in table.find_all('tr')[1:]:  # 跳过表头
+                                cells = [cell.text.strip() for cell in row.find_all(['th', 'td'])]
+                                if len(cells) >= 4:
+                                    distance = cells[0].replace(' ', '').lower()
+                                    armor_pen[distance] = {
+                                        "0°": safe_convert(cells[1]),
+                                        "30°": safe_convert(cells[2]),
+                                        "60°": safe_convert(cells[3])
+                                    }
+                        
+                        weapon_data["available_belts"].append({
+                            "name": belt_name,
+                            "type": belt_type,
+                            "armor_penetration": armor_pen
+                        })
 
         result.append(weapon_data)
-
+    
     return {"armaments": result}
+
+
+
+def safe_convert(text):
+    """将文本转换为整数，如果无法转换则返回0"""
+    try:
+        return int(text.replace('—', '0'))
+    except ValueError:
+        return 0
 
 def parse_economy_data(html_content):
     soup = BeautifulSoup(html_content, 'html.parser')
@@ -529,7 +585,8 @@ def parse_economy_data(html_content):
 
     def clean_number(text):
         """清洗数字并移除所有非数字字符"""
-        return int(re.sub(r"[^\d]", "", text)) if text else 0
+        cleaned_text = re.sub(r"[^\d]", "", text) if text else ""
+        return int(cleaned_text) if cleaned_text else 0
 
     # 解析所有维修费用区块
     def parse_repair_costs():
@@ -671,10 +728,10 @@ if __name__ == "__main__":
     start = time.time()
     #html_data = get_ground_data()
     #print(html_data)
-    print(f"成功获取数据，耗时：{time.time()-start:.2f}s")
+    #print(f"成功获取数据，耗时：{time.time()-start:.2f}s")
     # 此处添加数据处理逻辑...
     # 使用示例
     html = str_read(f"{v_type}.html")
-    data = {"unit_basic_info":parse_unit_basic_info(html),"survivability":parse_armor_data(html),"mobility":parse_mobility_data(html),"optics":parse_optics_data(html),"armaments":parse_armaments_data(html),"economy":parse_economy_data(html)}
+    data = {"unit_basic_info":parse_unit_basic_info(html),"survivability":parse_armor_data(html),"mobility":parse_mobility_data(html),"optics":parse_optics_data(html),"armaments":parse_armaments_data(html)}
     save_text(json.dumps(data, indent=4), f'{v_type}.json')
     
