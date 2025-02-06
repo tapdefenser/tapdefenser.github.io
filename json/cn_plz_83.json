@@ -1,0 +1,264 @@
+{
+    "unit_basic_info": {
+        "name": "cn_plz_83",
+        "nation": "cn",
+        "rank": 4,
+        "battle_rating": {
+            "AB": 6.3,
+            "RB": 6.3,
+            "SB": 6.3
+        },
+        "role": "Tank destroyer",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_china.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/cn_plz_83.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 93,
+            "crew": 5
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 56.0,
+                    "ab": 61.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 17.6,
+                "rb_basic": 15.6,
+                "ab_ref": 30.8,
+                "ab_basic": 25.1
+            },
+            "engine_power": {
+                "rb_ref": 520,
+                "rb_basic": 460,
+                "ab_ref": 909,
+                "ab_basic": 739
+            },
+            "weight": 29.5
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "3.7x\u20135.5x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "152mm PL66 Gai cannon",
+                "features": [],
+                "specs": {
+                    "ammunition": "30 rounds",
+                    "first-order": "15 rounds",
+                    "reload": "17.3 \u2192 13.3 s",
+                    "vertical_guidance": "-5 / 65\u00b0",
+                    "turret_rotation_speed_horizontal": "7 6 12.2 8.8 \u2192 10 8.5 17.4 12.6 \u00b0/s",
+                    "turret_rotation_speed_vertical": "7 5.6 21.3 13.7 \u2192 10 8 30.5 19.5 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "DDB1/PL66-152",
+                        "details": {
+                            "type": "HE",
+                            "caliber": "152 mm",
+                            "projectile_mass": "43.6 kg",
+                            "muzzle_velocity": "655 m/s",
+                            "explosive_type": "TNT",
+                            "explosive_mass": "5.9 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 49,
+                                "30\u00b0": 49,
+                                "60\u00b0": 49
+                            },
+                            "100m": {
+                                "0\u00b0": 49,
+                                "30\u00b0": 49,
+                                "60\u00b0": 49
+                            },
+                            "500m": {
+                                "0\u00b0": 49,
+                                "30\u00b0": 49,
+                                "60\u00b0": 49
+                            },
+                            "1000m": {
+                                "0\u00b0": 49,
+                                "30\u00b0": 49,
+                                "60\u00b0": 49
+                            },
+                            "1500m": {
+                                "0\u00b0": 49,
+                                "30\u00b0": 49,
+                                "60\u00b0": 49
+                            },
+                            "2000m": {
+                                "0\u00b0": 49,
+                                "30\u00b0": 49,
+                                "60\u00b0": 49
+                            }
+                        }
+                    },
+                    {
+                        "name": "BEE7-152",
+                        "details": {
+                            "type": "HE",
+                            "caliber": "152 mm",
+                            "projectile_mass": "43.6 kg",
+                            "muzzle_velocity": "655 m/s",
+                            "explosive_type": "Comp.B, mod.",
+                            "explosive_mass": "6.7 kg",
+                            "tnt_equivalent": "9 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 61,
+                                "30\u00b0": 61,
+                                "60\u00b0": 61
+                            },
+                            "100m": {
+                                "0\u00b0": 61,
+                                "30\u00b0": 61,
+                                "60\u00b0": 61
+                            },
+                            "500m": {
+                                "0\u00b0": 61,
+                                "30\u00b0": 61,
+                                "60\u00b0": 61
+                            },
+                            "1000m": {
+                                "0\u00b0": 61,
+                                "30\u00b0": 61,
+                                "60\u00b0": 61
+                            },
+                            "1500m": {
+                                "0\u00b0": 61,
+                                "30\u00b0": 61,
+                                "60\u00b0": 61
+                            },
+                            "2000m": {
+                                "0\u00b0": 61,
+                                "30\u00b0": 61,
+                                "60\u00b0": 61
+                            }
+                        }
+                    },
+                    {
+                        "name": "BEE7-152 (VT)",
+                        "details": {
+                            "type": "HE-VT",
+                            "caliber": "152 mm",
+                            "projectile_mass": "43.6 kg",
+                            "muzzle_velocity": "655 m/s",
+                            "explosive_type": "Comp.B, mod.",
+                            "explosive_mass": "6.7 kg",
+                            "tnt_equivalent": "9 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 61,
+                                "30\u00b0": 61,
+                                "60\u00b0": 61
+                            },
+                            "100m": {
+                                "0\u00b0": 61,
+                                "30\u00b0": 61,
+                                "60\u00b0": 61
+                            },
+                            "500m": {
+                                "0\u00b0": 61,
+                                "30\u00b0": 61,
+                                "60\u00b0": 61
+                            },
+                            "1000m": {
+                                "0\u00b0": 61,
+                                "30\u00b0": 61,
+                                "60\u00b0": 61
+                            },
+                            "1500m": {
+                                "0\u00b0": 61,
+                                "30\u00b0": 61,
+                                "60\u00b0": 61
+                            },
+                            "2000m": {
+                                "0\u00b0": 61,
+                                "30\u00b0": 61,
+                                "60\u00b0": 61
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "12.7 mm QJC88A machine gun",
+                "features": [],
+                "specs": {
+                    "ammunition": "600 rounds",
+                    "belt_capacity": "150 rounds",
+                    "reload": "6.5 \u2192 5 s",
+                    "vertical_guidance": "-6 / 85\u00b0",
+                    "horizontal_guidance": "-161 / 156\u00b0",
+                    "turret_rotation_speed_horizontal": "63 53.6 109.7 79.3 \u2192 90 76.5 156.7 113.2 \u00b0/s",
+                    "turret_rotation_speed_vertical": "63 50.4 192.1 123 \u2192 90 72 274.5 175.7 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "API-T/IAI/API-T/AP-I(c)",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 34,
+                                "30\u00b0": 24,
+                                "60\u00b0": 12
+                            },
+                            "100m": {
+                                "0\u00b0": 32,
+                                "30\u00b0": 23,
+                                "60\u00b0": 12
+                            },
+                            "500m": {
+                                "0\u00b0": 24,
+                                "30\u00b0": 18,
+                                "60\u00b0": 9
+                            },
+                            "1000m": {
+                                "0\u00b0": 17,
+                                "30\u00b0": 13,
+                                "60\u00b0": 7
+                            },
+                            "1500m": {
+                                "0\u00b0": 12,
+                                "30\u00b0": 10,
+                                "60\u00b0": 5
+                            },
+                            "2000m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 7,
+                                "60\u00b0": 4
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

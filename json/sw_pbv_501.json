@@ -1,0 +1,226 @@
+{
+    "unit_basic_info": {
+        "name": "sw_pbv_501",
+        "nation": "sw",
+        "rank": 4,
+        "battle_rating": {
+            "AB": 6.7,
+            "RB": 6.7,
+            "SB": 6.7
+        },
+        "role": "Light tank",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_sweden.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/sw_pbv_501.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [
+                "ESS"
+            ],
+            "visibility": 70,
+            "crew": 3
+        },
+        "support_systems": {
+            "features": [
+                "ESS"
+            ]
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [
+                "Amphibious"
+            ],
+            "max_speed": {
+                "forward": {
+                    "rb": 65.0,
+                    "ab": 72.0
+                },
+                "backward": {
+                    "rb": 11.0,
+                    "ab": 12.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 25.2,
+                "rb_basic": 22.3,
+                "ab_ref": 48.1,
+                "ab_basic": 39.1
+            },
+            "engine_power": {
+                "rb_ref": 300,
+                "rb_basic": 265,
+                "ab_ref": 572,
+                "ab_basic": 465
+            },
+            "weight": 11.9
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "6.0x",
+                "commander": "5.0x",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "73 mm 2A28 cannon",
+                "features": [
+                    "Autoloader"
+                ],
+                "specs": {
+                    "ammunition": "40 rounds",
+                    "vertical_guidance": "-4 / 30\u00b0",
+                    "turret_rotation_speed_horizontal": "14 11.9 26.4 19 \u2192 20 17 37.6 27.2 \u00b0/s",
+                    "turret_rotation_speed_vertical": "4.2 3.4 14.7 9.4 \u2192 6 4.8 21 13.4 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "PG-9",
+                        "details": {
+                            "type": "HEAT",
+                            "caliber": "73 mm",
+                            "projectile_mass": "2.6 kg",
+                            "muzzle_velocity": "665 m/s",
+                            "explosive_type": "A-IX-1",
+                            "explosive_mass": "322 g",
+                            "tnt_equivalent": "403 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 300,
+                                "30\u00b0": 260,
+                                "60\u00b0": 150
+                            },
+                            "100m": {
+                                "0\u00b0": 300,
+                                "30\u00b0": 260,
+                                "60\u00b0": 150
+                            },
+                            "500m": {
+                                "0\u00b0": 300,
+                                "30\u00b0": 260,
+                                "60\u00b0": 150
+                            },
+                            "1000m": {
+                                "0\u00b0": 300,
+                                "30\u00b0": 260,
+                                "60\u00b0": 150
+                            },
+                            "1500m": {
+                                "0\u00b0": 300,
+                                "30\u00b0": 260,
+                                "60\u00b0": 150
+                            },
+                            "2000m": {
+                                "0\u00b0": 300,
+                                "30\u00b0": 260,
+                                "60\u00b0": 150
+                            }
+                        }
+                    },
+                    {
+                        "name": "OG-9",
+                        "details": {
+                            "type": "HE",
+                            "caliber": "73 mm",
+                            "projectile_mass": "3.7 kg",
+                            "muzzle_velocity": "290 m/s",
+                            "explosive_type": "TNT",
+                            "explosive_mass": "735 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 11,
+                                "30\u00b0": 11,
+                                "60\u00b0": 11
+                            },
+                            "100m": {
+                                "0\u00b0": 11,
+                                "30\u00b0": 11,
+                                "60\u00b0": 11
+                            },
+                            "500m": {
+                                "0\u00b0": 11,
+                                "30\u00b0": 11,
+                                "60\u00b0": 11
+                            },
+                            "1000m": {
+                                "0\u00b0": 11,
+                                "30\u00b0": 11,
+                                "60\u00b0": 11
+                            },
+                            "1500m": {
+                                "0\u00b0": 11,
+                                "30\u00b0": 11,
+                                "60\u00b0": 11
+                            },
+                            "2000m": {
+                                "0\u00b0": 11,
+                                "30\u00b0": 11,
+                                "60\u00b0": 11
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "7.62 mm PKT machine gun(coaxial)",
+                "features": [],
+                "specs": {
+                    "ammunition": "2,000 rounds",
+                    "belt_capacity": "1,000 rounds",
+                    "reload": "10.4 \u2192 8 s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP-I/API-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 7,
+                                "60\u00b0": 4
+                            },
+                            "100m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 7,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 5,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 1
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

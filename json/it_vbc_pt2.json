@@ -1,0 +1,356 @@
+{
+    "unit_basic_info": {
+        "name": "it_vbc_pt2",
+        "nation": "it",
+        "rank": 6,
+        "battle_rating": {
+            "AB": 9.3,
+            "RB": 9.3,
+            "SB": 9.3
+        },
+        "role": "Light tank",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_italy.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/it_vbc_pt2.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [
+                "Smoke grenades",
+                "Dual control"
+            ],
+            "visibility": 136,
+            "crew": 3
+        },
+        "support_systems": {
+            "features": [
+                "Smoke grenades",
+                "Dual control"
+            ]
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 108.0,
+                    "ab": 120.0
+                },
+                "backward": {
+                    "rb": 22.0,
+                    "ab": 25.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 21.2,
+                "rb_basic": 18.7,
+                "ab_ref": 40.3,
+                "ab_basic": 32.8
+            },
+            "engine_power": {
+                "rb_ref": 550,
+                "rb_basic": 486,
+                "ab_ref": 1049,
+                "ab_basic": 852
+            },
+            "weight": 26.0
+        }
+    },
+    "optics": {
+        "features": [
+            {
+                "name": "Laser rangefinder"
+            },
+            {
+                "name": "Scout UAV"
+            }
+        ],
+        "specs": {
+            "optical_devices": [
+                {
+                    "name": "Thermal imager",
+                    "resolution": {
+                        "gunner": "500x300",
+                        "commander": "\u2014",
+                        "driver": "\u2014"
+                    }
+                },
+                {
+                    "name": "Night vision device"
+                }
+            ],
+            "optics_zoom": {
+                "gunner": "2.0x\u20138.0x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "25 mm Oerlikon KBA B02 cannon",
+                "features": [
+                    "Two-plane stabilizer"
+                ],
+                "specs": {
+                    "ammunition": "400 rounds",
+                    "belt_capacity": "100 rounds",
+                    "reload": "10.4 \u2192 8 s",
+                    "vertical_guidance": "-10 / 60\u00b0",
+                    "turret_rotation_speed_horizontal": "40.1 34.1 75.5 54.5 \u2192 57.3 48.7 107.9 77.9 \u00b0/s",
+                    "turret_rotation_speed_vertical": "20 16 70.1 44.8 \u2192 28.6 22.9 100.1 64.1 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "APDS/HEI-T/HEI-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 7,
+                                "30\u00b0": 7,
+                                "60\u00b0": 3
+                            },
+                            "100m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 6,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            }
+                        }
+                    },
+                    {
+                        "name": "M792",
+                        "type": "HEI-T/HEI-T/HEI-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 7,
+                                "30\u00b0": 7,
+                                "60\u00b0": 3
+                            },
+                            "100m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 6,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            }
+                        }
+                    },
+                    {
+                        "name": "M791",
+                        "type": "APDS/APDS/APDS",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 80,
+                                "30\u00b0": 73,
+                                "60\u00b0": 31
+                            },
+                            "100m": {
+                                "0\u00b0": 79,
+                                "30\u00b0": 72,
+                                "60\u00b0": 30
+                            },
+                            "500m": {
+                                "0\u00b0": 73,
+                                "30\u00b0": 67,
+                                "60\u00b0": 28
+                            },
+                            "1000m": {
+                                "0\u00b0": 67,
+                                "30\u00b0": 61,
+                                "60\u00b0": 25
+                            },
+                            "1500m": {
+                                "0\u00b0": 61,
+                                "30\u00b0": 56,
+                                "60\u00b0": 23
+                            },
+                            "2000m": {
+                                "0\u00b0": 55,
+                                "30\u00b0": 51,
+                                "60\u00b0": 21
+                            }
+                        }
+                    },
+                    {
+                        "name": "PMB 090",
+                        "type": "APFSDS",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 92,
+                                "30\u00b0": 78,
+                                "60\u00b0": 53
+                            },
+                            "100m": {
+                                "0\u00b0": 90,
+                                "30\u00b0": 76,
+                                "60\u00b0": 52
+                            },
+                            "500m": {
+                                "0\u00b0": 83,
+                                "30\u00b0": 70,
+                                "60\u00b0": 48
+                            },
+                            "1000m": {
+                                "0\u00b0": 75,
+                                "30\u00b0": 63,
+                                "60\u00b0": 43
+                            },
+                            "1500m": {
+                                "0\u00b0": 62,
+                                "30\u00b0": 52,
+                                "60\u00b0": 36
+                            },
+                            "2000m": {
+                                "0\u00b0": 58,
+                                "30\u00b0": 49,
+                                "60\u00b0": 34
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "7.62 mm Beretta MG42/59 machine gun (coaxial)",
+                "features": [],
+                "specs": {
+                    "ammunition": "4,600 rounds",
+                    "belt_capacity": "200 rounds",
+                    "reload": "10.4 \u2192 8 s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP/T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 2
+                            },
+                            "100m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 2
+                            },
+                            "500m": {
+                                "0\u00b0": 2,
+                                "30\u00b0": 2,
+                                "60\u00b0": 1
+                            },
+                            "1000m": {
+                                "0\u00b0": 1,
+                                "30\u00b0": 1,
+                                "60\u00b0": 0
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "7.62 mm Beretta MG42/59 machine gun",
+                "features": [],
+                "specs": {
+                    "ammunition": "2,000 rounds",
+                    "belt_capacity": "200 rounds",
+                    "reload": "10.4 \u2192 8 s",
+                    "vertical_guidance": "-8 / 20\u00b0",
+                    "horizontal_guidance": "-160 / 61\u00b0",
+                    "turret_rotation_speed_horizontal": "63 53.6 118.6 85.7 \u2192 90 76.5 169.4 122.4 \u00b0/s",
+                    "turret_rotation_speed_vertical": "63 50.4 220.5 141.1 \u2192 90 72 315 201.6 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP/T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 2
+                            },
+                            "100m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 2
+                            },
+                            "500m": {
+                                "0\u00b0": 2,
+                                "30\u00b0": 2,
+                                "60\u00b0": 1
+                            },
+                            "1000m": {
+                                "0\u00b0": 1,
+                                "30\u00b0": 1,
+                                "60\u00b0": 0
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

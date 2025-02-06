@@ -1,0 +1,237 @@
+{
+    "unit_basic_info": {
+        "name": "ussr_t_60_1941",
+        "nation": "ussr",
+        "rank": 1,
+        "battle_rating": {
+            "AB": 1.0,
+            "RB": 1.0,
+            "SB": 1.0
+        },
+        "role": "Light tank",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_ussr.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/ussr_t_60_1941.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 62,
+            "crew": 2
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 45.0,
+                    "ab": 50.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 12.1,
+                "rb_basic": 10.7,
+                "ab_ref": 23.1,
+                "ab_basic": 18.6
+            },
+            "engine_power": {
+                "rb_ref": 70,
+                "rb_basic": 62,
+                "ab_ref": 134,
+                "ab_basic": 108
+            },
+            "weight": 5.8
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "1.9x\u20133.5x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "20 mm TNSh cannon",
+                "features": [],
+                "specs": {
+                    "ammunition": "754 rounds",
+                    "belt_capacity": "58 rounds",
+                    "reload": "26 \u2192 20 s",
+                    "vertical_guidance": "-7 / 25\u00b0",
+                    "turret_rotation_speed_horizontal": "10.5 8.9 19.8 14.3 \u2192 15 12.8 28.2 20.4 \u00b0/s",
+                    "turret_rotation_speed_vertical": "7 5.6 24.5 15.7 \u2192 10 8 35 22.4 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP-I/FI",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "100m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            }
+                        }
+                    },
+                    {
+                        "name": "API",
+                        "type": "AP-I",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 27,
+                                "30\u00b0": 24,
+                                "60\u00b0": 14
+                            },
+                            "100m": {
+                                "0\u00b0": 24,
+                                "30\u00b0": 21,
+                                "60\u00b0": 12
+                            },
+                            "500m": {
+                                "0\u00b0": 13,
+                                "30\u00b0": 11,
+                                "60\u00b0": 6
+                            },
+                            "1000m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 5,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 2,
+                                "60\u00b0": 1
+                            },
+                            "2000m": {
+                                "0\u00b0": 2,
+                                "30\u00b0": 1,
+                                "60\u00b0": 1
+                            }
+                        }
+                    },
+                    {
+                        "name": "API HV",
+                        "type": "AP-I/AP-I/FI",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "100m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "7.62 mm DT machine gun (coaxial)",
+                "features": [],
+                "specs": {
+                    "ammunition": "945 rounds",
+                    "belt_capacity": "63 rounds",
+                    "reload": "10.4 \u2192 8 s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP-I/API-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 7,
+                                "60\u00b0": 4
+                            },
+                            "100m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 7,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 5,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 1
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

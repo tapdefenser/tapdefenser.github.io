@@ -1,0 +1,121 @@
+{
+    "unit_basic_info": {
+        "name": "fr_citroen_kegresse_p4t",
+        "nation": "fr",
+        "rank": 1,
+        "battle_rating": {
+            "AB": 1.3,
+            "RB": 1.3,
+            "SB": 1.3
+        },
+        "role": "SPAA",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_france.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/fr_citroen_kegresse_p4t.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 66,
+            "crew": 3
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 40.0,
+                    "ab": 44.0
+                },
+                "backward": {
+                    "rb": 7.0,
+                    "ab": 8.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 9.1,
+                "rb_basic": 8.2,
+                "ab_ref": 15.9,
+                "ab_basic": 12.7
+            },
+            "engine_power": {
+                "rb_ref": 20,
+                "rb_basic": 18,
+                "ab_ref": 35,
+                "ab_basic": 28
+            },
+            "weight": 2.2
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "1.9x\u20133.5x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "4 x 13.2 mm Hotchkiss Mle 1930 machine gun",
+                "features": [],
+                "specs": {
+                    "ammunition": "1,440 rounds",
+                    "belt_capacity": "30 rounds",
+                    "reload": "7.8 \u2192 6 s",
+                    "vertical_guidance": "-10 / 45\u00b0",
+                    "turret_rotation_speed_horizontal": "42 35.7 73.1 52.8 \u2192 60 51 104.5 75.5 \u00b0/s",
+                    "turret_rotation_speed_vertical": "14 11.2 42.7 27.3 \u2192 20 16 61 39 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "AP-T",
+                        "type": "AP/AP-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 28,
+                                "30\u00b0": 21,
+                                "60\u00b0": 11
+                            },
+                            "100m": {
+                                "0\u00b0": 25,
+                                "30\u00b0": 19,
+                                "60\u00b0": 10
+                            },
+                            "500m": {
+                                "0\u00b0": 16,
+                                "30\u00b0": 13,
+                                "60\u00b0": 7
+                            },
+                            "1000m": {
+                                "0\u00b0": 10,
+                                "30\u00b0": 9,
+                                "60\u00b0": 4
+                            },
+                            "1500m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 6,
+                                "60\u00b0": 2
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 1
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

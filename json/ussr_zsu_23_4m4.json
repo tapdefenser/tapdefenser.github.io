@@ -1,0 +1,225 @@
+{
+    "unit_basic_info": {
+        "name": "ussr_zsu_23_4m4",
+        "nation": "ussr",
+        "rank": 6,
+        "battle_rating": {
+            "AB": 9.3,
+            "RB": 9.3,
+            "SB": 9.3
+        },
+        "role": "SPAA",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_russia.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/ussr_zsu_23_4m4.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 250,
+            "crew": 4
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 50.0,
+                    "ab": 54.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 12.7,
+                "rb_basic": 11.3,
+                "ab_ref": 22.3,
+                "ab_basic": 18.1
+            },
+            "engine_power": {
+                "rb_ref": 280,
+                "rb_basic": 248,
+                "ab_ref": 490,
+                "ab_basic": 398
+            },
+            "weight": 22.0
+        }
+    },
+    "optics": {
+        "features": [
+            {
+                "name": "Radar"
+            }
+        ],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "2.0x\u20136.0x",
+                "commander": "5.0x",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "SAM 9M39",
+                "features": [],
+                "specs": {
+                    "ammunition": "4 rounds",
+                    "fire_rate": "120 shots/min",
+                    "vertical_guidance": "0 / 45\u00b0",
+                    "turret_rotation_speed_vertical": "35 28 106.7 68.3 \u2192 50 40 152.5 97.6 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "9\u041c39",
+                        "details": {
+                            "type": "SAM",
+                            "caliber": "72.2 mm",
+                            "projectile_mass": "10.6 kg",
+                            "guidance": "IR",
+                            "irccm": "",
+                            "launch_range": "5.2\u00a0km",
+                            "maximum_speed": "1.7 M",
+                            "missile_guidance_time": "14 s",
+                            "explosive_type": "OKFOL-20",
+                            "explosive_mass": "400 g",
+                            "tnt_equivalent": "530 g"
+                        },
+                        "armor_penetration": {}
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "4 x 23 mm AZP-23 cannon",
+                "features": [
+                    "Two-plane stabilizer"
+                ],
+                "specs": {
+                    "ammunition": "2,000 rounds",
+                    "belt_capacity": "500 rounds",
+                    "fire_rate": "850 shots/min",
+                    "vertical_guidance": "-4 / 85\u00b0",
+                    "turret_rotation_speed_horizontal": "49 41.7 85.3 61.6 \u2192 70 59.5 121.9 88.1 \u00b0/s",
+                    "turret_rotation_speed_vertical": "42 33.6 128.1 82 \u2192 60 48 183 117.1 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "API-T/HEF-I",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 6,
+                                "60\u00b0": 3
+                            },
+                            "100m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 6,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            }
+                        }
+                    },
+                    {
+                        "name": "HEFI-T",
+                        "type": "HEF-I/HEFI-T/HEF-I/API-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 51,
+                                "30\u00b0": 38,
+                                "60\u00b0": 19
+                            },
+                            "100m": {
+                                "0\u00b0": 48,
+                                "30\u00b0": 36,
+                                "60\u00b0": 18
+                            },
+                            "500m": {
+                                "0\u00b0": 36,
+                                "30\u00b0": 28,
+                                "60\u00b0": 14
+                            },
+                            "1000m": {
+                                "0\u00b0": 26,
+                                "30\u00b0": 21,
+                                "60\u00b0": 11
+                            },
+                            "1500m": {
+                                "0\u00b0": 18,
+                                "30\u00b0": 16,
+                                "60\u00b0": 8
+                            },
+                            "2000m": {
+                                "0\u00b0": 13,
+                                "30\u00b0": 12,
+                                "60\u00b0": 5
+                            }
+                        }
+                    },
+                    {
+                        "name": "APIT",
+                        "type": "API-T/API-T/API-T/HEFI-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 6,
+                                "60\u00b0": 3
+                            },
+                            "100m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 6,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,268 @@
+{
+    "unit_basic_info": {
+        "name": "us_m2a4",
+        "nation": "us",
+        "rank": 1,
+        "battle_rating": {
+            "AB": 1.0,
+            "RB": 1.0,
+            "SB": 1.0
+        },
+        "role": "Light tank",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_usa.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/us_m2a4.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 78,
+            "crew": 4
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 57.0,
+                    "ab": 63.0
+                },
+                "backward": {
+                    "rb": 7.0,
+                    "ab": 8.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 22.8,
+                "rb_basic": 20.2,
+                "ab_ref": 43.5,
+                "ab_basic": 35.3
+            },
+            "engine_power": {
+                "rb_ref": 262,
+                "rb_basic": 232,
+                "ab_ref": 500,
+                "ab_basic": 406
+            },
+            "weight": 11.5
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "1.9x\u20133.5x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "37 mm M5 cannon",
+                "features": [
+                    "Shoulder stabilizer"
+                ],
+                "specs": {
+                    "ammunition": "103 rounds",
+                    "reload": "3.7 \u2192 2.9 s",
+                    "vertical_guidance": "-10 / 20\u00b0",
+                    "turret_rotation_speed_horizontal": "14.3 12.2 27 19.5 \u2192 20.5 17.4 38.6 27.9 \u00b0/s",
+                    "turret_rotation_speed_vertical": "10.5 8.4 36.7 23.5 \u2192 15 12 52.5 33.6 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "M74 shot",
+                        "details": {
+                            "type": "AP",
+                            "caliber": "37 mm",
+                            "projectile_mass": "870 g",
+                            "muzzle_velocity": "870 m/s"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 77,
+                                "30\u00b0": 58,
+                                "60\u00b0": 29
+                            },
+                            "100m": {
+                                "0\u00b0": 74,
+                                "30\u00b0": 56,
+                                "60\u00b0": 28
+                            },
+                            "500m": {
+                                "0\u00b0": 64,
+                                "30\u00b0": 49,
+                                "60\u00b0": 25
+                            },
+                            "1000m": {
+                                "0\u00b0": 53,
+                                "30\u00b0": 42,
+                                "60\u00b0": 21
+                            },
+                            "1500m": {
+                                "0\u00b0": 44,
+                                "30\u00b0": 36,
+                                "60\u00b0": 18
+                            },
+                            "2000m": {
+                                "0\u00b0": 36,
+                                "30\u00b0": 31,
+                                "60\u00b0": 15
+                            }
+                        }
+                    },
+                    {
+                        "name": "M51B1 shot",
+                        "details": {
+                            "type": "APCBC",
+                            "caliber": "37 mm",
+                            "projectile_mass": "870 g",
+                            "muzzle_velocity": "870 m/s"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 86,
+                                "30\u00b0": 65,
+                                "60\u00b0": 29
+                            },
+                            "100m": {
+                                "0\u00b0": 83,
+                                "30\u00b0": 63,
+                                "60\u00b0": 29
+                            },
+                            "500m": {
+                                "0\u00b0": 71,
+                                "30\u00b0": 55,
+                                "60\u00b0": 25
+                            },
+                            "1000m": {
+                                "0\u00b0": 59,
+                                "30\u00b0": 46,
+                                "60\u00b0": 22
+                            },
+                            "1500m": {
+                                "0\u00b0": 49,
+                                "30\u00b0": 38,
+                                "60\u00b0": 19
+                            },
+                            "2000m": {
+                                "0\u00b0": 40,
+                                "30\u00b0": 32,
+                                "60\u00b0": 16
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "4 x 7.62 mm M1919A4 machine gun (coaxial)",
+                "features": [],
+                "specs": {
+                    "ammunition": "21,000 rounds",
+                    "belt_capacity": "250 rounds",
+                    "reload": "10.4 \u2192 8 s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP/T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 2
+                            },
+                            "100m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 2
+                            },
+                            "500m": {
+                                "0\u00b0": 2,
+                                "30\u00b0": 2,
+                                "60\u00b0": 1
+                            },
+                            "1000m": {
+                                "0\u00b0": 1,
+                                "30\u00b0": 1,
+                                "60\u00b0": 0
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "7.62 mm M1919A4 machine gun",
+                "features": [],
+                "specs": {
+                    "ammunition": "3,000 rounds",
+                    "belt_capacity": "250 rounds",
+                    "reload": "10.4 \u2192 8 s",
+                    "vertical_guidance": "-10 / 45\u00b0",
+                    "horizontal_guidance": "-90 / 90\u00b0",
+                    "turret_rotation_speed_horizontal": "63 53.6 118.6 85.7 \u2192 90 76.5 169.4 122.4 \u00b0/s",
+                    "turret_rotation_speed_vertical": "63 50.4 220.5 141.1 \u2192 90 72 315 201.6 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP/T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 2
+                            },
+                            "100m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 2
+                            },
+                            "500m": {
+                                "0\u00b0": 2,
+                                "30\u00b0": 2,
+                                "60\u00b0": 1
+                            },
+                            "1000m": {
+                                "0\u00b0": 1,
+                                "30\u00b0": 1,
+                                "60\u00b0": 0
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

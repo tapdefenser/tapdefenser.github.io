@@ -1,0 +1,268 @@
+{
+    "unit_basic_info": {
+        "name": "jp_icv_prototype",
+        "nation": "jp",
+        "rank": 7,
+        "battle_rating": {
+            "AB": 9.7,
+            "RB": 9.7,
+            "SB": 9.7
+        },
+        "role": "Light tank",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_japan_modern.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/jp_icv_prototype.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [
+                "LWS",
+                "Smoke grenades"
+            ],
+            "visibility": 112,
+            "crew": 5
+        },
+        "support_systems": {
+            "features": [
+                "LWS",
+                "Smoke grenades"
+            ]
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 100.0,
+                    "ab": 111.0
+                },
+                "backward": {
+                    "rb": 36.0,
+                    "ab": 40.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 21.9,
+                "rb_basic": 19.4,
+                "ab_ref": 41.8,
+                "ab_basic": 34.0
+            },
+            "engine_power": {
+                "rb_ref": 570,
+                "rb_basic": 504,
+                "ab_ref": 1088,
+                "ab_basic": 883
+            },
+            "weight": 26.0
+        }
+    },
+    "optics": {
+        "features": [
+            {
+                "name": "Laser rangefinder"
+            },
+            {
+                "name": "Optical Detection"
+            },
+            {
+                "name": "Scout UAV"
+            }
+        ],
+        "specs": {
+            "optical_devices": [
+                {
+                    "name": "Thermal imager",
+                    "resolution": {
+                        "gunner": "1200x800",
+                        "commander": "1200x800",
+                        "driver": "500x300"
+                    }
+                }
+            ],
+            "optics_zoom": {
+                "gunner": "4.0x\u201313.3x",
+                "commander": "4.0x\u201313.3x",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "30 mm Bushmaster 2 Mk.44 cannon",
+                "features": [
+                    "Two-plane stabilizer"
+                ],
+                "specs": {
+                    "ammunition": "360 rounds",
+                    "belt_capacity": "90 rounds",
+                    "reload": "13 \u2192 10 s",
+                    "vertical_guidance": "-10 / 45\u00b0",
+                    "turret_rotation_speed_horizontal": "37.1 31.5 69.8 50.5 \u2192 53 45.1 99.8 72.1 \u00b0/s",
+                    "turret_rotation_speed_vertical": "19.6 15.7 68.6 43.9 \u2192 28 22.4 98 62.7 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "APDS",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 87,
+                                "30\u00b0": 80,
+                                "60\u00b0": 33
+                            },
+                            "100m": {
+                                "0\u00b0": 86,
+                                "30\u00b0": 79,
+                                "60\u00b0": 33
+                            },
+                            "500m": {
+                                "0\u00b0": 81,
+                                "30\u00b0": 74,
+                                "60\u00b0": 31
+                            },
+                            "1000m": {
+                                "0\u00b0": 75,
+                                "30\u00b0": 69,
+                                "60\u00b0": 29
+                            },
+                            "1500m": {
+                                "0\u00b0": 70,
+                                "30\u00b0": 64,
+                                "60\u00b0": 27
+                            },
+                            "2000m": {
+                                "0\u00b0": 65,
+                                "30\u00b0": 59,
+                                "60\u00b0": 25
+                            }
+                        }
+                    },
+                    {
+                        "name": "MK258",
+                        "type": "APFSDS",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 116,
+                                "30\u00b0": 98,
+                                "60\u00b0": 67
+                            },
+                            "100m": {
+                                "0\u00b0": 115,
+                                "30\u00b0": 97,
+                                "60\u00b0": 66
+                            },
+                            "500m": {
+                                "0\u00b0": 110,
+                                "30\u00b0": 93,
+                                "60\u00b0": 64
+                            },
+                            "1000m": {
+                                "0\u00b0": 104,
+                                "30\u00b0": 88,
+                                "60\u00b0": 60
+                            },
+                            "1500m": {
+                                "0\u00b0": 99,
+                                "30\u00b0": 84,
+                                "60\u00b0": 57
+                            },
+                            "2000m": {
+                                "0\u00b0": 93,
+                                "30\u00b0": 78,
+                                "60\u00b0": 54
+                            }
+                        }
+                    },
+                    {
+                        "name": "MK266",
+                        "type": "HEI-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 9,
+                                "60\u00b0": 4
+                            },
+                            "100m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 8,
+                                "60\u00b0": 4
+                            },
+                            "500m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 6,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "7.62 mm Mk.52 machine gun (coaxial)",
+                "features": [],
+                "specs": {
+                    "ammunition": "2,000 rounds",
+                    "belt_capacity": "200 rounds",
+                    "reload": "10.4 \u2192 8 s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP/AP/T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 2
+                            },
+                            "100m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 2
+                            },
+                            "500m": {
+                                "0\u00b0": 2,
+                                "30\u00b0": 2,
+                                "60\u00b0": 1
+                            },
+                            "1000m": {
+                                "0\u00b0": 1,
+                                "30\u00b0": 1,
+                                "60\u00b0": 0
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

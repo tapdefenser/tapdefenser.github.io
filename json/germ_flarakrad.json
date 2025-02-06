@@ -1,0 +1,158 @@
+{
+    "unit_basic_info": {
+        "name": "germ_flarakrad",
+        "nation": "germ",
+        "rank": 8,
+        "battle_rating": {
+            "AB": 11.7,
+            "RB": 11.7,
+            "SB": 11.7
+        },
+        "role": "SPAA",
+        "images": {
+            "country_flag": null,
+            "unit_image": null
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [
+                "Smoke grenades"
+            ],
+            "visibility": 250,
+            "crew": 3
+        },
+        "support_systems": {
+            "features": [
+                "Smoke grenades"
+            ]
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 90.0,
+                    "ab": 98.0
+                },
+                "backward": {
+                    "rb": 7.0,
+                    "ab": 8.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 13.1,
+                "rb_basic": 11.6,
+                "ab_ref": 22.9,
+                "ab_basic": 18.6
+            },
+            "engine_power": {
+                "rb_ref": 360,
+                "rb_basic": 318,
+                "ab_ref": 630,
+                "ab_basic": 511
+            },
+            "weight": 27.5
+        }
+    },
+    "optics": {
+        "features": [
+            {
+                "name": "Laser rangefinder"
+            },
+            {
+                "name": "Radar/Optical Detection"
+            }
+        ],
+        "specs": {
+            "optical_devices": [
+                {
+                    "name": "Thermal imager",
+                    "resolution": {
+                        "gunner": "500x300",
+                        "commander": "\u2014",
+                        "driver": "\u2014"
+                    }
+                },
+                {
+                    "name": "Night vision device"
+                }
+            ],
+            "optics_zoom": {
+                "gunner": "8.0x\u201312.0x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "Roland SAM",
+                "features": [
+                    "Autoloader"
+                ],
+                "specs": {
+                    "ammunition": "10 rounds",
+                    "first-order": "8 rounds",
+                    "belt_capacity": "2 rounds",
+                    "vertical_guidance": "-10 / 80\u00b0",
+                    "turret_rotation_speed_horizontal": "59.5 50.6 103.6 74.9 \u2192 85 72.3 148 106.9 \u00b0/s",
+                    "turret_rotation_speed_vertical": "28 22.4 85.4 54.7 \u2192 40 32 122 78.1 \u00b0/s",
+                    "fire_on_the_move": "up to 5 km/h"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "VT1",
+                        "details": {
+                            "type": "SAM",
+                            "caliber": "165 mm",
+                            "projectile_mass": "73 kg",
+                            "guidance": "Semi-Automatic (SACLOS)",
+                            "launch_range": "12\u00a0km",
+                            "maximum_speed": "1,250 m/s",
+                            "missile_guidance_time": "20 s",
+                            "explosive_type": "Composition B",
+                            "explosive_mass": "6 kg",
+                            "tnt_equivalent": "7.9 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 59,
+                                "30\u00b0": 59,
+                                "60\u00b0": 59
+                            },
+                            "100m": {
+                                "0\u00b0": 59,
+                                "30\u00b0": 59,
+                                "60\u00b0": 59
+                            },
+                            "500m": {
+                                "0\u00b0": 59,
+                                "30\u00b0": 59,
+                                "60\u00b0": 59
+                            },
+                            "1000m": {
+                                "0\u00b0": 59,
+                                "30\u00b0": 59,
+                                "60\u00b0": 59
+                            },
+                            "1500m": {
+                                "0\u00b0": 59,
+                                "30\u00b0": 59,
+                                "60\u00b0": 59
+                            },
+                            "2000m": {
+                                "0\u00b0": 59,
+                                "30\u00b0": 59,
+                                "60\u00b0": 59
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            }
+        ]
+    }
+}

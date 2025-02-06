@@ -8,6 +8,9 @@ import re
 from parse_data import *
 import concurrent.futures
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from collections import defaultdict
+import threading
+from threading import Lock
 
 base_url = "https://wiki.warthunder.com/"
 
@@ -95,6 +98,11 @@ def auto_get_ground_data(now_unit):
 
         save_text(str(i), 'now_unit.txt') #更新now_unit
 
+# 用于任务状态跟踪和互斥访问
+condition = threading.Condition()
+task_status = {}  # {task_index: (success, future)}
+lock = threading.Lock()
+
 def auto_get_ground_data_async(now_unit):
     def process_unit(i, unit_list, session):
         ground_type = unit_list[i]
@@ -117,34 +125,51 @@ def auto_get_ground_data_async(now_unit):
         except Exception as e:
             print(f"处理单元{i}时出错: {e}")
             return i, False
-        
-    # 此处开始
 
+    # 初始化
     s, unit_list = init_session(get_ground_list=True)
-    executor = ThreadPoolExecutor(max_workers=5)  # 调整线程数以适应你的需求
-    futures = {}
+    executor = concurrent.futures.ThreadPoolExecutor(max_workers=5)  # 调整线程数以适应你的需求
+    futures = []
     tries_map = {}
+    global task_status
 
+    # 提交任务
     for i in range(now_unit, len(unit_list)):
         future = executor.submit(process_unit, i, unit_list, s)
-        futures[future] = i
+        futures.append((future, i))
         tries_map[i] = 4  # 初始化重试次数
 
-    for future in as_completed(futures):
-        index = futures[future]
+    # 等待任务完成
+    for future, index in futures:
         try:
             result_i, success = future.result()
-            if not success and tries_map[result_i] > 0:
-                # 如果失败且还有重试机会，则重新提交该任务
-                new_future = executor.submit(process_unit, result_i, unit_list, init_session())
-                futures[new_future] = result_i
-                tries_map[result_i] -= 1
-            else:
-                # 成功或无重试机会则更新now_unit
+            with condition:
+                # 更新任务状态
+                task_status[result_i] = (success, future)
+
+                # 检查是否按顺序完成
+                current_running_index = now_unit
+                while current_running_index <= result_i:
+                    if current_running_index not in task_status or not task_status[current_running_index][0]:
+                        print(f"任务{result_i}需等待任务{current_running_index}完成")
+                        condition.wait()  # 阻塞，等待任务current_running_index完成
+                    else:
+                        current_running_index += 1
+
+                # 更新 now_unit
                 if success:
                     save_text(str(result_i + 1), 'now_unit.txt')  # 更新now_unit为下一个
-                elif tries_map[result_i] == 0:
-                    print("多次尝试失败，程序退出")
+                    print(f"{result_i + 1} done")
+                    condition.notify_all()  # 通知其他等待的任务
+
+                elif tries_map[result_i] > 0:
+                    # 重试任务
+                    tries_map[result_i] -= 1
+                    new_future = executor.submit(process_unit, result_i, unit_list, init_session())
+                    futures.append((new_future, result_i))
+                    print(f"任务{result_i}重试次数剩余: {tries_map[result_i]}")
+                else:
+                    print(f"任务{result_i}多次尝试失败，程序退出")
                     executor.shutdown(wait=False)
                     exit(1)
         except Exception as e:

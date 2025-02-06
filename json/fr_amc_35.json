@@ -1,0 +1,171 @@
+{
+    "unit_basic_info": {
+        "name": "fr_amc_35",
+        "nation": "fr",
+        "rank": 1,
+        "battle_rating": {
+            "AB": 1.3,
+            "RB": 1.3,
+            "SB": 1.3
+        },
+        "role": "Light tank",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_france.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/fr_amc_35.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 88,
+            "crew": 3
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 42.0,
+                    "ab": 47.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 12.4,
+                "rb_basic": 11.0,
+                "ab_ref": 16.6,
+                "ab_basic": 13.4
+            },
+            "engine_power": {
+                "rb_ref": 180,
+                "rb_basic": 159,
+                "ab_ref": 240,
+                "ab_basic": 195
+            },
+            "weight": 14.5
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "1.9x\u20133.5x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "47 mm SA35 L/32 cannon",
+                "features": [
+                    "Shoulder stabilizer"
+                ],
+                "specs": {
+                    "ammunition": "96 rounds",
+                    "reload": "3.9 \u2192 3 s",
+                    "vertical_guidance": "-12 / 14\u00b0",
+                    "turret_rotation_speed_horizontal": "11 9.3 20.7 14.9 \u2192 15.7 13.3 29.6 21.4 \u00b0/s",
+                    "turret_rotation_speed_vertical": "7 5.6 24.5 15.7 \u2192 10 8 35 22.4 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "Mle1935",
+                        "details": {
+                            "type": "APC",
+                            "caliber": "47 mm",
+                            "projectile_mass": "1.6 kg",
+                            "muzzle_velocity": "660 m/s"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 62,
+                                "30\u00b0": 49,
+                                "60\u00b0": 24
+                            },
+                            "100m": {
+                                "0\u00b0": 59,
+                                "30\u00b0": 47,
+                                "60\u00b0": 23
+                            },
+                            "500m": {
+                                "0\u00b0": 47,
+                                "30\u00b0": 38,
+                                "60\u00b0": 19
+                            },
+                            "1000m": {
+                                "0\u00b0": 36,
+                                "30\u00b0": 29,
+                                "60\u00b0": 14
+                            },
+                            "1500m": {
+                                "0\u00b0": 27,
+                                "30\u00b0": 22,
+                                "60\u00b0": 11
+                            },
+                            "2000m": {
+                                "0\u00b0": 20,
+                                "30\u00b0": 17,
+                                "60\u00b0": 8
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "7.5 mm MAC 31 machine gun (coaxial)",
+                "features": [],
+                "specs": {
+                    "ammunition": "1,800 rounds",
+                    "belt_capacity": "150 rounds",
+                    "reload": "6.5 \u2192 5 s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP/AP/T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 2
+                            },
+                            "100m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 2
+                            },
+                            "500m": {
+                                "0\u00b0": 2,
+                                "30\u00b0": 2,
+                                "60\u00b0": 1
+                            },
+                            "1000m": {
+                                "0\u00b0": 1,
+                                "30\u00b0": 1,
+                                "60\u00b0": 0
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,254 @@
+{
+    "unit_basic_info": {
+        "name": "ussr_asu_57",
+        "nation": "ussr",
+        "rank": 3,
+        "battle_rating": {
+            "AB": 3.7,
+            "RB": 4.3,
+            "SB": 4.3
+        },
+        "role": "Tank destroyer",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_ussr.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/ussr_asu_57.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 62,
+            "crew": 3
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 46.0,
+                    "ab": 50.0
+                },
+                "backward": {
+                    "rb": 5.0,
+                    "ab": 6.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 16.2,
+                "rb_basic": 14.4,
+                "ab_ref": 28.2,
+                "ab_basic": 22.9
+            },
+            "engine_power": {
+                "rb_ref": 55,
+                "rb_basic": 49,
+                "ab_ref": 96,
+                "ab_basic": 78
+            },
+            "weight": 3.4
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "5.5x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "57 mm Ch-51M cannon",
+                "features": [],
+                "specs": {
+                    "ammunition": "30 rounds",
+                    "reload": "6.5 \u2192 5 s",
+                    "vertical_guidance": "-5 / 12\u00b0",
+                    "horizontal_guidance": "-8 / 8\u00b0",
+                    "turret_rotation_speed_horizontal": "8.4 7.1 14.6 10.6 \u2192 12 10.2 20.9 15.1 \u00b0/s",
+                    "turret_rotation_speed_vertical": "2.8 2.2 8.5 5.5 \u2192 4 3.2 12.2 7.8 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "BR-271SP",
+                        "details": {
+                            "type": "APBC",
+                            "caliber": "57 mm",
+                            "projectile_mass": "3.1 kg",
+                            "muzzle_velocity": "975 m/s"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 142,
+                                "30\u00b0": 117,
+                                "60\u00b0": 49
+                            },
+                            "100m": {
+                                "0\u00b0": 139,
+                                "30\u00b0": 115,
+                                "60\u00b0": 48
+                            },
+                            "500m": {
+                                "0\u00b0": 125,
+                                "30\u00b0": 104,
+                                "60\u00b0": 46
+                            },
+                            "1000m": {
+                                "0\u00b0": 109,
+                                "30\u00b0": 92,
+                                "60\u00b0": 43
+                            },
+                            "1500m": {
+                                "0\u00b0": 96,
+                                "30\u00b0": 81,
+                                "60\u00b0": 40
+                            },
+                            "2000m": {
+                                "0\u00b0": 84,
+                                "30\u00b0": 71,
+                                "60\u00b0": 37
+                            }
+                        }
+                    },
+                    {
+                        "name": "BR-271M",
+                        "details": {
+                            "type": "APCBC",
+                            "caliber": "57 mm",
+                            "projectile_mass": "2.8 kg",
+                            "muzzle_velocity": "1,020 m/s",
+                            "explosive_type": "A-IX-2",
+                            "explosive_mass": "13 g",
+                            "tnt_equivalent": "20 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 155,
+                                "30\u00b0": 118,
+                                "60\u00b0": 52
+                            },
+                            "100m": {
+                                "0\u00b0": 151,
+                                "30\u00b0": 115,
+                                "60\u00b0": 51
+                            },
+                            "500m": {
+                                "0\u00b0": 135,
+                                "30\u00b0": 103,
+                                "60\u00b0": 46
+                            },
+                            "1000m": {
+                                "0\u00b0": 118,
+                                "30\u00b0": 90,
+                                "60\u00b0": 41
+                            },
+                            "1500m": {
+                                "0\u00b0": 102,
+                                "30\u00b0": 79,
+                                "60\u00b0": 37
+                            },
+                            "2000m": {
+                                "0\u00b0": 89,
+                                "30\u00b0": 69,
+                                "60\u00b0": 33
+                            }
+                        }
+                    },
+                    {
+                        "name": "O-271",
+                        "details": {
+                            "type": "HE",
+                            "caliber": "57 mm",
+                            "projectile_mass": "3.7 kg",
+                            "muzzle_velocity": "695 m/s",
+                            "explosive_type": "TNT",
+                            "explosive_mass": "220 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 12,
+                                "30\u00b0": 12,
+                                "60\u00b0": 5
+                            },
+                            "100m": {
+                                "0\u00b0": 12,
+                                "30\u00b0": 12,
+                                "60\u00b0": 5
+                            },
+                            "500m": {
+                                "0\u00b0": 10,
+                                "30\u00b0": 10,
+                                "60\u00b0": 5
+                            },
+                            "1000m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 8,
+                                "60\u00b0": 5
+                            },
+                            "1500m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 6,
+                                "60\u00b0": 5
+                            },
+                            "2000m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 5
+                            }
+                        }
+                    },
+                    {
+                        "name": "BR-271N",
+                        "details": {
+                            "type": "APCR",
+                            "caliber": "57 mm",
+                            "projectile_mass": "2.4 kg",
+                            "muzzle_velocity": "1,125 m/s"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 159,
+                                "30\u00b0": 118,
+                                "60\u00b0": 36
+                            },
+                            "100m": {
+                                "0\u00b0": 155,
+                                "30\u00b0": 115,
+                                "60\u00b0": 35
+                            },
+                            "500m": {
+                                "0\u00b0": 140,
+                                "30\u00b0": 103,
+                                "60\u00b0": 32
+                            },
+                            "1000m": {
+                                "0\u00b0": 123,
+                                "30\u00b0": 91,
+                                "60\u00b0": 28
+                            },
+                            "1500m": {
+                                "0\u00b0": 108,
+                                "30\u00b0": 80,
+                                "60\u00b0": 24
+                            },
+                            "2000m": {
+                                "0\u00b0": 94,
+                                "30\u00b0": 70,
+                                "60\u00b0": 21
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,173 @@
+{
+    "unit_basic_info": {
+        "name": "jp_navy_120mm_spg",
+        "nation": "jp",
+        "rank": 2,
+        "battle_rating": {
+            "AB": 2.7,
+            "RB": 2.7,
+            "SB": 2.7
+        },
+        "role": "Tank destroyer",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_japan.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/jp_navy_120mm_spg.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 107,
+            "crew": 5
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 40.0,
+                    "ab": 43.0
+                },
+                "backward": {
+                    "rb": 19.0,
+                    "ab": 20.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 11.5,
+                "rb_basic": 10.1,
+                "ab_ref": 20.1,
+                "ab_basic": 16.3
+            },
+            "engine_power": {
+                "rb_ref": 170,
+                "rb_basic": 150,
+                "ab_ref": 297,
+                "ab_basic": 241
+            },
+            "weight": 14.8
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "1.9x\u20133.5x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "120 mm 10th Year Type cannon",
+                "features": [],
+                "specs": {
+                    "ammunition": "10 rounds",
+                    "reload": "13 \u2192 10 s",
+                    "vertical_guidance": "-10 / 15\u00b0",
+                    "horizontal_guidance": "-60 / 60\u00b0",
+                    "turret_rotation_speed_horizontal": "7 6 12.2 8.8 \u2192 10 8.5 17.4 12.6 \u00b0/s",
+                    "turret_rotation_speed_vertical": "4.5 3.6 13.9 8.9 \u2192 6.5 5.2 19.8 12.7 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "C.P.(BF)",
+                        "details": {
+                            "type": "SAPCBC",
+                            "caliber": "120 mm",
+                            "projectile_mass": "20.4 kg",
+                            "muzzle_velocity": "825 m/s",
+                            "explosive_type": "Shimose",
+                            "explosive_mass": "1.7 kg",
+                            "tnt_equivalent": "1.9 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 103,
+                                "30\u00b0": 84,
+                                "60\u00b0": 42
+                            },
+                            "100m": {
+                                "0\u00b0": 102,
+                                "30\u00b0": 83,
+                                "60\u00b0": 41
+                            },
+                            "500m": {
+                                "0\u00b0": 95,
+                                "30\u00b0": 77,
+                                "60\u00b0": 38
+                            },
+                            "1000m": {
+                                "0\u00b0": 87,
+                                "30\u00b0": 71,
+                                "60\u00b0": 35
+                            },
+                            "1500m": {
+                                "0\u00b0": 80,
+                                "30\u00b0": 66,
+                                "60\u00b0": 32
+                            },
+                            "2000m": {
+                                "0\u00b0": 74,
+                                "30\u00b0": 61,
+                                "60\u00b0": 30
+                            }
+                        }
+                    },
+                    {
+                        "name": "Ordinary, Mod.1",
+                        "details": {
+                            "type": "HE",
+                            "caliber": "120 mm",
+                            "projectile_mass": "20.4 kg",
+                            "muzzle_velocity": "825 m/s",
+                            "explosive_type": "Picric acid",
+                            "explosive_mass": "1.8 kg",
+                            "tnt_equivalent": "2 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 25,
+                                "30\u00b0": 25,
+                                "60\u00b0": 25
+                            },
+                            "100m": {
+                                "0\u00b0": 25,
+                                "30\u00b0": 25,
+                                "60\u00b0": 25
+                            },
+                            "500m": {
+                                "0\u00b0": 25,
+                                "30\u00b0": 25,
+                                "60\u00b0": 25
+                            },
+                            "1000m": {
+                                "0\u00b0": 25,
+                                "30\u00b0": 25,
+                                "60\u00b0": 25
+                            },
+                            "1500m": {
+                                "0\u00b0": 25,
+                                "30\u00b0": 25,
+                                "60\u00b0": 25
+                            },
+                            "2000m": {
+                                "0\u00b0": 25,
+                                "30\u00b0": 25,
+                                "60\u00b0": 25
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            }
+        ]
+    }
+}

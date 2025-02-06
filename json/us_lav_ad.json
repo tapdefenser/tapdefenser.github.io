@@ -1,0 +1,501 @@
+{
+    "unit_basic_info": {
+        "name": "us_lav_ad",
+        "nation": "us",
+        "rank": 7,
+        "battle_rating": {
+            "AB": 9.7,
+            "RB": 10.0,
+            "SB": 10.0
+        },
+        "role": "SPAA",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_usa_modern.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/us_lav_ad.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [
+                "Smoke grenades",
+                "Dual control"
+            ],
+            "visibility": 136,
+            "crew": 3
+        },
+        "support_systems": {
+            "features": [
+                "Smoke grenades",
+                "Dual control"
+            ]
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [
+                "Amphibious"
+            ],
+            "max_speed": {
+                "forward": {
+                    "rb": 100.0,
+                    "ab": 109.0
+                },
+                "backward": {
+                    "rb": 18.0,
+                    "ab": 19.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 20.5,
+                "rb_basic": 18.1,
+                "ab_ref": 35.9,
+                "ab_basic": 29.2
+            },
+            "engine_power": {
+                "rb_ref": 275,
+                "rb_basic": 243,
+                "ab_ref": 481,
+                "ab_basic": 391
+            },
+            "weight": 13.4
+        }
+    },
+    "optics": {
+        "features": [
+            {
+                "name": "Laser rangefinder"
+            },
+            {
+                "name": "Optical Detection"
+            }
+        ],
+        "specs": {
+            "optical_devices": [
+                {
+                    "name": "Thermal imager",
+                    "resolution": {
+                        "gunner": "800x600",
+                        "commander": "\u2014",
+                        "driver": "\u2014"
+                    }
+                },
+                {
+                    "name": "Night vision device"
+                }
+            ],
+            "optics_zoom": {
+                "gunner": "4.0x\u201312.0x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "FIM-92 Stinger",
+                "features": [
+                    "Two-plane stabilizer"
+                ],
+                "specs": {
+                    "ammunition": "16 rounds",
+                    "belt_capacity": "8 rounds",
+                    "reload": "19.5 \u2192 15 s",
+                    "vertical_guidance": "-8 / 60\u00b0"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "FIM-92E",
+                        "details": {
+                            "type": "SAM",
+                            "caliber": "70 mm",
+                            "projectile_mass": "10.1 kg",
+                            "guidance": "IR",
+                            "irccm": "",
+                            "launch_range": "5\u00a0km",
+                            "maximum_speed": "2 M",
+                            "missile_guidance_time": "15 s",
+                            "explosive_type": "HTA",
+                            "explosive_mass": "450 g",
+                            "tnt_equivalent": "540 g"
+                        },
+                        "armor_penetration": {}
+                    },
+                    {
+                        "name": "FIM-92K",
+                        "details": {
+                            "type": "SAM",
+                            "caliber": "70 mm",
+                            "projectile_mass": "10.1 kg",
+                            "guidance": "IR",
+                            "irccm": "",
+                            "launch_range": "5\u00a0km",
+                            "maximum_speed": "2 M",
+                            "missile_guidance_time": "15 s",
+                            "explosive_type": "HTA",
+                            "explosive_mass": "450 g",
+                            "tnt_equivalent": "540 g"
+                        },
+                        "armor_penetration": {}
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "25 mm GAU-12U cannon",
+                "features": [
+                    "Two-plane stabilizer"
+                ],
+                "specs": {
+                    "ammunition": "1,155 rounds",
+                    "belt_capacity": "385 rounds",
+                    "reload": "26 \u2192 20 s",
+                    "vertical_guidance": "-8 / 60\u00b0",
+                    "turret_rotation_speed_horizontal": "39.9 33.9 69.5 50.2 \u2192 57 48.5 99.2 71.7 \u00b0/s",
+                    "turret_rotation_speed_vertical": "31.5 25.2 96.1 61.5 \u2192 45 36 137.2 87.8 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "SAPHEI-T/SAPHEI-T/HVAP",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 66,
+                                "30\u00b0": 56,
+                                "60\u00b0": 31
+                            },
+                            "100m": {
+                                "0\u00b0": 62,
+                                "30\u00b0": 53,
+                                "60\u00b0": 29
+                            },
+                            "500m": {
+                                "0\u00b0": 46,
+                                "30\u00b0": 40,
+                                "60\u00b0": 22
+                            },
+                            "1000m": {
+                                "0\u00b0": 33,
+                                "30\u00b0": 28,
+                                "60\u00b0": 15
+                            },
+                            "1500m": {
+                                "0\u00b0": 23,
+                                "30\u00b0": 20,
+                                "60\u00b0": 11
+                            },
+                            "2000m": {
+                                "0\u00b0": 16,
+                                "30\u00b0": 14,
+                                "60\u00b0": 8
+                            }
+                        }
+                    },
+                    {
+                        "name": "PGU-25/U",
+                        "type": "SAPHEI-T/HEI/HEI",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 7,
+                                "30\u00b0": 7,
+                                "60\u00b0": 3
+                            },
+                            "100m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 6,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            }
+                        }
+                    },
+                    {
+                        "name": "PGU-20/U",
+                        "type": "HVAP/HVAP/SAPHEI-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 24,
+                                "30\u00b0": 20,
+                                "60\u00b0": 10
+                            },
+                            "100m": {
+                                "0\u00b0": 22,
+                                "30\u00b0": 19,
+                                "60\u00b0": 9
+                            },
+                            "500m": {
+                                "0\u00b0": 15,
+                                "30\u00b0": 14,
+                                "60\u00b0": 7
+                            },
+                            "1000m": {
+                                "0\u00b0": 10,
+                                "30\u00b0": 10,
+                                "60\u00b0": 4
+                            },
+                            "1500m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 6,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 3
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "Hydra 70",
+                "features": [],
+                "specs": {
+                    "ammunition": "19 rounds",
+                    "fire_rate": "150 shots/min",
+                    "vertical_guidance": "-8 / 60\u00b0"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "M247",
+                        "details": {
+                            "type": "HEAT",
+                            "caliber": "70 mm",
+                            "projectile_mass": "10.2 kg",
+                            "maximum_speed": "739 m/s",
+                            "explosive_type": "Composition B",
+                            "explosive_mass": "910 g",
+                            "tnt_equivalent": "1.2 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 290,
+                                "30\u00b0": 251,
+                                "60\u00b0": 145
+                            },
+                            "100m": {
+                                "0\u00b0": 290,
+                                "30\u00b0": 251,
+                                "60\u00b0": 145
+                            },
+                            "500m": {
+                                "0\u00b0": 290,
+                                "30\u00b0": 251,
+                                "60\u00b0": 145
+                            },
+                            "1000m": {
+                                "0\u00b0": 290,
+                                "30\u00b0": 251,
+                                "60\u00b0": 145
+                            },
+                            "1500m": {
+                                "0\u00b0": 290,
+                                "30\u00b0": 251,
+                                "60\u00b0": 145
+                            },
+                            "2000m": {
+                                "0\u00b0": 290,
+                                "30\u00b0": 251,
+                                "60\u00b0": 145
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "FIM-92 Stinger",
+                "features": [
+                    "Two-plane stabilizer"
+                ],
+                "specs": {
+                    "ammunition": "12 rounds",
+                    "belt_capacity": "4 rounds",
+                    "reload": "19.5 \u2192 15 s",
+                    "vertical_guidance": "-8 / 60\u00b0"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "FIM-92E",
+                        "details": {
+                            "type": "SAM",
+                            "caliber": "70 mm",
+                            "projectile_mass": "10.1 kg",
+                            "guidance": "IR",
+                            "irccm": "",
+                            "launch_range": "5\u00a0km",
+                            "maximum_speed": "2 M",
+                            "missile_guidance_time": "15 s",
+                            "explosive_type": "HTA",
+                            "explosive_mass": "450 g",
+                            "tnt_equivalent": "540 g"
+                        },
+                        "armor_penetration": {}
+                    },
+                    {
+                        "name": "FIM-92K",
+                        "details": {
+                            "type": "SAM",
+                            "caliber": "70 mm",
+                            "projectile_mass": "10.1 kg",
+                            "guidance": "IR",
+                            "irccm": "",
+                            "launch_range": "5\u00a0km",
+                            "maximum_speed": "2 M",
+                            "missile_guidance_time": "15 s",
+                            "explosive_type": "HTA",
+                            "explosive_mass": "450 g",
+                            "tnt_equivalent": "540 g"
+                        },
+                        "armor_penetration": {}
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "25 mm GAU-12U cannon",
+                "features": [
+                    "Two-plane stabilizer"
+                ],
+                "specs": {
+                    "ammunition": "1,155 rounds",
+                    "belt_capacity": "385 rounds",
+                    "reload": "26 \u2192 20 s",
+                    "vertical_guidance": "-8 / 60\u00b0",
+                    "turret_rotation_speed_horizontal": "39.9 33.9 69.5 50.2 \u2192 57 48.5 99.2 71.7 \u00b0/s",
+                    "turret_rotation_speed_vertical": "31.5 25.2 96.1 61.5 \u2192 45 36 137.2 87.8 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "SAPHEI-T/SAPHEI-T/HVAP",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 66,
+                                "30\u00b0": 56,
+                                "60\u00b0": 31
+                            },
+                            "100m": {
+                                "0\u00b0": 62,
+                                "30\u00b0": 53,
+                                "60\u00b0": 29
+                            },
+                            "500m": {
+                                "0\u00b0": 46,
+                                "30\u00b0": 40,
+                                "60\u00b0": 22
+                            },
+                            "1000m": {
+                                "0\u00b0": 33,
+                                "30\u00b0": 28,
+                                "60\u00b0": 15
+                            },
+                            "1500m": {
+                                "0\u00b0": 23,
+                                "30\u00b0": 20,
+                                "60\u00b0": 11
+                            },
+                            "2000m": {
+                                "0\u00b0": 16,
+                                "30\u00b0": 14,
+                                "60\u00b0": 8
+                            }
+                        }
+                    },
+                    {
+                        "name": "PGU-25/U",
+                        "type": "SAPHEI-T/HEI/HEI",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 7,
+                                "30\u00b0": 7,
+                                "60\u00b0": 3
+                            },
+                            "100m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 6,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            }
+                        }
+                    },
+                    {
+                        "name": "PGU-20/U",
+                        "type": "HVAP/HVAP/SAPHEI-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 24,
+                                "30\u00b0": 20,
+                                "60\u00b0": 10
+                            },
+                            "100m": {
+                                "0\u00b0": 22,
+                                "30\u00b0": 19,
+                                "60\u00b0": 9
+                            },
+                            "500m": {
+                                "0\u00b0": 15,
+                                "30\u00b0": 14,
+                                "60\u00b0": 7
+                            },
+                            "1000m": {
+                                "0\u00b0": 10,
+                                "30\u00b0": 10,
+                                "60\u00b0": 4
+                            },
+                            "1500m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 6,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 3
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

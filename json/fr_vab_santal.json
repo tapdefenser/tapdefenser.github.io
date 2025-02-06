@@ -1,0 +1,124 @@
+{
+    "unit_basic_info": {
+        "name": "fr_vab_santal",
+        "nation": "fr",
+        "rank": 6,
+        "battle_rating": {
+            "AB": 9.3,
+            "RB": 9.3,
+            "SB": 9.3
+        },
+        "role": "SPAA",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_france.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/fr_vab_santal.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [
+                "Smoke grenades"
+            ],
+            "visibility": 70,
+            "crew": 4
+        },
+        "support_systems": {
+            "features": [
+                "Smoke grenades"
+            ]
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [
+                "Amphibious"
+            ],
+            "max_speed": {
+                "forward": {
+                    "rb": 90.0,
+                    "ab": 98.0
+                },
+                "backward": {
+                    "rb": 13.0,
+                    "ab": 14.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 21.7,
+                "rb_basic": 19.2,
+                "ab_ref": 38.0,
+                "ab_basic": 30.9
+            },
+            "engine_power": {
+                "rb_ref": 300,
+                "rb_basic": 265,
+                "ab_ref": 525,
+                "ab_basic": 426
+            },
+            "weight": 13.8
+        }
+    },
+    "optics": {
+        "features": [
+            {
+                "name": "Radar"
+            }
+        ],
+        "specs": {
+            "optical_devices": [
+                {
+                    "name": "Thermal imager",
+                    "resolution": {
+                        "gunner": "500x300",
+                        "commander": "\u2014",
+                        "driver": "\u2014"
+                    }
+                },
+                {
+                    "name": "Night vision device"
+                }
+            ],
+            "optics_zoom": {
+                "gunner": "6.0x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "Mistral SATCP",
+                "features": [],
+                "specs": {
+                    "ammunition": "12 rounds",
+                    "belt_capacity": "6 rounds",
+                    "reload": "19.5 \u2192 15 s",
+                    "vertical_guidance": "-10 / 65\u00b0",
+                    "turret_rotation_speed_horizontal": "35 29.8 60.9 44 \u2192 50 42.5 87.1 62.9 \u00b0/s",
+                    "turret_rotation_speed_vertical": "35 28 106.7 68.3 \u2192 50 40 152.5 97.6 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "Mistral SATCP",
+                        "details": {
+                            "type": "SAM",
+                            "caliber": "90 mm",
+                            "projectile_mass": "18.7 kg",
+                            "guidance": "IR",
+                            "irccm": "",
+                            "launch_range": "6\u00a0km",
+                            "maximum_speed": "2.5 M",
+                            "missile_guidance_time": "14 s",
+                            "explosive_type": "HBX",
+                            "explosive_mass": "1.1 kg",
+                            "tnt_equivalent": "1.8 kg"
+                        },
+                        "armor_penetration": {}
+                    }
+                ],
+                "available_belts": []
+            }
+        ]
+    }
+}

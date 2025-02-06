@@ -1,0 +1,241 @@
+{
+    "unit_basic_info": {
+        "name": "it_l6_leone",
+        "nation": "it",
+        "rank": 1,
+        "battle_rating": {
+            "AB": 1.0,
+            "RB": 1.0,
+            "SB": 1.0
+        },
+        "role": "Light tank",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_italy_kingdom.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/it_l6_leone.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 74,
+            "crew": 2
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 42.0,
+                    "ab": 47.0
+                },
+                "backward": {
+                    "rb": 6.0,
+                    "ab": 7.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 10.0,
+                "rb_basic": 8.8,
+                "ab_ref": 19.1,
+                "ab_basic": 15.4
+            },
+            "engine_power": {
+                "rb_ref": 68,
+                "rb_basic": 60,
+                "ab_ref": 130,
+                "ab_basic": 105
+            },
+            "weight": 6.8
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "1.9x\u20133.5x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "20 mm Breda Mod.35 cannon",
+                "features": [],
+                "specs": {
+                    "ammunition": "280 rounds",
+                    "belt_capacity": "8 rounds",
+                    "reload": "7.8 \u2192 6 s",
+                    "vertical_guidance": "-12 / 20\u00b0",
+                    "turret_rotation_speed_horizontal": "16.8 14.3 31.6 22.8 \u2192 24 20.4 45.2 32.6 \u00b0/s",
+                    "turret_rotation_speed_vertical": "10.5 8.4 36.7 23.5 \u2192 15 12 52.5 33.6 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "API-T/HEFI-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 4
+                            },
+                            "100m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 4
+                            },
+                            "500m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 4
+                            },
+                            "1000m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 4
+                            },
+                            "1500m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 4
+                            },
+                            "2000m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 4
+                            }
+                        }
+                    },
+                    {
+                        "name": "Perforante mod.35",
+                        "type": "API-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 38,
+                                "30\u00b0": 29,
+                                "60\u00b0": 15
+                            },
+                            "100m": {
+                                "0\u00b0": 36,
+                                "30\u00b0": 27,
+                                "60\u00b0": 14
+                            },
+                            "500m": {
+                                "0\u00b0": 27,
+                                "30\u00b0": 22,
+                                "60\u00b0": 11
+                            },
+                            "1000m": {
+                                "0\u00b0": 19,
+                                "30\u00b0": 16,
+                                "60\u00b0": 8
+                            },
+                            "1500m": {
+                                "0\u00b0": 14,
+                                "30\u00b0": 12,
+                                "60\u00b0": 6
+                            },
+                            "2000m": {
+                                "0\u00b0": 10,
+                                "30\u00b0": 9,
+                                "60\u00b0": 4
+                            }
+                        }
+                    },
+                    {
+                        "name": "PzGr.40",
+                        "type": "HVAP-T/API-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 38,
+                                "30\u00b0": 29,
+                                "60\u00b0": 15
+                            },
+                            "100m": {
+                                "0\u00b0": 36,
+                                "30\u00b0": 27,
+                                "60\u00b0": 14
+                            },
+                            "500m": {
+                                "0\u00b0": 27,
+                                "30\u00b0": 22,
+                                "60\u00b0": 11
+                            },
+                            "1000m": {
+                                "0\u00b0": 19,
+                                "30\u00b0": 16,
+                                "60\u00b0": 8
+                            },
+                            "1500m": {
+                                "0\u00b0": 14,
+                                "30\u00b0": 12,
+                                "60\u00b0": 6
+                            },
+                            "2000m": {
+                                "0\u00b0": 10,
+                                "30\u00b0": 9,
+                                "60\u00b0": 4
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "8 mm Breda Mod. 38 machine gun (coaxial)",
+                "features": [],
+                "specs": {
+                    "ammunition": "1,536 rounds",
+                    "belt_capacity": "24 rounds",
+                    "reload": "10.4 \u2192 8 s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "API-T/AP/I",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "100m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

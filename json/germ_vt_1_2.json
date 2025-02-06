@@ -1,0 +1,357 @@
+{
+    "unit_basic_info": {
+        "name": "germ_vt_1_2",
+        "nation": "germ",
+        "rank": 6,
+        "battle_rating": {
+            "AB": 8.3,
+            "RB": 8.7,
+            "SB": 8.7
+        },
+        "role": "Tank destroyer",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_germany_modern.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/germ_vt_1_2.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 72,
+            "crew": 3
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [
+                "Controlled suspension"
+            ],
+            "max_speed": {
+                "forward": {
+                    "rb": 70.0,
+                    "ab": 76.0
+                },
+                "backward": {
+                    "rb": 40.0,
+                    "ab": 44.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 50.6,
+                "rb_basic": 44.7,
+                "ab_ref": 78.7,
+                "ab_basic": 64.0
+            },
+            "engine_power": {
+                "rb_ref": 2200,
+                "rb_basic": 1946,
+                "ab_ref": 3424,
+                "ab_basic": 2782
+            },
+            "weight": 43.5
+        }
+    },
+    "optics": {
+        "features": [
+            {
+                "name": "Laser rangefinder"
+            }
+        ],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "8.0x\u201315.9x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "120 mm Rh120 L/44 cannon",
+                "features": [
+                    "Vertical stabilizer",
+                    "Autoloader"
+                ],
+                "specs": {
+                    "ammunition": "18 rounds",
+                    "first-order": "6 rounds",
+                    "vertical_guidance": "-10 / 15\u00b0",
+                    "turret_rotation_speed_vertical": "7 5.6 21.3 13.7 \u2192 10 8 30.5 19.5 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "DM12",
+                        "details": {
+                            "type": "HEATFS",
+                            "caliber": "120 mm",
+                            "projectile_mass": "13.5 kg",
+                            "muzzle_velocity": "1,140 m/s",
+                            "explosive_type": "Composition B",
+                            "explosive_mass": "1.6 kg",
+                            "tnt_equivalent": "2.1 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 480,
+                                "30\u00b0": 416,
+                                "60\u00b0": 240
+                            },
+                            "100m": {
+                                "0\u00b0": 480,
+                                "30\u00b0": 416,
+                                "60\u00b0": 240
+                            },
+                            "500m": {
+                                "0\u00b0": 480,
+                                "30\u00b0": 416,
+                                "60\u00b0": 240
+                            },
+                            "1000m": {
+                                "0\u00b0": 480,
+                                "30\u00b0": 416,
+                                "60\u00b0": 240
+                            },
+                            "1500m": {
+                                "0\u00b0": 480,
+                                "30\u00b0": 416,
+                                "60\u00b0": 240
+                            },
+                            "2000m": {
+                                "0\u00b0": 480,
+                                "30\u00b0": 416,
+                                "60\u00b0": 240
+                            }
+                        }
+                    },
+                    {
+                        "name": "DM13",
+                        "details": {
+                            "type": "APFSDS",
+                            "caliber": "120 mm",
+                            "projectile_mass": "4.4 kg",
+                            "muzzle_velocity": "1,650 m/s"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 393,
+                                "30\u00b0": 332,
+                                "60\u00b0": 227
+                            },
+                            "100m": {
+                                "0\u00b0": 390,
+                                "30\u00b0": 329,
+                                "60\u00b0": 225
+                            },
+                            "500m": {
+                                "0\u00b0": 384,
+                                "30\u00b0": 324,
+                                "60\u00b0": 222
+                            },
+                            "1000m": {
+                                "0\u00b0": 376,
+                                "30\u00b0": 317,
+                                "60\u00b0": 217
+                            },
+                            "1500m": {
+                                "0\u00b0": 367,
+                                "30\u00b0": 310,
+                                "60\u00b0": 212
+                            },
+                            "2000m": {
+                                "0\u00b0": 359,
+                                "30\u00b0": 303,
+                                "60\u00b0": 208
+                            }
+                        }
+                    },
+                    {
+                        "name": "DM23",
+                        "details": {
+                            "type": "APFSDS",
+                            "caliber": "120 mm",
+                            "projectile_mass": "4.3 kg",
+                            "muzzle_velocity": "1,640 m/s"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 410,
+                                "30\u00b0": 346,
+                                "60\u00b0": 237
+                            },
+                            "100m": {
+                                "0\u00b0": 408,
+                                "30\u00b0": 344,
+                                "60\u00b0": 236
+                            },
+                            "500m": {
+                                "0\u00b0": 401,
+                                "30\u00b0": 338,
+                                "60\u00b0": 232
+                            },
+                            "1000m": {
+                                "0\u00b0": 393,
+                                "30\u00b0": 332,
+                                "60\u00b0": 227
+                            },
+                            "1500m": {
+                                "0\u00b0": 384,
+                                "30\u00b0": 324,
+                                "60\u00b0": 222
+                            },
+                            "2000m": {
+                                "0\u00b0": 376,
+                                "30\u00b0": 317,
+                                "60\u00b0": 217
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "120 mm Rh120 L/44 cannon",
+                "features": [
+                    "Vertical stabilizer"
+                ],
+                "specs": {
+                    "ammunition": "12 rounds",
+                    "reload": "9.7 \u2192 7.5 s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "DM12",
+                        "details": {
+                            "type": "HEATFS",
+                            "caliber": "120 mm",
+                            "projectile_mass": "13.5 kg",
+                            "muzzle_velocity": "1,140 m/s",
+                            "explosive_type": "Composition B",
+                            "explosive_mass": "1.6 kg",
+                            "tnt_equivalent": "2.1 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 480,
+                                "30\u00b0": 416,
+                                "60\u00b0": 240
+                            },
+                            "100m": {
+                                "0\u00b0": 480,
+                                "30\u00b0": 416,
+                                "60\u00b0": 240
+                            },
+                            "500m": {
+                                "0\u00b0": 480,
+                                "30\u00b0": 416,
+                                "60\u00b0": 240
+                            },
+                            "1000m": {
+                                "0\u00b0": 480,
+                                "30\u00b0": 416,
+                                "60\u00b0": 240
+                            },
+                            "1500m": {
+                                "0\u00b0": 480,
+                                "30\u00b0": 416,
+                                "60\u00b0": 240
+                            },
+                            "2000m": {
+                                "0\u00b0": 480,
+                                "30\u00b0": 416,
+                                "60\u00b0": 240
+                            }
+                        }
+                    },
+                    {
+                        "name": "DM13",
+                        "details": {
+                            "type": "APFSDS",
+                            "caliber": "120 mm",
+                            "projectile_mass": "4.4 kg",
+                            "muzzle_velocity": "1,650 m/s"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 393,
+                                "30\u00b0": 332,
+                                "60\u00b0": 227
+                            },
+                            "100m": {
+                                "0\u00b0": 390,
+                                "30\u00b0": 329,
+                                "60\u00b0": 225
+                            },
+                            "500m": {
+                                "0\u00b0": 384,
+                                "30\u00b0": 324,
+                                "60\u00b0": 222
+                            },
+                            "1000m": {
+                                "0\u00b0": 376,
+                                "30\u00b0": 317,
+                                "60\u00b0": 217
+                            },
+                            "1500m": {
+                                "0\u00b0": 367,
+                                "30\u00b0": 310,
+                                "60\u00b0": 212
+                            },
+                            "2000m": {
+                                "0\u00b0": 359,
+                                "30\u00b0": 303,
+                                "60\u00b0": 208
+                            }
+                        }
+                    },
+                    {
+                        "name": "DM23",
+                        "details": {
+                            "type": "APFSDS",
+                            "caliber": "120 mm",
+                            "projectile_mass": "4.3 kg",
+                            "muzzle_velocity": "1,640 m/s"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 410,
+                                "30\u00b0": 346,
+                                "60\u00b0": 237
+                            },
+                            "100m": {
+                                "0\u00b0": 408,
+                                "30\u00b0": 344,
+                                "60\u00b0": 236
+                            },
+                            "500m": {
+                                "0\u00b0": 401,
+                                "30\u00b0": 338,
+                                "60\u00b0": 232
+                            },
+                            "1000m": {
+                                "0\u00b0": 393,
+                                "30\u00b0": 332,
+                                "60\u00b0": 227
+                            },
+                            "1500m": {
+                                "0\u00b0": 384,
+                                "30\u00b0": 324,
+                                "60\u00b0": 222
+                            },
+                            "2000m": {
+                                "0\u00b0": 376,
+                                "30\u00b0": 317,
+                                "60\u00b0": 217
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            }
+        ]
+    }
+}

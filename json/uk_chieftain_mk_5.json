@@ -1,0 +1,372 @@
+{
+    "unit_basic_info": {
+        "name": "uk_chieftain_mk_5",
+        "nation": "uk",
+        "rank": 6,
+        "battle_rating": {
+            "AB": 8.7,
+            "RB": 8.7,
+            "SB": 8.7
+        },
+        "role": "Medium tank",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_britain.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/uk_chieftain_mk_5.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [
+                "Smoke grenades",
+                "Dual control"
+            ],
+            "visibility": 88,
+            "crew": 4
+        },
+        "support_systems": {
+            "features": [
+                "Smoke grenades",
+                "Dual control"
+            ]
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 48.0,
+                    "ab": 53.0
+                },
+                "backward": {
+                    "rb": 11.0,
+                    "ab": 12.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 13.8,
+                "rb_basic": 12.2,
+                "ab_ref": 26.4,
+                "ab_basic": 21.4
+            },
+            "engine_power": {
+                "rb_ref": 760,
+                "rb_basic": 672,
+                "ab_ref": 1450,
+                "ab_basic": 1178
+            },
+            "weight": 55.0
+        }
+    },
+    "optics": {
+        "features": [
+            {
+                "name": "Rangefinder"
+            }
+        ],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "7.0x\u20138.0x",
+                "commander": "1.0x\u201310.0x",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "120 mm Ordnance BL Tk. L11A5 cannon",
+                "features": [
+                    "Two-plane stabilizer"
+                ],
+                "specs": {
+                    "ammunition": "54 rounds",
+                    "first-order": "17 rounds",
+                    "reload": "9.7 \u2192 7.5 s",
+                    "vertical_guidance": "-10 / 20\u00b0",
+                    "turret_rotation_speed_horizontal": "14 11.9 26.4 19 \u2192 20 17 37.6 27.2 \u00b0/s",
+                    "turret_rotation_speed_vertical": "3.5 2.8 12.2 7.8 \u2192 5 4 17.5 11.2 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "Shot L15A3",
+                        "details": {
+                            "type": "APDS",
+                            "caliber": "120 mm",
+                            "projectile_mass": "7.5 kg",
+                            "muzzle_velocity": "1,372 m/s"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 298,
+                                "30\u00b0": 259,
+                                "60\u00b0": 162
+                            },
+                            "100m": {
+                                "0\u00b0": 296,
+                                "30\u00b0": 258,
+                                "60\u00b0": 161
+                            },
+                            "500m": {
+                                "0\u00b0": 288,
+                                "30\u00b0": 250,
+                                "60\u00b0": 156
+                            },
+                            "1000m": {
+                                "0\u00b0": 277,
+                                "30\u00b0": 241,
+                                "60\u00b0": 151
+                            },
+                            "1500m": {
+                                "0\u00b0": 268,
+                                "30\u00b0": 233,
+                                "60\u00b0": 145
+                            },
+                            "2000m": {
+                                "0\u00b0": 258,
+                                "30\u00b0": 224,
+                                "60\u00b0": 140
+                            }
+                        }
+                    },
+                    {
+                        "name": "Shell L31A7",
+                        "details": {
+                            "type": "HESH",
+                            "caliber": "120 mm",
+                            "projectile_mass": "17.3 kg",
+                            "muzzle_velocity": "670 m/s",
+                            "explosive_type": "RDX",
+                            "explosive_mass": "4.1 kg",
+                            "tnt_equivalent": "6.5 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 152,
+                                "30\u00b0": 152,
+                                "60\u00b0": 152
+                            },
+                            "100m": {
+                                "0\u00b0": 152,
+                                "30\u00b0": 152,
+                                "60\u00b0": 152
+                            },
+                            "500m": {
+                                "0\u00b0": 152,
+                                "30\u00b0": 152,
+                                "60\u00b0": 152
+                            },
+                            "1000m": {
+                                "0\u00b0": 152,
+                                "30\u00b0": 152,
+                                "60\u00b0": 152
+                            },
+                            "1500m": {
+                                "0\u00b0": 152,
+                                "30\u00b0": 152,
+                                "60\u00b0": 152
+                            },
+                            "2000m": {
+                                "0\u00b0": 152,
+                                "30\u00b0": 152,
+                                "60\u00b0": 152
+                            }
+                        }
+                    },
+                    {
+                        "name": "L34",
+                        "details": {
+                            "type": "Smoke",
+                            "caliber": "120 mm",
+                            "projectile_mass": "17.1 kg",
+                            "muzzle_velocity": "670 m/s",
+                            "explosive_type": "Smoke composition",
+                            "explosive_mass": "50 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "100m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "12.7 mm L21A1 machine gun",
+                "features": [],
+                "specs": {
+                    "ammunition": "588 rounds",
+                    "belt_capacity": "3 rounds",
+                    "reload": "0.6 \u2192 0.5 s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AI",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 7,
+                                "30\u00b0": 7,
+                                "60\u00b0": 3
+                            },
+                            "100m": {
+                                "0\u00b0": 7,
+                                "30\u00b0": 6,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 6,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "7.62 mm L8A1 machine gun (coaxial)",
+                "features": [],
+                "specs": {
+                    "ammunition": "6,000 rounds",
+                    "belt_capacity": "200 rounds",
+                    "reload": "10.4 \u2192 8 s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP/AP/T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 2
+                            },
+                            "100m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 2
+                            },
+                            "500m": {
+                                "0\u00b0": 2,
+                                "30\u00b0": 2,
+                                "60\u00b0": 1
+                            },
+                            "1000m": {
+                                "0\u00b0": 1,
+                                "30\u00b0": 1,
+                                "60\u00b0": 0
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "7.62 mm L37A1 machine gun",
+                "features": [],
+                "specs": {
+                    "ammunition": "2,000 rounds",
+                    "belt_capacity": "100 rounds",
+                    "reload": "10.4 \u2192 8 s",
+                    "vertical_guidance": "-10 / 50\u00b0",
+                    "turret_rotation_speed_horizontal": "63 53.6 118.6 85.7 \u2192 90 76.5 169.4 122.4 \u00b0/s",
+                    "turret_rotation_speed_vertical": "63 50.4 220.5 141.1 \u2192 90 72 315 201.6 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP/AP/T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 2
+                            },
+                            "100m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 2
+                            },
+                            "500m": {
+                                "0\u00b0": 2,
+                                "30\u00b0": 2,
+                                "60\u00b0": 1
+                            },
+                            "1000m": {
+                                "0\u00b0": 1,
+                                "30\u00b0": 1,
+                                "60\u00b0": 0
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

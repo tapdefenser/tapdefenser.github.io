@@ -1,0 +1,268 @@
+{
+    "unit_basic_info": {
+        "name": "germ_panzerjager_tiger",
+        "nation": "germ",
+        "rank": 4,
+        "battle_rating": {
+            "AB": 7.3,
+            "RB": 6.7,
+            "SB": 6.7
+        },
+        "role": "Tank destroyer",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_germany.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/germ_panzerjager_tiger.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [
+                "Smoke grenades"
+            ],
+            "visibility": 119,
+            "crew": 6
+        },
+        "support_systems": {
+            "features": [
+                "Smoke grenades"
+            ]
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 42.0,
+                    "ab": 45.0
+                },
+                "backward": {
+                    "rb": 11.0,
+                    "ab": 12.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 9.3,
+                "rb_basic": 8.2,
+                "ab_ref": 16.3,
+                "ab_basic": 13.2
+            },
+            "engine_power": {
+                "rb_ref": 700,
+                "rb_basic": 619,
+                "ab_ref": 1224,
+                "ab_basic": 994
+            },
+            "weight": 75.2
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "10.0x",
+                "commander": "10.0x",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "128 mm PaK44 cannon",
+                "features": [],
+                "specs": {
+                    "ammunition": "40 rounds",
+                    "reload": "23.6 \u2192 18.2 s",
+                    "vertical_guidance": "-7 / 14\u00b0",
+                    "horizontal_guidance": "-10 / 10\u00b0",
+                    "turret_rotation_speed_horizontal": "3.5 3 6.1 4.4 \u2192 5 4.3 8.7 6.3 \u00b0/s",
+                    "turret_rotation_speed_vertical": "2.1 1.7 6.4 4.1 \u2192 3 2.4 9.1 5.9 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "PzGr",
+                        "details": {
+                            "type": "APC",
+                            "caliber": "128 mm",
+                            "projectile_mass": "26.4 kg",
+                            "muzzle_velocity": "930 m/s",
+                            "explosive_type": "PH-Salz and H.10",
+                            "explosive_mass": "550 g",
+                            "tnt_equivalent": "786 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 252,
+                                "30\u00b0": 194,
+                                "60\u00b0": 89
+                            },
+                            "100m": {
+                                "0\u00b0": 249,
+                                "30\u00b0": 192,
+                                "60\u00b0": 89
+                            },
+                            "500m": {
+                                "0\u00b0": 237,
+                                "30\u00b0": 183,
+                                "60\u00b0": 85
+                            },
+                            "1000m": {
+                                "0\u00b0": 222,
+                                "30\u00b0": 172,
+                                "60\u00b0": 81
+                            },
+                            "1500m": {
+                                "0\u00b0": 208,
+                                "30\u00b0": 162,
+                                "60\u00b0": 77
+                            },
+                            "2000m": {
+                                "0\u00b0": 195,
+                                "30\u00b0": 153,
+                                "60\u00b0": 73
+                            }
+                        }
+                    },
+                    {
+                        "name": "Sprgr. L/5",
+                        "details": {
+                            "type": "HE",
+                            "caliber": "128 mm",
+                            "projectile_mass": "28 kg",
+                            "muzzle_velocity": "750 m/s",
+                            "explosive_type": "Fp.02",
+                            "explosive_mass": "3.7 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 37,
+                                "30\u00b0": 37,
+                                "60\u00b0": 37
+                            },
+                            "100m": {
+                                "0\u00b0": 37,
+                                "30\u00b0": 37,
+                                "60\u00b0": 37
+                            },
+                            "500m": {
+                                "0\u00b0": 37,
+                                "30\u00b0": 37,
+                                "60\u00b0": 37
+                            },
+                            "1000m": {
+                                "0\u00b0": 37,
+                                "30\u00b0": 37,
+                                "60\u00b0": 37
+                            },
+                            "1500m": {
+                                "0\u00b0": 37,
+                                "30\u00b0": 37,
+                                "60\u00b0": 37
+                            },
+                            "2000m": {
+                                "0\u00b0": 37,
+                                "30\u00b0": 37,
+                                "60\u00b0": 37
+                            }
+                        }
+                    },
+                    {
+                        "name": "PzGr 43",
+                        "details": {
+                            "type": "APCBC",
+                            "caliber": "128 mm",
+                            "projectile_mass": "28.3 kg",
+                            "muzzle_velocity": "940 m/s",
+                            "explosive_type": "PH-Salz and H.10",
+                            "explosive_mass": "550 g",
+                            "tnt_equivalent": "786 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 272,
+                                "30\u00b0": 208,
+                                "60\u00b0": 95
+                            },
+                            "100m": {
+                                "0\u00b0": 269,
+                                "30\u00b0": 206,
+                                "60\u00b0": 94
+                            },
+                            "500m": {
+                                "0\u00b0": 257,
+                                "30\u00b0": 197,
+                                "60\u00b0": 91
+                            },
+                            "1000m": {
+                                "0\u00b0": 242,
+                                "30\u00b0": 186,
+                                "60\u00b0": 86
+                            },
+                            "1500m": {
+                                "0\u00b0": 228,
+                                "30\u00b0": 176,
+                                "60\u00b0": 82
+                            },
+                            "2000m": {
+                                "0\u00b0": 215,
+                                "30\u00b0": 167,
+                                "60\u00b0": 78
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "7.92 mm MG34 machine gun (coaxial)",
+                "features": [],
+                "specs": {
+                    "ammunition": "3,000 rounds",
+                    "belt_capacity": "150 rounds",
+                    "reload": "10.4 \u2192 8 s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP/AP/AP-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 8,
+                                "60\u00b0": 4
+                            },
+                            "100m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 7,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 5,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 1
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

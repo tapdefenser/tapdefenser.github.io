@@ -1,0 +1,292 @@
+{
+    "unit_basic_info": {
+        "name": "sw_sav_m43_1944",
+        "nation": "sw",
+        "rank": 1,
+        "battle_rating": {
+            "AB": 1.7,
+            "RB": 1.7,
+            "SB": 1.7
+        },
+        "role": "Tank destroyer",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_sweden.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/sw_sav_m43_1944.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 78,
+            "crew": 4
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 41.0,
+                    "ab": 44.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 13.7,
+                "rb_basic": 12.1,
+                "ab_ref": 23.9,
+                "ab_basic": 19.4
+            },
+            "engine_power": {
+                "rb_ref": 160,
+                "rb_basic": 142,
+                "ab_ref": 280,
+                "ab_basic": 227
+            },
+            "weight": 11.7
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "1.9x\u20133.5x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "75 mm kan m/02 cannon",
+                "features": [],
+                "specs": {
+                    "ammunition": "80 rounds",
+                    "reload": "7.6 \u2192 5.9 s",
+                    "vertical_guidance": "-10 / 25\u00b0",
+                    "horizontal_guidance": "-15 / 15\u00b0",
+                    "turret_rotation_speed_horizontal": "5.6 4.8 9.8 7 \u2192 8 6.8 13.9 10.1 \u00b0/s",
+                    "turret_rotation_speed_vertical": "3.5 2.8 10.7 6.8 \u2192 5 4 15.2 9.8 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "slpprj m/40",
+                        "details": {
+                            "type": "AP",
+                            "caliber": "75 mm",
+                            "projectile_mass": "6.6 kg",
+                            "muzzle_velocity": "501 m/s"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 69,
+                                "30\u00b0": 60,
+                                "60\u00b0": 29
+                            },
+                            "100m": {
+                                "0\u00b0": 67,
+                                "30\u00b0": 58,
+                                "60\u00b0": 29
+                            },
+                            "500m": {
+                                "0\u00b0": 60,
+                                "30\u00b0": 53,
+                                "60\u00b0": 26
+                            },
+                            "1000m": {
+                                "0\u00b0": 52,
+                                "30\u00b0": 47,
+                                "60\u00b0": 22
+                            },
+                            "1500m": {
+                                "0\u00b0": 45,
+                                "30\u00b0": 42,
+                                "60\u00b0": 19
+                            },
+                            "2000m": {
+                                "0\u00b0": 39,
+                                "30\u00b0": 37,
+                                "60\u00b0": 17
+                            }
+                        }
+                    },
+                    {
+                        "name": "slpprj m/40B",
+                        "details": {
+                            "type": "APBC",
+                            "caliber": "75 mm",
+                            "projectile_mass": "6.3 kg",
+                            "muzzle_velocity": "505 m/s"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 68,
+                                "30\u00b0": 60,
+                                "60\u00b0": 39
+                            },
+                            "100m": {
+                                "0\u00b0": 66,
+                                "30\u00b0": 59,
+                                "60\u00b0": 39
+                            },
+                            "500m": {
+                                "0\u00b0": 58,
+                                "30\u00b0": 52,
+                                "60\u00b0": 36
+                            },
+                            "1000m": {
+                                "0\u00b0": 50,
+                                "30\u00b0": 45,
+                                "60\u00b0": 34
+                            },
+                            "1500m": {
+                                "0\u00b0": 43,
+                                "30\u00b0": 39,
+                                "60\u00b0": 31
+                            },
+                            "2000m": {
+                                "0\u00b0": 37,
+                                "30\u00b0": 34,
+                                "60\u00b0": 27
+                            }
+                        }
+                    },
+                    {
+                        "name": "slpgr m/39",
+                        "details": {
+                            "type": "APHE",
+                            "caliber": "75 mm",
+                            "projectile_mass": "6.5 kg",
+                            "muzzle_velocity": "496 m/s",
+                            "explosive_type": "TNT",
+                            "explosive_mass": "260 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 51,
+                                "30\u00b0": 46,
+                                "60\u00b0": 22
+                            },
+                            "100m": {
+                                "0\u00b0": 49,
+                                "30\u00b0": 45,
+                                "60\u00b0": 21
+                            },
+                            "500m": {
+                                "0\u00b0": 43,
+                                "30\u00b0": 40,
+                                "60\u00b0": 18
+                            },
+                            "1000m": {
+                                "0\u00b0": 36,
+                                "30\u00b0": 34,
+                                "60\u00b0": 15
+                            },
+                            "1500m": {
+                                "0\u00b0": 30,
+                                "30\u00b0": 29,
+                                "60\u00b0": 13
+                            },
+                            "2000m": {
+                                "0\u00b0": 25,
+                                "30\u00b0": 25,
+                                "60\u00b0": 11
+                            }
+                        }
+                    },
+                    {
+                        "name": "r\u00f6kgr m/22",
+                        "details": {
+                            "type": "Smoke",
+                            "caliber": "75 mm",
+                            "projectile_mass": "6.6 kg",
+                            "muzzle_velocity": "496 m/s",
+                            "explosive_type": "Smoke composition",
+                            "explosive_mass": "8 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 4
+                            },
+                            "100m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 4
+                            },
+                            "500m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 4
+                            },
+                            "1000m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 4
+                            },
+                            "1500m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 4
+                            },
+                            "2000m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 4
+                            }
+                        }
+                    },
+                    {
+                        "name": "sgr m/22-38",
+                        "details": {
+                            "type": "HE",
+                            "caliber": "75 mm",
+                            "projectile_mass": "6.6 kg",
+                            "muzzle_velocity": "496 m/s",
+                            "explosive_type": "TNT",
+                            "explosive_mass": "550 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 9,
+                                "60\u00b0": 9
+                            },
+                            "100m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 9,
+                                "60\u00b0": 9
+                            },
+                            "500m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 9,
+                                "60\u00b0": 9
+                            },
+                            "1000m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 9,
+                                "60\u00b0": 9
+                            },
+                            "1500m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 9,
+                                "60\u00b0": 9
+                            },
+                            "2000m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 9,
+                                "60\u00b0": 9
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            }
+        ]
+    }
+}

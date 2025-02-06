@@ -1,0 +1,404 @@
+{
+    "unit_basic_info": {
+        "name": "jp_st_a3",
+        "nation": "jp",
+        "rank": 4,
+        "battle_rating": {
+            "AB": 6.7,
+            "RB": 6.7,
+            "SB": 6.7
+        },
+        "role": "Medium tank",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_japan_modern.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/jp_st_a3.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 95,
+            "crew": 4
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 45.0,
+                    "ab": 50.0
+                },
+                "backward": {
+                    "rb": 8.0,
+                    "ab": 9.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 18.6,
+                "rb_basic": 16.4,
+                "ab_ref": 35.4,
+                "ab_basic": 28.8
+            },
+            "engine_power": {
+                "rb_ref": 650,
+                "rb_basic": 575,
+                "ab_ref": 1240,
+                "ab_basic": 1007
+            },
+            "weight": 35.0
+        }
+    },
+    "optics": {
+        "features": [
+            {
+                "name": "Rangefinder"
+            }
+        ],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "4.0x\u20138.0x",
+                "commander": "12.0x",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "90 mm Type 61 cannon",
+                "features": [
+                    "Autoloader"
+                ],
+                "specs": {
+                    "ammunition": "40 rounds",
+                    "first-order": "11 rounds",
+                    "vertical_guidance": "-10 / 13\u00b0",
+                    "turret_rotation_speed_horizontal": "16.8 14.3 31.6 22.8 \u2192 24 20.4 45.2 32.6 \u00b0/s",
+                    "turret_rotation_speed_vertical": "4.2 3.4 14.7 9.4 \u2192 6 4.8 21 13.4 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "M318A1 shot",
+                        "details": {
+                            "type": "APBC",
+                            "caliber": "90 mm",
+                            "projectile_mass": "11 kg",
+                            "muzzle_velocity": "914 m/s"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 194,
+                                "30\u00b0": 144,
+                                "60\u00b0": 73
+                            },
+                            "100m": {
+                                "0\u00b0": 190,
+                                "30\u00b0": 142,
+                                "60\u00b0": 72
+                            },
+                            "500m": {
+                                "0\u00b0": 177,
+                                "30\u00b0": 134,
+                                "60\u00b0": 68
+                            },
+                            "1000m": {
+                                "0\u00b0": 162,
+                                "30\u00b0": 124,
+                                "60\u00b0": 63
+                            },
+                            "1500m": {
+                                "0\u00b0": 149,
+                                "30\u00b0": 116,
+                                "60\u00b0": 59
+                            },
+                            "2000m": {
+                                "0\u00b0": 136,
+                                "30\u00b0": 108,
+                                "60\u00b0": 54
+                            }
+                        }
+                    },
+                    {
+                        "name": "M82 shot",
+                        "details": {
+                            "type": "APCBC",
+                            "caliber": "90 mm",
+                            "projectile_mass": "10.9 kg",
+                            "muzzle_velocity": "853 m/s",
+                            "explosive_type": "Exp. D",
+                            "explosive_mass": "140 g",
+                            "tnt_equivalent": "137 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 185,
+                                "30\u00b0": 142,
+                                "60\u00b0": 65
+                            },
+                            "100m": {
+                                "0\u00b0": 183,
+                                "30\u00b0": 140,
+                                "60\u00b0": 64
+                            },
+                            "500m": {
+                                "0\u00b0": 173,
+                                "30\u00b0": 133,
+                                "60\u00b0": 62
+                            },
+                            "1000m": {
+                                "0\u00b0": 161,
+                                "30\u00b0": 125,
+                                "60\u00b0": 58
+                            },
+                            "1500m": {
+                                "0\u00b0": 150,
+                                "30\u00b0": 117,
+                                "60\u00b0": 55
+                            },
+                            "2000m": {
+                                "0\u00b0": 140,
+                                "30\u00b0": 109,
+                                "60\u00b0": 52
+                            }
+                        }
+                    },
+                    {
+                        "name": "M431 shell",
+                        "details": {
+                            "type": "HEATFS",
+                            "caliber": "90 mm",
+                            "projectile_mass": "5.8 kg",
+                            "muzzle_velocity": "1,216 m/s",
+                            "explosive_type": "Composition B",
+                            "explosive_mass": "544 g",
+                            "tnt_equivalent": "713 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 320,
+                                "30\u00b0": 277,
+                                "60\u00b0": 160
+                            },
+                            "100m": {
+                                "0\u00b0": 320,
+                                "30\u00b0": 277,
+                                "60\u00b0": 160
+                            },
+                            "500m": {
+                                "0\u00b0": 320,
+                                "30\u00b0": 277,
+                                "60\u00b0": 160
+                            },
+                            "1000m": {
+                                "0\u00b0": 320,
+                                "30\u00b0": 277,
+                                "60\u00b0": 160
+                            },
+                            "1500m": {
+                                "0\u00b0": 320,
+                                "30\u00b0": 277,
+                                "60\u00b0": 160
+                            },
+                            "2000m": {
+                                "0\u00b0": 320,
+                                "30\u00b0": 277,
+                                "60\u00b0": 160
+                            }
+                        }
+                    },
+                    {
+                        "name": "M71 shell",
+                        "details": {
+                            "type": "HE",
+                            "caliber": "90 mm",
+                            "projectile_mass": "10.6 kg",
+                            "muzzle_velocity": "823 m/s",
+                            "explosive_type": "TNT",
+                            "explosive_mass": "925 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 20,
+                                "30\u00b0": 20,
+                                "60\u00b0": 13
+                            },
+                            "100m": {
+                                "0\u00b0": 20,
+                                "30\u00b0": 20,
+                                "60\u00b0": 13
+                            },
+                            "500m": {
+                                "0\u00b0": 18,
+                                "30\u00b0": 18,
+                                "60\u00b0": 13
+                            },
+                            "1000m": {
+                                "0\u00b0": 17,
+                                "30\u00b0": 17,
+                                "60\u00b0": 13
+                            },
+                            "1500m": {
+                                "0\u00b0": 15,
+                                "30\u00b0": 15,
+                                "60\u00b0": 13
+                            },
+                            "2000m": {
+                                "0\u00b0": 14,
+                                "30\u00b0": 14,
+                                "60\u00b0": 13
+                            }
+                        }
+                    },
+                    {
+                        "name": "M313",
+                        "details": {
+                            "type": "Smoke",
+                            "caliber": "90 mm",
+                            "projectile_mass": "10.7 kg",
+                            "muzzle_velocity": "821 m/s",
+                            "explosive_type": "TNT",
+                            "explosive_mass": "50 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 5
+                            },
+                            "100m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 5
+                            },
+                            "500m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 5
+                            },
+                            "1000m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 5
+                            },
+                            "1500m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 5
+                            },
+                            "2000m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 5
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "12.7 mm M2HB machine gun",
+                "features": [],
+                "specs": {
+                    "ammunition": "800 rounds",
+                    "belt_capacity": "100 rounds",
+                    "reload": "10.4 \u2192 8 s",
+                    "vertical_guidance": "-5 / 50\u00b0",
+                    "turret_rotation_speed_horizontal": "63 53.6 118.6 85.7 \u2192 90 76.5 169.4 122.4 \u00b0/s",
+                    "turret_rotation_speed_vertical": "63 50.4 220.5 141.1 \u2192 90 72 315 201.6 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "API-T/I/AP/API-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 29,
+                                "30\u00b0": 22,
+                                "60\u00b0": 11
+                            },
+                            "100m": {
+                                "0\u00b0": 27,
+                                "30\u00b0": 20,
+                                "60\u00b0": 10
+                            },
+                            "500m": {
+                                "0\u00b0": 19,
+                                "30\u00b0": 15,
+                                "60\u00b0": 7
+                            },
+                            "1000m": {
+                                "0\u00b0": 12,
+                                "30\u00b0": 10,
+                                "60\u00b0": 5
+                            },
+                            "1500m": {
+                                "0\u00b0": 7,
+                                "30\u00b0": 7,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 4,
+                                "60\u00b0": 2
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "7.62 mm M1919A4 machine gun (coaxial)",
+                "features": [],
+                "specs": {
+                    "ammunition": "4,500 rounds",
+                    "belt_capacity": "250 rounds",
+                    "reload": "10.4 \u2192 8 s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP/T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 2
+                            },
+                            "100m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 2
+                            },
+                            "500m": {
+                                "0\u00b0": 2,
+                                "30\u00b0": 2,
+                                "60\u00b0": 1
+                            },
+                            "1000m": {
+                                "0\u00b0": 1,
+                                "30\u00b0": 1,
+                                "60\u00b0": 0
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

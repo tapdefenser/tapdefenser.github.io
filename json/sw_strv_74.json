@@ -1,0 +1,311 @@
+{
+    "unit_basic_info": {
+        "name": "sw_strv_74",
+        "nation": "sw",
+        "rank": 4,
+        "battle_rating": {
+            "AB": 5.7,
+            "RB": 5.7,
+            "SB": 5.7
+        },
+        "role": "Light tank",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_sweden.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/sw_strv_74.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [
+                "Smoke grenades"
+            ],
+            "visibility": 125,
+            "crew": 4
+        },
+        "support_systems": {
+            "features": [
+                "Smoke grenades"
+            ]
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 45.0,
+                    "ab": 50.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 13.1,
+                "rb_basic": 11.6,
+                "ab_ref": 25.0,
+                "ab_basic": 20.3
+            },
+            "engine_power": {
+                "rb_ref": 340,
+                "rb_basic": 301,
+                "ab_ref": 649,
+                "ab_basic": 527
+            },
+            "weight": 26.0
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "6.0x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "75 mm kan Strv 74 cannon",
+                "features": [],
+                "specs": {
+                    "ammunition": "40 rounds",
+                    "first-order": "6 rounds",
+                    "reload": "8.7 \u2192 6.7 s",
+                    "vertical_guidance": "-15 / 15\u00b0",
+                    "turret_rotation_speed_horizontal": "12.6 10.7 23.7 17.1 \u2192 18 15.3 33.9 24.5 \u00b0/s",
+                    "turret_rotation_speed_vertical": "5.6 4.5 19.6 12.5 \u2192 8 6.4 28 17.9 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "slpgr m/43",
+                        "details": {
+                            "type": "APCBC",
+                            "caliber": "75 mm",
+                            "projectile_mass": "6 kg",
+                            "muzzle_velocity": "925 m/s",
+                            "explosive_type": "TNT",
+                            "explosive_mass": "110 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 158,
+                                "30\u00b0": 121,
+                                "60\u00b0": 55
+                            },
+                            "100m": {
+                                "0\u00b0": 154,
+                                "30\u00b0": 118,
+                                "60\u00b0": 54
+                            },
+                            "500m": {
+                                "0\u00b0": 139,
+                                "30\u00b0": 107,
+                                "60\u00b0": 50
+                            },
+                            "1000m": {
+                                "0\u00b0": 122,
+                                "30\u00b0": 95,
+                                "60\u00b0": 45
+                            },
+                            "1500m": {
+                                "0\u00b0": 107,
+                                "30\u00b0": 84,
+                                "60\u00b0": 41
+                            },
+                            "2000m": {
+                                "0\u00b0": 94,
+                                "30\u00b0": 75,
+                                "60\u00b0": 37
+                            }
+                        }
+                    },
+                    {
+                        "name": "sgr m/38",
+                        "details": {
+                            "type": "HE",
+                            "caliber": "75 mm",
+                            "projectile_mass": "6.4 kg",
+                            "muzzle_velocity": "840 m/s",
+                            "explosive_type": "TNT",
+                            "explosive_mass": "690 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 18,
+                                "30\u00b0": 17,
+                                "60\u00b0": 10
+                            },
+                            "100m": {
+                                "0\u00b0": 17,
+                                "30\u00b0": 17,
+                                "60\u00b0": 10
+                            },
+                            "500m": {
+                                "0\u00b0": 16,
+                                "30\u00b0": 16,
+                                "60\u00b0": 10
+                            },
+                            "1000m": {
+                                "0\u00b0": 14,
+                                "30\u00b0": 14,
+                                "60\u00b0": 10
+                            },
+                            "1500m": {
+                                "0\u00b0": 13,
+                                "30\u00b0": 13,
+                                "60\u00b0": 10
+                            },
+                            "2000m": {
+                                "0\u00b0": 12,
+                                "30\u00b0": 12,
+                                "60\u00b0": 10
+                            }
+                        }
+                    },
+                    {
+                        "name": "7,5 cm slpprj m/49",
+                        "details": {
+                            "type": "APDS",
+                            "caliber": "75 mm",
+                            "projectile_mass": "2.6 kg",
+                            "muzzle_velocity": "1,160 m/s"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 247,
+                                "30\u00b0": 199,
+                                "60\u00b0": 69
+                            },
+                            "100m": {
+                                "0\u00b0": 243,
+                                "30\u00b0": 196,
+                                "60\u00b0": 68
+                            },
+                            "500m": {
+                                "0\u00b0": 227,
+                                "30\u00b0": 183,
+                                "60\u00b0": 63
+                            },
+                            "1000m": {
+                                "0\u00b0": 208,
+                                "30\u00b0": 168,
+                                "60\u00b0": 58
+                            },
+                            "1500m": {
+                                "0\u00b0": 191,
+                                "30\u00b0": 154,
+                                "60\u00b0": 53
+                            },
+                            "2000m": {
+                                "0\u00b0": 176,
+                                "30\u00b0": 142,
+                                "60\u00b0": 49
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "8 mm ksp m/36 machine gun (coaxial)",
+                "features": [],
+                "specs": {
+                    "ammunition": "4,000 rounds",
+                    "belt_capacity": "250 rounds",
+                    "reload": "10.4 \u2192 8 s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "API-T/AP/I",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "100m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "8 mm ksp m/36 machine gun",
+                "features": [],
+                "specs": {
+                    "ammunition": "2,000 rounds",
+                    "belt_capacity": "250 rounds",
+                    "reload": "10.4 \u2192 8 s",
+                    "vertical_guidance": "-10 / 65\u00b0",
+                    "turret_rotation_speed_horizontal": "63 53.6 118.6 85.7 \u2192 90 76.5 169.4 122.4 \u00b0/s",
+                    "turret_rotation_speed_vertical": "63 50.4 220.5 141.1 \u2192 90 72 315 201.6 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "API-T/AP/I",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "100m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

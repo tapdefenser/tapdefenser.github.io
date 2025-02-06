@@ -1,0 +1,281 @@
+{
+    "unit_basic_info": {
+        "name": "fr_vbci2_mct30",
+        "nation": "fr",
+        "rank": 6,
+        "battle_rating": {
+            "AB": 9.7,
+            "RB": 9.7,
+            "SB": 9.7
+        },
+        "role": "Light tank",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_france.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/fr_vbci2_mct30.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [
+                "LWS",
+                "Smoke grenades",
+                "Dual control"
+            ],
+            "visibility": 150,
+            "crew": 3
+        },
+        "support_systems": {
+            "features": [
+                "LWS",
+                "Smoke grenades",
+                "Dual control"
+            ]
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [
+                "Amphibious"
+            ],
+            "max_speed": {
+                "forward": {
+                    "rb": 100.0,
+                    "ab": 111.0
+                },
+                "backward": {
+                    "rb": 36.0,
+                    "ab": 40.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 22.2,
+                "rb_basic": 19.7,
+                "ab_ref": 42.4,
+                "ab_basic": 34.4
+            },
+            "engine_power": {
+                "rb_ref": 600,
+                "rb_basic": 531,
+                "ab_ref": 1145,
+                "ab_basic": 930
+            },
+            "weight": 27.0
+        }
+    },
+    "optics": {
+        "features": [
+            {
+                "name": "Laser rangefinder"
+            },
+            {
+                "name": "Optical Detection"
+            },
+            {
+                "name": "Scout UAV"
+            }
+        ],
+        "specs": {
+            "optical_devices": [
+                {
+                    "name": "Thermal imager",
+                    "resolution": {
+                        "gunner": "1200x800",
+                        "commander": "1200x800",
+                        "driver": "\u2014"
+                    }
+                },
+                {
+                    "name": "Night vision device"
+                }
+            ],
+            "optics_zoom": {
+                "gunner": "2.0x\u201314.7x",
+                "commander": "2.0x\u20138.0x",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "30 mm Bushmaster 2 Mk.44 cannon",
+                "features": [
+                    "Two-plane stabilizer"
+                ],
+                "specs": {
+                    "ammunition": "450 rounds",
+                    "first-order": "150 rounds",
+                    "belt_capacity": "75 rounds",
+                    "reload": "0.3 \u2192 0.2 s",
+                    "vertical_guidance": "-10 / 40\u00b0",
+                    "turret_rotation_speed_horizontal": "42 35.7 79.1 57.1 \u2192 60 51 112.9 81.6 \u00b0/s",
+                    "turret_rotation_speed_vertical": "42 33.6 147 94.1 \u2192 60 48 210 134.4 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "APDS",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 87,
+                                "30\u00b0": 80,
+                                "60\u00b0": 33
+                            },
+                            "100m": {
+                                "0\u00b0": 86,
+                                "30\u00b0": 79,
+                                "60\u00b0": 33
+                            },
+                            "500m": {
+                                "0\u00b0": 81,
+                                "30\u00b0": 74,
+                                "60\u00b0": 31
+                            },
+                            "1000m": {
+                                "0\u00b0": 75,
+                                "30\u00b0": 69,
+                                "60\u00b0": 29
+                            },
+                            "1500m": {
+                                "0\u00b0": 70,
+                                "30\u00b0": 64,
+                                "60\u00b0": 27
+                            },
+                            "2000m": {
+                                "0\u00b0": 65,
+                                "30\u00b0": 59,
+                                "60\u00b0": 25
+                            }
+                        }
+                    },
+                    {
+                        "name": "MK258",
+                        "type": "APFSDS",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 116,
+                                "30\u00b0": 98,
+                                "60\u00b0": 67
+                            },
+                            "100m": {
+                                "0\u00b0": 115,
+                                "30\u00b0": 97,
+                                "60\u00b0": 66
+                            },
+                            "500m": {
+                                "0\u00b0": 110,
+                                "30\u00b0": 93,
+                                "60\u00b0": 64
+                            },
+                            "1000m": {
+                                "0\u00b0": 104,
+                                "30\u00b0": 88,
+                                "60\u00b0": 60
+                            },
+                            "1500m": {
+                                "0\u00b0": 99,
+                                "30\u00b0": 84,
+                                "60\u00b0": 57
+                            },
+                            "2000m": {
+                                "0\u00b0": 93,
+                                "30\u00b0": 78,
+                                "60\u00b0": 54
+                            }
+                        }
+                    },
+                    {
+                        "name": "MK266",
+                        "type": "HEI-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 9,
+                                "60\u00b0": 4
+                            },
+                            "100m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 8,
+                                "60\u00b0": 4
+                            },
+                            "500m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 6,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "12.7 mm M2HB machine gun",
+                "features": [
+                    "Two-plane stabilizer"
+                ],
+                "specs": {
+                    "ammunition": "600 rounds",
+                    "belt_capacity": "100 rounds",
+                    "reload": "10.4 \u2192 8 s",
+                    "vertical_guidance": "-20 / 60\u00b0",
+                    "turret_rotation_speed_horizontal": "63 53.6 118.6 85.7 \u2192 90 76.5 169.4 122.4 \u00b0/s",
+                    "turret_rotation_speed_vertical": "49 39.2 171.5 109.8 \u2192 70 56 245 156.8 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "API-T/I/AP/API-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 29,
+                                "30\u00b0": 22,
+                                "60\u00b0": 11
+                            },
+                            "100m": {
+                                "0\u00b0": 27,
+                                "30\u00b0": 20,
+                                "60\u00b0": 10
+                            },
+                            "500m": {
+                                "0\u00b0": 19,
+                                "30\u00b0": 15,
+                                "60\u00b0": 7
+                            },
+                            "1000m": {
+                                "0\u00b0": 12,
+                                "30\u00b0": 10,
+                                "60\u00b0": 5
+                            },
+                            "1500m": {
+                                "0\u00b0": 7,
+                                "30\u00b0": 7,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 4,
+                                "60\u00b0": 2
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

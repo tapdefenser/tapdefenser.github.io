@@ -1,0 +1,233 @@
+{
+    "unit_basic_info": {
+        "name": "ussr_type_65_aa",
+        "nation": "ussr",
+        "rank": 3,
+        "battle_rating": {
+            "AB": 5.7,
+            "RB": 5.0,
+            "SB": 5.0
+        },
+        "role": "SPAA",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_vietnam.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/ussr_type_65_aa.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [
+                "Dual control"
+            ],
+            "visibility": 120,
+            "crew": 5
+        },
+        "support_systems": {
+            "features": [
+                "Dual control"
+            ]
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 55.0,
+                    "ab": 60.0
+                },
+                "backward": {
+                    "rb": 8.0,
+                    "ab": 9.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 20.1,
+                "rb_basic": 17.8,
+                "ab_ref": 35.1,
+                "ab_basic": 28.5
+            },
+            "engine_power": {
+                "rb_ref": 500,
+                "rb_basic": 442,
+                "ab_ref": 874,
+                "ab_basic": 710
+            },
+            "weight": 24.9
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "4.0x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "2 x 37 mm Type 65 cannon",
+                "features": [],
+                "specs": {
+                    "ammunition": "390 rounds",
+                    "belt_capacity": "5 rounds",
+                    "reload": "1.3 \u2192 1 s",
+                    "vertical_guidance": "-5 / 85\u00b0",
+                    "turret_rotation_speed_horizontal": "42 35.7 73.1 52.8 \u2192 60 51 104.5 75.5 \u00b0/s",
+                    "turret_rotation_speed_vertical": "14 11.2 42.7 27.3 \u2192 20 16 61 39 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP-T/HEFI-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 8,
+                                "60\u00b0": 4
+                            },
+                            "100m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 8,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 7,
+                                "30\u00b0": 7,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            }
+                        }
+                    },
+                    {
+                        "name": "UO-167",
+                        "type": "HEFI-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 8,
+                                "60\u00b0": 4
+                            },
+                            "100m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 8,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 7,
+                                "30\u00b0": 7,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            }
+                        }
+                    },
+                    {
+                        "name": "BR-167",
+                        "type": "AP-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 70,
+                                "30\u00b0": 53,
+                                "60\u00b0": 27
+                            },
+                            "100m": {
+                                "0\u00b0": 68,
+                                "30\u00b0": 52,
+                                "60\u00b0": 26
+                            },
+                            "500m": {
+                                "0\u00b0": 56,
+                                "30\u00b0": 44,
+                                "60\u00b0": 22
+                            },
+                            "1000m": {
+                                "0\u00b0": 45,
+                                "30\u00b0": 37,
+                                "60\u00b0": 18
+                            },
+                            "1500m": {
+                                "0\u00b0": 36,
+                                "30\u00b0": 31,
+                                "60\u00b0": 15
+                            },
+                            "2000m": {
+                                "0\u00b0": 29,
+                                "30\u00b0": 25,
+                                "60\u00b0": 12
+                            }
+                        }
+                    },
+                    {
+                        "name": "BR-167P",
+                        "type": "HVAP-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 87,
+                                "30\u00b0": 64,
+                                "60\u00b0": 20
+                            },
+                            "100m": {
+                                "0\u00b0": 82,
+                                "30\u00b0": 61,
+                                "60\u00b0": 19
+                            },
+                            "500m": {
+                                "0\u00b0": 65,
+                                "30\u00b0": 48,
+                                "60\u00b0": 15
+                            },
+                            "1000m": {
+                                "0\u00b0": 49,
+                                "30\u00b0": 36,
+                                "60\u00b0": 11
+                            },
+                            "1500m": {
+                                "0\u00b0": 37,
+                                "30\u00b0": 28,
+                                "60\u00b0": 8
+                            },
+                            "2000m": {
+                                "0\u00b0": 28,
+                                "30\u00b0": 21,
+                                "60\u00b0": 6
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

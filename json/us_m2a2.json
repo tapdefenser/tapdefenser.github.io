@@ -1,0 +1,284 @@
+{
+    "unit_basic_info": {
+        "name": "us_m2a2",
+        "nation": "us",
+        "rank": 1,
+        "battle_rating": {
+            "AB": 1.0,
+            "RB": 1.0,
+            "SB": 1.0
+        },
+        "role": "Light tank",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_usa.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/us_m2a2.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 78,
+            "crew": 4
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 72.0,
+                    "ab": 80.0
+                },
+                "backward": {
+                    "rb": 9.0,
+                    "ab": 10.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 30.5,
+                "rb_basic": 27.0,
+                "ab_ref": 44.1,
+                "ab_basic": 35.8
+            },
+            "engine_power": {
+                "rb_ref": 262,
+                "rb_basic": 232,
+                "ab_ref": 379,
+                "ab_basic": 308
+            },
+            "weight": 8.6
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "1.9x\u20133.5x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "12.7 mm M2HB machine gun",
+                "features": [
+                    "Shoulder stabilizer"
+                ],
+                "specs": {
+                    "ammunition": "1,400 rounds",
+                    "belt_capacity": "200 rounds",
+                    "reload": "10.4 \u2192 8 s",
+                    "vertical_guidance": "-10 / 20\u00b0",
+                    "horizontal_guidance": "-170 / 20\u00b0",
+                    "turret_rotation_speed_horizontal": "10.5 8.9 19.8 14.3 \u2192 15 12.8 28.2 20.4 \u00b0/s",
+                    "turret_rotation_speed_vertical": "10.5 8.4 36.7 23.5 \u2192 15 12 52.5 33.6 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Common",
+                        "type": "API-T/I/AP/API-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 29,
+                                "30\u00b0": 22,
+                                "60\u00b0": 11
+                            },
+                            "100m": {
+                                "0\u00b0": 27,
+                                "30\u00b0": 20,
+                                "60\u00b0": 10
+                            },
+                            "500m": {
+                                "0\u00b0": 19,
+                                "30\u00b0": 15,
+                                "60\u00b0": 7
+                            },
+                            "1000m": {
+                                "0\u00b0": 12,
+                                "30\u00b0": 10,
+                                "60\u00b0": 5
+                            },
+                            "1500m": {
+                                "0\u00b0": 7,
+                                "30\u00b0": 7,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 4,
+                                "60\u00b0": 2
+                            }
+                        }
+                    },
+                    {
+                        "name": "API",
+                        "type": "API-T/AP-I/API-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 29,
+                                "30\u00b0": 22,
+                                "60\u00b0": 11
+                            },
+                            "100m": {
+                                "0\u00b0": 27,
+                                "30\u00b0": 20,
+                                "60\u00b0": 10
+                            },
+                            "500m": {
+                                "0\u00b0": 19,
+                                "30\u00b0": 15,
+                                "60\u00b0": 7
+                            },
+                            "1000m": {
+                                "0\u00b0": 12,
+                                "30\u00b0": 10,
+                                "60\u00b0": 5
+                            },
+                            "1500m": {
+                                "0\u00b0": 7,
+                                "30\u00b0": 7,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 4,
+                                "60\u00b0": 2
+                            }
+                        }
+                    },
+                    {
+                        "name": "AP",
+                        "type": "AP/AP/API-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 29,
+                                "30\u00b0": 22,
+                                "60\u00b0": 11
+                            },
+                            "100m": {
+                                "0\u00b0": 27,
+                                "30\u00b0": 20,
+                                "60\u00b0": 10
+                            },
+                            "500m": {
+                                "0\u00b0": 19,
+                                "30\u00b0": 15,
+                                "60\u00b0": 7
+                            },
+                            "1000m": {
+                                "0\u00b0": 12,
+                                "30\u00b0": 10,
+                                "60\u00b0": 5
+                            },
+                            "1500m": {
+                                "0\u00b0": 7,
+                                "30\u00b0": 7,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 4,
+                                "60\u00b0": 2
+                            }
+                        }
+                    },
+                    {
+                        "name": "APIT",
+                        "type": "API-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 29,
+                                "30\u00b0": 22,
+                                "60\u00b0": 11
+                            },
+                            "100m": {
+                                "0\u00b0": 27,
+                                "30\u00b0": 20,
+                                "60\u00b0": 10
+                            },
+                            "500m": {
+                                "0\u00b0": 19,
+                                "30\u00b0": 15,
+                                "60\u00b0": 7
+                            },
+                            "1000m": {
+                                "0\u00b0": 12,
+                                "30\u00b0": 10,
+                                "60\u00b0": 5
+                            },
+                            "1500m": {
+                                "0\u00b0": 7,
+                                "30\u00b0": 7,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 4,
+                                "60\u00b0": 2
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "2 x 7.62 mm M1919A4 machine gun",
+                "features": [],
+                "specs": {
+                    "ammunition": "19,000 rounds",
+                    "belt_capacity": "250 rounds",
+                    "reload": "10.4 \u2192 8 s",
+                    "vertical_guidance": "-10 / 20\u00b0",
+                    "horizontal_guidance": "-5 / 160\u00b0",
+                    "turret_rotation_speed_horizontal": "17.5 14.9 32.9 23.8 \u2192 25 21.3 47.1 34 \u00b0/s",
+                    "turret_rotation_speed_vertical": "10.5 8.4 36.7 23.5 \u2192 15 12 52.5 33.6 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP/T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 2
+                            },
+                            "100m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 2
+                            },
+                            "500m": {
+                                "0\u00b0": 2,
+                                "30\u00b0": 2,
+                                "60\u00b0": 1
+                            },
+                            "1000m": {
+                                "0\u00b0": 1,
+                                "30\u00b0": 1,
+                                "60\u00b0": 0
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

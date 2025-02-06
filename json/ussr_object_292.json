@@ -1,0 +1,181 @@
+{
+    "unit_basic_info": {
+        "name": "ussr_object_292",
+        "nation": "ussr",
+        "rank": 7,
+        "battle_rating": {
+            "AB": 10.7,
+            "RB": 10.7,
+            "SB": 10.7
+        },
+        "role": "Medium tank",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_ussr.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/ussr_object_292.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [
+                "Composite armour"
+            ],
+            "visibility": 73,
+            "crew": 3
+        },
+        "support_systems": {
+            "features": [
+                "ESS",
+                "Self-entrenching equipment"
+            ]
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 70.0,
+                    "ab": 78.0
+                },
+                "backward": {
+                    "rb": 11.0,
+                    "ab": 12.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 23.9,
+                "rb_basic": 21.2,
+                "ab_ref": 45.6,
+                "ab_basic": 37.1
+            },
+            "engine_power": {
+                "rb_ref": 1100,
+                "rb_basic": 973,
+                "ab_ref": 2099,
+                "ab_basic": 1705
+            },
+            "weight": 46.0
+        }
+    },
+    "optics": {
+        "features": [
+            {
+                "name": "Laser rangefinder"
+            }
+        ],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "3.9x\u20139.0x",
+                "commander": "5.0x",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "152 mm LP-83 cannon",
+                "features": [
+                    "Two-plane stabilizer",
+                    "Autoloader"
+                ],
+                "specs": {
+                    "ammunition": "30 rounds",
+                    "first-order": "16 rounds",
+                    "vertical_guidance": "-5 / 15\u00b0",
+                    "turret_rotation_speed_horizontal": "16.8 14.3 31.6 22.8 \u2192 24 20.4 45.2 32.6 \u00b0/s",
+                    "turret_rotation_speed_vertical": "2.3 1.9 8.2 5.3 \u2192 3.3 2.7 11.7 7.5 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "152 mm APFSDS",
+                        "details": {
+                            "type": "APFSDS",
+                            "caliber": "152 mm",
+                            "projectile_mass": "7 kg",
+                            "muzzle_velocity": "1,980 m/s"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 695,
+                                "30\u00b0": 586,
+                                "60\u00b0": 401
+                            },
+                            "100m": {
+                                "0\u00b0": 693,
+                                "30\u00b0": 585,
+                                "60\u00b0": 401
+                            },
+                            "500m": {
+                                "0\u00b0": 687,
+                                "30\u00b0": 580,
+                                "60\u00b0": 397
+                            },
+                            "1000m": {
+                                "0\u00b0": 680,
+                                "30\u00b0": 574,
+                                "60\u00b0": 393
+                            },
+                            "1500m": {
+                                "0\u00b0": 673,
+                                "30\u00b0": 568,
+                                "60\u00b0": 389
+                            },
+                            "2000m": {
+                                "0\u00b0": 665,
+                                "30\u00b0": 561,
+                                "60\u00b0": 385
+                            }
+                        }
+                    },
+                    {
+                        "name": "152 mm HE",
+                        "details": {
+                            "type": "HE",
+                            "caliber": "152 mm",
+                            "projectile_mass": "45.9 kg",
+                            "muzzle_velocity": "920 m/s",
+                            "explosive_type": "A-IX-2",
+                            "explosive_mass": "5.6 kg",
+                            "tnt_equivalent": "8.6 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 61,
+                                "30\u00b0": 61,
+                                "60\u00b0": 61
+                            },
+                            "100m": {
+                                "0\u00b0": 61,
+                                "30\u00b0": 61,
+                                "60\u00b0": 61
+                            },
+                            "500m": {
+                                "0\u00b0": 61,
+                                "30\u00b0": 61,
+                                "60\u00b0": 61
+                            },
+                            "1000m": {
+                                "0\u00b0": 61,
+                                "30\u00b0": 61,
+                                "60\u00b0": 61
+                            },
+                            "1500m": {
+                                "0\u00b0": 61,
+                                "30\u00b0": 61,
+                                "60\u00b0": 61
+                            },
+                            "2000m": {
+                                "0\u00b0": 61,
+                                "30\u00b0": 61,
+                                "60\u00b0": 61
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            }
+        ]
+    }
+}

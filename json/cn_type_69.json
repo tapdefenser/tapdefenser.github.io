@@ -1,0 +1,314 @@
+{
+    "unit_basic_info": {
+        "name": "cn_type_69",
+        "nation": "cn",
+        "rank": 5,
+        "battle_rating": {
+            "AB": 8.0,
+            "RB": 8.0,
+            "SB": 8.0
+        },
+        "role": "Medium tank",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_china.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/cn_type_69.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 75,
+            "crew": 4
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 50.0,
+                    "ab": 56.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 15.9,
+                "rb_basic": 14.1,
+                "ab_ref": 30.3,
+                "ab_basic": 24.6
+            },
+            "engine_power": {
+                "rb_ref": 580,
+                "rb_basic": 513,
+                "ab_ref": 1107,
+                "ab_basic": 899
+            },
+            "weight": 36.5
+        }
+    },
+    "optics": {
+        "features": [
+            {
+                "name": "Laser rangefinder"
+            }
+        ],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "3.5x\u20137.0x",
+                "commander": "5.0x",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "100 mm Type 69 cannon",
+                "features": [
+                    "Two-plane stabilizer"
+                ],
+                "specs": {
+                    "ammunition": "44 rounds",
+                    "first-order": "19 rounds",
+                    "reload": "9.7 \u2192 7.5 s",
+                    "vertical_guidance": "-5 / 18\u00b0",
+                    "turret_rotation_speed_horizontal": "10.5 8.9 19.8 14.3 \u2192 15 12.8 28.2 20.4 \u00b0/s",
+                    "turret_rotation_speed_vertical": "3.1 2.5 11 7.1 \u2192 4.5 3.6 15.7 10.1 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "Type 71 APDS-FS",
+                        "details": {
+                            "type": "APFSDS",
+                            "caliber": "100 mm",
+                            "projectile_mass": "3.4 kg",
+                            "muzzle_velocity": "1,505 m/s"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 219,
+                                "30\u00b0": 191,
+                                "60\u00b0": 125
+                            },
+                            "100m": {
+                                "0\u00b0": 213,
+                                "30\u00b0": 185,
+                                "60\u00b0": 121
+                            },
+                            "500m": {
+                                "0\u00b0": 194,
+                                "30\u00b0": 169,
+                                "60\u00b0": 110
+                            },
+                            "1000m": {
+                                "0\u00b0": 170,
+                                "30\u00b0": 148,
+                                "60\u00b0": 97
+                            },
+                            "1500m": {
+                                "0\u00b0": 147,
+                                "30\u00b0": 127,
+                                "60\u00b0": 83
+                            },
+                            "2000m": {
+                                "0\u00b0": 126,
+                                "30\u00b0": 109,
+                                "60\u00b0": 71
+                            }
+                        }
+                    },
+                    {
+                        "name": "Type 71 HE",
+                        "details": {
+                            "type": "HE",
+                            "caliber": "100 mm",
+                            "projectile_mass": "15 kg",
+                            "muzzle_velocity": "900 m/s",
+                            "explosive_type": "TNT",
+                            "explosive_mass": "1.3 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 26,
+                                "30\u00b0": 26,
+                                "60\u00b0": 17
+                            },
+                            "100m": {
+                                "0\u00b0": 26,
+                                "30\u00b0": 25,
+                                "60\u00b0": 17
+                            },
+                            "500m": {
+                                "0\u00b0": 23,
+                                "30\u00b0": 22,
+                                "60\u00b0": 17
+                            },
+                            "1000m": {
+                                "0\u00b0": 19,
+                                "30\u00b0": 19,
+                                "60\u00b0": 17
+                            },
+                            "1500m": {
+                                "0\u00b0": 17,
+                                "30\u00b0": 17,
+                                "60\u00b0": 17
+                            },
+                            "2000m": {
+                                "0\u00b0": 17,
+                                "30\u00b0": 17,
+                                "60\u00b0": 17
+                            }
+                        }
+                    },
+                    {
+                        "name": "Type 1973 HEAT-FS",
+                        "details": {
+                            "type": "HEATFS",
+                            "caliber": "100 mm",
+                            "projectile_mass": "10.1 kg",
+                            "muzzle_velocity": "955 m/s",
+                            "explosive_type": "RDX/TNT",
+                            "explosive_mass": "922 g",
+                            "tnt_equivalent": "1.2 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 390,
+                                "30\u00b0": 338,
+                                "60\u00b0": 195
+                            },
+                            "100m": {
+                                "0\u00b0": 390,
+                                "30\u00b0": 338,
+                                "60\u00b0": 195
+                            },
+                            "500m": {
+                                "0\u00b0": 390,
+                                "30\u00b0": 338,
+                                "60\u00b0": 195
+                            },
+                            "1000m": {
+                                "0\u00b0": 390,
+                                "30\u00b0": 338,
+                                "60\u00b0": 195
+                            },
+                            "1500m": {
+                                "0\u00b0": 390,
+                                "30\u00b0": 338,
+                                "60\u00b0": 195
+                            },
+                            "2000m": {
+                                "0\u00b0": 390,
+                                "30\u00b0": 338,
+                                "60\u00b0": 195
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "12.7 mm Type 54 machine gun",
+                "features": [],
+                "specs": {
+                    "ammunition": "500 rounds",
+                    "belt_capacity": "50 rounds",
+                    "reload": "10.4 \u2192 8 s",
+                    "vertical_guidance": "-4 / 82\u00b0",
+                    "turret_rotation_speed_horizontal": "63 53.6 118.6 85.7 \u2192 90 76.5 169.4 122.4 \u00b0/s",
+                    "turret_rotation_speed_vertical": "63 50.4 220.5 141.1 \u2192 90 72 315 201.6 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "API-T/IAI/API-T/AP-I(c)",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 34,
+                                "30\u00b0": 24,
+                                "60\u00b0": 12
+                            },
+                            "100m": {
+                                "0\u00b0": 32,
+                                "30\u00b0": 23,
+                                "60\u00b0": 12
+                            },
+                            "500m": {
+                                "0\u00b0": 24,
+                                "30\u00b0": 18,
+                                "60\u00b0": 9
+                            },
+                            "1000m": {
+                                "0\u00b0": 17,
+                                "30\u00b0": 13,
+                                "60\u00b0": 7
+                            },
+                            "1500m": {
+                                "0\u00b0": 12,
+                                "30\u00b0": 10,
+                                "60\u00b0": 5
+                            },
+                            "2000m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 7,
+                                "60\u00b0": 4
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "7.62 mm Type 59 machine gun (coaxial)",
+                "features": [],
+                "specs": {
+                    "ammunition": "3,500 rounds",
+                    "belt_capacity": "250 rounds",
+                    "reload": "10.4 \u2192 8 s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP-I/API-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 7,
+                                "60\u00b0": 4
+                            },
+                            "100m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 7,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 5,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 1
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

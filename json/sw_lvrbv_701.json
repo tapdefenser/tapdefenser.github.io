@@ -1,0 +1,185 @@
+{
+    "unit_basic_info": {
+        "name": "sw_lvrbv_701",
+        "nation": "sw",
+        "rank": 6,
+        "battle_rating": {
+            "AB": 9.3,
+            "RB": 9.7,
+            "SB": 9.7
+        },
+        "role": "SPAA",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_sweden.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/sw_lvrbv_701.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [
+                "Smoke grenades"
+            ],
+            "visibility": 93,
+            "crew": 4
+        },
+        "support_systems": {
+            "features": [
+                "Smoke grenades"
+            ]
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 38.0,
+                    "ab": 41.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 14.0,
+                "rb_basic": 12.4,
+                "ab_ref": 24.5,
+                "ab_basic": 19.9
+            },
+            "engine_power": {
+                "rb_ref": 136,
+                "rb_basic": 120,
+                "ab_ref": 238,
+                "ab_basic": 193
+            },
+            "weight": 9.7
+        }
+    },
+    "optics": {
+        "features": [
+            {
+                "name": "Optical Detection"
+            }
+        ],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "7.0x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "Rbs 70 SAM",
+                "features": [],
+                "specs": {
+                    "ammunition": "6 rounds",
+                    "belt_capacity": "1 round",
+                    "reload": "15.6 \u2192 12 s",
+                    "vertical_guidance": "-5 / 35\u00b0",
+                    "horizontal_guidance": "-100 / 100\u00b0",
+                    "turret_rotation_speed_horizontal": "17.5 14.9 30.5 22 \u2192 25 21.3 43.5 31.5 \u00b0/s",
+                    "turret_rotation_speed_vertical": "17.5 14 53.4 34.2 \u2192 25 20 76.2 48.8 \u00b0/s",
+                    "fire_on_the_move": "up to 5 km/h"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "RB 70",
+                        "details": {
+                            "type": "SAM",
+                            "caliber": "105 mm",
+                            "projectile_mass": "16.5 kg",
+                            "guidance": "Beam riding",
+                            "launch_range": "5\u00a0km",
+                            "maximum_speed": "525 m/s",
+                            "missile_guidance_time": "15 s",
+                            "explosive_type": "Composition B",
+                            "explosive_mass": "1.1 kg",
+                            "tnt_equivalent": "1.4 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 19,
+                                "30\u00b0": 19,
+                                "60\u00b0": 19
+                            },
+                            "100m": {
+                                "0\u00b0": 19,
+                                "30\u00b0": 19,
+                                "60\u00b0": 19
+                            },
+                            "500m": {
+                                "0\u00b0": 19,
+                                "30\u00b0": 19,
+                                "60\u00b0": 19
+                            },
+                            "1000m": {
+                                "0\u00b0": 19,
+                                "30\u00b0": 19,
+                                "60\u00b0": 19
+                            },
+                            "1500m": {
+                                "0\u00b0": 19,
+                                "30\u00b0": 19,
+                                "60\u00b0": 19
+                            },
+                            "2000m": {
+                                "0\u00b0": 19,
+                                "30\u00b0": 19,
+                                "60\u00b0": 19
+                            }
+                        }
+                    },
+                    {
+                        "name": "RB 70 Mk.2",
+                        "details": {
+                            "type": "SAM",
+                            "caliber": "105 mm",
+                            "projectile_mass": "16.5 kg",
+                            "guidance": "Beam riding",
+                            "launch_range": "7\u00a0km",
+                            "maximum_speed": "580 m/s",
+                            "missile_guidance_time": "24 s",
+                            "explosive_type": "Composition B",
+                            "explosive_mass": "1.1 kg",
+                            "tnt_equivalent": "1.4 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 200,
+                                "30\u00b0": 173,
+                                "60\u00b0": 100
+                            },
+                            "100m": {
+                                "0\u00b0": 200,
+                                "30\u00b0": 173,
+                                "60\u00b0": 100
+                            },
+                            "500m": {
+                                "0\u00b0": 200,
+                                "30\u00b0": 173,
+                                "60\u00b0": 100
+                            },
+                            "1000m": {
+                                "0\u00b0": 200,
+                                "30\u00b0": 173,
+                                "60\u00b0": 100
+                            },
+                            "1500m": {
+                                "0\u00b0": 200,
+                                "30\u00b0": 173,
+                                "60\u00b0": 100
+                            },
+                            "2000m": {
+                                "0\u00b0": 200,
+                                "30\u00b0": 173,
+                                "60\u00b0": 100
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            }
+        ]
+    }
+}

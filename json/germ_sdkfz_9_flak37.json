@@ -1,0 +1,175 @@
+{
+    "unit_basic_info": {
+        "name": "germ_sdkfz_9_flak37",
+        "nation": "germ",
+        "rank": 3,
+        "battle_rating": {
+            "AB": 4.7,
+            "RB": 4.0,
+            "SB": 4.0
+        },
+        "role": "Tank destroyer",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_germany.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/germ_sdkfz_9_flak37.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 181,
+            "crew": 6
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 40.0,
+                    "ab": 43.0
+                },
+                "backward": {
+                    "rb": 9.0,
+                    "ab": 10.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 9.5,
+                "rb_basic": 8.4,
+                "ab_ref": 16.5,
+                "ab_basic": 13.5
+            },
+            "engine_power": {
+                "rb_ref": 230,
+                "rb_basic": 203,
+                "ab_ref": 402,
+                "ab_basic": 327
+            },
+            "weight": 24.3
+        }
+    },
+    "optics": {
+        "features": [
+            {
+                "name": "Rangefinder"
+            }
+        ],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "4.0x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "88 mm Flak.37 cannon",
+                "features": [],
+                "specs": {
+                    "ammunition": "40 rounds",
+                    "reload": "6.5 \u2192 5 s",
+                    "vertical_guidance": "-3 / 85\u00b0",
+                    "turret_rotation_speed_horizontal": "7.7 6.5 13.4 9.7 \u2192 11 9.4 19.2 13.8 \u00b0/s",
+                    "turret_rotation_speed_vertical": "4.2 3.4 12.8 8.2 \u2192 6 4.8 18.3 11.7 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "Pzgr.",
+                        "details": {
+                            "type": "APCBC",
+                            "caliber": "88 mm",
+                            "projectile_mass": "9.5 kg",
+                            "muzzle_velocity": "810 m/s",
+                            "explosive_type": "Fp.10 and Np.10",
+                            "explosive_mass": "168 g",
+                            "tnt_equivalent": "215 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 153,
+                                "30\u00b0": 119,
+                                "60\u00b0": 56
+                            },
+                            "100m": {
+                                "0\u00b0": 151,
+                                "30\u00b0": 117,
+                                "60\u00b0": 55
+                            },
+                            "500m": {
+                                "0\u00b0": 140,
+                                "30\u00b0": 109,
+                                "60\u00b0": 52
+                            },
+                            "1000m": {
+                                "0\u00b0": 128,
+                                "30\u00b0": 100,
+                                "60\u00b0": 48
+                            },
+                            "1500m": {
+                                "0\u00b0": 116,
+                                "30\u00b0": 92,
+                                "60\u00b0": 45
+                            },
+                            "2000m": {
+                                "0\u00b0": 106,
+                                "30\u00b0": 84,
+                                "60\u00b0": 42
+                            }
+                        }
+                    },
+                    {
+                        "name": "Sprgr. L/4.5",
+                        "details": {
+                            "type": "HE-TF",
+                            "caliber": "88 mm",
+                            "projectile_mass": "9 kg",
+                            "muzzle_velocity": "820 m/s",
+                            "explosive_type": "Fp.02",
+                            "explosive_mass": "698 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 18,
+                                "30\u00b0": 18,
+                                "60\u00b0": 11
+                            },
+                            "100m": {
+                                "0\u00b0": 18,
+                                "30\u00b0": 18,
+                                "60\u00b0": 11
+                            },
+                            "500m": {
+                                "0\u00b0": 17,
+                                "30\u00b0": 16,
+                                "60\u00b0": 11
+                            },
+                            "1000m": {
+                                "0\u00b0": 15,
+                                "30\u00b0": 15,
+                                "60\u00b0": 11
+                            },
+                            "1500m": {
+                                "0\u00b0": 14,
+                                "30\u00b0": 13,
+                                "60\u00b0": 11
+                            },
+                            "2000m": {
+                                "0\u00b0": 12,
+                                "30\u00b0": 12,
+                                "60\u00b0": 11
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            }
+        ]
+    }
+}

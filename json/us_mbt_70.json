@@ -1,0 +1,375 @@
+{
+    "unit_basic_info": {
+        "name": "us_mbt_70",
+        "nation": "us",
+        "rank": 6,
+        "battle_rating": {
+            "AB": 9.0,
+            "RB": 9.3,
+            "SB": 9.3
+        },
+        "role": "Medium tank",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_usa_modern.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/us_mbt_70.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [
+                "Smoke grenades",
+                "Dual control"
+            ],
+            "visibility": 86,
+            "crew": 3
+        },
+        "support_systems": {
+            "features": [
+                "Smoke grenades",
+                "Dual control"
+            ]
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [
+                "Reverse gearbox",
+                "Controlled suspension"
+            ],
+            "max_speed": {
+                "forward": {
+                    "rb": 64.0,
+                    "ab": 72.0
+                },
+                "backward": {
+                    "rb": 64.0,
+                    "ab": 72.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 28.5,
+                "rb_basic": 25.2,
+                "ab_ref": 54.4,
+                "ab_basic": 44.2
+            },
+            "engine_power": {
+                "rb_ref": 1475,
+                "rb_basic": 1305,
+                "ab_ref": 2814,
+                "ab_basic": 2286
+            },
+            "weight": 51.7
+        }
+    },
+    "optics": {
+        "features": [
+            {
+                "name": "Laser rangefinder"
+            }
+        ],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "7.0x\u201314.0x",
+                "commander": "2.0x\u20138.0x",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "152 mm XM150E5 gun/launcher",
+                "features": [
+                    "Two-plane stabilizer",
+                    "Autoloader"
+                ],
+                "specs": {
+                    "ammunition": "48 rounds",
+                    "first-order": "24 rounds",
+                    "vertical_guidance": "-10 / 20\u00b0",
+                    "turret_rotation_speed_horizontal": "25.2 21.4 47.4 34.3 \u2192 36 30.6 67.8 49 \u00b0/s",
+                    "turret_rotation_speed_vertical": "17.5 14 61.2 39.2 \u2192 25 20 87.5 56 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "M409A1",
+                        "details": {
+                            "type": "HEAT",
+                            "caliber": "152 mm",
+                            "projectile_mass": "18.9 kg",
+                            "muzzle_velocity": "754 m/s",
+                            "explosive_type": "Composition B",
+                            "explosive_mass": "2.8 kg",
+                            "tnt_equivalent": "3.7 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 380,
+                                "30\u00b0": 329,
+                                "60\u00b0": 190
+                            },
+                            "100m": {
+                                "0\u00b0": 380,
+                                "30\u00b0": 329,
+                                "60\u00b0": 190
+                            },
+                            "500m": {
+                                "0\u00b0": 380,
+                                "30\u00b0": 329,
+                                "60\u00b0": 190
+                            },
+                            "1000m": {
+                                "0\u00b0": 380,
+                                "30\u00b0": 329,
+                                "60\u00b0": 190
+                            },
+                            "1500m": {
+                                "0\u00b0": 380,
+                                "30\u00b0": 329,
+                                "60\u00b0": 190
+                            },
+                            "2000m": {
+                                "0\u00b0": 380,
+                                "30\u00b0": 329,
+                                "60\u00b0": 190
+                            }
+                        }
+                    },
+                    {
+                        "name": "MGM-51C",
+                        "details": {
+                            "type": "ATGM",
+                            "caliber": "152 mm",
+                            "projectile_mass": "27.8 kg",
+                            "guidance": "Semi-Automatic (SACLOS)",
+                            "launch_range": "3.2\u00a0km",
+                            "maximum_speed": "286 m/s",
+                            "missile_guidance_time": "16 s",
+                            "explosive_type": "Octol",
+                            "explosive_mass": "3.6 kg",
+                            "tnt_equivalent": "5.7 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 431,
+                                "30\u00b0": 373,
+                                "60\u00b0": 215
+                            },
+                            "100m": {
+                                "0\u00b0": 431,
+                                "30\u00b0": 373,
+                                "60\u00b0": 215
+                            },
+                            "500m": {
+                                "0\u00b0": 431,
+                                "30\u00b0": 373,
+                                "60\u00b0": 215
+                            },
+                            "1000m": {
+                                "0\u00b0": 431,
+                                "30\u00b0": 373,
+                                "60\u00b0": 215
+                            },
+                            "1500m": {
+                                "0\u00b0": 431,
+                                "30\u00b0": 373,
+                                "60\u00b0": 215
+                            },
+                            "2000m": {
+                                "0\u00b0": 431,
+                                "30\u00b0": 373,
+                                "60\u00b0": 215
+                            }
+                        }
+                    },
+                    {
+                        "name": "XM410E1",
+                        "details": {
+                            "type": "Smoke",
+                            "caliber": "152 mm",
+                            "projectile_mass": "18.9 kg",
+                            "muzzle_velocity": "754 m/s",
+                            "explosive_type": "Smoke composition",
+                            "explosive_mass": "50 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "100m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            }
+                        }
+                    },
+                    {
+                        "name": "XM578E1",
+                        "details": {
+                            "type": "APFSDS",
+                            "caliber": "152 mm",
+                            "projectile_mass": "3.8 kg",
+                            "muzzle_velocity": "1,509 m/s"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 285,
+                                "30\u00b0": 241,
+                                "60\u00b0": 165
+                            },
+                            "100m": {
+                                "0\u00b0": 281,
+                                "30\u00b0": 237,
+                                "60\u00b0": 163
+                            },
+                            "500m": {
+                                "0\u00b0": 270,
+                                "30\u00b0": 228,
+                                "60\u00b0": 156
+                            },
+                            "1000m": {
+                                "0\u00b0": 254,
+                                "30\u00b0": 215,
+                                "60\u00b0": 147
+                            },
+                            "1500m": {
+                                "0\u00b0": 239,
+                                "30\u00b0": 202,
+                                "60\u00b0": 138
+                            },
+                            "2000m": {
+                                "0\u00b0": 223,
+                                "30\u00b0": 188,
+                                "60\u00b0": 129
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "20 mm Rh202 cannon",
+                "features": [
+                    "Two-plane stabilizer"
+                ],
+                "specs": {
+                    "ammunition": "750 rounds",
+                    "fire_rate": "900 shots/min",
+                    "vertical_guidance": "-15 / 75\u00b0",
+                    "turret_rotation_speed_horizontal": "63 53.6 118.6 85.7 \u2192 90 76.5 169.4 122.4 \u00b0/s",
+                    "turret_rotation_speed_vertical": "42 33.6 147 94.1 \u2192 60 48 210 134.4 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "HEFI-T/HVAP-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 57,
+                                "30\u00b0": 42,
+                                "60\u00b0": 13
+                            },
+                            "100m": {
+                                "0\u00b0": 52,
+                                "30\u00b0": 39,
+                                "60\u00b0": 12
+                            },
+                            "500m": {
+                                "0\u00b0": 37,
+                                "30\u00b0": 27,
+                                "60\u00b0": 8
+                            },
+                            "1000m": {
+                                "0\u00b0": 24,
+                                "30\u00b0": 18,
+                                "60\u00b0": 5
+                            },
+                            "1500m": {
+                                "0\u00b0": 15,
+                                "30\u00b0": 12,
+                                "60\u00b0": 4
+                            },
+                            "2000m": {
+                                "0\u00b0": 10,
+                                "30\u00b0": 8,
+                                "60\u00b0": 2
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "7.62 mm M73 machine gun (coaxial)",
+                "features": [],
+                "specs": {
+                    "ammunition": "6,000 rounds",
+                    "belt_capacity": "250 rounds",
+                    "reload": "10.4 \u2192 8 s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP/T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 2
+                            },
+                            "100m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 2
+                            },
+                            "500m": {
+                                "0\u00b0": 2,
+                                "30\u00b0": 2,
+                                "60\u00b0": 1
+                            },
+                            "1000m": {
+                                "0\u00b0": 1,
+                                "30\u00b0": 1,
+                                "60\u00b0": 0
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

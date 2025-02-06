@@ -1,0 +1,380 @@
+{
+    "unit_basic_info": {
+        "name": "jp_type_74_mod_g_kai",
+        "nation": "jp",
+        "rank": 6,
+        "battle_rating": {
+            "AB": 9.3,
+            "RB": 9.3,
+            "SB": 9.3
+        },
+        "role": "Medium tank",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_japan_modern.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/jp_type_74_mod_g_kai.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [
+                "Smoke grenades",
+                "Dual control"
+            ],
+            "visibility": 95,
+            "crew": 4
+        },
+        "support_systems": {
+            "features": [
+                "Smoke grenades",
+                "Dual control"
+            ]
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [
+                "Controlled suspension"
+            ],
+            "max_speed": {
+                "forward": {
+                    "rb": 53.0,
+                    "ab": 59.0
+                },
+                "backward": {
+                    "rb": 17.0,
+                    "ab": 19.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 22.6,
+                "rb_basic": 20.0,
+                "ab_ref": 43.1,
+                "ab_basic": 35.0
+            },
+            "engine_power": {
+                "rb_ref": 870,
+                "rb_basic": 769,
+                "ab_ref": 1660,
+                "ab_basic": 1348
+            },
+            "weight": 38.5
+        }
+    },
+    "optics": {
+        "features": [
+            {
+                "name": "Laser rangefinder"
+            }
+        ],
+        "specs": {
+            "optical_devices": [
+                {
+                    "name": "Thermal imager",
+                    "resolution": {
+                        "gunner": "500x300",
+                        "commander": "\u2014",
+                        "driver": "\u2014"
+                    }
+                },
+                {
+                    "name": "Night vision device"
+                }
+            ],
+            "optics_zoom": {
+                "gunner": "8.0x",
+                "commander": "1.0x\u20138.0x",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "105 mm L7A3 cannon",
+                "features": [
+                    "Two-plane stabilizer"
+                ],
+                "specs": {
+                    "ammunition": "50 rounds",
+                    "first-order": "16 rounds",
+                    "reload": "8.7 \u2192 6.7 s",
+                    "vertical_guidance": "-6 / 9\u00b0",
+                    "turret_rotation_speed_horizontal": "16.8 14.3 31.6 22.8 \u2192 24 20.4 45.2 32.6 \u00b0/s",
+                    "turret_rotation_speed_vertical": "2.8 2.2 9.8 6.3 \u2192 4 3.2 14 9 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "Type 91",
+                        "details": {
+                            "type": "HEATFS",
+                            "caliber": "105 mm",
+                            "projectile_mass": "9.4 kg",
+                            "muzzle_velocity": "1,150 m/s",
+                            "explosive_type": "Composition B",
+                            "explosive_mass": "1.2 kg",
+                            "tnt_equivalent": "1.6 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 400,
+                                "30\u00b0": 346,
+                                "60\u00b0": 200
+                            },
+                            "100m": {
+                                "0\u00b0": 400,
+                                "30\u00b0": 346,
+                                "60\u00b0": 200
+                            },
+                            "500m": {
+                                "0\u00b0": 400,
+                                "30\u00b0": 346,
+                                "60\u00b0": 200
+                            },
+                            "1000m": {
+                                "0\u00b0": 400,
+                                "30\u00b0": 346,
+                                "60\u00b0": 200
+                            },
+                            "1500m": {
+                                "0\u00b0": 400,
+                                "30\u00b0": 346,
+                                "60\u00b0": 200
+                            },
+                            "2000m": {
+                                "0\u00b0": 400,
+                                "30\u00b0": 346,
+                                "60\u00b0": 200
+                            }
+                        }
+                    },
+                    {
+                        "name": "M735",
+                        "details": {
+                            "type": "APFSDS",
+                            "caliber": "105 mm",
+                            "projectile_mass": "3.7 kg",
+                            "muzzle_velocity": "1,501 m/s"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 292,
+                                "30\u00b0": 247,
+                                "60\u00b0": 169
+                            },
+                            "100m": {
+                                "0\u00b0": 291,
+                                "30\u00b0": 245,
+                                "60\u00b0": 168
+                            },
+                            "500m": {
+                                "0\u00b0": 284,
+                                "30\u00b0": 240,
+                                "60\u00b0": 164
+                            },
+                            "1000m": {
+                                "0\u00b0": 275,
+                                "30\u00b0": 232,
+                                "60\u00b0": 159
+                            },
+                            "1500m": {
+                                "0\u00b0": 266,
+                                "30\u00b0": 224,
+                                "60\u00b0": 154
+                            },
+                            "2000m": {
+                                "0\u00b0": 257,
+                                "30\u00b0": 216,
+                                "60\u00b0": 148
+                            }
+                        }
+                    },
+                    {
+                        "name": "M416",
+                        "details": {
+                            "type": "Smoke",
+                            "caliber": "105 mm",
+                            "projectile_mass": "11.6 kg",
+                            "muzzle_velocity": "732 m/s",
+                            "explosive_type": "Smoke composition",
+                            "explosive_mass": "50 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "100m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            }
+                        }
+                    },
+                    {
+                        "name": "Type 93",
+                        "details": {
+                            "type": "APFSDS",
+                            "caliber": "105 mm",
+                            "projectile_mass": "3.4 kg",
+                            "muzzle_velocity": "1,501 m/s"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 405,
+                                "30\u00b0": 342,
+                                "60\u00b0": 234
+                            },
+                            "100m": {
+                                "0\u00b0": 403,
+                                "30\u00b0": 340,
+                                "60\u00b0": 233
+                            },
+                            "500m": {
+                                "0\u00b0": 396,
+                                "30\u00b0": 334,
+                                "60\u00b0": 229
+                            },
+                            "1000m": {
+                                "0\u00b0": 388,
+                                "30\u00b0": 327,
+                                "60\u00b0": 224
+                            },
+                            "1500m": {
+                                "0\u00b0": 378,
+                                "30\u00b0": 319,
+                                "60\u00b0": 218
+                            },
+                            "2000m": {
+                                "0\u00b0": 370,
+                                "30\u00b0": 312,
+                                "60\u00b0": 214
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "12.7 mm M2HB machine gun",
+                "features": [],
+                "specs": {
+                    "ammunition": "600 rounds",
+                    "belt_capacity": "100 rounds",
+                    "reload": "10.4 \u2192 8 s",
+                    "vertical_guidance": "-10 / 60\u00b0",
+                    "horizontal_guidance": "-180 / 80\u00b0",
+                    "turret_rotation_speed_horizontal": "63 53.6 118.6 85.7 \u2192 90 76.5 169.4 122.4 \u00b0/s",
+                    "turret_rotation_speed_vertical": "63 50.4 220.5 141.1 \u2192 90 72 315 201.6 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "API-T/I/AP/API-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 29,
+                                "30\u00b0": 22,
+                                "60\u00b0": 11
+                            },
+                            "100m": {
+                                "0\u00b0": 27,
+                                "30\u00b0": 20,
+                                "60\u00b0": 10
+                            },
+                            "500m": {
+                                "0\u00b0": 19,
+                                "30\u00b0": 15,
+                                "60\u00b0": 7
+                            },
+                            "1000m": {
+                                "0\u00b0": 12,
+                                "30\u00b0": 10,
+                                "60\u00b0": 5
+                            },
+                            "1500m": {
+                                "0\u00b0": 7,
+                                "30\u00b0": 7,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 4,
+                                "60\u00b0": 2
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "7.62 mm Type 74 machine gun (coaxial)",
+                "features": [],
+                "specs": {
+                    "ammunition": "4,500 rounds",
+                    "belt_capacity": "250 rounds",
+                    "reload": "10.4 \u2192 8 s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP/AP/T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 2
+                            },
+                            "100m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 2
+                            },
+                            "500m": {
+                                "0\u00b0": 2,
+                                "30\u00b0": 2,
+                                "60\u00b0": 1
+                            },
+                            "1000m": {
+                                "0\u00b0": 1,
+                                "30\u00b0": 1,
+                                "60\u00b0": 0
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

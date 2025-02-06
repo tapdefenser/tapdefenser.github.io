@@ -1,0 +1,308 @@
+{
+    "unit_basic_info": {
+        "name": "uk_fv4202",
+        "nation": "uk",
+        "rank": 4,
+        "battle_rating": {
+            "AB": 7.3,
+            "RB": 7.3,
+            "SB": 7.3
+        },
+        "role": "Medium tank",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_britain.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/uk_fv4202.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [
+                "Smoke grenades"
+            ],
+            "visibility": 100,
+            "crew": 4
+        },
+        "support_systems": {
+            "features": [
+                "Smoke grenades"
+            ]
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 32.0,
+                    "ab": 35.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 13.8,
+                "rb_basic": 12.2,
+                "ab_ref": 26.3,
+                "ab_basic": 21.4
+            },
+            "engine_power": {
+                "rb_ref": 510,
+                "rb_basic": 451,
+                "ab_ref": 973,
+                "ab_basic": 790
+            },
+            "weight": 37.0
+        }
+    },
+    "optics": {
+        "features": [
+            {
+                "name": "Rangefinder"
+            }
+        ],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "6.0x",
+                "commander": "10.0x",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "84 mm 20pdr OQF Mk.I cannon",
+                "features": [
+                    "Two-plane stabilizer"
+                ],
+                "specs": {
+                    "ammunition": "50 rounds",
+                    "first-order": "8 rounds",
+                    "reload": "8.1 \u2192 6.3 s",
+                    "vertical_guidance": "-10 / 20\u00b0",
+                    "turret_rotation_speed_horizontal": "12.6 10.7 23.7 17.1 \u2192 18 15.3 33.9 24.5 \u00b0/s",
+                    "turret_rotation_speed_vertical": "2.8 2.2 9.8 6.3 \u2192 4 3.2 14 9 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "Shot Mk.1",
+                        "details": {
+                            "type": "APCBC",
+                            "caliber": "83.4 mm",
+                            "projectile_mass": "9.1 kg",
+                            "muzzle_velocity": "1,021 m/s"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 239,
+                                "30\u00b0": 181,
+                                "60\u00b0": 79
+                            },
+                            "100m": {
+                                "0\u00b0": 236,
+                                "30\u00b0": 179,
+                                "60\u00b0": 78
+                            },
+                            "500m": {
+                                "0\u00b0": 222,
+                                "30\u00b0": 168,
+                                "60\u00b0": 74
+                            },
+                            "1000m": {
+                                "0\u00b0": 206,
+                                "30\u00b0": 157,
+                                "60\u00b0": 70
+                            },
+                            "1500m": {
+                                "0\u00b0": 192,
+                                "30\u00b0": 146,
+                                "60\u00b0": 66
+                            },
+                            "2000m": {
+                                "0\u00b0": 178,
+                                "30\u00b0": 136,
+                                "60\u00b0": 62
+                            }
+                        }
+                    },
+                    {
+                        "name": "Shell Mk.1",
+                        "details": {
+                            "type": "HE",
+                            "caliber": "83.4 mm",
+                            "projectile_mass": "7.8 kg",
+                            "muzzle_velocity": "610 m/s",
+                            "explosive_type": "RDX/TNT",
+                            "explosive_mass": "1.1 kg",
+                            "tnt_equivalent": "1.4 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 19,
+                                "30\u00b0": 19,
+                                "60\u00b0": 19
+                            },
+                            "100m": {
+                                "0\u00b0": 19,
+                                "30\u00b0": 19,
+                                "60\u00b0": 19
+                            },
+                            "500m": {
+                                "0\u00b0": 19,
+                                "30\u00b0": 19,
+                                "60\u00b0": 19
+                            },
+                            "1000m": {
+                                "0\u00b0": 19,
+                                "30\u00b0": 19,
+                                "60\u00b0": 19
+                            },
+                            "1500m": {
+                                "0\u00b0": 19,
+                                "30\u00b0": 19,
+                                "60\u00b0": 19
+                            },
+                            "2000m": {
+                                "0\u00b0": 19,
+                                "30\u00b0": 19,
+                                "60\u00b0": 19
+                            }
+                        }
+                    },
+                    {
+                        "name": "Shot Mk.3",
+                        "details": {
+                            "type": "APDS",
+                            "caliber": "83.4 mm",
+                            "projectile_mass": "3.2 kg",
+                            "muzzle_velocity": "1,433 m/s"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 385,
+                                "30\u00b0": 311,
+                                "60\u00b0": 108
+                            },
+                            "100m": {
+                                "0\u00b0": 381,
+                                "30\u00b0": 308,
+                                "60\u00b0": 107
+                            },
+                            "500m": {
+                                "0\u00b0": 364,
+                                "30\u00b0": 294,
+                                "60\u00b0": 102
+                            },
+                            "1000m": {
+                                "0\u00b0": 344,
+                                "30\u00b0": 277,
+                                "60\u00b0": 96
+                            },
+                            "1500m": {
+                                "0\u00b0": 325,
+                                "30\u00b0": 262,
+                                "60\u00b0": 91
+                            },
+                            "2000m": {
+                                "0\u00b0": 307,
+                                "30\u00b0": 247,
+                                "60\u00b0": 86
+                            }
+                        }
+                    },
+                    {
+                        "name": "20pdr Shell SS Mk.1",
+                        "details": {
+                            "type": "Smoke",
+                            "caliber": "83.4 mm",
+                            "projectile_mass": "10.1 kg",
+                            "muzzle_velocity": "251 m/s",
+                            "explosive_type": "Smoke composition",
+                            "explosive_mass": "50 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "100m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "7.62 mm L3A1 machine gun (coaxial)",
+                "features": [],
+                "specs": {
+                    "ammunition": "7,500 rounds",
+                    "belt_capacity": "250 rounds",
+                    "reload": "10.4 \u2192 8 s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP/T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 2
+                            },
+                            "100m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 2
+                            },
+                            "500m": {
+                                "0\u00b0": 2,
+                                "30\u00b0": 2,
+                                "60\u00b0": 1
+                            },
+                            "1000m": {
+                                "0\u00b0": 1,
+                                "30\u00b0": 1,
+                                "60\u00b0": 0
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

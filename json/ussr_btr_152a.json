@@ -1,0 +1,193 @@
+{
+    "unit_basic_info": {
+        "name": "ussr_btr_152a",
+        "nation": "ussr",
+        "rank": 2,
+        "battle_rating": {
+            "AB": 3.0,
+            "RB": 2.7,
+            "SB": 2.7
+        },
+        "role": "SPAA",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_ussr.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/ussr_btr_152a.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 100,
+            "crew": 5
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 83.0,
+                    "ab": 90.0
+                },
+                "backward": {
+                    "rb": 11.0,
+                    "ab": 12.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 12.8,
+                "rb_basic": 11.3,
+                "ab_ref": 22.3,
+                "ab_basic": 18.1
+            },
+            "engine_power": {
+                "rb_ref": 110,
+                "rb_basic": 97,
+                "ab_ref": 192,
+                "ab_basic": 156
+            },
+            "weight": 8.6
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "1.9x\u20133.5x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "2 x14.5 mm KPVT machine gun",
+                "features": [],
+                "specs": {
+                    "ammunition": "1,200 rounds",
+                    "belt_capacity": "150 rounds",
+                    "reload": "10.4 \u2192 8 s",
+                    "vertical_guidance": "-5 / 89\u00b0",
+                    "turret_rotation_speed_horizontal": "32.2 27.4 56.1 40.5 \u2192 46 39.1 80.1 57.9 \u00b0/s",
+                    "turret_rotation_speed_vertical": "25.9 20.7 79 50.6 \u2192 37 29.6 112.8 72.2 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Universal",
+                        "type": "AP-I/API-T/IAI",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "100m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    },
+                    {
+                        "name": "API-T",
+                        "type": "API-T/AP-I(c)/API-T/IAI",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "100m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    },
+                    {
+                        "name": "IAI",
+                        "type": "IAI/API-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 38,
+                                "30\u00b0": 28,
+                                "60\u00b0": 14
+                            },
+                            "100m": {
+                                "0\u00b0": 35,
+                                "30\u00b0": 26,
+                                "60\u00b0": 13
+                            },
+                            "500m": {
+                                "0\u00b0": 25,
+                                "30\u00b0": 20,
+                                "60\u00b0": 10
+                            },
+                            "1000m": {
+                                "0\u00b0": 17,
+                                "30\u00b0": 14,
+                                "60\u00b0": 7
+                            },
+                            "1500m": {
+                                "0\u00b0": 11,
+                                "30\u00b0": 10,
+                                "60\u00b0": 5
+                            },
+                            "2000m": {
+                                "0\u00b0": 7,
+                                "30\u00b0": 7,
+                                "60\u00b0": 3
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

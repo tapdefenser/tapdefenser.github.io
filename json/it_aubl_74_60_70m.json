@@ -1,0 +1,278 @@
+{
+    "unit_basic_info": {
+        "name": "it_aubl_74_60_70m",
+        "nation": "it",
+        "rank": 5,
+        "battle_rating": {
+            "AB": 8.0,
+            "RB": 8.0,
+            "SB": 8.0
+        },
+        "role": "Light tank",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_italy.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/it_aubl_74_60_70m.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [
+                "Smoke grenades"
+            ],
+            "visibility": 69,
+            "crew": 3
+        },
+        "support_systems": {
+            "features": [
+                "Smoke grenades"
+            ]
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [
+                "Amphibious"
+            ],
+            "max_speed": {
+                "forward": {
+                    "rb": 100.0,
+                    "ab": 111.0
+                },
+                "backward": {
+                    "rb": 19.0,
+                    "ab": 22.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 18.4,
+                "rb_basic": 16.3,
+                "ab_ref": 35.1,
+                "ab_basic": 28.5
+            },
+            "engine_power": {
+                "rb_ref": 160,
+                "rb_basic": 142,
+                "ab_ref": 305,
+                "ab_basic": 248
+            },
+            "weight": 8.7
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "8.0x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "60 mm OTO HVG cannon",
+                "features": [
+                    "Two-plane stabilizer"
+                ],
+                "specs": {
+                    "ammunition": "38 rounds",
+                    "first-order": "13 rounds",
+                    "reload": "7.8 \u2192 6 s",
+                    "vertical_guidance": "-6 / 27\u00b0",
+                    "turret_rotation_speed_horizontal": "21 17.9 39.5 28.6 \u2192 30 25.5 56.5 40.8 \u00b0/s",
+                    "turret_rotation_speed_vertical": "7 5.6 24.5 15.7 \u2192 10 8 35 22.4 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "M300",
+                        "details": {
+                            "type": "APFSDS",
+                            "caliber": "60 mm",
+                            "projectile_mass": "870 g",
+                            "muzzle_velocity": "1,620 m/s"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 249,
+                                "30\u00b0": 210,
+                                "60\u00b0": 144
+                            },
+                            "100m": {
+                                "0\u00b0": 246,
+                                "30\u00b0": 208,
+                                "60\u00b0": 142
+                            },
+                            "500m": {
+                                "0\u00b0": 240,
+                                "30\u00b0": 203,
+                                "60\u00b0": 139
+                            },
+                            "1000m": {
+                                "0\u00b0": 231,
+                                "30\u00b0": 195,
+                                "60\u00b0": 134
+                            },
+                            "1500m": {
+                                "0\u00b0": 222,
+                                "30\u00b0": 187,
+                                "60\u00b0": 128
+                            },
+                            "2000m": {
+                                "0\u00b0": 213,
+                                "30\u00b0": 180,
+                                "60\u00b0": 123
+                            }
+                        }
+                    },
+                    {
+                        "name": "OTO HE",
+                        "details": {
+                            "type": "HE",
+                            "caliber": "60 mm",
+                            "projectile_mass": "3.1 kg",
+                            "muzzle_velocity": "1,000 m/s",
+                            "explosive_type": "Hexal",
+                            "explosive_mass": "450 g",
+                            "tnt_equivalent": "765 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 17,
+                                "30\u00b0": 17,
+                                "60\u00b0": 11
+                            },
+                            "100m": {
+                                "0\u00b0": 17,
+                                "30\u00b0": 16,
+                                "60\u00b0": 11
+                            },
+                            "500m": {
+                                "0\u00b0": 15,
+                                "30\u00b0": 15,
+                                "60\u00b0": 11
+                            },
+                            "1000m": {
+                                "0\u00b0": 13,
+                                "30\u00b0": 13,
+                                "60\u00b0": 11
+                            },
+                            "1500m": {
+                                "0\u00b0": 11,
+                                "30\u00b0": 11,
+                                "60\u00b0": 11
+                            },
+                            "2000m": {
+                                "0\u00b0": 11,
+                                "30\u00b0": 11,
+                                "60\u00b0": 11
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "7.62 mm FN MAG 60-40 machine gun",
+                "features": [],
+                "specs": {
+                    "ammunition": "1,600 rounds",
+                    "belt_capacity": "200 rounds",
+                    "reload": "10.4 \u2192 8 s",
+                    "vertical_guidance": "-8 / 20\u00b0",
+                    "horizontal_guidance": "-120 / 120\u00b0",
+                    "turret_rotation_speed_horizontal": "63 53.6 118.6 85.7 \u2192 90 76.5 169.4 122.4 \u00b0/s",
+                    "turret_rotation_speed_vertical": "63 50.4 220.5 141.1 \u2192 90 72 315 201.6 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP/AP/T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 2
+                            },
+                            "100m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 2
+                            },
+                            "500m": {
+                                "0\u00b0": 2,
+                                "30\u00b0": 2,
+                                "60\u00b0": 1
+                            },
+                            "1000m": {
+                                "0\u00b0": 1,
+                                "30\u00b0": 1,
+                                "60\u00b0": 0
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "7.62 mm Beretta MG42/59 machine gun (coaxial)",
+                "features": [],
+                "specs": {
+                    "ammunition": "800 rounds",
+                    "belt_capacity": "200 rounds",
+                    "reload": "10.4 \u2192 8 s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP/T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 2
+                            },
+                            "100m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 2
+                            },
+                            "500m": {
+                                "0\u00b0": 2,
+                                "30\u00b0": 2,
+                                "60\u00b0": 1
+                            },
+                            "1000m": {
+                                "0\u00b0": 1,
+                                "30\u00b0": 1,
+                                "60\u00b0": 0
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

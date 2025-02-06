@@ -1,0 +1,359 @@
+{
+    "unit_basic_info": {
+        "name": "uk_ratel_20",
+        "nation": "uk",
+        "rank": 4,
+        "battle_rating": {
+            "AB": 6.7,
+            "RB": 6.7,
+            "SB": 6.7
+        },
+        "role": "Light tank",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_south_africa.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/uk_ratel_20.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [
+                "Smoke grenades"
+            ],
+            "visibility": 84,
+            "crew": 3
+        },
+        "support_systems": {
+            "features": [
+                "Smoke grenades"
+            ]
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 105.0,
+                    "ab": 117.0
+                },
+                "backward": {
+                    "rb": 18.0,
+                    "ab": 20.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 14.9,
+                "rb_basic": 13.2,
+                "ab_ref": 28.5,
+                "ab_basic": 23.1
+            },
+            "engine_power": {
+                "rb_ref": 282,
+                "rb_basic": 249,
+                "ab_ref": 538,
+                "ab_basic": 437
+            },
+            "weight": 18.9
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "5.9x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "MILAN ATGM",
+                "features": [],
+                "specs": {
+                    "ammunition": "7 rounds",
+                    "vertical_guidance": "-5 / 15\u00b0",
+                    "horizontal_guidance": "-30 / 30\u00b0",
+                    "turret_rotation_speed_horizontal": "16.8 14.3 31.6 22.8 \u2192 24 20.4 45.2 32.6 \u00b0/s",
+                    "turret_rotation_speed_vertical": "10.5 8.4 36.7 23.5 \u2192 15 12 52.5 33.6 \u00b0/s",
+                    "fire_on_the_move": "up to 5 km/h"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "MILAN",
+                        "details": {
+                            "type": "ATGM",
+                            "caliber": "103 mm",
+                            "projectile_mass": "6.7 kg",
+                            "guidance": "Semi-Automatic (SACLOS)",
+                            "launch_range": "2\u00a0km",
+                            "maximum_speed": "200 m/s",
+                            "missile_guidance_time": "13 s",
+                            "explosive_type": "Composition B",
+                            "explosive_mass": "1.4 kg",
+                            "tnt_equivalent": "1.8 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 530,
+                                "30\u00b0": 459,
+                                "60\u00b0": 265
+                            },
+                            "100m": {
+                                "0\u00b0": 530,
+                                "30\u00b0": 459,
+                                "60\u00b0": 265
+                            },
+                            "500m": {
+                                "0\u00b0": 530,
+                                "30\u00b0": 459,
+                                "60\u00b0": 265
+                            },
+                            "1000m": {
+                                "0\u00b0": 530,
+                                "30\u00b0": 459,
+                                "60\u00b0": 265
+                            },
+                            "1500m": {
+                                "0\u00b0": 530,
+                                "30\u00b0": 459,
+                                "60\u00b0": 265
+                            },
+                            "2000m": {
+                                "0\u00b0": 530,
+                                "30\u00b0": 459,
+                                "60\u00b0": 265
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "20 mm GI-2 cannon",
+                "features": [],
+                "specs": {
+                    "ammunition": "1,200 rounds",
+                    "belt_capacity": "150 rounds",
+                    "reload": "10.4 \u2192 8 s",
+                    "vertical_guidance": "-8 / 38\u00b0",
+                    "turret_rotation_speed_horizontal": "16.7 14.2 31.4 22.7 \u2192 23.8 20.2 44.8 32.4 \u00b0/s",
+                    "turret_rotation_speed_vertical": "7 5.6 24.5 15.7 \u2192 10 8 35 22.4 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "HVAP-T/HEI-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 5,
+                                "60\u00b0": 3
+                            },
+                            "100m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 5,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            }
+                        }
+                    },
+                    {
+                        "name": "HE, 20 mm",
+                        "type": "HEI-T/HEI-T/HVAP-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 57,
+                                "30\u00b0": 42,
+                                "60\u00b0": 13
+                            },
+                            "100m": {
+                                "0\u00b0": 52,
+                                "30\u00b0": 39,
+                                "60\u00b0": 12
+                            },
+                            "500m": {
+                                "0\u00b0": 37,
+                                "30\u00b0": 27,
+                                "60\u00b0": 8
+                            },
+                            "1000m": {
+                                "0\u00b0": 24,
+                                "30\u00b0": 18,
+                                "60\u00b0": 5
+                            },
+                            "1500m": {
+                                "0\u00b0": 15,
+                                "30\u00b0": 12,
+                                "60\u00b0": 4
+                            },
+                            "2000m": {
+                                "0\u00b0": 10,
+                                "30\u00b0": 8,
+                                "60\u00b0": 2
+                            }
+                        }
+                    },
+                    {
+                        "name": "AP, 20 mm",
+                        "type": "HVAP-T/HVAP-T/HEI-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 5,
+                                "60\u00b0": 3
+                            },
+                            "100m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 5,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "7.62 mm Browning MG4 machine gun (coaxial)",
+                "features": [],
+                "specs": {
+                    "ammunition": "3,000 rounds",
+                    "belt_capacity": "250 rounds",
+                    "reload": "10.4 \u2192 8 s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP/T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 2
+                            },
+                            "100m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 2
+                            },
+                            "500m": {
+                                "0\u00b0": 2,
+                                "30\u00b0": 2,
+                                "60\u00b0": 1
+                            },
+                            "1000m": {
+                                "0\u00b0": 1,
+                                "30\u00b0": 1,
+                                "60\u00b0": 0
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "7.62 mm Browning MG4 machine gun",
+                "features": [],
+                "specs": {
+                    "ammunition": "3,000 rounds",
+                    "belt_capacity": "250 rounds",
+                    "reload": "10.4 \u2192 8 s",
+                    "vertical_guidance": "-10 / 3\u00b0",
+                    "horizontal_guidance": "-120 / 120\u00b0",
+                    "turret_rotation_speed_horizontal": "63 53.6 118.6 85.7 \u2192 90 76.5 169.4 122.4 \u00b0/s",
+                    "turret_rotation_speed_vertical": "63 50.4 220.5 141.1 \u2192 90 72 315 201.6 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP/T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 2
+                            },
+                            "100m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 2
+                            },
+                            "500m": {
+                                "0\u00b0": 2,
+                                "30\u00b0": 2,
+                                "60\u00b0": 1
+                            },
+                            "1000m": {
+                                "0\u00b0": 1,
+                                "30\u00b0": 1,
+                                "60\u00b0": 0
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

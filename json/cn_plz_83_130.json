@@ -1,0 +1,306 @@
+{
+    "unit_basic_info": {
+        "name": "cn_plz_83_130",
+        "nation": "cn",
+        "rank": 5,
+        "battle_rating": {
+            "AB": 7.3,
+            "RB": 7.3,
+            "SB": 7.3
+        },
+        "role": "Tank destroyer",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_china.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/cn_plz_83_130.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 93,
+            "crew": 5
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 56.0,
+                    "ab": 61.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 17.3,
+                "rb_basic": 15.3,
+                "ab_ref": 30.3,
+                "ab_basic": 24.6
+            },
+            "engine_power": {
+                "rb_ref": 520,
+                "rb_basic": 460,
+                "ab_ref": 909,
+                "ab_basic": 739
+            },
+            "weight": 30.0
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "3.7x\u20135.5x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "130 mm PL59A Gai \u0441annon",
+                "features": [],
+                "specs": {
+                    "ammunition": "38 rounds",
+                    "first-order": "26 rounds",
+                    "reload": "15.5 \u2192 11.9 s",
+                    "vertical_guidance": "-5 / 65\u00b0",
+                    "turret_rotation_speed_horizontal": "7 6 12.2 8.8 \u2192 10 8.5 17.4 12.6 \u00b0/s",
+                    "turret_rotation_speed_vertical": "7 5.6 21.3 13.7 \u2192 10 8 30.5 19.5 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "BR-482B",
+                        "details": {
+                            "type": "APCBC",
+                            "caliber": "130 mm",
+                            "projectile_mass": "33.4 kg",
+                            "muzzle_velocity": "930 m/s",
+                            "explosive_type": "A-IX-2",
+                            "explosive_mass": "115 g",
+                            "tnt_equivalent": "177 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 328,
+                                "30\u00b0": 249,
+                                "60\u00b0": 111
+                            },
+                            "100m": {
+                                "0\u00b0": 324,
+                                "30\u00b0": 246,
+                                "60\u00b0": 110
+                            },
+                            "500m": {
+                                "0\u00b0": 308,
+                                "30\u00b0": 235,
+                                "60\u00b0": 105
+                            },
+                            "1000m": {
+                                "0\u00b0": 290,
+                                "30\u00b0": 221,
+                                "60\u00b0": 100
+                            },
+                            "1500m": {
+                                "0\u00b0": 272,
+                                "30\u00b0": 209,
+                                "60\u00b0": 95
+                            },
+                            "2000m": {
+                                "0\u00b0": 256,
+                                "30\u00b0": 197,
+                                "60\u00b0": 91
+                            }
+                        }
+                    },
+                    {
+                        "name": "DJB2/PL59A-130",
+                        "details": {
+                            "type": "HE",
+                            "caliber": "130 mm",
+                            "projectile_mass": "33.4 kg",
+                            "muzzle_velocity": "930 m/s",
+                            "explosive_type": "TNT",
+                            "explosive_mass": "3.7 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 37,
+                                "30\u00b0": 37,
+                                "60\u00b0": 37
+                            },
+                            "100m": {
+                                "0\u00b0": 37,
+                                "30\u00b0": 37,
+                                "60\u00b0": 37
+                            },
+                            "500m": {
+                                "0\u00b0": 37,
+                                "30\u00b0": 37,
+                                "60\u00b0": 37
+                            },
+                            "1000m": {
+                                "0\u00b0": 37,
+                                "30\u00b0": 37,
+                                "60\u00b0": 37
+                            },
+                            "1500m": {
+                                "0\u00b0": 37,
+                                "30\u00b0": 37,
+                                "60\u00b0": 37
+                            },
+                            "2000m": {
+                                "0\u00b0": 37,
+                                "30\u00b0": 37,
+                                "60\u00b0": 37
+                            }
+                        }
+                    },
+                    {
+                        "name": "DJB3/PL59A-130",
+                        "details": {
+                            "type": "HE-VT",
+                            "caliber": "130 mm",
+                            "projectile_mass": "33.4 kg",
+                            "muzzle_velocity": "930 m/s",
+                            "explosive_type": "TNT",
+                            "explosive_mass": "3.7 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 37,
+                                "30\u00b0": 37,
+                                "60\u00b0": 37
+                            },
+                            "100m": {
+                                "0\u00b0": 37,
+                                "30\u00b0": 37,
+                                "60\u00b0": 37
+                            },
+                            "500m": {
+                                "0\u00b0": 37,
+                                "30\u00b0": 37,
+                                "60\u00b0": 37
+                            },
+                            "1000m": {
+                                "0\u00b0": 37,
+                                "30\u00b0": 37,
+                                "60\u00b0": 37
+                            },
+                            "1500m": {
+                                "0\u00b0": 37,
+                                "30\u00b0": 37,
+                                "60\u00b0": 37
+                            },
+                            "2000m": {
+                                "0\u00b0": 37,
+                                "30\u00b0": 37,
+                                "60\u00b0": 37
+                            }
+                        }
+                    },
+                    {
+                        "name": "Type 59-1 Smoke",
+                        "details": {
+                            "type": "Smoke",
+                            "caliber": "130 mm",
+                            "projectile_mass": "33.8 kg",
+                            "muzzle_velocity": "935 m/s",
+                            "explosive_type": "Smoke composition",
+                            "explosive_mass": "272 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 6,
+                                "60\u00b0": 6
+                            },
+                            "100m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 6,
+                                "60\u00b0": 6
+                            },
+                            "500m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 6,
+                                "60\u00b0": 6
+                            },
+                            "1000m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 6,
+                                "60\u00b0": 6
+                            },
+                            "1500m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 6,
+                                "60\u00b0": 6
+                            },
+                            "2000m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 6,
+                                "60\u00b0": 6
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "12.7 mm Type 54 machine gun",
+                "features": [],
+                "specs": {
+                    "ammunition": "600 rounds",
+                    "belt_capacity": "50 rounds",
+                    "reload": "10.4 \u2192 8 s",
+                    "vertical_guidance": "-6 / 85\u00b0",
+                    "horizontal_guidance": "-161 / 156\u00b0",
+                    "turret_rotation_speed_horizontal": "63 53.6 109.7 79.3 \u2192 90 76.5 156.7 113.2 \u00b0/s",
+                    "turret_rotation_speed_vertical": "63 50.4 192.1 123 \u2192 90 72 274.5 175.7 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "API-T/IAI/API-T/AP-I(c)",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 34,
+                                "30\u00b0": 24,
+                                "60\u00b0": 12
+                            },
+                            "100m": {
+                                "0\u00b0": 32,
+                                "30\u00b0": 23,
+                                "60\u00b0": 12
+                            },
+                            "500m": {
+                                "0\u00b0": 24,
+                                "30\u00b0": 18,
+                                "60\u00b0": 9
+                            },
+                            "1000m": {
+                                "0\u00b0": 17,
+                                "30\u00b0": 13,
+                                "60\u00b0": 7
+                            },
+                            "1500m": {
+                                "0\u00b0": 12,
+                                "30\u00b0": 10,
+                                "60\u00b0": 5
+                            },
+                            "2000m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 7,
+                                "60\u00b0": 4
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

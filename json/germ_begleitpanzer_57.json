@@ -1,0 +1,444 @@
+{
+    "unit_basic_info": {
+        "name": "germ_begleitpanzer_57",
+        "nation": "germ",
+        "rank": 6,
+        "battle_rating": {
+            "AB": 9.7,
+            "RB": 9.3,
+            "SB": 9.3
+        },
+        "role": "Light tank",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_germany_modern.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/germ_begleitpanzer_57.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [
+                "Dual control"
+            ],
+            "visibility": 88,
+            "crew": 3
+        },
+        "support_systems": {
+            "features": [
+                "Dual control"
+            ]
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [
+                "Reverse gearbox"
+            ],
+            "max_speed": {
+                "forward": {
+                    "rb": 75.0,
+                    "ab": 83.0
+                },
+                "backward": {
+                    "rb": 75.0,
+                    "ab": 83.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 21.1,
+                "rb_basic": 18.6,
+                "ab_ref": 40.2,
+                "ab_basic": 32.6
+            },
+            "engine_power": {
+                "rb_ref": 600,
+                "rb_basic": 531,
+                "ab_ref": 1145,
+                "ab_basic": 930
+            },
+            "weight": 28.5
+        }
+    },
+    "optics": {
+        "features": [
+            {
+                "name": "Laser rangefinder"
+            },
+            {
+                "name": "Scout UAV"
+            }
+        ],
+        "specs": {
+            "optical_devices": [
+                {
+                    "name": "Thermal imager",
+                    "resolution": {
+                        "gunner": "500x300",
+                        "commander": "\u2014",
+                        "driver": "\u2014"
+                    }
+                },
+                {
+                    "name": "Night vision device"
+                }
+            ],
+            "optics_zoom": {
+                "gunner": "4.0x\u201312.0x",
+                "commander": "4.0x\u201312.0x",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "BGM-71 TOW ATGM",
+                "features": [
+                    "Autoloader"
+                ],
+                "specs": {
+                    "ammunition": "6 rounds",
+                    "first-order": "5 rounds",
+                    "belt_capacity": "1 round",
+                    "vertical_guidance": "-6 / 20\u00b0",
+                    "turret_rotation_speed_vertical": "17.5 14 61.2 39.2 \u2192 25 20 87.5 56 \u00b0/s",
+                    "fire_on_the_move": "up to 5 km/h"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "TOW",
+                        "details": {
+                            "type": "ATGM",
+                            "caliber": "127 mm",
+                            "projectile_mass": "18.8 kg",
+                            "guidance": "Semi-Automatic (SACLOS)",
+                            "launch_range": "3\u00a0km",
+                            "maximum_speed": "299 m/s",
+                            "missile_guidance_time": "17 s",
+                            "explosive_type": "Octol",
+                            "explosive_mass": "2.4 kg",
+                            "tnt_equivalent": "3.8 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 430,
+                                "30\u00b0": 372,
+                                "60\u00b0": 215
+                            },
+                            "100m": {
+                                "0\u00b0": 430,
+                                "30\u00b0": 372,
+                                "60\u00b0": 215
+                            },
+                            "500m": {
+                                "0\u00b0": 430,
+                                "30\u00b0": 372,
+                                "60\u00b0": 215
+                            },
+                            "1000m": {
+                                "0\u00b0": 430,
+                                "30\u00b0": 372,
+                                "60\u00b0": 215
+                            },
+                            "1500m": {
+                                "0\u00b0": 430,
+                                "30\u00b0": 372,
+                                "60\u00b0": 215
+                            },
+                            "2000m": {
+                                "0\u00b0": 430,
+                                "30\u00b0": 372,
+                                "60\u00b0": 215
+                            }
+                        }
+                    },
+                    {
+                        "name": "I-TOW",
+                        "details": {
+                            "type": "ATGM",
+                            "caliber": "127 mm",
+                            "projectile_mass": "19 kg",
+                            "guidance": "Semi-Automatic (SACLOS)",
+                            "launch_range": "3.75\u00a0km",
+                            "maximum_speed": "296 m/s",
+                            "missile_guidance_time": "25 s",
+                            "explosive_type": "LX-14",
+                            "explosive_mass": "2 kg",
+                            "tnt_equivalent": "2.9 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 630,
+                                "30\u00b0": 546,
+                                "60\u00b0": 315
+                            },
+                            "100m": {
+                                "0\u00b0": 630,
+                                "30\u00b0": 546,
+                                "60\u00b0": 315
+                            },
+                            "500m": {
+                                "0\u00b0": 630,
+                                "30\u00b0": 546,
+                                "60\u00b0": 315
+                            },
+                            "1000m": {
+                                "0\u00b0": 630,
+                                "30\u00b0": 546,
+                                "60\u00b0": 315
+                            },
+                            "1500m": {
+                                "0\u00b0": 630,
+                                "30\u00b0": 546,
+                                "60\u00b0": 315
+                            },
+                            "2000m": {
+                                "0\u00b0": 630,
+                                "30\u00b0": 546,
+                                "60\u00b0": 315
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "57 mm Bofors L/70 Mk.1 cannon",
+                "features": [
+                    "Two-plane stabilizer",
+                    "Autoloader"
+                ],
+                "specs": {
+                    "ammunition": "144 rounds",
+                    "first-order": "48 rounds",
+                    "vertical_guidance": "-8 / 45\u00b0",
+                    "turret_rotation_speed_horizontal": "38.5 32.7 72.5 52.4 \u2192 55 46.8 103.5 74.8 \u00b0/s",
+                    "turret_rotation_speed_vertical": "28 22.4 98 62.7 \u2192 40 32 140 89.6 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "57\u0445438 AP-T",
+                        "details": {
+                            "type": "APCBC",
+                            "caliber": "57 mm",
+                            "projectile_mass": "2.7 kg",
+                            "muzzle_velocity": "950 m/s"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 137,
+                                "30\u00b0": 104,
+                                "60\u00b0": 47
+                            },
+                            "100m": {
+                                "0\u00b0": 133,
+                                "30\u00b0": 101,
+                                "60\u00b0": 46
+                            },
+                            "500m": {
+                                "0\u00b0": 119,
+                                "30\u00b0": 91,
+                                "60\u00b0": 42
+                            },
+                            "1000m": {
+                                "0\u00b0": 103,
+                                "30\u00b0": 79,
+                                "60\u00b0": 37
+                            },
+                            "1500m": {
+                                "0\u00b0": 89,
+                                "30\u00b0": 69,
+                                "60\u00b0": 33
+                            },
+                            "2000m": {
+                                "0\u00b0": 77,
+                                "30\u00b0": 61,
+                                "60\u00b0": 29
+                            }
+                        }
+                    },
+                    {
+                        "name": "57\u0445438 SAP-T",
+                        "details": {
+                            "type": "SAPHEI",
+                            "caliber": "57 mm",
+                            "projectile_mass": "2.7 kg",
+                            "muzzle_velocity": "950 m/s",
+                            "explosive_type": "Hexal",
+                            "explosive_mass": "300 g",
+                            "tnt_equivalent": "510 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 47,
+                                "30\u00b0": 41,
+                                "60\u00b0": 20
+                            },
+                            "100m": {
+                                "0\u00b0": 46,
+                                "30\u00b0": 40,
+                                "60\u00b0": 20
+                            },
+                            "500m": {
+                                "0\u00b0": 41,
+                                "30\u00b0": 37,
+                                "60\u00b0": 17
+                            },
+                            "1000m": {
+                                "0\u00b0": 35,
+                                "30\u00b0": 32,
+                                "60\u00b0": 15
+                            },
+                            "1500m": {
+                                "0\u00b0": 31,
+                                "30\u00b0": 29,
+                                "60\u00b0": 13
+                            },
+                            "2000m": {
+                                "0\u00b0": 26,
+                                "30\u00b0": 26,
+                                "60\u00b0": 11
+                            }
+                        }
+                    },
+                    {
+                        "name": "57\u0445438 HE-T",
+                        "details": {
+                            "type": "HE",
+                            "caliber": "57 mm",
+                            "projectile_mass": "2.4 kg",
+                            "muzzle_velocity": "1,020 m/s",
+                            "explosive_type": "Hexal",
+                            "explosive_mass": "450 g",
+                            "tnt_equivalent": "765 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 16,
+                                "30\u00b0": 15,
+                                "60\u00b0": 11
+                            },
+                            "100m": {
+                                "0\u00b0": 15,
+                                "30\u00b0": 15,
+                                "60\u00b0": 11
+                            },
+                            "500m": {
+                                "0\u00b0": 13,
+                                "30\u00b0": 13,
+                                "60\u00b0": 11
+                            },
+                            "1000m": {
+                                "0\u00b0": 11,
+                                "30\u00b0": 11,
+                                "60\u00b0": 11
+                            },
+                            "1500m": {
+                                "0\u00b0": 11,
+                                "30\u00b0": 11,
+                                "60\u00b0": 11
+                            },
+                            "2000m": {
+                                "0\u00b0": 11,
+                                "30\u00b0": 11,
+                                "60\u00b0": 11
+                            }
+                        }
+                    },
+                    {
+                        "name": "57\u0445438 HE-VT",
+                        "details": {
+                            "type": "HE-VT",
+                            "caliber": "57 mm",
+                            "projectile_mass": "2.4 kg",
+                            "muzzle_velocity": "1,020 m/s",
+                            "explosive_type": "Hexal",
+                            "explosive_mass": "450 g",
+                            "tnt_equivalent": "765 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 16,
+                                "30\u00b0": 15,
+                                "60\u00b0": 11
+                            },
+                            "100m": {
+                                "0\u00b0": 15,
+                                "30\u00b0": 15,
+                                "60\u00b0": 11
+                            },
+                            "500m": {
+                                "0\u00b0": 13,
+                                "30\u00b0": 13,
+                                "60\u00b0": 11
+                            },
+                            "1000m": {
+                                "0\u00b0": 11,
+                                "30\u00b0": 11,
+                                "60\u00b0": 11
+                            },
+                            "1500m": {
+                                "0\u00b0": 11,
+                                "30\u00b0": 11,
+                                "60\u00b0": 11
+                            },
+                            "2000m": {
+                                "0\u00b0": 11,
+                                "30\u00b0": 11,
+                                "60\u00b0": 11
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "7.62 mm MG3A1 machine gun (coaxial)",
+                "features": [],
+                "specs": {
+                    "ammunition": "5,000 rounds",
+                    "belt_capacity": "200 rounds",
+                    "reload": "10.4 \u2192 8 s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP/T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 2
+                            },
+                            "100m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 2
+                            },
+                            "500m": {
+                                "0\u00b0": 2,
+                                "30\u00b0": 2,
+                                "60\u00b0": 1
+                            },
+                            "1000m": {
+                                "0\u00b0": 1,
+                                "30\u00b0": 1,
+                                "60\u00b0": 0
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

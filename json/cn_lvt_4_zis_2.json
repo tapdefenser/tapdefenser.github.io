@@ -1,0 +1,262 @@
+{
+    "unit_basic_info": {
+        "name": "cn_lvt_4_zis_2",
+        "nation": "cn",
+        "rank": 2,
+        "battle_rating": {
+            "AB": 2.3,
+            "RB": 2.3,
+            "SB": 2.3
+        },
+        "role": "Tank destroyer",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_china.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/cn_lvt_4_zis_2.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 166,
+            "crew": 5
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [
+                "Amphibious"
+            ],
+            "max_speed": {
+                "forward": {
+                    "rb": 40.0,
+                    "ab": 43.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 13.7,
+                "rb_basic": 12.1,
+                "ab_ref": 23.9,
+                "ab_basic": 19.4
+            },
+            "engine_power": {
+                "rb_ref": 250,
+                "rb_basic": 221,
+                "ab_ref": 437,
+                "ab_basic": 355
+            },
+            "weight": 18.3
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "1.9x\u20133.5x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "57 mm ZIS-2 cannon",
+                "features": [],
+                "specs": {
+                    "ammunition": "76 rounds",
+                    "reload": "8.7 \u2192 6.7 s",
+                    "vertical_guidance": "-5 / 15\u00b0",
+                    "horizontal_guidance": "-25 / 25\u00b0",
+                    "turret_rotation_speed_horizontal": "8.4 7.1 14.6 10.6 \u2192 12 10.2 20.9 15.1 \u00b0/s",
+                    "turret_rotation_speed_vertical": "2.8 2.2 8.5 5.5 \u2192 4 3.2 12.2 7.8 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "BR-271",
+                        "details": {
+                            "type": "APHEBC",
+                            "caliber": "57 mm",
+                            "projectile_mass": "3.1 kg",
+                            "muzzle_velocity": "990 m/s",
+                            "explosive_type": "A-IX-2",
+                            "explosive_mass": "14 g",
+                            "tnt_equivalent": "22 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 145,
+                                "30\u00b0": 120,
+                                "60\u00b0": 49
+                            },
+                            "100m": {
+                                "0\u00b0": 142,
+                                "30\u00b0": 117,
+                                "60\u00b0": 48
+                            },
+                            "500m": {
+                                "0\u00b0": 128,
+                                "30\u00b0": 106,
+                                "60\u00b0": 46
+                            },
+                            "1000m": {
+                                "0\u00b0": 112,
+                                "30\u00b0": 93,
+                                "60\u00b0": 43
+                            },
+                            "1500m": {
+                                "0\u00b0": 98,
+                                "30\u00b0": 82,
+                                "60\u00b0": 40
+                            },
+                            "2000m": {
+                                "0\u00b0": 86,
+                                "30\u00b0": 73,
+                                "60\u00b0": 38
+                            }
+                        }
+                    },
+                    {
+                        "name": "O-271",
+                        "details": {
+                            "type": "HE",
+                            "caliber": "57 mm",
+                            "projectile_mass": "3.7 kg",
+                            "muzzle_velocity": "700 m/s",
+                            "explosive_type": "TNT",
+                            "explosive_mass": "220 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 12,
+                                "30\u00b0": 12,
+                                "60\u00b0": 5
+                            },
+                            "100m": {
+                                "0\u00b0": 12,
+                                "30\u00b0": 12,
+                                "60\u00b0": 5
+                            },
+                            "500m": {
+                                "0\u00b0": 10,
+                                "30\u00b0": 10,
+                                "60\u00b0": 5
+                            },
+                            "1000m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 8,
+                                "60\u00b0": 5
+                            },
+                            "1500m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 6,
+                                "60\u00b0": 5
+                            },
+                            "2000m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 5
+                            }
+                        }
+                    },
+                    {
+                        "name": "BR-271\u041a",
+                        "details": {
+                            "type": "APHE",
+                            "caliber": "57 mm",
+                            "projectile_mass": "3.1 kg",
+                            "muzzle_velocity": "990 m/s",
+                            "explosive_type": "A-IX-2",
+                            "explosive_mass": "18 g",
+                            "tnt_equivalent": "28 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 145,
+                                "30\u00b0": 106,
+                                "60\u00b0": 54
+                            },
+                            "100m": {
+                                "0\u00b0": 140,
+                                "30\u00b0": 102,
+                                "60\u00b0": 52
+                            },
+                            "500m": {
+                                "0\u00b0": 118,
+                                "30\u00b0": 88,
+                                "60\u00b0": 45
+                            },
+                            "1000m": {
+                                "0\u00b0": 95,
+                                "30\u00b0": 74,
+                                "60\u00b0": 38
+                            },
+                            "1500m": {
+                                "0\u00b0": 77,
+                                "30\u00b0": 62,
+                                "60\u00b0": 31
+                            },
+                            "2000m": {
+                                "0\u00b0": 62,
+                                "30\u00b0": 52,
+                                "60\u00b0": 26
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "7.62 mm M1919A4 machine gun (coaxial)",
+                "features": [],
+                "specs": {
+                    "ammunition": "3,000 rounds",
+                    "belt_capacity": "250 rounds",
+                    "reload": "10.4 \u2192 8 s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP/T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 2
+                            },
+                            "100m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 2
+                            },
+                            "500m": {
+                                "0\u00b0": 2,
+                                "30\u00b0": 2,
+                                "60\u00b0": 1
+                            },
+                            "1000m": {
+                                "0\u00b0": 1,
+                                "30\u00b0": 1,
+                                "60\u00b0": 0
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

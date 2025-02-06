@@ -1,0 +1,367 @@
+{
+    "unit_basic_info": {
+        "name": "ussr_t_10a",
+        "nation": "ussr",
+        "rank": 5,
+        "battle_rating": {
+            "AB": 7.7,
+            "RB": 7.7,
+            "SB": 7.7
+        },
+        "role": "Heavy tank",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_ussr.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/ussr_t_10a.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [
+                "Smoke grenades",
+                "ESS"
+            ],
+            "visibility": 92,
+            "crew": 4
+        },
+        "support_systems": {
+            "features": [
+                "Smoke grenades",
+                "ESS"
+            ]
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 42.0,
+                    "ab": 45.0
+                },
+                "backward": {
+                    "rb": 8.0,
+                    "ab": 9.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 14.0,
+                "rb_basic": 12.4,
+                "ab_ref": 22.3,
+                "ab_basic": 18.1
+            },
+            "engine_power": {
+                "rb_ref": 700,
+                "rb_basic": 619,
+                "ab_ref": 1113,
+                "ab_basic": 904
+            },
+            "weight": 50.0
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "3.1x\u20138.0x",
+                "commander": "1.0x\u20135.0x",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "122 mm D-25TS cannon",
+                "features": [
+                    "Vertical stabilizer"
+                ],
+                "specs": {
+                    "ammunition": "30 rounds",
+                    "first-order": "7 rounds",
+                    "reload": "19.5 \u2192 15 s",
+                    "vertical_guidance": "-3 / 17\u00b0",
+                    "turret_rotation_speed_horizontal": "9.8 8.3 15.7 11.3 \u2192 14 11.9 22.4 16.2 \u00b0/s",
+                    "turret_rotation_speed_vertical": "3.1 2.5 8.2 5.2 \u2192 4.5 3.6 11.7 7.5 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "BR-471",
+                        "details": {
+                            "type": "APHE",
+                            "caliber": "122 mm",
+                            "projectile_mass": "25 kg",
+                            "muzzle_velocity": "795 m/s",
+                            "explosive_type": "A-IX-2",
+                            "explosive_mass": "160 g",
+                            "tnt_equivalent": "246 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 205,
+                                "30\u00b0": 159,
+                                "60\u00b0": 81
+                            },
+                            "100m": {
+                                "0\u00b0": 201,
+                                "30\u00b0": 156,
+                                "60\u00b0": 79
+                            },
+                            "500m": {
+                                "0\u00b0": 182,
+                                "30\u00b0": 144,
+                                "60\u00b0": 73
+                            },
+                            "1000m": {
+                                "0\u00b0": 161,
+                                "30\u00b0": 131,
+                                "60\u00b0": 65
+                            },
+                            "1500m": {
+                                "0\u00b0": 143,
+                                "30\u00b0": 119,
+                                "60\u00b0": 59
+                            },
+                            "2000m": {
+                                "0\u00b0": 126,
+                                "30\u00b0": 107,
+                                "60\u00b0": 53
+                            }
+                        }
+                    },
+                    {
+                        "name": "OF-471",
+                        "details": {
+                            "type": "HE",
+                            "caliber": "122 mm",
+                            "projectile_mass": "25 kg",
+                            "muzzle_velocity": "795 m/s",
+                            "explosive_type": "TNT",
+                            "explosive_mass": "3.6 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 37,
+                                "30\u00b0": 37,
+                                "60\u00b0": 37
+                            },
+                            "100m": {
+                                "0\u00b0": 37,
+                                "30\u00b0": 37,
+                                "60\u00b0": 37
+                            },
+                            "500m": {
+                                "0\u00b0": 37,
+                                "30\u00b0": 37,
+                                "60\u00b0": 37
+                            },
+                            "1000m": {
+                                "0\u00b0": 37,
+                                "30\u00b0": 37,
+                                "60\u00b0": 37
+                            },
+                            "1500m": {
+                                "0\u00b0": 37,
+                                "30\u00b0": 37,
+                                "60\u00b0": 37
+                            },
+                            "2000m": {
+                                "0\u00b0": 37,
+                                "30\u00b0": 37,
+                                "60\u00b0": 37
+                            }
+                        }
+                    },
+                    {
+                        "name": "BR-471B",
+                        "details": {
+                            "type": "APHEBC",
+                            "caliber": "122 mm",
+                            "projectile_mass": "25 kg",
+                            "muzzle_velocity": "795 m/s",
+                            "explosive_type": "A-IX-2",
+                            "explosive_mass": "160 g",
+                            "tnt_equivalent": "246 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 205,
+                                "30\u00b0": 173,
+                                "60\u00b0": 86
+                            },
+                            "100m": {
+                                "0\u00b0": 203,
+                                "30\u00b0": 171,
+                                "60\u00b0": 85
+                            },
+                            "500m": {
+                                "0\u00b0": 192,
+                                "30\u00b0": 162,
+                                "60\u00b0": 83
+                            },
+                            "1000m": {
+                                "0\u00b0": 178,
+                                "30\u00b0": 152,
+                                "60\u00b0": 80
+                            },
+                            "1500m": {
+                                "0\u00b0": 166,
+                                "30\u00b0": 142,
+                                "60\u00b0": 77
+                            },
+                            "2000m": {
+                                "0\u00b0": 155,
+                                "30\u00b0": 133,
+                                "60\u00b0": 75
+                            }
+                        }
+                    },
+                    {
+                        "name": "BR-471D",
+                        "details": {
+                            "type": "APCBC",
+                            "caliber": "122 mm",
+                            "projectile_mass": "25 kg",
+                            "muzzle_velocity": "800 m/s",
+                            "explosive_type": "A-IX-2",
+                            "explosive_mass": "125 g",
+                            "tnt_equivalent": "192 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 230,
+                                "30\u00b0": 178,
+                                "60\u00b0": 82
+                            },
+                            "100m": {
+                                "0\u00b0": 227,
+                                "30\u00b0": 175,
+                                "60\u00b0": 81
+                            },
+                            "500m": {
+                                "0\u00b0": 215,
+                                "30\u00b0": 166,
+                                "60\u00b0": 78
+                            },
+                            "1000m": {
+                                "0\u00b0": 200,
+                                "30\u00b0": 156,
+                                "60\u00b0": 73
+                            },
+                            "1500m": {
+                                "0\u00b0": 186,
+                                "30\u00b0": 146,
+                                "60\u00b0": 69
+                            },
+                            "2000m": {
+                                "0\u00b0": 173,
+                                "30\u00b0": 136,
+                                "60\u00b0": 66
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "12.7 mm DShK machine gun(coaxial)",
+                "features": [],
+                "specs": {
+                    "ammunition": "500 rounds",
+                    "belt_capacity": "50 rounds",
+                    "reload": "10.4 \u2192 8 s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "API-T/IAI/API-T/AP-I(c)",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 34,
+                                "30\u00b0": 24,
+                                "60\u00b0": 12
+                            },
+                            "100m": {
+                                "0\u00b0": 32,
+                                "30\u00b0": 23,
+                                "60\u00b0": 12
+                            },
+                            "500m": {
+                                "0\u00b0": 24,
+                                "30\u00b0": 18,
+                                "60\u00b0": 9
+                            },
+                            "1000m": {
+                                "0\u00b0": 17,
+                                "30\u00b0": 13,
+                                "60\u00b0": 7
+                            },
+                            "1500m": {
+                                "0\u00b0": 12,
+                                "30\u00b0": 10,
+                                "60\u00b0": 5
+                            },
+                            "2000m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 7,
+                                "60\u00b0": 4
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "12.7 mm DShK machine gun",
+                "features": [],
+                "specs": {
+                    "ammunition": "250 rounds",
+                    "belt_capacity": "50 rounds",
+                    "reload": "10.4 \u2192 8 s",
+                    "vertical_guidance": "-5 / 85\u00b0",
+                    "turret_rotation_speed_horizontal": "63 53.6 100.8 72.8 \u2192 90 76.5 144 104 \u00b0/s",
+                    "turret_rotation_speed_vertical": "63 50.4 163.8 104.8 \u2192 90 72 234 149.8 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "API-T/IAI/API-T/AP-I(c)",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 34,
+                                "30\u00b0": 24,
+                                "60\u00b0": 12
+                            },
+                            "100m": {
+                                "0\u00b0": 32,
+                                "30\u00b0": 23,
+                                "60\u00b0": 12
+                            },
+                            "500m": {
+                                "0\u00b0": 24,
+                                "30\u00b0": 18,
+                                "60\u00b0": 9
+                            },
+                            "1000m": {
+                                "0\u00b0": 17,
+                                "30\u00b0": 13,
+                                "60\u00b0": 7
+                            },
+                            "1500m": {
+                                "0\u00b0": 12,
+                                "30\u00b0": 10,
+                                "60\u00b0": 5
+                            },
+                            "2000m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 7,
+                                "60\u00b0": 4
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,304 @@
+{
+    "unit_basic_info": {
+        "name": "cn_t_62",
+        "nation": "cn",
+        "rank": 6,
+        "battle_rating": {
+            "AB": 8.7,
+            "RB": 8.7,
+            "SB": 8.7
+        },
+        "role": "Medium tank",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_china.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/cn_t_62.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [
+                "ESS"
+            ],
+            "visibility": 75,
+            "crew": 4
+        },
+        "support_systems": {
+            "features": [
+                "ESS"
+            ]
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 50.0,
+                    "ab": 56.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 15.7,
+                "rb_basic": 13.9,
+                "ab_ref": 29.9,
+                "ab_basic": 24.3
+            },
+            "engine_power": {
+                "rb_ref": 580,
+                "rb_basic": 513,
+                "ab_ref": 1107,
+                "ab_basic": 899
+            },
+            "weight": 37.0
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "3.5x\u20137.0x",
+                "commander": "5.0x",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "115 mm U-5TS cannon",
+                "features": [
+                    "Two-plane stabilizer"
+                ],
+                "specs": {
+                    "ammunition": "40 rounds",
+                    "first-order": "16 rounds",
+                    "reload": "10.4 \u2192 8 s",
+                    "vertical_guidance": "-6 / 16\u00b0",
+                    "turret_rotation_speed_horizontal": "11.2 9.5 21.1 15.2 \u2192 16 13.6 30.1 21.8 \u00b0/s",
+                    "turret_rotation_speed_vertical": "4.2 3.4 14.7 9.4 \u2192 6 4.8 21 13.4 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "3BM4",
+                        "details": {
+                            "type": "APFSDS",
+                            "caliber": "115 mm",
+                            "projectile_mass": "4 kg",
+                            "muzzle_velocity": "1,615 m/s"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 285,
+                                "30\u00b0": 248,
+                                "60\u00b0": 162
+                            },
+                            "100m": {
+                                "0\u00b0": 279,
+                                "30\u00b0": 243,
+                                "60\u00b0": 159
+                            },
+                            "500m": {
+                                "0\u00b0": 263,
+                                "30\u00b0": 229,
+                                "60\u00b0": 149
+                            },
+                            "1000m": {
+                                "0\u00b0": 243,
+                                "30\u00b0": 211,
+                                "60\u00b0": 138
+                            },
+                            "1500m": {
+                                "0\u00b0": 222,
+                                "30\u00b0": 193,
+                                "60\u00b0": 126
+                            },
+                            "2000m": {
+                                "0\u00b0": 202,
+                                "30\u00b0": 176,
+                                "60\u00b0": 115
+                            }
+                        }
+                    },
+                    {
+                        "name": "3OF11",
+                        "details": {
+                            "type": "HE",
+                            "caliber": "115 mm",
+                            "projectile_mass": "14.9 kg",
+                            "muzzle_velocity": "905 m/s",
+                            "explosive_type": "TNT",
+                            "explosive_mass": "2.6 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 31,
+                                "30\u00b0": 31,
+                                "60\u00b0": 31
+                            },
+                            "100m": {
+                                "0\u00b0": 31,
+                                "30\u00b0": 31,
+                                "60\u00b0": 31
+                            },
+                            "500m": {
+                                "0\u00b0": 31,
+                                "30\u00b0": 31,
+                                "60\u00b0": 31
+                            },
+                            "1000m": {
+                                "0\u00b0": 31,
+                                "30\u00b0": 31,
+                                "60\u00b0": 31
+                            },
+                            "1500m": {
+                                "0\u00b0": 31,
+                                "30\u00b0": 31,
+                                "60\u00b0": 31
+                            },
+                            "2000m": {
+                                "0\u00b0": 31,
+                                "30\u00b0": 31,
+                                "60\u00b0": 31
+                            }
+                        }
+                    },
+                    {
+                        "name": "3BM3",
+                        "details": {
+                            "type": "APFSDS",
+                            "caliber": "115 mm",
+                            "projectile_mass": "4 kg",
+                            "muzzle_velocity": "1,615 m/s"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 350,
+                                "30\u00b0": 287,
+                                "60\u00b0": 135
+                            },
+                            "100m": {
+                                "0\u00b0": 347,
+                                "30\u00b0": 284,
+                                "60\u00b0": 133
+                            },
+                            "500m": {
+                                "0\u00b0": 322,
+                                "30\u00b0": 264,
+                                "60\u00b0": 124
+                            },
+                            "1000m": {
+                                "0\u00b0": 300,
+                                "30\u00b0": 246,
+                                "60\u00b0": 115
+                            },
+                            "1500m": {
+                                "0\u00b0": 283,
+                                "30\u00b0": 232,
+                                "60\u00b0": 109
+                            },
+                            "2000m": {
+                                "0\u00b0": 270,
+                                "30\u00b0": 221,
+                                "60\u00b0": 104
+                            }
+                        }
+                    },
+                    {
+                        "name": "3BK4",
+                        "details": {
+                            "type": "HEATFS",
+                            "caliber": "115 mm",
+                            "projectile_mass": "13 kg",
+                            "muzzle_velocity": "950 m/s",
+                            "explosive_type": "A-IX-1",
+                            "explosive_mass": "1.5 kg",
+                            "tnt_equivalent": "1.8 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 440,
+                                "30\u00b0": 381,
+                                "60\u00b0": 220
+                            },
+                            "100m": {
+                                "0\u00b0": 440,
+                                "30\u00b0": 381,
+                                "60\u00b0": 220
+                            },
+                            "500m": {
+                                "0\u00b0": 440,
+                                "30\u00b0": 381,
+                                "60\u00b0": 220
+                            },
+                            "1000m": {
+                                "0\u00b0": 440,
+                                "30\u00b0": 381,
+                                "60\u00b0": 220
+                            },
+                            "1500m": {
+                                "0\u00b0": 440,
+                                "30\u00b0": 381,
+                                "60\u00b0": 220
+                            },
+                            "2000m": {
+                                "0\u00b0": 440,
+                                "30\u00b0": 381,
+                                "60\u00b0": 220
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "7.62 mm PKT machine gun(coaxial)",
+                "features": [],
+                "specs": {
+                    "ammunition": "2,500 rounds",
+                    "belt_capacity": "250 rounds",
+                    "reload": "10.4 \u2192 8 s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP-I/API-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 7,
+                                "60\u00b0": 4
+                            },
+                            "100m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 7,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 5,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 1
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,249 @@
+{
+    "unit_basic_info": {
+        "name": "fr_amx_10p",
+        "nation": "fr",
+        "rank": 4,
+        "battle_rating": {
+            "AB": 6.0,
+            "RB": 6.3,
+            "SB": 6.3
+        },
+        "role": "SPAA",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_france.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/fr_amx_10p.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [
+                "Smoke grenades",
+                "Dual control"
+            ],
+            "visibility": 92,
+            "crew": 3
+        },
+        "support_systems": {
+            "features": [
+                "Smoke grenades",
+                "Dual control"
+            ]
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [
+                "Amphibious"
+            ],
+            "max_speed": {
+                "forward": {
+                    "rb": 65.0,
+                    "ab": 71.0
+                },
+                "backward": {
+                    "rb": 12.0,
+                    "ab": 13.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 21.7,
+                "rb_basic": 19.2,
+                "ab_ref": 38.0,
+                "ab_basic": 30.9
+            },
+            "engine_power": {
+                "rb_ref": 300,
+                "rb_basic": 265,
+                "ab_ref": 525,
+                "ab_basic": 426
+            },
+            "weight": 13.8
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "2.0x\u20136.0x",
+                "commander": "1.0x\u20136.0x",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "20 mm CN20 F2 automatic cannon",
+                "features": [],
+                "specs": {
+                    "ammunition": "800 rounds",
+                    "belt_capacity": "200 rounds",
+                    "reload": "10.4 \u2192 8 s",
+                    "vertical_guidance": "-8 / 50\u00b0",
+                    "turret_rotation_speed_horizontal": "35 29.8 60.9 44 \u2192 50 42.5 87.1 62.9 \u00b0/s",
+                    "turret_rotation_speed_vertical": "21 16.8 64 41 \u2192 30 24 91.5 58.6 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "HVAP-T/HEFI-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 7,
+                                "30\u00b0": 6,
+                                "60\u00b0": 3
+                            },
+                            "100m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 6,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 4,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            }
+                        }
+                    },
+                    {
+                        "name": "DM51A1",
+                        "type": "HEFI-T/HEFI-T/HEFI-T/HVAP-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 57,
+                                "30\u00b0": 42,
+                                "60\u00b0": 13
+                            },
+                            "100m": {
+                                "0\u00b0": 52,
+                                "30\u00b0": 39,
+                                "60\u00b0": 12
+                            },
+                            "500m": {
+                                "0\u00b0": 37,
+                                "30\u00b0": 27,
+                                "60\u00b0": 8
+                            },
+                            "1000m": {
+                                "0\u00b0": 24,
+                                "30\u00b0": 18,
+                                "60\u00b0": 5
+                            },
+                            "1500m": {
+                                "0\u00b0": 15,
+                                "30\u00b0": 12,
+                                "60\u00b0": 4
+                            },
+                            "2000m": {
+                                "0\u00b0": 10,
+                                "30\u00b0": 8,
+                                "60\u00b0": 2
+                            }
+                        }
+                    },
+                    {
+                        "name": "DM63",
+                        "type": "APDS/APDS/APDS/HEFI-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 7,
+                                "30\u00b0": 6,
+                                "60\u00b0": 3
+                            },
+                            "100m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 6,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 4,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "7.62 mm AA NF1 machine gun (coaxial)",
+                "features": [],
+                "specs": {
+                    "ammunition": "2,000 rounds",
+                    "belt_capacity": "200 rounds",
+                    "reload": "10.4 \u2192 8 s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP/T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 2
+                            },
+                            "100m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 2
+                            },
+                            "500m": {
+                                "0\u00b0": 2,
+                                "30\u00b0": 2,
+                                "60\u00b0": 1
+                            },
+                            "1000m": {
+                                "0\u00b0": 1,
+                                "30\u00b0": 1,
+                                "60\u00b0": 0
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

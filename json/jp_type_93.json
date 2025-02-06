@@ -1,0 +1,121 @@
+{
+    "unit_basic_info": {
+        "name": "jp_type_93",
+        "nation": "jp",
+        "rank": 7,
+        "battle_rating": {
+            "AB": 9.3,
+            "RB": 9.3,
+            "SB": 9.3
+        },
+        "role": "SPAA",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_japan_modern.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/jp_type_93.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 70,
+            "crew": 3
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 125.0,
+                    "ab": 136.0
+                },
+                "backward": {
+                    "rb": 36.0,
+                    "ab": 39.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 40.5,
+                "rb_basic": 35.7,
+                "ab_ref": 70.7,
+                "ab_basic": 57.4
+            },
+            "engine_power": {
+                "rb_ref": 170,
+                "rb_basic": 150,
+                "ab_ref": 297,
+                "ab_basic": 241
+            },
+            "weight": 4.2
+        }
+    },
+    "optics": {
+        "features": [
+            {
+                "name": "Laser rangefinder"
+            },
+            {
+                "name": "Optical Detection"
+            }
+        ],
+        "specs": {
+            "optical_devices": [
+                {
+                    "name": "Thermal imager",
+                    "resolution": {
+                        "gunner": "500x300",
+                        "commander": "\u2014",
+                        "driver": "\u2014"
+                    }
+                },
+                {
+                    "name": "Night vision device"
+                }
+            ],
+            "optics_zoom": {
+                "gunner": "6.0x\u201312.0x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "Type 91 SAM",
+                "features": [
+                    "Two-plane stabilizer"
+                ],
+                "specs": {
+                    "ammunition": "8 rounds",
+                    "fire_rate": "60 shots/min",
+                    "vertical_guidance": "0 / 70\u00b0",
+                    "turret_rotation_speed_horizontal": "70 59.5 121.9 88.1 \u2192 100 85 174.1 125.8 \u00b0/s",
+                    "turret_rotation_speed_vertical": "28 22.4 85.4 54.7 \u2192 40 32 122 78.1 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "Type 91",
+                        "details": {
+                            "type": "SAM",
+                            "caliber": "80 mm",
+                            "projectile_mass": "11.5 kg",
+                            "guidance": "IR",
+                            "launch_range": "5\u00a0km",
+                            "maximum_speed": "1.9 M",
+                            "missile_guidance_time": "10.5 s",
+                            "explosive_type": "Comp. A",
+                            "explosive_mass": "450 g",
+                            "tnt_equivalent": "648 g"
+                        },
+                        "armor_penetration": {}
+                    }
+                ],
+                "available_belts": []
+            }
+        ]
+    }
+}

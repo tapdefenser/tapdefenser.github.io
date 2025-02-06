@@ -1,0 +1,180 @@
+{
+    "unit_basic_info": {
+        "name": "germ_panzerwerfer_42",
+        "nation": "germ",
+        "rank": 2,
+        "battle_rating": {
+            "AB": 2.3,
+            "RB": 2.3,
+            "SB": 2.3
+        },
+        "role": "Tank destroyer",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_germany.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/germ_panzerwerfer_42.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 88,
+            "crew": 3
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 47.0,
+                    "ab": 51.0
+                },
+                "backward": {
+                    "rb": 8.0,
+                    "ab": 9.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 9.6,
+                "rb_basic": 8.5,
+                "ab_ref": 16.8,
+                "ab_basic": 13.7
+            },
+            "engine_power": {
+                "rb_ref": 68,
+                "rb_basic": 60,
+                "ab_ref": 119,
+                "ab_basic": 97
+            },
+            "weight": 7.1
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "1.9x\u20133.5x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "150 mm Wgr.41 Spr rocket",
+                "features": [],
+                "specs": {
+                    "ammunition": "20 rounds",
+                    "belt_capacity": "10 rounds",
+                    "reload": "23.4 \u2192 18 s",
+                    "vertical_guidance": "-7 / 40\u00b0",
+                    "turret_rotation_speed_horizontal": "10.5 8.9 18.3 13.2 \u2192 15 12.8 26.1 18.9 \u00b0/s",
+                    "turret_rotation_speed_vertical": "3.5 2.8 10.7 6.8 \u2192 5 4 15.2 9.8 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "Wgr.41 Spr",
+                        "details": {
+                            "type": "R",
+                            "caliber": "150 mm",
+                            "projectile_mass": "34.2 kg",
+                            "maximum_speed": "340 m/s",
+                            "explosive_type": "Fp.02",
+                            "explosive_mass": "2.2 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 27,
+                                "30\u00b0": 27,
+                                "60\u00b0": 27
+                            },
+                            "100m": {
+                                "0\u00b0": 27,
+                                "30\u00b0": 27,
+                                "60\u00b0": 27
+                            },
+                            "500m": {
+                                "0\u00b0": 27,
+                                "30\u00b0": 27,
+                                "60\u00b0": 27
+                            },
+                            "1000m": {
+                                "0\u00b0": 27,
+                                "30\u00b0": 27,
+                                "60\u00b0": 27
+                            },
+                            "1500m": {
+                                "0\u00b0": 27,
+                                "30\u00b0": 27,
+                                "60\u00b0": 27
+                            },
+                            "2000m": {
+                                "0\u00b0": 27,
+                                "30\u00b0": 27,
+                                "60\u00b0": 27
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "7.92 mm MG42 machine gun",
+                "features": [],
+                "specs": {
+                    "ammunition": "2,550 rounds",
+                    "belt_capacity": "150 rounds",
+                    "reload": "10.4 \u2192 8 s",
+                    "vertical_guidance": "-5 / 25\u00b0",
+                    "horizontal_guidance": "-45 / 45\u00b0",
+                    "turret_rotation_speed_horizontal": "63 53.6 109.7 79.3 \u2192 90 76.5 156.7 113.2 \u00b0/s",
+                    "turret_rotation_speed_vertical": "63 50.4 192.1 123 \u2192 90 72 274.5 175.7 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP/AP/AP-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 8,
+                                "60\u00b0": 4
+                            },
+                            "100m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 7,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 5,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 1
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

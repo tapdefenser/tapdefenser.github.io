@@ -1,0 +1,246 @@
+{
+    "unit_basic_info": {
+        "name": "germ_wiesel_1_mk20",
+        "nation": "germ",
+        "rank": 5,
+        "battle_rating": {
+            "AB": 7.3,
+            "RB": 7.3,
+            "SB": 7.3
+        },
+        "role": "SPAA",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_germany_modern.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/germ_wiesel_1_mk20.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 62,
+            "crew": 2
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 80.0,
+                    "ab": 87.0
+                },
+                "backward": {
+                    "rb": 29.0,
+                    "ab": 32.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 30.0,
+                "rb_basic": 26.6,
+                "ab_ref": 52.4,
+                "ab_basic": 42.8
+            },
+            "engine_power": {
+                "rb_ref": 87,
+                "rb_basic": 77,
+                "ab_ref": 152,
+                "ab_basic": 124
+            },
+            "weight": 2.9
+        }
+    },
+    "optics": {
+        "features": [
+            {
+                "name": "Laser rangefinder"
+            }
+        ],
+        "specs": {
+            "optical_devices": [
+                {
+                    "name": "Thermal imager",
+                    "resolution": {
+                        "gunner": "1200x800",
+                        "commander": "\u2014",
+                        "driver": "\u2014"
+                    }
+                },
+                {
+                    "name": "Night vision device"
+                }
+            ],
+            "optics_zoom": {
+                "gunner": "2.0x\u20136.0x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "20 mm Rh202 cannon",
+                "features": [],
+                "specs": {
+                    "ammunition": "400 rounds",
+                    "belt_capacity": "100 rounds",
+                    "reload": "10.4 \u2192 8 s",
+                    "vertical_guidance": "-10 / 45\u00b0",
+                    "horizontal_guidance": "-110 / 110\u00b0",
+                    "turret_rotation_speed_horizontal": "42 35.7 73.1 52.8 \u2192 60 51 104.5 75.5 \u00b0/s",
+                    "turret_rotation_speed_vertical": "42 33.6 128.1 82 \u2192 60 48 183 117.1 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "HVAP-T/HEFI-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 7,
+                                "30\u00b0": 6,
+                                "60\u00b0": 3
+                            },
+                            "100m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 6,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 4,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            }
+                        }
+                    },
+                    {
+                        "name": "DM51A1",
+                        "type": "HEFI-T/HEFI-T/HEFI-T/HVAP-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 57,
+                                "30\u00b0": 42,
+                                "60\u00b0": 13
+                            },
+                            "100m": {
+                                "0\u00b0": 52,
+                                "30\u00b0": 39,
+                                "60\u00b0": 12
+                            },
+                            "500m": {
+                                "0\u00b0": 37,
+                                "30\u00b0": 27,
+                                "60\u00b0": 8
+                            },
+                            "1000m": {
+                                "0\u00b0": 24,
+                                "30\u00b0": 18,
+                                "60\u00b0": 5
+                            },
+                            "1500m": {
+                                "0\u00b0": 15,
+                                "30\u00b0": 12,
+                                "60\u00b0": 4
+                            },
+                            "2000m": {
+                                "0\u00b0": 10,
+                                "30\u00b0": 8,
+                                "60\u00b0": 2
+                            }
+                        }
+                    },
+                    {
+                        "name": "DM43",
+                        "type": "HVAP-T/HVAP-T/HVAP-T/HEFI-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 7,
+                                "30\u00b0": 6,
+                                "60\u00b0": 3
+                            },
+                            "100m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 6,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 4,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            }
+                        }
+                    },
+                    {
+                        "name": "DM63",
+                        "type": "APDS/APDS/APDS/HEFI-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 7,
+                                "30\u00b0": 6,
+                                "60\u00b0": 3
+                            },
+                            "100m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 6,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 4,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

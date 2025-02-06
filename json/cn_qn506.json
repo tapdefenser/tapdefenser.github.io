@@ -1,0 +1,430 @@
+{
+    "unit_basic_info": {
+        "name": "cn_qn506",
+        "nation": "cn",
+        "rank": 7,
+        "battle_rating": {
+            "AB": 10.0,
+            "RB": 10.0,
+            "SB": 10.0
+        },
+        "role": "Light tank",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_china.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/cn_qn506.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [
+                "ERA"
+            ],
+            "visibility": 200,
+            "crew": 3
+        },
+        "support_systems": {
+            "features": [
+                "LWS",
+                "Smoke grenades",
+                "Dual control"
+            ]
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 50.0,
+                    "ab": 56.0
+                },
+                "backward": {
+                    "rb": 7.0,
+                    "ab": 8.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 17.3,
+                "rb_basic": 15.3,
+                "ab_ref": 33.1,
+                "ab_basic": 26.9
+            },
+            "engine_power": {
+                "rb_ref": 520,
+                "rb_basic": 460,
+                "ab_ref": 992,
+                "ab_basic": 806
+            },
+            "weight": 30.0
+        }
+    },
+    "optics": {
+        "features": [
+            {
+                "name": "Laser rangefinder"
+            },
+            {
+                "name": "Optical Detection"
+            },
+            {
+                "name": "Scout UAV"
+            }
+        ],
+        "specs": {
+            "optical_devices": [
+                {
+                    "name": "Thermal imager",
+                    "resolution": {
+                        "gunner": "800x600",
+                        "commander": "800x600",
+                        "driver": "\u2014"
+                    }
+                },
+                {
+                    "name": "Night vision device"
+                }
+            ],
+            "optics_zoom": {
+                "gunner": "4.0x\u201312.0x",
+                "commander": "3.0x\u201310.7x",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "QN502CDD",
+                "features": [
+                    "Two-plane stabilizer"
+                ],
+                "specs": {
+                    "ammunition": "4 rounds",
+                    "fire_rate": "120 shots/min",
+                    "vertical_guidance": "-5 / 30\u00b0"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "QN502CDD",
+                        "details": {
+                            "type": "ATGM (tandem)",
+                            "caliber": "151 mm",
+                            "projectile_mass": "16.2 kg",
+                            "guidance": "IR",
+                            "irccm": "",
+                            "launch_range": "8\u00a0km",
+                            "maximum_speed": "205 m/s",
+                            "missile_guidance_time": "65 s",
+                            "explosive_type": "A-IX-2",
+                            "explosive_mass": "900 g",
+                            "tnt_equivalent": "1.4 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 900,
+                                "30\u00b0": 779,
+                                "60\u00b0": 450
+                            },
+                            "100m": {
+                                "0\u00b0": 900,
+                                "30\u00b0": 779,
+                                "60\u00b0": 450
+                            },
+                            "500m": {
+                                "0\u00b0": 900,
+                                "30\u00b0": 779,
+                                "60\u00b0": 450
+                            },
+                            "1000m": {
+                                "0\u00b0": 900,
+                                "30\u00b0": 779,
+                                "60\u00b0": 450
+                            },
+                            "1500m": {
+                                "0\u00b0": 900,
+                                "30\u00b0": 779,
+                                "60\u00b0": 450
+                            },
+                            "2000m": {
+                                "0\u00b0": 900,
+                                "30\u00b0": 779,
+                                "60\u00b0": 450
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "QN201DD",
+                "features": [],
+                "specs": {
+                    "ammunition": "20 rounds",
+                    "fire_rate": "120 shots/min",
+                    "vertical_guidance": "-5 / 30\u00b0",
+                    "turret_rotation_speed_horizontal": "28 23.8 52.7 38.1 \u2192 40 34 75.3 54.4 \u00b0/s",
+                    "turret_rotation_speed_vertical": "10.5 8.4 36.7 23.5 \u2192 15 12 52.5 33.6 \u00b0/s",
+                    "fire_on_the_move": "up to 6 km/h"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "QN201DD",
+                        "details": {
+                            "type": "ATGM",
+                            "caliber": "70 mm",
+                            "projectile_mass": "7 kg",
+                            "guidance": "Semi-Automatic (SACLOS)",
+                            "maximum_speed": "450 m/s",
+                            "missile_guidance_time": "15 s",
+                            "explosive_type": "A-IX-1",
+                            "explosive_mass": "600 g",
+                            "tnt_equivalent": "750 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 200,
+                                "30\u00b0": 173,
+                                "60\u00b0": 100
+                            },
+                            "100m": {
+                                "0\u00b0": 200,
+                                "30\u00b0": 173,
+                                "60\u00b0": 100
+                            },
+                            "500m": {
+                                "0\u00b0": 200,
+                                "30\u00b0": 173,
+                                "60\u00b0": 100
+                            },
+                            "1000m": {
+                                "0\u00b0": 200,
+                                "30\u00b0": 173,
+                                "60\u00b0": 100
+                            },
+                            "1500m": {
+                                "0\u00b0": 200,
+                                "30\u00b0": 173,
+                                "60\u00b0": 100
+                            },
+                            "2000m": {
+                                "0\u00b0": 200,
+                                "30\u00b0": 173,
+                                "60\u00b0": 100
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "30 mm ZPZ02 cannon",
+                "features": [
+                    "Two-plane stabilizer"
+                ],
+                "specs": {
+                    "ammunition": "200 rounds",
+                    "belt_capacity": "100 rounds",
+                    "reload": "1.3 \u2192 1 s",
+                    "vertical_guidance": "-5 / 52\u00b0",
+                    "turret_rotation_speed_horizontal": "28 23.8 52.7 38.1 \u2192 40 34 75.3 54.4 \u00b0/s",
+                    "turret_rotation_speed_vertical": "10.5 8.4 36.7 23.5 \u2192 15 12 52.5 33.6 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "APDS/HEF-I/APDS/HEF-I",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 8,
+                                "60\u00b0": 4
+                            },
+                            "100m": {
+                                "0\u00b0": 7,
+                                "30\u00b0": 7,
+                                "60\u00b0": 4
+                            },
+                            "500m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 6,
+                                "60\u00b0": 4
+                            },
+                            "1000m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 4
+                            },
+                            "1500m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 4
+                            },
+                            "2000m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 4
+                            }
+                        }
+                    },
+                    {
+                        "name": "30 mm HE",
+                        "type": "HEF-I/APDS/HEF-I/HEF-I",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 8,
+                                "60\u00b0": 4
+                            },
+                            "100m": {
+                                "0\u00b0": 7,
+                                "30\u00b0": 7,
+                                "60\u00b0": 4
+                            },
+                            "500m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 6,
+                                "60\u00b0": 4
+                            },
+                            "1000m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 4
+                            },
+                            "1500m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 4
+                            },
+                            "2000m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 4
+                            }
+                        }
+                    },
+                    {
+                        "name": "30 mm APDS",
+                        "type": "APDS/APDS/APDS/APDS",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 85,
+                                "30\u00b0": 78,
+                                "60\u00b0": 32
+                            },
+                            "100m": {
+                                "0\u00b0": 84,
+                                "30\u00b0": 77,
+                                "60\u00b0": 32
+                            },
+                            "500m": {
+                                "0\u00b0": 81,
+                                "30\u00b0": 74,
+                                "60\u00b0": 31
+                            },
+                            "1000m": {
+                                "0\u00b0": 77,
+                                "30\u00b0": 71,
+                                "60\u00b0": 29
+                            },
+                            "1500m": {
+                                "0\u00b0": 74,
+                                "30\u00b0": 68,
+                                "60\u00b0": 28
+                            },
+                            "2000m": {
+                                "0\u00b0": 70,
+                                "30\u00b0": 64,
+                                "60\u00b0": 27
+                            }
+                        }
+                    },
+                    {
+                        "name": "30 mm APDS-FS",
+                        "type": "APFSDS/APFSDS/APFSDS",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 102,
+                                "30\u00b0": 86,
+                                "60\u00b0": 59
+                            },
+                            "100m": {
+                                "0\u00b0": 99,
+                                "30\u00b0": 84,
+                                "60\u00b0": 57
+                            },
+                            "500m": {
+                                "0\u00b0": 94,
+                                "30\u00b0": 79,
+                                "60\u00b0": 54
+                            },
+                            "1000m": {
+                                "0\u00b0": 88,
+                                "30\u00b0": 74,
+                                "60\u00b0": 51
+                            },
+                            "1500m": {
+                                "0\u00b0": 81,
+                                "30\u00b0": 68,
+                                "60\u00b0": 47
+                            },
+                            "2000m": {
+                                "0\u00b0": 75,
+                                "30\u00b0": 63,
+                                "60\u00b0": 43
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "7.62 mm Type 86 machine gun (coaxial)",
+                "features": [],
+                "specs": {
+                    "ammunition": "1,000 rounds",
+                    "belt_capacity": "250 rounds",
+                    "reload": "10.4 \u2192 8 s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP-I/API-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 7,
+                                "60\u00b0": 4
+                            },
+                            "100m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 7,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 5,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 1
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

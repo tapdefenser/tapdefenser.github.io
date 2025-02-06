@@ -1,0 +1,267 @@
+{
+    "unit_basic_info": {
+        "name": "us_m109a1",
+        "nation": "us",
+        "rank": 4,
+        "battle_rating": {
+            "AB": 6.3,
+            "RB": 6.3,
+            "SB": 6.3
+        },
+        "role": "Tank destroyer",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_usa_modern.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/us_m109a1.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 95,
+            "crew": 6
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 56.0,
+                    "ab": 61.0
+                },
+                "backward": {
+                    "rb": 12.0,
+                    "ab": 13.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 16.8,
+                "rb_basic": 14.9,
+                "ab_ref": 29.4,
+                "ab_basic": 23.9
+            },
+            "engine_power": {
+                "rb_ref": 405,
+                "rb_basic": 358,
+                "ab_ref": 708,
+                "ab_basic": 575
+            },
+            "weight": 24.1
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "4.0x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "155 mm M185 cannon",
+                "features": [],
+                "specs": {
+                    "ammunition": "28 rounds",
+                    "first-order": "16 rounds",
+                    "reload": "17.3 \u2192 13.3 s",
+                    "vertical_guidance": "-3 / 75\u00b0",
+                    "turret_rotation_speed_horizontal": "7.7 6.5 13.4 9.7 \u2192 11 9.4 19.2 13.8 \u00b0/s",
+                    "turret_rotation_speed_vertical": "4.9 3.9 14.9 9.6 \u2192 7 5.6 21.3 13.7 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "M107",
+                        "details": {
+                            "type": "HE",
+                            "caliber": "155 mm",
+                            "projectile_mass": "43.1 kg",
+                            "muzzle_velocity": "684 m/s",
+                            "explosive_type": "Composition B",
+                            "explosive_mass": "7 kg",
+                            "tnt_equivalent": "9.1 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 61,
+                                "30\u00b0": 61,
+                                "60\u00b0": 61
+                            },
+                            "100m": {
+                                "0\u00b0": 61,
+                                "30\u00b0": 61,
+                                "60\u00b0": 61
+                            },
+                            "500m": {
+                                "0\u00b0": 61,
+                                "30\u00b0": 61,
+                                "60\u00b0": 61
+                            },
+                            "1000m": {
+                                "0\u00b0": 61,
+                                "30\u00b0": 61,
+                                "60\u00b0": 61
+                            },
+                            "1500m": {
+                                "0\u00b0": 61,
+                                "30\u00b0": 61,
+                                "60\u00b0": 61
+                            },
+                            "2000m": {
+                                "0\u00b0": 61,
+                                "30\u00b0": 61,
+                                "60\u00b0": 61
+                            }
+                        }
+                    },
+                    {
+                        "name": "M110",
+                        "details": {
+                            "type": "Smoke",
+                            "caliber": "155 mm",
+                            "projectile_mass": "44.6 kg",
+                            "muzzle_velocity": "684 m/s",
+                            "explosive_type": "Smoke composition",
+                            "explosive_mass": "50 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "100m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            }
+                        }
+                    },
+                    {
+                        "name": "M107 (PF)",
+                        "details": {
+                            "type": "HE-VT",
+                            "caliber": "155 mm",
+                            "projectile_mass": "43.1 kg",
+                            "muzzle_velocity": "684 m/s",
+                            "explosive_type": "Composition B",
+                            "explosive_mass": "7 kg",
+                            "tnt_equivalent": "9.1 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 61,
+                                "30\u00b0": 61,
+                                "60\u00b0": 61
+                            },
+                            "100m": {
+                                "0\u00b0": 61,
+                                "30\u00b0": 61,
+                                "60\u00b0": 61
+                            },
+                            "500m": {
+                                "0\u00b0": 61,
+                                "30\u00b0": 61,
+                                "60\u00b0": 61
+                            },
+                            "1000m": {
+                                "0\u00b0": 61,
+                                "30\u00b0": 61,
+                                "60\u00b0": 61
+                            },
+                            "1500m": {
+                                "0\u00b0": 61,
+                                "30\u00b0": 61,
+                                "60\u00b0": 61
+                            },
+                            "2000m": {
+                                "0\u00b0": 61,
+                                "30\u00b0": 61,
+                                "60\u00b0": 61
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "12.7 mm M2HB machine gun",
+                "features": [],
+                "specs": {
+                    "ammunition": "600 rounds",
+                    "belt_capacity": "100 rounds",
+                    "reload": "10.4 \u2192 8 s",
+                    "vertical_guidance": "-10 / 45\u00b0",
+                    "turret_rotation_speed_horizontal": "63 53.6 109.7 79.3 \u2192 90 76.5 156.7 113.2 \u00b0/s",
+                    "turret_rotation_speed_vertical": "63 50.4 192.1 123 \u2192 90 72 274.5 175.7 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "API-T/I/AP/API-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 29,
+                                "30\u00b0": 22,
+                                "60\u00b0": 11
+                            },
+                            "100m": {
+                                "0\u00b0": 27,
+                                "30\u00b0": 20,
+                                "60\u00b0": 10
+                            },
+                            "500m": {
+                                "0\u00b0": 19,
+                                "30\u00b0": 15,
+                                "60\u00b0": 7
+                            },
+                            "1000m": {
+                                "0\u00b0": 12,
+                                "30\u00b0": 10,
+                                "60\u00b0": 5
+                            },
+                            "1500m": {
+                                "0\u00b0": 7,
+                                "30\u00b0": 7,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 4,
+                                "60\u00b0": 2
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

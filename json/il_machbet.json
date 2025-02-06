@@ -1,0 +1,260 @@
+{
+    "unit_basic_info": {
+        "name": "il_machbet",
+        "nation": "il",
+        "rank": 6,
+        "battle_rating": {
+            "AB": 9.3,
+            "RB": 9.3,
+            "SB": 9.3
+        },
+        "role": "SPAA",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_israel.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/il_machbet.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 117,
+            "crew": 4
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 64.0,
+                    "ab": 70.0
+                },
+                "backward": {
+                    "rb": 15.0,
+                    "ab": 16.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 18.9,
+                "rb_basic": 16.8,
+                "ab_ref": 33.1,
+                "ab_basic": 26.9
+            },
+            "engine_power": {
+                "rb_ref": 212,
+                "rb_basic": 188,
+                "ab_ref": 371,
+                "ab_basic": 301
+            },
+            "weight": 11.2
+        }
+    },
+    "optics": {
+        "features": [
+            {
+                "name": "Laser rangefinder"
+            },
+            {
+                "name": "Optical Detection"
+            }
+        ],
+        "specs": {
+            "optical_devices": [
+                {
+                    "name": "Thermal imager",
+                    "resolution": {
+                        "gunner": "500x300",
+                        "commander": "\u2014",
+                        "driver": "\u2014"
+                    }
+                },
+                {
+                    "name": "Night vision device"
+                }
+            ],
+            "optics_zoom": {
+                "gunner": "6.0x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "FIM-92 Stinger",
+                "features": [],
+                "specs": {
+                    "ammunition": "4 rounds",
+                    "reload": "19.5 \u2192 15 s",
+                    "vertical_guidance": "-5 / 80\u00b0",
+                    "turret_rotation_speed_horizontal": "52.5 44.6 91.4 66 \u2192 75 63.8 130.6 94.4 \u00b0/s",
+                    "turret_rotation_speed_vertical": "42 33.6 128.1 82 \u2192 60 48 183 117.1 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "FIM-92E",
+                        "details": {
+                            "type": "SAM",
+                            "caliber": "70 mm",
+                            "projectile_mass": "10.1 kg",
+                            "guidance": "IR",
+                            "irccm": "",
+                            "launch_range": "5\u00a0km",
+                            "maximum_speed": "2 M",
+                            "missile_guidance_time": "15 s",
+                            "explosive_type": "HTA",
+                            "explosive_mass": "450 g",
+                            "tnt_equivalent": "540 g"
+                        },
+                        "armor_penetration": {}
+                    },
+                    {
+                        "name": "FIM-92K",
+                        "details": {
+                            "type": "SAM",
+                            "caliber": "70 mm",
+                            "projectile_mass": "10.1 kg",
+                            "guidance": "IR",
+                            "irccm": "",
+                            "launch_range": "5\u00a0km",
+                            "maximum_speed": "2 M",
+                            "missile_guidance_time": "15 s",
+                            "explosive_type": "HTA",
+                            "explosive_mass": "450 g",
+                            "tnt_equivalent": "540 g"
+                        },
+                        "armor_penetration": {}
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "20 mm M168 cannon",
+                "features": [],
+                "specs": {
+                    "ammunition": "2,200 rounds",
+                    "belt_capacity": "1,100 rounds",
+                    "reload": "26 \u2192 20 s",
+                    "vertical_guidance": "-5 / 80\u00b0",
+                    "turret_rotation_speed_horizontal": "52.5 44.6 91.4 66 \u2192 75 63.8 130.6 94.4 \u00b0/s",
+                    "turret_rotation_speed_vertical": "42 33.6 128.1 82 \u2192 60 48 183 117.1 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP-I/HEI-T/API-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 40,
+                                "30\u00b0": 30,
+                                "60\u00b0": 15
+                            },
+                            "100m": {
+                                "0\u00b0": 36,
+                                "30\u00b0": 28,
+                                "60\u00b0": 14
+                            },
+                            "500m": {
+                                "0\u00b0": 22,
+                                "30\u00b0": 18,
+                                "60\u00b0": 9
+                            },
+                            "1000m": {
+                                "0\u00b0": 12,
+                                "30\u00b0": 11,
+                                "60\u00b0": 5
+                            },
+                            "1500m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 6,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 1
+                            }
+                        }
+                    },
+                    {
+                        "name": "HEFI-T",
+                        "type": "HEI-T/HEF-I/API-T/HEF-I",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 4,
+                                "60\u00b0": 3
+                            },
+                            "100m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 4,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            }
+                        }
+                    },
+                    {
+                        "name": "APIT",
+                        "type": "AP-I/API-T/HEF-I/API-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 40,
+                                "30\u00b0": 30,
+                                "60\u00b0": 15
+                            },
+                            "100m": {
+                                "0\u00b0": 36,
+                                "30\u00b0": 28,
+                                "60\u00b0": 14
+                            },
+                            "500m": {
+                                "0\u00b0": 22,
+                                "30\u00b0": 18,
+                                "60\u00b0": 9
+                            },
+                            "1000m": {
+                                "0\u00b0": 12,
+                                "30\u00b0": 11,
+                                "60\u00b0": 5
+                            },
+                            "1500m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 6,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 1
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

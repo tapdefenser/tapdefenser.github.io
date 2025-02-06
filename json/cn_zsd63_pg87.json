@@ -1,0 +1,193 @@
+{
+    "unit_basic_info": {
+        "name": "cn_zsd63_pg87",
+        "nation": "cn",
+        "rank": 3,
+        "battle_rating": {
+            "AB": 5.3,
+            "RB": 5.0,
+            "SB": 5.0
+        },
+        "role": "SPAA",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_china.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/cn_zsd63_pg87.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 250,
+            "crew": 5
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 60.0,
+                    "ab": 65.0
+                },
+                "backward": {
+                    "rb": 9.0,
+                    "ab": 10.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 18.6,
+                "rb_basic": 16.4,
+                "ab_ref": 32.5,
+                "ab_basic": 26.4
+            },
+            "engine_power": {
+                "rb_ref": 260,
+                "rb_basic": 230,
+                "ab_ref": 455,
+                "ab_basic": 369
+            },
+            "weight": 14.0
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "1.5x\u20136.0x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "2 x 25 mm PG87 cannon",
+                "features": [],
+                "specs": {
+                    "ammunition": "480 rounds",
+                    "belt_capacity": "40 rounds",
+                    "reload": "16.9 \u2192 13 s",
+                    "vertical_guidance": "-10 / 90\u00b0",
+                    "turret_rotation_speed_horizontal": "37.8 32.1 65.8 47.6 \u2192 54 45.9 94 67.9 \u00b0/s",
+                    "turret_rotation_speed_vertical": "21 16.8 64 41 \u2192 30 24 91.5 58.6 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP-T/FI-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 7,
+                                "60\u00b0": 4
+                            },
+                            "100m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 7,
+                                "60\u00b0": 4
+                            },
+                            "500m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 6,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 4,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            }
+                        }
+                    },
+                    {
+                        "name": "Type 87 HE",
+                        "type": "FI-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 7,
+                                "60\u00b0": 4
+                            },
+                            "100m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 7,
+                                "60\u00b0": 4
+                            },
+                            "500m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 6,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 4,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            }
+                        }
+                    },
+                    {
+                        "name": "Type 87 AP",
+                        "type": "AP-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 63,
+                                "30\u00b0": 46,
+                                "60\u00b0": 24
+                            },
+                            "100m": {
+                                "0\u00b0": 61,
+                                "30\u00b0": 45,
+                                "60\u00b0": 23
+                            },
+                            "500m": {
+                                "0\u00b0": 51,
+                                "30\u00b0": 38,
+                                "60\u00b0": 20
+                            },
+                            "1000m": {
+                                "0\u00b0": 41,
+                                "30\u00b0": 32,
+                                "60\u00b0": 16
+                            },
+                            "1500m": {
+                                "0\u00b0": 33,
+                                "30\u00b0": 27,
+                                "60\u00b0": 13
+                            },
+                            "2000m": {
+                                "0\u00b0": 27,
+                                "30\u00b0": 23,
+                                "60\u00b0": 11
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

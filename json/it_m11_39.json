@@ -1,0 +1,175 @@
+{
+    "unit_basic_info": {
+        "name": "it_m11_39",
+        "nation": "it",
+        "rank": 1,
+        "battle_rating": {
+            "AB": 1.0,
+            "RB": 1.0,
+            "SB": 1.0
+        },
+        "role": "Light tank",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_italy_kingdom.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/it_m11_39.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 78,
+            "crew": 3
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 34.0,
+                    "ab": 37.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 11.8,
+                "rb_basic": 10.5,
+                "ab_ref": 22.5,
+                "ab_basic": 18.3
+            },
+            "engine_power": {
+                "rb_ref": 130,
+                "rb_basic": 115,
+                "ab_ref": 248,
+                "ab_basic": 201
+            },
+            "weight": 11.0
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "1.9x\u20133.5x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "37 mm Vickers-Terni 37/40 mod.18 cannon",
+                "features": [],
+                "specs": {
+                    "ammunition": "84 rounds",
+                    "reload": "4.1 \u2192 3.1 s",
+                    "vertical_guidance": "-8 / 15\u00b0",
+                    "horizontal_guidance": "-15 / 15\u00b0",
+                    "turret_rotation_speed_horizontal": "9.8 8.3 18.4 13.3 \u2192 14 11.9 26.4 19 \u00b0/s",
+                    "turret_rotation_speed_vertical": "10.5 8.4 36.7 23.5 \u2192 15 12 52.5 33.6 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "Granata Perforante da 37 mm",
+                        "details": {
+                            "type": "APHE",
+                            "caliber": "37 mm",
+                            "projectile_mass": "698 g",
+                            "muzzle_velocity": "640 m/s",
+                            "explosive_type": "TNT",
+                            "explosive_mass": "23 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 39,
+                                "30\u00b0": 33,
+                                "60\u00b0": 16
+                            },
+                            "100m": {
+                                "0\u00b0": 36,
+                                "30\u00b0": 31,
+                                "60\u00b0": 15
+                            },
+                            "500m": {
+                                "0\u00b0": 26,
+                                "30\u00b0": 23,
+                                "60\u00b0": 11
+                            },
+                            "1000m": {
+                                "0\u00b0": 17,
+                                "30\u00b0": 17,
+                                "60\u00b0": 7
+                            },
+                            "1500m": {
+                                "0\u00b0": 12,
+                                "30\u00b0": 11,
+                                "60\u00b0": 5
+                            },
+                            "2000m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 8,
+                                "60\u00b0": 5
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "2 x 8 mm Breda Mod. 38 machine gun",
+                "features": [],
+                "specs": {
+                    "ammunition": "1,440 rounds",
+                    "belt_capacity": "24 rounds",
+                    "reload": "10.4 \u2192 8 s",
+                    "vertical_guidance": "-10 / 20\u00b0",
+                    "turret_rotation_speed_horizontal": "42 35.7 79.1 57.1 \u2192 60 51 112.9 81.6 \u00b0/s",
+                    "turret_rotation_speed_vertical": "42 33.6 147 94.1 \u2192 60 48 210 134.4 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "API-T/AP/I",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "100m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

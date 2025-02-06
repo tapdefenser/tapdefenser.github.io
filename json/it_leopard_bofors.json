@@ -1,0 +1,193 @@
+{
+    "unit_basic_info": {
+        "name": "it_leopard_bofors",
+        "nation": "it",
+        "rank": 4,
+        "battle_rating": {
+            "AB": 5.7,
+            "RB": 6.0,
+            "SB": 6.0
+        },
+        "role": "SPAA",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_italy.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/it_leopard_bofors.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 94,
+            "crew": 5
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 65.0,
+                    "ab": 71.0
+                },
+                "backward": {
+                    "rb": 25.0,
+                    "ab": 27.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 23.4,
+                "rb_basic": 20.7,
+                "ab_ref": 40.9,
+                "ab_basic": 33.2
+            },
+            "engine_power": {
+                "rb_ref": 830,
+                "rb_basic": 734,
+                "ab_ref": 1451,
+                "ab_basic": 1179
+            },
+            "weight": 35.5
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "1.9x\u20133.5x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "40 mm Bofors DA 40/70 cannon",
+                "features": [],
+                "specs": {
+                    "ammunition": "228 rounds",
+                    "belt_capacity": "4 rounds",
+                    "reload": "0.6 \u2192 0.5 s",
+                    "vertical_guidance": "-5 / 90\u00b0",
+                    "turret_rotation_speed_horizontal": "59.5 50.6 103.6 74.9 \u2192 85 72.3 148 106.9 \u00b0/s",
+                    "turret_rotation_speed_vertical": "31.5 25.2 96.1 61.5 \u2192 45 36 137.2 87.8 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP-T/HEFI-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 12,
+                                "30\u00b0": 11,
+                                "60\u00b0": 5
+                            },
+                            "100m": {
+                                "0\u00b0": 11,
+                                "30\u00b0": 11,
+                                "60\u00b0": 5
+                            },
+                            "500m": {
+                                "0\u00b0": 10,
+                                "30\u00b0": 9,
+                                "60\u00b0": 4
+                            },
+                            "1000m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 8,
+                                "60\u00b0": 4
+                            },
+                            "1500m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 6,
+                                "60\u00b0": 4
+                            },
+                            "2000m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 4
+                            }
+                        }
+                    },
+                    {
+                        "name": "HE-I-T-M2",
+                        "type": "HEFI-T/HEFI-T/HEFI-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 12,
+                                "30\u00b0": 11,
+                                "60\u00b0": 5
+                            },
+                            "100m": {
+                                "0\u00b0": 11,
+                                "30\u00b0": 11,
+                                "60\u00b0": 5
+                            },
+                            "500m": {
+                                "0\u00b0": 10,
+                                "30\u00b0": 9,
+                                "60\u00b0": 4
+                            },
+                            "1000m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 8,
+                                "60\u00b0": 4
+                            },
+                            "1500m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 6,
+                                "60\u00b0": 4
+                            },
+                            "2000m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 4
+                            }
+                        }
+                    },
+                    {
+                        "name": "IM219",
+                        "type": "AP-T/AP-T/AP-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 93,
+                                "30\u00b0": 69,
+                                "60\u00b0": 35
+                            },
+                            "100m": {
+                                "0\u00b0": 90,
+                                "30\u00b0": 67,
+                                "60\u00b0": 34
+                            },
+                            "500m": {
+                                "0\u00b0": 77,
+                                "30\u00b0": 58,
+                                "60\u00b0": 29
+                            },
+                            "1000m": {
+                                "0\u00b0": 63,
+                                "30\u00b0": 49,
+                                "60\u00b0": 25
+                            },
+                            "1500m": {
+                                "0\u00b0": 51,
+                                "30\u00b0": 42,
+                                "60\u00b0": 21
+                            },
+                            "2000m": {
+                                "0\u00b0": 42,
+                                "30\u00b0": 35,
+                                "60\u00b0": 18
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

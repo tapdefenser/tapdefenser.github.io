@@ -1,0 +1,310 @@
+{
+    "unit_basic_info": {
+        "name": "it_lancia3ro_100",
+        "nation": "it",
+        "rank": 1,
+        "battle_rating": {
+            "AB": 2.0,
+            "RB": 1.7,
+            "SB": 1.7
+        },
+        "role": "Tank destroyer",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_italy_kingdom.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/it_lancia3ro_100.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 96,
+            "crew": 6
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 45.0,
+                    "ab": 49.0
+                },
+                "backward": {
+                    "rb": 11.0,
+                    "ab": 12.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 10.9,
+                "rb_basic": 9.6,
+                "ab_ref": 19.2,
+                "ab_basic": 15.5
+            },
+            "engine_power": {
+                "rb_ref": 93,
+                "rb_basic": 82,
+                "ab_ref": 163,
+                "ab_basic": 132
+            },
+            "weight": 8.5
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "1.9x\u20133.5x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "100 mm Cannone da 100/17 Mod.1914 cannon",
+                "features": [],
+                "specs": {
+                    "ammunition": "72 rounds",
+                    "reload": "13 \u2192 10 s",
+                    "vertical_guidance": "-8 / 48\u00b0",
+                    "turret_rotation_speed_horizontal": "9.8 8.3 17.1 12.3 \u2192 14 11.9 24.4 17.6 \u00b0/s",
+                    "turret_rotation_speed_vertical": "4.2 3.4 12.8 8.2 \u2192 6 4.8 18.3 11.7 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "Granata da 100 Mod.32",
+                        "details": {
+                            "type": "HE",
+                            "caliber": "100 mm",
+                            "projectile_mass": "13.5 kg",
+                            "muzzle_velocity": "399 m/s",
+                            "explosive_type": "TNT",
+                            "explosive_mass": "2.2 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 27,
+                                "30\u00b0": 27,
+                                "60\u00b0": 27
+                            },
+                            "100m": {
+                                "0\u00b0": 27,
+                                "30\u00b0": 27,
+                                "60\u00b0": 27
+                            },
+                            "500m": {
+                                "0\u00b0": 27,
+                                "30\u00b0": 27,
+                                "60\u00b0": 27
+                            },
+                            "1000m": {
+                                "0\u00b0": 27,
+                                "30\u00b0": 27,
+                                "60\u00b0": 27
+                            },
+                            "1500m": {
+                                "0\u00b0": 27,
+                                "30\u00b0": 27,
+                                "60\u00b0": 27
+                            },
+                            "2000m": {
+                                "0\u00b0": 27,
+                                "30\u00b0": 27,
+                                "60\u00b0": 27
+                            }
+                        }
+                    },
+                    {
+                        "name": "Granata da 100 Mod.914",
+                        "details": {
+                            "type": "AC shell",
+                            "caliber": "100 mm",
+                            "projectile_mass": "16.2 kg",
+                            "muzzle_velocity": "244 m/s",
+                            "explosive_type": "TNT",
+                            "explosive_mass": "1.5 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 26,
+                                "30\u00b0": 25,
+                                "60\u00b0": 20
+                            },
+                            "100m": {
+                                "0\u00b0": 26,
+                                "30\u00b0": 25,
+                                "60\u00b0": 20
+                            },
+                            "500m": {
+                                "0\u00b0": 24,
+                                "30\u00b0": 24,
+                                "60\u00b0": 20
+                            },
+                            "1000m": {
+                                "0\u00b0": 23,
+                                "30\u00b0": 22,
+                                "60\u00b0": 20
+                            },
+                            "1500m": {
+                                "0\u00b0": 22,
+                                "30\u00b0": 22,
+                                "60\u00b0": 20
+                            },
+                            "2000m": {
+                                "0\u00b0": 21,
+                                "30\u00b0": 21,
+                                "60\u00b0": 20
+                            }
+                        }
+                    },
+                    {
+                        "name": "Effetto Pronto da 100",
+                        "details": {
+                            "type": "HESH",
+                            "caliber": "100 mm",
+                            "projectile_mass": "10.4 kg",
+                            "muzzle_velocity": "399 m/s",
+                            "explosive_type": "RDX/TNT",
+                            "explosive_mass": "1.6 kg",
+                            "tnt_equivalent": "2.1 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 75,
+                                "30\u00b0": 75,
+                                "60\u00b0": 75
+                            },
+                            "100m": {
+                                "0\u00b0": 75,
+                                "30\u00b0": 75,
+                                "60\u00b0": 75
+                            },
+                            "500m": {
+                                "0\u00b0": 75,
+                                "30\u00b0": 75,
+                                "60\u00b0": 75
+                            },
+                            "1000m": {
+                                "0\u00b0": 75,
+                                "30\u00b0": 75,
+                                "60\u00b0": 75
+                            },
+                            "1500m": {
+                                "0\u00b0": 75,
+                                "30\u00b0": 75,
+                                "60\u00b0": 75
+                            },
+                            "2000m": {
+                                "0\u00b0": 75,
+                                "30\u00b0": 75,
+                                "60\u00b0": 75
+                            }
+                        }
+                    },
+                    {
+                        "name": "Effetto Pronto mod.43",
+                        "details": {
+                            "type": "HEAT",
+                            "caliber": "100 mm",
+                            "projectile_mass": "12.5 kg",
+                            "muzzle_velocity": "431 m/s",
+                            "explosive_type": "RDX/TNT",
+                            "explosive_mass": "1.2 kg",
+                            "tnt_equivalent": "1.5 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 110,
+                                "30\u00b0": 95,
+                                "60\u00b0": 55
+                            },
+                            "100m": {
+                                "0\u00b0": 110,
+                                "30\u00b0": 95,
+                                "60\u00b0": 55
+                            },
+                            "500m": {
+                                "0\u00b0": 110,
+                                "30\u00b0": 95,
+                                "60\u00b0": 55
+                            },
+                            "1000m": {
+                                "0\u00b0": 110,
+                                "30\u00b0": 95,
+                                "60\u00b0": 55
+                            },
+                            "1500m": {
+                                "0\u00b0": 110,
+                                "30\u00b0": 95,
+                                "60\u00b0": 55
+                            },
+                            "2000m": {
+                                "0\u00b0": 110,
+                                "30\u00b0": 95,
+                                "60\u00b0": 55
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "8 mm Breda Mod. 38 machine gun",
+                "features": [],
+                "specs": {
+                    "ammunition": "1,680 rounds",
+                    "belt_capacity": "24 rounds",
+                    "reload": "10.4 \u2192 8 s",
+                    "vertical_guidance": "-10 / 25\u00b0",
+                    "horizontal_guidance": "-20 / 20\u00b0",
+                    "turret_rotation_speed_horizontal": "21 17.9 36.6 26.4 \u2192 30 25.5 52.2 37.7 \u00b0/s",
+                    "turret_rotation_speed_vertical": "14 11.2 42.7 27.3 \u2192 20 16 61 39 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "API-T/AP/I",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "100m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

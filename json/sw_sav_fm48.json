@@ -1,0 +1,177 @@
+{
+    "unit_basic_info": {
+        "name": "sw_sav_fm48",
+        "nation": "sw",
+        "rank": 3,
+        "battle_rating": {
+            "AB": 3.7,
+            "RB": 3.7,
+            "SB": 3.7
+        },
+        "role": "Tank destroyer",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_sweden.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/sw_sav_fm48.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [
+                "Smoke grenades"
+            ],
+            "visibility": 69,
+            "crew": 3
+        },
+        "support_systems": {
+            "features": [
+                "Smoke grenades"
+            ]
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 48.0,
+                    "ab": 52.0
+                },
+                "backward": {
+                    "rb": 18.0,
+                    "ab": 20.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 20.0,
+                "rb_basic": 17.7,
+                "ab_ref": 35.0,
+                "ab_basic": 28.4
+            },
+            "engine_power": {
+                "rb_ref": 400,
+                "rb_basic": 354,
+                "ab_ref": 699,
+                "ab_basic": 568
+            },
+            "weight": 20.0
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "5.0x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "120 mm automatkanon",
+                "features": [
+                    "Autoloader"
+                ],
+                "specs": {
+                    "ammunition": "62 rounds",
+                    "first-order": "6 rounds",
+                    "vertical_guidance": "-10 / 25\u00b0",
+                    "horizontal_guidance": "-15 / 15\u00b0",
+                    "turret_rotation_speed_horizontal": "10.5 8.9 18.3 13.2 \u2192 15 12.8 26.1 18.9 \u00b0/s",
+                    "turret_rotation_speed_vertical": "3.5 2.8 10.7 6.8 \u2192 5 4 15.2 9.8 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "hpgr M/50",
+                        "details": {
+                            "type": "APCBC",
+                            "caliber": "120 mm",
+                            "projectile_mass": "23.5 kg",
+                            "muzzle_velocity": "525 m/s",
+                            "explosive_type": "TNT",
+                            "explosive_mass": "890 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 95,
+                                "30\u00b0": 77,
+                                "60\u00b0": 38
+                            },
+                            "100m": {
+                                "0\u00b0": 94,
+                                "30\u00b0": 76,
+                                "60\u00b0": 38
+                            },
+                            "500m": {
+                                "0\u00b0": 89,
+                                "30\u00b0": 73,
+                                "60\u00b0": 36
+                            },
+                            "1000m": {
+                                "0\u00b0": 84,
+                                "30\u00b0": 69,
+                                "60\u00b0": 34
+                            },
+                            "1500m": {
+                                "0\u00b0": 79,
+                                "30\u00b0": 65,
+                                "60\u00b0": 32
+                            },
+                            "2000m": {
+                                "0\u00b0": 75,
+                                "30\u00b0": 62,
+                                "60\u00b0": 30
+                            }
+                        }
+                    },
+                    {
+                        "name": "sgr M/50Z",
+                        "details": {
+                            "type": "HE",
+                            "caliber": "120 mm",
+                            "projectile_mass": "23.5 kg",
+                            "muzzle_velocity": "525 m/s",
+                            "explosive_type": "TNT",
+                            "explosive_mass": "2.3 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 28,
+                                "30\u00b0": 28,
+                                "60\u00b0": 28
+                            },
+                            "100m": {
+                                "0\u00b0": 28,
+                                "30\u00b0": 28,
+                                "60\u00b0": 28
+                            },
+                            "500m": {
+                                "0\u00b0": 28,
+                                "30\u00b0": 28,
+                                "60\u00b0": 28
+                            },
+                            "1000m": {
+                                "0\u00b0": 28,
+                                "30\u00b0": 28,
+                                "60\u00b0": 28
+                            },
+                            "1500m": {
+                                "0\u00b0": 28,
+                                "30\u00b0": 28,
+                                "60\u00b0": 28
+                            },
+                            "2000m": {
+                                "0\u00b0": 28,
+                                "30\u00b0": 28,
+                                "60\u00b0": 28
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            }
+        ]
+    }
+}

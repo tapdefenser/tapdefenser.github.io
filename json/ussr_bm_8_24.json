@@ -1,0 +1,124 @@
+{
+    "unit_basic_info": {
+        "name": "ussr_bm_8_24",
+        "nation": "ussr",
+        "rank": 1,
+        "battle_rating": {
+            "AB": 1.3,
+            "RB": 1.3,
+            "SB": 1.3
+        },
+        "role": "Tank destroyer",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_ussr.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/ussr_bm_8_24.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 125,
+            "crew": 2
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 43.0,
+                    "ab": 47.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 13.1,
+                "rb_basic": 11.6,
+                "ab_ref": 22.9,
+                "ab_basic": 18.6
+            },
+            "engine_power": {
+                "rb_ref": 76,
+                "rb_basic": 67,
+                "ab_ref": 133,
+                "ab_basic": 108
+            },
+            "weight": 5.8
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "1.9x\u20133.5x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "82 mm M-8 rocket",
+                "features": [],
+                "specs": {
+                    "ammunition": "24 rounds",
+                    "fire_rate": "180 shots/min",
+                    "vertical_guidance": "-3 / 40\u00b0",
+                    "horizontal_guidance": "-13 / 13\u00b0",
+                    "turret_rotation_speed_horizontal": "10.5 8.9 18.3 13.2 \u2192 15 12.8 26.1 18.9 \u00b0/s",
+                    "turret_rotation_speed_vertical": "3.5 2.8 10.7 6.8 \u2192 5 4 15.2 9.8 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "M-8",
+                        "details": {
+                            "type": "R",
+                            "caliber": "82 mm",
+                            "projectile_mass": "7.9 kg",
+                            "maximum_speed": "315 m/s",
+                            "explosive_type": "TNT",
+                            "explosive_mass": "600 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 9,
+                                "60\u00b0": 9
+                            },
+                            "100m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 9,
+                                "60\u00b0": 9
+                            },
+                            "500m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 9,
+                                "60\u00b0": 9
+                            },
+                            "1000m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 9,
+                                "60\u00b0": 9
+                            },
+                            "1500m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 9,
+                                "60\u00b0": 9
+                            },
+                            "2000m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 9,
+                                "60\u00b0": 9
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            }
+        ]
+    }
+}

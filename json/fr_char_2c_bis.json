@@ -1,0 +1,183 @@
+{
+    "unit_basic_info": {
+        "name": "fr_char_2c_bis",
+        "nation": "fr",
+        "rank": 1,
+        "battle_rating": {
+            "AB": 1.7,
+            "RB": 1.7,
+            "SB": 1.7
+        },
+        "role": "Heavy tank",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_france.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/fr_char_2c_bis.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 250,
+            "crew": 12
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [
+                "Reverse gearbox"
+            ],
+            "max_speed": {
+                "forward": {
+                    "rb": 15.0,
+                    "ab": 16.0
+                },
+                "backward": {
+                    "rb": 15.0,
+                    "ab": 16.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 7.1,
+                "rb_basic": 6.3,
+                "ab_ref": 11.4,
+                "ab_basic": 9.2
+            },
+            "engine_power": {
+                "rb_ref": 500,
+                "rb_basic": 442,
+                "ab_ref": 795,
+                "ab_basic": 646
+            },
+            "weight": 70.0
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "4.0x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "155 mm Schneider 155 C howitzer",
+                "features": [],
+                "specs": {
+                    "ammunition": "24 rounds",
+                    "reload": "22.4 \u2192 17.2 s",
+                    "vertical_guidance": "-15 / 20\u00b0",
+                    "horizontal_guidance": "-100 / 100\u00b0",
+                    "turret_rotation_speed_horizontal": "7 6 11.2 8.1 \u2192 10 8.5 16 11.6 \u00b0/s",
+                    "turret_rotation_speed_vertical": "7 5.6 18.2 11.6 \u2192 10 8 26 16.6 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "OA Mle1914",
+                        "details": {
+                            "type": "HE",
+                            "caliber": "155 mm",
+                            "projectile_mass": "43.2 kg",
+                            "muzzle_velocity": "210 m/s",
+                            "explosive_type": "Melinite",
+                            "explosive_mass": "10.2 kg",
+                            "tnt_equivalent": "11.2 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 63,
+                                "30\u00b0": 63,
+                                "60\u00b0": 63
+                            },
+                            "100m": {
+                                "0\u00b0": 63,
+                                "30\u00b0": 63,
+                                "60\u00b0": 63
+                            },
+                            "500m": {
+                                "0\u00b0": 63,
+                                "30\u00b0": 63,
+                                "60\u00b0": 63
+                            },
+                            "1000m": {
+                                "0\u00b0": 63,
+                                "30\u00b0": 63,
+                                "60\u00b0": 63
+                            },
+                            "1500m": {
+                                "0\u00b0": 63,
+                                "30\u00b0": 63,
+                                "60\u00b0": 63
+                            },
+                            "2000m": {
+                                "0\u00b0": 63,
+                                "30\u00b0": 63,
+                                "60\u00b0": 63
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "2 x 8 mm Hotchkiss Mle 1914 machine gun",
+                "features": [],
+                "specs": {
+                    "ammunition": "6,000rounds",
+                    "belt_capacity": "250 rounds",
+                    "reload": "6.5 \u2192 5 s",
+                    "vertical_guidance": "-5 / 10\u00b0",
+                    "horizontal_guidance": "-130 / 120\u00b0",
+                    "turret_rotation_speed_horizontal": "14 11.9 22.4 16.2 \u2192 20 17 32 23.1 \u00b0/s",
+                    "turret_rotation_speed_vertical": "14 11.2 36.4 23.3 \u2192 20 16 52 33.3 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "API-T/AP/I",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "100m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

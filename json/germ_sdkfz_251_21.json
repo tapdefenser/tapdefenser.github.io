@@ -1,0 +1,388 @@
+{
+    "unit_basic_info": {
+        "name": "germ_sdkfz_251_21",
+        "nation": "germ",
+        "rank": 2,
+        "battle_rating": {
+            "AB": 3.3,
+            "RB": 3.3,
+            "SB": 3.3
+        },
+        "role": "SPAA",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_germany.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/germ_sdkfz_251_21.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 88,
+            "crew": 4
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 52.0,
+                    "ab": 57.0
+                },
+                "backward": {
+                    "rb": 11.0,
+                    "ab": 12.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 12.5,
+                "rb_basic": 11.0,
+                "ab_ref": 21.9,
+                "ab_basic": 17.8
+            },
+            "engine_power": {
+                "rb_ref": 100,
+                "rb_basic": 88,
+                "ab_ref": 175,
+                "ab_basic": 142
+            },
+            "weight": 8.0
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "1.9x\u20133.5x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "2 x 15 mm MG151 machine gun",
+                "features": [],
+                "specs": {
+                    "ammunition": "2,000 rounds",
+                    "belt_capacity": "250 rounds",
+                    "reload": "18.2 \u2192 14 s",
+                    "vertical_guidance": "-5 / 49\u00b0",
+                    "turret_rotation_speed_horizontal": "42 35.7 73.1 52.8 \u2192 60 51 104.5 75.5 \u00b0/s",
+                    "turret_rotation_speed_vertical": "42 33.6 128.1 82 \u2192 60 48 183 117.1 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Universal",
+                        "type": "AP-T/HEF-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 4
+                            },
+                            "100m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 4
+                            },
+                            "500m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 4
+                            },
+                            "1000m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 4
+                            },
+                            "1500m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 4
+                            },
+                            "2000m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 4
+                            }
+                        }
+                    },
+                    {
+                        "name": "AP, 15 mm",
+                        "type": "AP-I/AP-I/AP-I/HEFI-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 4,
+                                "60\u00b0": 3
+                            },
+                            "100m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            }
+                        }
+                    },
+                    {
+                        "name": "HE, 15 mm",
+                        "type": "HEFI-T/HEFI-T/HEFI-T/AP-I",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 34,
+                                "30\u00b0": 30,
+                                "60\u00b0": 17
+                            },
+                            "100m": {
+                                "0\u00b0": 30,
+                                "30\u00b0": 26,
+                                "60\u00b0": 15
+                            },
+                            "500m": {
+                                "0\u00b0": 17,
+                                "30\u00b0": 15,
+                                "60\u00b0": 8
+                            },
+                            "1000m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 7,
+                                "60\u00b0": 4
+                            },
+                            "1500m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 2
+                            },
+                            "2000m": {
+                                "0\u00b0": 2,
+                                "30\u00b0": 2,
+                                "60\u00b0": 1
+                            }
+                        }
+                    },
+                    {
+                        "name": "APCR, 15 mm",
+                        "type": "HVAP/AP-I/AP-I/AP-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 33,
+                                "30\u00b0": 25,
+                                "60\u00b0": 13
+                            },
+                            "100m": {
+                                "0\u00b0": 30,
+                                "30\u00b0": 23,
+                                "60\u00b0": 12
+                            },
+                            "500m": {
+                                "0\u00b0": 21,
+                                "30\u00b0": 17,
+                                "60\u00b0": 8
+                            },
+                            "1000m": {
+                                "0\u00b0": 13,
+                                "30\u00b0": 11,
+                                "60\u00b0": 6
+                            },
+                            "1500m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 8,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 2
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "15 mm MG151 machine gun",
+                "features": [],
+                "specs": {
+                    "ammunition": "1,000 rounds",
+                    "belt_capacity": "500 rounds",
+                    "reload": "18.2 \u2192 14 s",
+                    "vertical_guidance": "-5 / 49\u00b0",
+                    "turret_rotation_speed_horizontal": "42 35.7 73.1 52.8 \u2192 60 51 104.5 75.5 \u00b0/s",
+                    "turret_rotation_speed_vertical": "42 33.6 128.1 82 \u2192 60 48 183 117.1 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Universal",
+                        "type": "AP-T/HEF-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 4
+                            },
+                            "100m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 4
+                            },
+                            "500m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 4
+                            },
+                            "1000m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 4
+                            },
+                            "1500m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 4
+                            },
+                            "2000m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 4
+                            }
+                        }
+                    },
+                    {
+                        "name": "AP, 15 mm",
+                        "type": "AP-I/AP-I/AP-I/HEFI-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 4,
+                                "60\u00b0": 3
+                            },
+                            "100m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            }
+                        }
+                    },
+                    {
+                        "name": "HE, 15 mm",
+                        "type": "HEFI-T/HEFI-T/HEFI-T/AP-I",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 34,
+                                "30\u00b0": 30,
+                                "60\u00b0": 17
+                            },
+                            "100m": {
+                                "0\u00b0": 30,
+                                "30\u00b0": 26,
+                                "60\u00b0": 15
+                            },
+                            "500m": {
+                                "0\u00b0": 17,
+                                "30\u00b0": 15,
+                                "60\u00b0": 8
+                            },
+                            "1000m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 7,
+                                "60\u00b0": 4
+                            },
+                            "1500m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 2
+                            },
+                            "2000m": {
+                                "0\u00b0": 2,
+                                "30\u00b0": 2,
+                                "60\u00b0": 1
+                            }
+                        }
+                    },
+                    {
+                        "name": "APCR, 15 mm",
+                        "type": "HVAP/AP-I/AP-I/AP-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 33,
+                                "30\u00b0": 25,
+                                "60\u00b0": 13
+                            },
+                            "100m": {
+                                "0\u00b0": 30,
+                                "30\u00b0": 23,
+                                "60\u00b0": 12
+                            },
+                            "500m": {
+                                "0\u00b0": 21,
+                                "30\u00b0": 17,
+                                "60\u00b0": 8
+                            },
+                            "1000m": {
+                                "0\u00b0": 13,
+                                "30\u00b0": 11,
+                                "60\u00b0": 6
+                            },
+                            "1500m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 8,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 2
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

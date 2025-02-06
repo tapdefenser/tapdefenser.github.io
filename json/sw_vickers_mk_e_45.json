@@ -1,0 +1,213 @@
+{
+    "unit_basic_info": {
+        "name": "sw_vickers_mk_e_45",
+        "nation": "sw",
+        "rank": 1,
+        "battle_rating": {
+            "AB": 1.0,
+            "RB": 1.0,
+            "SB": 1.0
+        },
+        "role": "Light tank",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_finland.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/sw_vickers_mk_e_45.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 81,
+            "crew": 4
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 35.0,
+                    "ab": 39.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 10.5,
+                "rb_basic": 9.2,
+                "ab_ref": 20.0,
+                "ab_basic": 16.3
+            },
+            "engine_power": {
+                "rb_ref": 92,
+                "rb_basic": 81,
+                "ab_ref": 176,
+                "ab_basic": 143
+            },
+            "weight": 8.8
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "1.9x\u20133.5x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "45 mm 20-K cannon",
+                "features": [],
+                "specs": {
+                    "ammunition": "50 rounds",
+                    "reload": "3.8 \u2192 2.9 s",
+                    "vertical_guidance": "-6 / 22\u00b0",
+                    "turret_rotation_speed_horizontal": "9.8 8.3 18.4 13.3 \u2192 14 11.9 26.4 19 \u00b0/s",
+                    "turret_rotation_speed_vertical": "2.8 2.2 9.8 6.3 \u2192 4 3.2 14 9 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "BR-240",
+                        "details": {
+                            "type": "APHEBC",
+                            "caliber": "45 mm",
+                            "projectile_mass": "1.4 kg",
+                            "muzzle_velocity": "760 m/s",
+                            "explosive_type": "A-IX-2",
+                            "explosive_mass": "19 g",
+                            "tnt_equivalent": "29 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 70,
+                                "30\u00b0": 59,
+                                "60\u00b0": 30
+                            },
+                            "100m": {
+                                "0\u00b0": 67,
+                                "30\u00b0": 57,
+                                "60\u00b0": 30
+                            },
+                            "500m": {
+                                "0\u00b0": 58,
+                                "30\u00b0": 50,
+                                "60\u00b0": 28
+                            },
+                            "1000m": {
+                                "0\u00b0": 47,
+                                "30\u00b0": 41,
+                                "60\u00b0": 25
+                            },
+                            "1500m": {
+                                "0\u00b0": 39,
+                                "30\u00b0": 35,
+                                "60\u00b0": 23
+                            },
+                            "2000m": {
+                                "0\u00b0": 32,
+                                "30\u00b0": 29,
+                                "60\u00b0": 21
+                            }
+                        }
+                    },
+                    {
+                        "name": "BR-240SP",
+                        "details": {
+                            "type": "APBC",
+                            "caliber": "45 mm",
+                            "projectile_mass": "1.4 kg",
+                            "muzzle_velocity": "757 m/s"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 73,
+                                "30\u00b0": 57,
+                                "60\u00b0": 29
+                            },
+                            "100m": {
+                                "0\u00b0": 70,
+                                "30\u00b0": 55,
+                                "60\u00b0": 28
+                            },
+                            "500m": {
+                                "0\u00b0": 60,
+                                "30\u00b0": 49,
+                                "60\u00b0": 24
+                            },
+                            "1000m": {
+                                "0\u00b0": 50,
+                                "30\u00b0": 42,
+                                "60\u00b0": 21
+                            },
+                            "1500m": {
+                                "0\u00b0": 41,
+                                "30\u00b0": 35,
+                                "60\u00b0": 17
+                            },
+                            "2000m": {
+                                "0\u00b0": 34,
+                                "30\u00b0": 30,
+                                "60\u00b0": 14
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "7.62 mm DT machine gun (coaxial)",
+                "features": [],
+                "specs": {
+                    "ammunition": "1,890 rounds",
+                    "belt_capacity": "63 rounds",
+                    "reload": "10.4 \u2192 8 s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP-I/API-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 7,
+                                "60\u00b0": 4
+                            },
+                            "100m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 7,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 5,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 1
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

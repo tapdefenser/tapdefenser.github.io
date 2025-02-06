@@ -1,0 +1,321 @@
+{
+    "unit_basic_info": {
+        "name": "fr_amx_13_75_ss11",
+        "nation": "fr",
+        "rank": 4,
+        "battle_rating": {
+            "AB": 6.7,
+            "RB": 6.7,
+            "SB": 6.7
+        },
+        "role": "Light tank",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_france.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/fr_amx_13_75_ss11.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [
+                "Smoke grenades"
+            ],
+            "visibility": 78,
+            "crew": 3
+        },
+        "support_systems": {
+            "features": [
+                "Smoke grenades"
+            ]
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 61.0,
+                    "ab": 67.0
+                },
+                "backward": {
+                    "rb": 7.0,
+                    "ab": 8.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 18.0,
+                "rb_basic": 15.9,
+                "ab_ref": 34.3,
+                "ab_basic": 27.9
+            },
+            "engine_power": {
+                "rb_ref": 270,
+                "rb_basic": 239,
+                "ab_ref": 515,
+                "ab_basic": 418
+            },
+            "weight": 15.0
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "7.5x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "SS.11 ATGM",
+                "features": [],
+                "specs": {
+                    "ammunition": "4 rounds",
+                    "fire_rate": "60 shots/min",
+                    "fire_on_the_move": "up to 5 km/h"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "LFK SS.11",
+                        "details": {
+                            "type": "ATGM",
+                            "caliber": "164 mm",
+                            "projectile_mass": "30 kg",
+                            "guidance": "Manual (MCLOS)",
+                            "maximum_speed": "220 m/s",
+                            "missile_guidance_time": "18.5 s",
+                            "explosive_type": "Composition B",
+                            "explosive_mass": "1.5 kg",
+                            "tnt_equivalent": "2 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 600,
+                                "30\u00b0": 520,
+                                "60\u00b0": 300
+                            },
+                            "100m": {
+                                "0\u00b0": 600,
+                                "30\u00b0": 520,
+                                "60\u00b0": 300
+                            },
+                            "500m": {
+                                "0\u00b0": 600,
+                                "30\u00b0": 520,
+                                "60\u00b0": 300
+                            },
+                            "1000m": {
+                                "0\u00b0": 600,
+                                "30\u00b0": 520,
+                                "60\u00b0": 300
+                            },
+                            "1500m": {
+                                "0\u00b0": 600,
+                                "30\u00b0": 520,
+                                "60\u00b0": 300
+                            },
+                            "2000m": {
+                                "0\u00b0": 600,
+                                "30\u00b0": 520,
+                                "60\u00b0": 300
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "75 mm SA50 L/57 cannon",
+                "features": [
+                    "Autoloader"
+                ],
+                "specs": {
+                    "ammunition": "36 rounds",
+                    "first-order": "12 rounds",
+                    "vertical_guidance": "-6 / 13\u00b0",
+                    "turret_rotation_speed_horizontal": "21 17.9 39.5 28.6 \u2192 30 25.5 56.5 40.8 \u00b0/s",
+                    "turret_rotation_speed_vertical": "3.1 2.5 11 7.1 \u2192 4.5 3.6 15.7 10.1 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "POT-51A",
+                        "details": {
+                            "type": "APBC",
+                            "caliber": "75 mm",
+                            "projectile_mass": "6.4 kg",
+                            "muzzle_velocity": "1,000 m/s"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 182,
+                                "30\u00b0": 133,
+                                "60\u00b0": 68
+                            },
+                            "100m": {
+                                "0\u00b0": 178,
+                                "30\u00b0": 131,
+                                "60\u00b0": 67
+                            },
+                            "500m": {
+                                "0\u00b0": 162,
+                                "30\u00b0": 121,
+                                "60\u00b0": 61
+                            },
+                            "1000m": {
+                                "0\u00b0": 143,
+                                "30\u00b0": 109,
+                                "60\u00b0": 55
+                            },
+                            "1500m": {
+                                "0\u00b0": 127,
+                                "30\u00b0": 98,
+                                "60\u00b0": 50
+                            },
+                            "2000m": {
+                                "0\u00b0": 113,
+                                "30\u00b0": 89,
+                                "60\u00b0": 45
+                            }
+                        }
+                    },
+                    {
+                        "name": "PCOT-51P",
+                        "details": {
+                            "type": "APCBC",
+                            "caliber": "75 mm",
+                            "projectile_mass": "6.4 kg",
+                            "muzzle_velocity": "1,000 m/s"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 202,
+                                "30\u00b0": 153,
+                                "60\u00b0": 67
+                            },
+                            "100m": {
+                                "0\u00b0": 198,
+                                "30\u00b0": 150,
+                                "60\u00b0": 66
+                            },
+                            "500m": {
+                                "0\u00b0": 180,
+                                "30\u00b0": 137,
+                                "60\u00b0": 61
+                            },
+                            "1000m": {
+                                "0\u00b0": 159,
+                                "30\u00b0": 122,
+                                "60\u00b0": 56
+                            },
+                            "1500m": {
+                                "0\u00b0": 141,
+                                "30\u00b0": 109,
+                                "60\u00b0": 50
+                            },
+                            "2000m": {
+                                "0\u00b0": 125,
+                                "30\u00b0": 97,
+                                "60\u00b0": 46
+                            }
+                        }
+                    },
+                    {
+                        "name": "OE Mle 1951",
+                        "details": {
+                            "type": "HE",
+                            "caliber": "75 mm",
+                            "projectile_mass": "6.2 kg",
+                            "muzzle_velocity": "753 m/s",
+                            "explosive_type": "TNT",
+                            "explosive_mass": "675 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 15,
+                                "30\u00b0": 15,
+                                "60\u00b0": 10
+                            },
+                            "100m": {
+                                "0\u00b0": 15,
+                                "30\u00b0": 14,
+                                "60\u00b0": 10
+                            },
+                            "500m": {
+                                "0\u00b0": 13,
+                                "30\u00b0": 13,
+                                "60\u00b0": 10
+                            },
+                            "1000m": {
+                                "0\u00b0": 12,
+                                "30\u00b0": 12,
+                                "60\u00b0": 10
+                            },
+                            "1500m": {
+                                "0\u00b0": 11,
+                                "30\u00b0": 11,
+                                "60\u00b0": 10
+                            },
+                            "2000m": {
+                                "0\u00b0": 10,
+                                "30\u00b0": 10,
+                                "60\u00b0": 10
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "7.5 mm MAC 31 machine gun (coaxial)",
+                "features": [],
+                "specs": {
+                    "ammunition": "4,950 rounds",
+                    "belt_capacity": "150 rounds",
+                    "reload": "6.5 \u2192 5 s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP/AP/T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 2
+                            },
+                            "100m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 2
+                            },
+                            "500m": {
+                                "0\u00b0": 2,
+                                "30\u00b0": 2,
+                                "60\u00b0": 1
+                            },
+                            "1000m": {
+                                "0\u00b0": 1,
+                                "30\u00b0": 1,
+                                "60\u00b0": 0
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

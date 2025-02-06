@@ -1,0 +1,498 @@
+{
+    "unit_basic_info": {
+        "name": "germ_pzkpfw_maus",
+        "nation": "germ",
+        "rank": 5,
+        "battle_rating": {
+            "AB": 8.0,
+            "RB": 7.7,
+            "SB": 7.7
+        },
+        "role": "Heavy tank",
+        "images": {
+            "country_flag": null,
+            "unit_image": null
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [
+                "Smoke grenades"
+            ],
+            "visibility": 250,
+            "crew": 6
+        },
+        "support_systems": {
+            "features": [
+                "Smoke grenades"
+            ]
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [
+                "Reverse gearbox"
+            ],
+            "max_speed": {
+                "forward": {
+                    "rb": 21.0,
+                    "ab": 22.0
+                },
+                "backward": {
+                    "rb": 21.0,
+                    "ab": 22.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 6.4,
+                "rb_basic": 5.6,
+                "ab_ref": 10.1,
+                "ab_basic": 8.2
+            },
+            "engine_power": {
+                "rb_ref": 1200,
+                "rb_basic": 1061,
+                "ab_ref": 1907,
+                "ab_basic": 1549
+            },
+            "weight": 188.0
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "10.0x",
+                "commander": "10.0x",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "128 mm KwK44 cannon",
+                "features": [],
+                "specs": {
+                    "ammunition": "68 rounds",
+                    "reload": "23.6 \u2192 18.2 s",
+                    "vertical_guidance": "-7 / 23\u00b0",
+                    "turret_rotation_speed_horizontal": "5.6 4.8 9 6.5 \u2192 8 6.8 12.8 9.2 \u00b0/s",
+                    "turret_rotation_speed_vertical": "2.8 2.2 7.3 4.7 \u2192 4 3.2 10.4 6.7 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "PzGr",
+                        "details": {
+                            "type": "APC",
+                            "caliber": "128 mm",
+                            "projectile_mass": "26.4 kg",
+                            "muzzle_velocity": "930 m/s",
+                            "explosive_type": "PH-Salz and H.10",
+                            "explosive_mass": "550 g",
+                            "tnt_equivalent": "786 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 252,
+                                "30\u00b0": 194,
+                                "60\u00b0": 89
+                            },
+                            "100m": {
+                                "0\u00b0": 249,
+                                "30\u00b0": 192,
+                                "60\u00b0": 89
+                            },
+                            "500m": {
+                                "0\u00b0": 237,
+                                "30\u00b0": 183,
+                                "60\u00b0": 85
+                            },
+                            "1000m": {
+                                "0\u00b0": 222,
+                                "30\u00b0": 172,
+                                "60\u00b0": 81
+                            },
+                            "1500m": {
+                                "0\u00b0": 208,
+                                "30\u00b0": 162,
+                                "60\u00b0": 77
+                            },
+                            "2000m": {
+                                "0\u00b0": 195,
+                                "30\u00b0": 153,
+                                "60\u00b0": 73
+                            }
+                        }
+                    },
+                    {
+                        "name": "Sprgr. L/5",
+                        "details": {
+                            "type": "HE",
+                            "caliber": "128 mm",
+                            "projectile_mass": "28 kg",
+                            "muzzle_velocity": "750 m/s",
+                            "explosive_type": "Fp.02",
+                            "explosive_mass": "3.7 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 37,
+                                "30\u00b0": 37,
+                                "60\u00b0": 37
+                            },
+                            "100m": {
+                                "0\u00b0": 37,
+                                "30\u00b0": 37,
+                                "60\u00b0": 37
+                            },
+                            "500m": {
+                                "0\u00b0": 37,
+                                "30\u00b0": 37,
+                                "60\u00b0": 37
+                            },
+                            "1000m": {
+                                "0\u00b0": 37,
+                                "30\u00b0": 37,
+                                "60\u00b0": 37
+                            },
+                            "1500m": {
+                                "0\u00b0": 37,
+                                "30\u00b0": 37,
+                                "60\u00b0": 37
+                            },
+                            "2000m": {
+                                "0\u00b0": 37,
+                                "30\u00b0": 37,
+                                "60\u00b0": 37
+                            }
+                        }
+                    },
+                    {
+                        "name": "PzGr 43",
+                        "details": {
+                            "type": "APCBC",
+                            "caliber": "128 mm",
+                            "projectile_mass": "28.3 kg",
+                            "muzzle_velocity": "940 m/s",
+                            "explosive_type": "PH-Salz and H.10",
+                            "explosive_mass": "550 g",
+                            "tnt_equivalent": "786 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 272,
+                                "30\u00b0": 208,
+                                "60\u00b0": 95
+                            },
+                            "100m": {
+                                "0\u00b0": 269,
+                                "30\u00b0": 206,
+                                "60\u00b0": 94
+                            },
+                            "500m": {
+                                "0\u00b0": 257,
+                                "30\u00b0": 197,
+                                "60\u00b0": 91
+                            },
+                            "1000m": {
+                                "0\u00b0": 242,
+                                "30\u00b0": 186,
+                                "60\u00b0": 86
+                            },
+                            "1500m": {
+                                "0\u00b0": 228,
+                                "30\u00b0": 176,
+                                "60\u00b0": 82
+                            },
+                            "2000m": {
+                                "0\u00b0": 215,
+                                "30\u00b0": 167,
+                                "60\u00b0": 78
+                            }
+                        }
+                    },
+                    {
+                        "name": "12,8/8,8 Pzgr.TS",
+                        "details": {
+                            "type": "APCBC",
+                            "caliber": "88 mm",
+                            "projectile_mass": "9.9 kg",
+                            "muzzle_velocity": "1,230 m/s",
+                            "explosive_type": "H.10",
+                            "explosive_mass": "64 g",
+                            "tnt_equivalent": "109 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 312,
+                                "30\u00b0": 236,
+                                "60\u00b0": 98
+                            },
+                            "100m": {
+                                "0\u00b0": 307,
+                                "30\u00b0": 233,
+                                "60\u00b0": 97
+                            },
+                            "500m": {
+                                "0\u00b0": 288,
+                                "30\u00b0": 218,
+                                "60\u00b0": 92
+                            },
+                            "1000m": {
+                                "0\u00b0": 266,
+                                "30\u00b0": 201,
+                                "60\u00b0": 87
+                            },
+                            "1500m": {
+                                "0\u00b0": 245,
+                                "30\u00b0": 185,
+                                "60\u00b0": 81
+                            },
+                            "2000m": {
+                                "0\u00b0": 226,
+                                "30\u00b0": 171,
+                                "60\u00b0": 76
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "75 mm KwK44 L/36.5 cannon",
+                "features": [],
+                "specs": {
+                    "ammunition": "100 rounds",
+                    "reload": "5.2 \u2192 4 s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "Hl.Gr 38B",
+                        "details": {
+                            "type": "HEAT",
+                            "caliber": "75 mm",
+                            "projectile_mass": "4.4 kg",
+                            "muzzle_velocity": "450 m/s",
+                            "explosive_type": "H.5",
+                            "explosive_mass": "513 g",
+                            "tnt_equivalent": "872 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 80,
+                                "30\u00b0": 69,
+                                "60\u00b0": 40
+                            },
+                            "100m": {
+                                "0\u00b0": 80,
+                                "30\u00b0": 69,
+                                "60\u00b0": 40
+                            },
+                            "500m": {
+                                "0\u00b0": 80,
+                                "30\u00b0": 69,
+                                "60\u00b0": 40
+                            },
+                            "1000m": {
+                                "0\u00b0": 80,
+                                "30\u00b0": 69,
+                                "60\u00b0": 40
+                            },
+                            "1500m": {
+                                "0\u00b0": 80,
+                                "30\u00b0": 69,
+                                "60\u00b0": 40
+                            },
+                            "2000m": {
+                                "0\u00b0": 80,
+                                "30\u00b0": 69,
+                                "60\u00b0": 40
+                            }
+                        }
+                    },
+                    {
+                        "name": "Sprgr. 34",
+                        "details": {
+                            "type": "HE",
+                            "caliber": "75 mm",
+                            "projectile_mass": "5.7 kg",
+                            "muzzle_velocity": "420 m/s",
+                            "explosive_type": "TNT",
+                            "explosive_mass": "686 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 10,
+                                "30\u00b0": 10,
+                                "60\u00b0": 10
+                            },
+                            "100m": {
+                                "0\u00b0": 10,
+                                "30\u00b0": 10,
+                                "60\u00b0": 10
+                            },
+                            "500m": {
+                                "0\u00b0": 10,
+                                "30\u00b0": 10,
+                                "60\u00b0": 10
+                            },
+                            "1000m": {
+                                "0\u00b0": 10,
+                                "30\u00b0": 10,
+                                "60\u00b0": 10
+                            },
+                            "1500m": {
+                                "0\u00b0": 10,
+                                "30\u00b0": 10,
+                                "60\u00b0": 10
+                            },
+                            "2000m": {
+                                "0\u00b0": 10,
+                                "30\u00b0": 10,
+                                "60\u00b0": 10
+                            }
+                        }
+                    },
+                    {
+                        "name": "Hl.Gr 38C",
+                        "details": {
+                            "type": "HEAT",
+                            "caliber": "75 mm",
+                            "projectile_mass": "4.8 kg",
+                            "muzzle_velocity": "450 m/s",
+                            "explosive_type": "H.5",
+                            "explosive_mass": "515 g",
+                            "tnt_equivalent": "876 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 115,
+                                "30\u00b0": 100,
+                                "60\u00b0": 57
+                            },
+                            "100m": {
+                                "0\u00b0": 115,
+                                "30\u00b0": 100,
+                                "60\u00b0": 57
+                            },
+                            "500m": {
+                                "0\u00b0": 115,
+                                "30\u00b0": 100,
+                                "60\u00b0": 57
+                            },
+                            "1000m": {
+                                "0\u00b0": 115,
+                                "30\u00b0": 100,
+                                "60\u00b0": 57
+                            },
+                            "1500m": {
+                                "0\u00b0": 115,
+                                "30\u00b0": 100,
+                                "60\u00b0": 57
+                            },
+                            "2000m": {
+                                "0\u00b0": 115,
+                                "30\u00b0": 100,
+                                "60\u00b0": 57
+                            }
+                        }
+                    },
+                    {
+                        "name": "K.Gr.Rot Nb.",
+                        "details": {
+                            "type": "Smoke",
+                            "caliber": "75 mm",
+                            "projectile_mass": "6.2 kg",
+                            "muzzle_velocity": "423 m/s",
+                            "explosive_type": "Smoke composition",
+                            "explosive_mass": "50 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "100m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "7.92 mm MG34 machine gun (coaxial)",
+                "features": [],
+                "specs": {
+                    "ammunition": "1,050 rounds",
+                    "belt_capacity": "150 rounds",
+                    "reload": "10.4 \u2192 8 s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP/AP/AP-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 8,
+                                "60\u00b0": 4
+                            },
+                            "100m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 7,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 5,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 1
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

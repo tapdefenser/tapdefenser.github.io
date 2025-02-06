@@ -1,0 +1,472 @@
+{
+    "unit_basic_info": {
+        "name": "cn_wma_301",
+        "nation": "cn",
+        "rank": 6,
+        "battle_rating": {
+            "AB": 8.7,
+            "RB": 9.0,
+            "SB": 9.0
+        },
+        "role": "Light tank",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_china.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/cn_wma_301.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [
+                "Smoke grenades"
+            ],
+            "visibility": 136,
+            "crew": 5
+        },
+        "support_systems": {
+            "features": [
+                "Smoke grenades"
+            ]
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 85.0,
+                    "ab": 94.0
+                },
+                "backward": {
+                    "rb": 7.0,
+                    "ab": 8.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 16.8,
+                "rb_basic": 14.9,
+                "ab_ref": 32.2,
+                "ab_basic": 26.1
+            },
+            "engine_power": {
+                "rb_ref": 320,
+                "rb_basic": 283,
+                "ab_ref": 611,
+                "ab_basic": 496
+            },
+            "weight": 19.0
+        }
+    },
+    "optics": {
+        "features": [
+            {
+                "name": "Laser rangefinder"
+            },
+            {
+                "name": "Scout UAV"
+            }
+        ],
+        "specs": {
+            "optical_devices": [
+                {
+                    "name": "Thermal imager",
+                    "resolution": {
+                        "gunner": "800x600",
+                        "commander": "\u2014",
+                        "driver": "\u2014"
+                    }
+                },
+                {
+                    "name": "Night vision device"
+                }
+            ],
+            "optics_zoom": {
+                "gunner": "6.0x\u201311.0x",
+                "commander": "1.0x\u20135.0x",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "105 mm WMA301 cannon",
+                "features": [
+                    "Two-plane stabilizer"
+                ],
+                "specs": {
+                    "ammunition": "30 rounds",
+                    "first-order": "12 rounds",
+                    "reload": "8.7 \u2192 6.7 s",
+                    "vertical_guidance": "-4 / 18\u00b0",
+                    "turret_rotation_speed_horizontal": "18.2 15.5 34.3 24.8 \u2192 26 22.1 48.9 35.4 \u00b0/s",
+                    "turret_rotation_speed_vertical": "4.2 3.4 14.7 9.4 \u2192 6 4.8 21 13.4 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "Type-83 HEAT",
+                        "details": {
+                            "type": "HEATFS",
+                            "caliber": "105 mm",
+                            "projectile_mass": "11 kg",
+                            "muzzle_velocity": "1,174 m/s",
+                            "explosive_type": "Composition B",
+                            "explosive_mass": "970 g",
+                            "tnt_equivalent": "1.3 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 400,
+                                "30\u00b0": 346,
+                                "60\u00b0": 200
+                            },
+                            "100m": {
+                                "0\u00b0": 400,
+                                "30\u00b0": 346,
+                                "60\u00b0": 200
+                            },
+                            "500m": {
+                                "0\u00b0": 400,
+                                "30\u00b0": 346,
+                                "60\u00b0": 200
+                            },
+                            "1000m": {
+                                "0\u00b0": 400,
+                                "30\u00b0": 346,
+                                "60\u00b0": 200
+                            },
+                            "1500m": {
+                                "0\u00b0": 400,
+                                "30\u00b0": 346,
+                                "60\u00b0": 200
+                            },
+                            "2000m": {
+                                "0\u00b0": 400,
+                                "30\u00b0": 346,
+                                "60\u00b0": 200
+                            }
+                        }
+                    },
+                    {
+                        "name": "Type-83 HESH",
+                        "details": {
+                            "type": "HESH",
+                            "caliber": "105 mm",
+                            "projectile_mass": "11.2 kg",
+                            "muzzle_velocity": "732 m/s",
+                            "explosive_type": "Comp. A",
+                            "explosive_mass": "3 kg",
+                            "tnt_equivalent": "4.3 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 127,
+                                "30\u00b0": 127,
+                                "60\u00b0": 127
+                            },
+                            "100m": {
+                                "0\u00b0": 127,
+                                "30\u00b0": 127,
+                                "60\u00b0": 127
+                            },
+                            "500m": {
+                                "0\u00b0": 127,
+                                "30\u00b0": 127,
+                                "60\u00b0": 127
+                            },
+                            "1000m": {
+                                "0\u00b0": 127,
+                                "30\u00b0": 127,
+                                "60\u00b0": 127
+                            },
+                            "1500m": {
+                                "0\u00b0": 127,
+                                "30\u00b0": 127,
+                                "60\u00b0": 127
+                            },
+                            "2000m": {
+                                "0\u00b0": 127,
+                                "30\u00b0": 127,
+                                "60\u00b0": 127
+                            }
+                        }
+                    },
+                    {
+                        "name": "Type-83 APDS",
+                        "details": {
+                            "type": "APFSDS",
+                            "caliber": "105 mm",
+                            "projectile_mass": "4.2 kg",
+                            "muzzle_velocity": "1,455 m/s"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 337,
+                                "30\u00b0": 284,
+                                "60\u00b0": 195
+                            },
+                            "100m": {
+                                "0\u00b0": 335,
+                                "30\u00b0": 283,
+                                "60\u00b0": 194
+                            },
+                            "500m": {
+                                "0\u00b0": 330,
+                                "30\u00b0": 278,
+                                "60\u00b0": 191
+                            },
+                            "1000m": {
+                                "0\u00b0": 322,
+                                "30\u00b0": 272,
+                                "60\u00b0": 186
+                            },
+                            "1500m": {
+                                "0\u00b0": 314,
+                                "30\u00b0": 265,
+                                "60\u00b0": 182
+                            },
+                            "2000m": {
+                                "0\u00b0": 306,
+                                "30\u00b0": 258,
+                                "60\u00b0": 177
+                            }
+                        }
+                    },
+                    {
+                        "name": "DTB-1",
+                        "details": {
+                            "type": "HE-VT",
+                            "caliber": "105 mm",
+                            "projectile_mass": "16.2 kg",
+                            "muzzle_velocity": "825 m/s",
+                            "explosive_type": "TNT",
+                            "explosive_mass": "1.7 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 23,
+                                "30\u00b0": 23,
+                                "60\u00b0": 21
+                            },
+                            "100m": {
+                                "0\u00b0": 23,
+                                "30\u00b0": 23,
+                                "60\u00b0": 21
+                            },
+                            "500m": {
+                                "0\u00b0": 22,
+                                "30\u00b0": 21,
+                                "60\u00b0": 21
+                            },
+                            "1000m": {
+                                "0\u00b0": 21,
+                                "30\u00b0": 21,
+                                "60\u00b0": 21
+                            },
+                            "1500m": {
+                                "0\u00b0": 21,
+                                "30\u00b0": 21,
+                                "60\u00b0": 21
+                            },
+                            "2000m": {
+                                "0\u00b0": 21,
+                                "30\u00b0": 21,
+                                "60\u00b0": 21
+                            }
+                        }
+                    },
+                    {
+                        "name": "BTM1",
+                        "details": {
+                            "type": "SAPCBC",
+                            "caliber": "105 mm",
+                            "projectile_mass": "16.2 kg",
+                            "muzzle_velocity": "803 m/s",
+                            "explosive_type": "A-IX-2",
+                            "explosive_mass": "1.5 kg",
+                            "tnt_equivalent": "2.3 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 97,
+                                "30\u00b0": 79,
+                                "60\u00b0": 39
+                            },
+                            "100m": {
+                                "0\u00b0": 96,
+                                "30\u00b0": 77,
+                                "60\u00b0": 39
+                            },
+                            "500m": {
+                                "0\u00b0": 90,
+                                "30\u00b0": 73,
+                                "60\u00b0": 36
+                            },
+                            "1000m": {
+                                "0\u00b0": 83,
+                                "30\u00b0": 67,
+                                "60\u00b0": 33
+                            },
+                            "1500m": {
+                                "0\u00b0": 76,
+                                "30\u00b0": 62,
+                                "60\u00b0": 31
+                            },
+                            "2000m": {
+                                "0\u00b0": 70,
+                                "30\u00b0": 58,
+                                "60\u00b0": 28
+                            }
+                        }
+                    },
+                    {
+                        "name": "GP105",
+                        "details": {
+                            "type": "ATGM (tandem)",
+                            "caliber": "105 mm",
+                            "projectile_mass": "19.8 kg",
+                            "guidance": "Beam riding",
+                            "launch_range": "5\u00a0km",
+                            "maximum_speed": "370 m/s",
+                            "missile_guidance_time": "26 s",
+                            "explosive_type": "OKFOL",
+                            "explosive_mass": "3 kg",
+                            "tnt_equivalent": "4.9 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 750,
+                                "30\u00b0": 650,
+                                "60\u00b0": 375
+                            },
+                            "100m": {
+                                "0\u00b0": 750,
+                                "30\u00b0": 650,
+                                "60\u00b0": 375
+                            },
+                            "500m": {
+                                "0\u00b0": 750,
+                                "30\u00b0": 650,
+                                "60\u00b0": 375
+                            },
+                            "1000m": {
+                                "0\u00b0": 750,
+                                "30\u00b0": 650,
+                                "60\u00b0": 375
+                            },
+                            "1500m": {
+                                "0\u00b0": 750,
+                                "30\u00b0": 650,
+                                "60\u00b0": 375
+                            },
+                            "2000m": {
+                                "0\u00b0": 750,
+                                "30\u00b0": 650,
+                                "60\u00b0": 375
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "12.7 mm QJC88A machine gun",
+                "features": [],
+                "specs": {
+                    "ammunition": "600 rounds",
+                    "belt_capacity": "150 rounds",
+                    "reload": "6.5 \u2192 5 s",
+                    "vertical_guidance": "-6 / 85\u00b0",
+                    "turret_rotation_speed_horizontal": "63 53.6 118.6 85.7 \u2192 90 76.5 169.4 122.4 \u00b0/s",
+                    "turret_rotation_speed_vertical": "63 50.4 220.5 141.1 \u2192 90 72 315 201.6 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "API-T/IAI/API-T/AP-I(c)",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 34,
+                                "30\u00b0": 24,
+                                "60\u00b0": 12
+                            },
+                            "100m": {
+                                "0\u00b0": 32,
+                                "30\u00b0": 23,
+                                "60\u00b0": 12
+                            },
+                            "500m": {
+                                "0\u00b0": 24,
+                                "30\u00b0": 18,
+                                "60\u00b0": 9
+                            },
+                            "1000m": {
+                                "0\u00b0": 17,
+                                "30\u00b0": 13,
+                                "60\u00b0": 7
+                            },
+                            "1500m": {
+                                "0\u00b0": 12,
+                                "30\u00b0": 10,
+                                "60\u00b0": 5
+                            },
+                            "2000m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 7,
+                                "60\u00b0": 4
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "7.62 mm Type 86 machine gun (coaxial)",
+                "features": [],
+                "specs": {
+                    "ammunition": "1,000 rounds",
+                    "belt_capacity": "250 rounds",
+                    "reload": "10.4 \u2192 8 s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP-I/API-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 7,
+                                "60\u00b0": 4
+                            },
+                            "100m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 7,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 5,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 1
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

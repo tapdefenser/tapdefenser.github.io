@@ -1,0 +1,183 @@
+{
+    "unit_basic_info": {
+        "name": "ussr_it_1",
+        "nation": "ussr",
+        "rank": 6,
+        "battle_rating": {
+            "AB": 8.7,
+            "RB": 8.7,
+            "SB": 8.7
+        },
+        "role": "Tank destroyer",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_ussr.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/ussr_it_1.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [
+                "ESS"
+            ],
+            "visibility": 75,
+            "crew": 3
+        },
+        "support_systems": {
+            "features": [
+                "ESS"
+            ]
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 50.0,
+                    "ab": 54.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 16.8,
+                "rb_basic": 14.9,
+                "ab_ref": 29.4,
+                "ab_basic": 23.9
+            },
+            "engine_power": {
+                "rb_ref": 580,
+                "rb_basic": 513,
+                "ab_ref": 1014,
+                "ab_basic": 824
+            },
+            "weight": 34.5
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "4.0x\u20138.0x",
+                "commander": "5.0x",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "3M7 ATGM",
+                "features": [
+                    "Two-plane stabilizer",
+                    "Autoloader"
+                ],
+                "specs": {
+                    "ammunition": "15 rounds",
+                    "first-order": "15 rounds",
+                    "belt_capacity": "1 round",
+                    "vertical_guidance": "-9 / 17\u00b0",
+                    "turret_rotation_speed_horizontal": "17.5 14.9 30.5 22 \u2192 25 21.3 43.5 31.5 \u00b0/s",
+                    "turret_rotation_speed_vertical": "3.5 2.8 10.7 6.8 \u2192 5 4 15.2 9.8 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "3M7",
+                        "details": {
+                            "type": "ATGM",
+                            "caliber": "180 mm",
+                            "projectile_mass": "54 kg",
+                            "guidance": "Semi-Automatic (SACLOS)",
+                            "launch_range": "3.3\u00a0km",
+                            "maximum_speed": "224 m/s",
+                            "missile_guidance_time": "15 s",
+                            "explosive_type": "A-IX-1",
+                            "explosive_mass": "2.5 kg",
+                            "tnt_equivalent": "3.2 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 500,
+                                "30\u00b0": 433,
+                                "60\u00b0": 250
+                            },
+                            "100m": {
+                                "0\u00b0": 500,
+                                "30\u00b0": 433,
+                                "60\u00b0": 250
+                            },
+                            "500m": {
+                                "0\u00b0": 500,
+                                "30\u00b0": 433,
+                                "60\u00b0": 250
+                            },
+                            "1000m": {
+                                "0\u00b0": 500,
+                                "30\u00b0": 433,
+                                "60\u00b0": 250
+                            },
+                            "1500m": {
+                                "0\u00b0": 500,
+                                "30\u00b0": 433,
+                                "60\u00b0": 250
+                            },
+                            "2000m": {
+                                "0\u00b0": 500,
+                                "30\u00b0": 433,
+                                "60\u00b0": 250
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "7.62 mm SGMT machine gun (coaxial)",
+                "features": [],
+                "specs": {
+                    "ammunition": "2,000 rounds",
+                    "belt_capacity": "250 rounds",
+                    "reload": "10.4 \u2192 8 s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP-I/API-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 7,
+                                "60\u00b0": 4
+                            },
+                            "100m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 7,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 5,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 1
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

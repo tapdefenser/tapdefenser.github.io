@@ -1,0 +1,426 @@
+{
+    "unit_basic_info": {
+        "name": "ussr_bmd_4",
+        "nation": "ussr",
+        "rank": 6,
+        "battle_rating": {
+            "AB": 9.0,
+            "RB": 9.3,
+            "SB": 9.3
+        },
+        "role": "Light tank",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_russia.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/ussr_bmd_4.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [
+                "Smoke grenades",
+                "ESS",
+                "Dual control"
+            ],
+            "visibility": 77,
+            "crew": 3
+        },
+        "support_systems": {
+            "features": [
+                "Smoke grenades",
+                "ESS",
+                "Dual control"
+            ]
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [
+                "Amphibious",
+                "Reverse gearbox",
+                "Controlled suspension"
+            ],
+            "max_speed": {
+                "forward": {
+                    "rb": 70.0,
+                    "ab": 78.0
+                },
+                "backward": {
+                    "rb": 70.0,
+                    "ab": 78.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 33.1,
+                "rb_basic": 29.3,
+                "ab_ref": 63.2,
+                "ab_basic": 51.3
+            },
+            "engine_power": {
+                "rb_ref": 450,
+                "rb_basic": 398,
+                "ab_ref": 859,
+                "ab_basic": 697
+            },
+            "weight": 13.6
+        }
+    },
+    "optics": {
+        "features": [
+            {
+                "name": "Laser rangefinder"
+            },
+            {
+                "name": "Optical Detection"
+            },
+            {
+                "name": "Scout UAV"
+            }
+        ],
+        "specs": {
+            "optical_devices": [
+                {
+                    "name": "Thermal imager",
+                    "resolution": {
+                        "gunner": "800x600",
+                        "commander": "\u2014",
+                        "driver": "\u2014"
+                    }
+                },
+                {
+                    "name": "Night vision device"
+                }
+            ],
+            "optics_zoom": {
+                "gunner": "2.5x\u201312.0x",
+                "commander": "4.0x\u201320.0x",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "100 mm 2A70 cannon",
+                "features": [
+                    "Two-plane stabilizer",
+                    "Autoloader"
+                ],
+                "specs": {
+                    "ammunition": "38 rounds",
+                    "first-order": "38 rounds"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "3OF32",
+                        "details": {
+                            "type": "HE",
+                            "caliber": "100 mm",
+                            "projectile_mass": "15.6 kg",
+                            "muzzle_velocity": "250 m/s",
+                            "explosive_type": "A-IX-2",
+                            "explosive_mass": "1.7 kg",
+                            "tnt_equivalent": "2.6 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 31,
+                                "30\u00b0": 31,
+                                "60\u00b0": 31
+                            },
+                            "100m": {
+                                "0\u00b0": 31,
+                                "30\u00b0": 31,
+                                "60\u00b0": 31
+                            },
+                            "500m": {
+                                "0\u00b0": 31,
+                                "30\u00b0": 31,
+                                "60\u00b0": 31
+                            },
+                            "1000m": {
+                                "0\u00b0": 31,
+                                "30\u00b0": 31,
+                                "60\u00b0": 31
+                            },
+                            "1500m": {
+                                "0\u00b0": 31,
+                                "30\u00b0": 31,
+                                "60\u00b0": 31
+                            },
+                            "2000m": {
+                                "0\u00b0": 31,
+                                "30\u00b0": 31,
+                                "60\u00b0": 31
+                            }
+                        }
+                    },
+                    {
+                        "name": "3OF70",
+                        "details": {
+                            "type": "HE",
+                            "caliber": "100 mm",
+                            "projectile_mass": "13.4 kg",
+                            "muzzle_velocity": "355 m/s",
+                            "explosive_type": "A-IX-2",
+                            "explosive_mass": "2.3 kg",
+                            "tnt_equivalent": "3.5 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 36,
+                                "30\u00b0": 36,
+                                "60\u00b0": 36
+                            },
+                            "100m": {
+                                "0\u00b0": 36,
+                                "30\u00b0": 36,
+                                "60\u00b0": 36
+                            },
+                            "500m": {
+                                "0\u00b0": 36,
+                                "30\u00b0": 36,
+                                "60\u00b0": 36
+                            },
+                            "1000m": {
+                                "0\u00b0": 36,
+                                "30\u00b0": 36,
+                                "60\u00b0": 36
+                            },
+                            "1500m": {
+                                "0\u00b0": 36,
+                                "30\u00b0": 36,
+                                "60\u00b0": 36
+                            },
+                            "2000m": {
+                                "0\u00b0": 36,
+                                "30\u00b0": 36,
+                                "60\u00b0": 36
+                            }
+                        }
+                    },
+                    {
+                        "name": "9M117M1",
+                        "details": {
+                            "type": "ATGM (tandem)",
+                            "caliber": "100 mm",
+                            "projectile_mass": "18.8 kg",
+                            "guidance": "Beam riding",
+                            "launch_range": "5.5\u00a0km",
+                            "maximum_speed": "370 m/s",
+                            "missile_guidance_time": "26 s",
+                            "explosive_type": "OKFOL",
+                            "explosive_mass": "3 kg",
+                            "tnt_equivalent": "4.9 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 750,
+                                "30\u00b0": 650,
+                                "60\u00b0": 375
+                            },
+                            "100m": {
+                                "0\u00b0": 750,
+                                "30\u00b0": 650,
+                                "60\u00b0": 375
+                            },
+                            "500m": {
+                                "0\u00b0": 750,
+                                "30\u00b0": 650,
+                                "60\u00b0": 375
+                            },
+                            "1000m": {
+                                "0\u00b0": 750,
+                                "30\u00b0": 650,
+                                "60\u00b0": 375
+                            },
+                            "1500m": {
+                                "0\u00b0": 750,
+                                "30\u00b0": 650,
+                                "60\u00b0": 375
+                            },
+                            "2000m": {
+                                "0\u00b0": 750,
+                                "30\u00b0": 650,
+                                "60\u00b0": 375
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "30 mm 2A72 cannon",
+                "features": [
+                    "Two-plane stabilizer"
+                ],
+                "specs": {
+                    "ammunition": "500 rounds",
+                    "belt_capacity": "250 rounds",
+                    "reload": "1.3 \u2192 1 s",
+                    "vertical_guidance": "-6 / 60\u00b0",
+                    "turret_rotation_speed_horizontal": "42 35.7 79.1 57.1 \u2192 60 51 112.9 81.6 \u00b0/s",
+                    "turret_rotation_speed_vertical": "42 33.6 147 94.1 \u2192 60 48 210 134.4 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "30 mm HEI",
+                        "type": "HEF-I/HEF-I/HEF-I/AP-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 65,
+                                "30\u00b0": 48,
+                                "60\u00b0": 25
+                            },
+                            "100m": {
+                                "0\u00b0": 63,
+                                "30\u00b0": 47,
+                                "60\u00b0": 24
+                            },
+                            "500m": {
+                                "0\u00b0": 53,
+                                "30\u00b0": 41,
+                                "60\u00b0": 21
+                            },
+                            "1000m": {
+                                "0\u00b0": 44,
+                                "30\u00b0": 35,
+                                "60\u00b0": 17
+                            },
+                            "1500m": {
+                                "0\u00b0": 36,
+                                "30\u00b0": 30,
+                                "60\u00b0": 15
+                            },
+                            "2000m": {
+                                "0\u00b0": 29,
+                                "30\u00b0": 25,
+                                "60\u00b0": 12
+                            }
+                        }
+                    },
+                    {
+                        "name": "30 mm APDS",
+                        "type": "APDS/APDS/APDS/APDS/HEF-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 9,
+                                "60\u00b0": 4
+                            },
+                            "100m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 8,
+                                "60\u00b0": 4
+                            },
+                            "500m": {
+                                "0\u00b0": 7,
+                                "30\u00b0": 7,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            }
+                        }
+                    },
+                    {
+                        "name": "30 mm APT",
+                        "type": "AP-T/AP-T/AP-T/HEF-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 9,
+                                "60\u00b0": 4
+                            },
+                            "100m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 8,
+                                "60\u00b0": 4
+                            },
+                            "500m": {
+                                "0\u00b0": 7,
+                                "30\u00b0": 7,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "7.62 mm PKTM machine gun(coaxial)",
+                "features": [],
+                "specs": {
+                    "ammunition": "2,000 rounds",
+                    "belt_capacity": "250 rounds",
+                    "reload": "10.4 \u2192 8 s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP-I/API-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 7,
+                                "60\u00b0": 4
+                            },
+                            "100m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 7,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 5,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 1
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

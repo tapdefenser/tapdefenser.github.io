@@ -1,0 +1,245 @@
+{
+    "unit_basic_info": {
+        "name": "cn_sdkfz_222_early",
+        "nation": "cn",
+        "rank": 1,
+        "battle_rating": {
+            "AB": 1.3,
+            "RB": 1.3,
+            "SB": 1.3
+        },
+        "role": "SPAA",
+        "images": {
+            "country_flag": null,
+            "unit_image": null
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [
+                "Dual control"
+            ],
+            "visibility": 68,
+            "crew": 3
+        },
+        "support_systems": {
+            "features": [
+                "Dual control"
+            ]
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 80.0,
+                    "ab": 87.0
+                },
+                "backward": {
+                    "rb": 15.0,
+                    "ab": 16.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 19.2,
+                "rb_basic": 16.9,
+                "ab_ref": 33.6,
+                "ab_basic": 27.4
+            },
+            "engine_power": {
+                "rb_ref": 75,
+                "rb_basic": 66,
+                "ab_ref": 131,
+                "ab_basic": 107
+            },
+            "weight": 3.9
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "1.9x\u20133.5x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "20 mm KwK30 cannon",
+                "features": [],
+                "specs": {
+                    "ammunition": "180 rounds",
+                    "belt_capacity": "20 rounds",
+                    "reload": "7.8 \u2192 6 s",
+                    "vertical_guidance": "-7 / 80\u00b0",
+                    "turret_rotation_speed_horizontal": "28 23.8 48.8 35.2 \u2192 40 34 69.6 50.3 \u00b0/s",
+                    "turret_rotation_speed_vertical": "28 22.4 85.4 54.7 \u2192 40 32 122 78.1 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "API-T/HEFI-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 3
+                            },
+                            "100m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            }
+                        }
+                    },
+                    {
+                        "name": "Sprgr.",
+                        "type": "HEFI-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 3
+                            },
+                            "100m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            }
+                        }
+                    },
+                    {
+                        "name": "PzGr.",
+                        "type": "API-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 37,
+                                "30\u00b0": 28,
+                                "60\u00b0": 14
+                            },
+                            "100m": {
+                                "0\u00b0": 34,
+                                "30\u00b0": 26,
+                                "60\u00b0": 13
+                            },
+                            "500m": {
+                                "0\u00b0": 23,
+                                "30\u00b0": 19,
+                                "60\u00b0": 10
+                            },
+                            "1000m": {
+                                "0\u00b0": 14,
+                                "30\u00b0": 13,
+                                "60\u00b0": 6
+                            },
+                            "1500m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 9,
+                                "60\u00b0": 4
+                            },
+                            "2000m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 5,
+                                "60\u00b0": 2
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "7.92 mm MG13 Dreyse machine gun (coaxial)",
+                "features": [],
+                "specs": {
+                    "ammunition": "900 rounds",
+                    "belt_capacity": "75 rounds",
+                    "reload": "10.4 \u2192 8 s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP-I/AP-I/AP-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 8,
+                                "60\u00b0": 4
+                            },
+                            "100m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 7,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 5,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 1
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

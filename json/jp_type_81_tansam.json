@@ -1,0 +1,122 @@
+{
+    "unit_basic_info": {
+        "name": "jp_type_81_tansam",
+        "nation": "jp",
+        "rank": 7,
+        "battle_rating": {
+            "AB": 11.3,
+            "RB": 11.3,
+            "SB": 11.3
+        },
+        "role": "SPAA",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_japan_modern.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/jp_type_81_tansam.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 187,
+            "crew": 3
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 90.0,
+                    "ab": 98.0
+                },
+                "backward": {
+                    "rb": 12.0,
+                    "ab": 13.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 23.8,
+                "rb_basic": 21.0,
+                "ab_ref": 41.5,
+                "ab_basic": 33.8
+            },
+            "engine_power": {
+                "rb_ref": 285,
+                "rb_basic": 252,
+                "ab_ref": 498,
+                "ab_basic": 405
+            },
+            "weight": 12.0
+        }
+    },
+    "optics": {
+        "features": [
+            {
+                "name": "Laser rangefinder"
+            },
+            {
+                "name": "Optical Detection"
+            }
+        ],
+        "specs": {
+            "optical_devices": [
+                {
+                    "name": "Thermal imager",
+                    "resolution": {
+                        "gunner": "500x300",
+                        "commander": "\u2014",
+                        "driver": "\u2014"
+                    }
+                },
+                {
+                    "name": "Night vision device"
+                }
+            ],
+            "optics_zoom": {
+                "gunner": "6.0x\u201312.0x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "Type 81 SAM-1C",
+                "features": [],
+                "specs": {
+                    "ammunition": "8 rounds",
+                    "first-order": "4 rounds",
+                    "belt_capacity": "4 rounds",
+                    "reload": "19.5 \u2192 15 s",
+                    "vertical_guidance": "-5 / 85\u00b0",
+                    "turret_rotation_speed_horizontal": "70 59.5 121.9 88.1 \u2192 100 85 174.1 125.8 \u00b0/s",
+                    "turret_rotation_speed_vertical": "28 22.4 85.4 54.7 \u2192 40 32 122 78.1 \u00b0/s",
+                    "fire_on_the_move": "up to 2 km/h"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "Type 81C",
+                        "details": {
+                            "type": "SAM",
+                            "caliber": "160 mm",
+                            "projectile_mass": "105 kg",
+                            "guidance": "IR",
+                            "launch_range": "10\u00a0km",
+                            "maximum_speed": "2.8 M",
+                            "missile_guidance_time": "22.5 s",
+                            "explosive_type": "Comp. A",
+                            "explosive_mass": "3.8 kg",
+                            "tnt_equivalent": "5.4 kg"
+                        },
+                        "armor_penetration": {}
+                    }
+                ],
+                "available_belts": []
+            }
+        ]
+    }
+}

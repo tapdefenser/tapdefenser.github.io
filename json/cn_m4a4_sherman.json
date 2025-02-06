@@ -1,0 +1,305 @@
+{
+    "unit_basic_info": {
+        "name": "cn_m4a4_sherman",
+        "nation": "cn",
+        "rank": 2,
+        "battle_rating": {
+            "AB": 3.7,
+            "RB": 3.7,
+            "SB": 3.7
+        },
+        "role": "Medium tank",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_republic_china.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/cn_m4a4_sherman.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 102,
+            "crew": 5
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 40.0,
+                    "ab": 45.0
+                },
+                "backward": {
+                    "rb": 5.0,
+                    "ab": 6.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 13.2,
+                "rb_basic": 11.7,
+                "ab_ref": 25.2,
+                "ab_basic": 20.5
+            },
+            "engine_power": {
+                "rb_ref": 425,
+                "rb_basic": 376,
+                "ab_ref": 811,
+                "ab_basic": 659
+            },
+            "weight": 32.2
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "1.9x\u20133.5x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "75 mm M3 cannon",
+                "features": [
+                    "Vertical stabilizer"
+                ],
+                "specs": {
+                    "ammunition": "98 rounds",
+                    "reload": "6.5 \u2192 5 s",
+                    "vertical_guidance": "-10 / 25\u00b0",
+                    "turret_rotation_speed_horizontal": "16.8 14.3 31.6 22.8 \u2192 24 20.4 45.2 32.6 \u00b0/s",
+                    "turret_rotation_speed_vertical": "10.5 8.4 36.7 23.5 \u2192 15 12 52.5 33.6 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "M72 shot",
+                        "details": {
+                            "type": "AP",
+                            "caliber": "75 mm",
+                            "projectile_mass": "6.3 kg",
+                            "muzzle_velocity": "619 m/s"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 91,
+                                "30\u00b0": 75,
+                                "60\u00b0": 37
+                            },
+                            "100m": {
+                                "0\u00b0": 88,
+                                "30\u00b0": 73,
+                                "60\u00b0": 36
+                            },
+                            "500m": {
+                                "0\u00b0": 78,
+                                "30\u00b0": 66,
+                                "60\u00b0": 33
+                            },
+                            "1000m": {
+                                "0\u00b0": 67,
+                                "30\u00b0": 58,
+                                "60\u00b0": 28
+                            },
+                            "1500m": {
+                                "0\u00b0": 57,
+                                "30\u00b0": 51,
+                                "60\u00b0": 24
+                            },
+                            "2000m": {
+                                "0\u00b0": 49,
+                                "30\u00b0": 45,
+                                "60\u00b0": 21
+                            }
+                        }
+                    },
+                    {
+                        "name": "M48 shell",
+                        "details": {
+                            "type": "HE",
+                            "caliber": "75 mm",
+                            "projectile_mass": "6.3 kg",
+                            "muzzle_velocity": "463 m/s",
+                            "explosive_type": "TNT",
+                            "explosive_mass": "666 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 10,
+                                "30\u00b0": 10,
+                                "60\u00b0": 10
+                            },
+                            "100m": {
+                                "0\u00b0": 10,
+                                "30\u00b0": 10,
+                                "60\u00b0": 10
+                            },
+                            "500m": {
+                                "0\u00b0": 10,
+                                "30\u00b0": 10,
+                                "60\u00b0": 10
+                            },
+                            "1000m": {
+                                "0\u00b0": 10,
+                                "30\u00b0": 10,
+                                "60\u00b0": 10
+                            },
+                            "1500m": {
+                                "0\u00b0": 10,
+                                "30\u00b0": 10,
+                                "60\u00b0": 10
+                            },
+                            "2000m": {
+                                "0\u00b0": 10,
+                                "30\u00b0": 10,
+                                "60\u00b0": 10
+                            }
+                        }
+                    },
+                    {
+                        "name": "M61 shot",
+                        "details": {
+                            "type": "APCBC",
+                            "caliber": "75 mm",
+                            "projectile_mass": "6.8 kg",
+                            "muzzle_velocity": "618 m/s",
+                            "explosive_type": "Exp. D",
+                            "explosive_mass": "65 g",
+                            "tnt_equivalent": "64 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 104,
+                                "30\u00b0": 82,
+                                "60\u00b0": 39
+                            },
+                            "100m": {
+                                "0\u00b0": 102,
+                                "30\u00b0": 80,
+                                "60\u00b0": 39
+                            },
+                            "500m": {
+                                "0\u00b0": 93,
+                                "30\u00b0": 74,
+                                "60\u00b0": 36
+                            },
+                            "1000m": {
+                                "0\u00b0": 84,
+                                "30\u00b0": 67,
+                                "60\u00b0": 33
+                            },
+                            "1500m": {
+                                "0\u00b0": 75,
+                                "30\u00b0": 60,
+                                "60\u00b0": 30
+                            },
+                            "2000m": {
+                                "0\u00b0": 68,
+                                "30\u00b0": 55,
+                                "60\u00b0": 27
+                            }
+                        }
+                    },
+                    {
+                        "name": "M89",
+                        "details": {
+                            "type": "Smoke",
+                            "caliber": "75 mm",
+                            "projectile_mass": "3 kg",
+                            "muzzle_velocity": "259 m/s",
+                            "explosive_type": "Smoke composition",
+                            "explosive_mass": "50 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "100m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "7.62 mm M1919A4 machine gun (coaxial)",
+                "features": [],
+                "specs": {
+                    "ammunition": "3,000 rounds",
+                    "belt_capacity": "250 rounds",
+                    "reload": "10.4 \u2192 8 s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP/T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 2
+                            },
+                            "100m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 2
+                            },
+                            "500m": {
+                                "0\u00b0": 2,
+                                "30\u00b0": 2,
+                                "60\u00b0": 1
+                            },
+                            "1000m": {
+                                "0\u00b0": 1,
+                                "30\u00b0": 1,
+                                "60\u00b0": 0
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

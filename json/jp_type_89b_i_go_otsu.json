@@ -1,0 +1,217 @@
+{
+    "unit_basic_info": {
+        "name": "jp_type_89b_i_go_otsu",
+        "nation": "jp",
+        "rank": 1,
+        "battle_rating": {
+            "AB": 1.0,
+            "RB": 1.0,
+            "SB": 1.0
+        },
+        "role": "Light tank",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_japan.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/jp_type_89b_i_go_otsu.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 74,
+            "crew": 4
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 27.0,
+                    "ab": 30.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 10.6,
+                "rb_basic": 9.4,
+                "ab_ref": 20.3,
+                "ab_basic": 16.5
+            },
+            "engine_power": {
+                "rb_ref": 118,
+                "rb_basic": 104,
+                "ab_ref": 225,
+                "ab_basic": 183
+            },
+            "weight": 11.1
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "1.9x\u20133.5x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "57 mm Type 90 cannon",
+                "features": [
+                    "Shoulder stabilizer"
+                ],
+                "specs": {
+                    "ammunition": "100 rounds",
+                    "reload": "4.3 \u2192 3.3 s",
+                    "vertical_guidance": "-15 / 20\u00b0",
+                    "turret_rotation_speed_horizontal": "10.6 9 20 14.5 \u2192 15.2 12.9 28.6 20.7 \u00b0/s",
+                    "turret_rotation_speed_vertical": "10.5 8.4 36.7 23.5 \u2192 15 12 52.5 33.6 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "Type 92 APHE",
+                        "details": {
+                            "type": "APHE",
+                            "caliber": "57 mm",
+                            "projectile_mass": "2.6 kg",
+                            "muzzle_velocity": "349 m/s",
+                            "explosive_type": "TNT",
+                            "explosive_mass": "103 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 21,
+                                "30\u00b0": 21,
+                                "60\u00b0": 9
+                            },
+                            "100m": {
+                                "0\u00b0": 21,
+                                "30\u00b0": 20,
+                                "60\u00b0": 9
+                            },
+                            "500m": {
+                                "0\u00b0": 19,
+                                "30\u00b0": 18,
+                                "60\u00b0": 8
+                            },
+                            "1000m": {
+                                "0\u00b0": 16,
+                                "30\u00b0": 16,
+                                "60\u00b0": 7
+                            },
+                            "1500m": {
+                                "0\u00b0": 14,
+                                "30\u00b0": 14,
+                                "60\u00b0": 6
+                            },
+                            "2000m": {
+                                "0\u00b0": 13,
+                                "30\u00b0": 13,
+                                "60\u00b0": 5
+                            }
+                        }
+                    },
+                    {
+                        "name": "Type 3 HEAT",
+                        "details": {
+                            "type": "HEAT",
+                            "caliber": "57 mm",
+                            "projectile_mass": "1.8 kg",
+                            "muzzle_velocity": "380 m/s",
+                            "explosive_type": "RDX/TNT",
+                            "explosive_mass": "237 g",
+                            "tnt_equivalent": "303 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 55,
+                                "30\u00b0": 48,
+                                "60\u00b0": 27
+                            },
+                            "100m": {
+                                "0\u00b0": 55,
+                                "30\u00b0": 48,
+                                "60\u00b0": 27
+                            },
+                            "500m": {
+                                "0\u00b0": 55,
+                                "30\u00b0": 48,
+                                "60\u00b0": 27
+                            },
+                            "1000m": {
+                                "0\u00b0": 55,
+                                "30\u00b0": 48,
+                                "60\u00b0": 27
+                            },
+                            "1500m": {
+                                "0\u00b0": 55,
+                                "30\u00b0": 48,
+                                "60\u00b0": 27
+                            },
+                            "2000m": {
+                                "0\u00b0": 55,
+                                "30\u00b0": 48,
+                                "60\u00b0": 27
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "6.5 mm Type 91 machine gun (coaxial)",
+                "features": [],
+                "specs": {
+                    "ammunition": "3,000 rounds",
+                    "belt_capacity": "30 rounds",
+                    "reload": "3.9 \u2192 3 s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "Ball/T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 4,
+                                "60\u00b0": 2
+                            },
+                            "100m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 2
+                            },
+                            "500m": {
+                                "0\u00b0": 2,
+                                "30\u00b0": 2,
+                                "60\u00b0": 1
+                            },
+                            "1000m": {
+                                "0\u00b0": 1,
+                                "30\u00b0": 1,
+                                "60\u00b0": 0
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

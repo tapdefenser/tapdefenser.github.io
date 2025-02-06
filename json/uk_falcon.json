@@ -1,0 +1,235 @@
+{
+    "unit_basic_info": {
+        "name": "uk_falcon",
+        "nation": "uk",
+        "rank": 5,
+        "battle_rating": {
+            "AB": 8.0,
+            "RB": 8.3,
+            "SB": 8.3
+        },
+        "role": "SPAA",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_britain.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/uk_falcon.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [
+                "Dual control"
+            ],
+            "visibility": 89,
+            "crew": 3
+        },
+        "support_systems": {
+            "features": [
+                "Dual control"
+            ]
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 48.0,
+                    "ab": 52.0
+                },
+                "backward": {
+                    "rb": 7.0,
+                    "ab": 8.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 13.4,
+                "rb_basic": 11.8,
+                "ab_ref": 23.4,
+                "ab_basic": 19.1
+            },
+            "engine_power": {
+                "rb_ref": 213,
+                "rb_basic": 188,
+                "ab_ref": 372,
+                "ab_basic": 303
+            },
+            "weight": 15.9
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "1.9x\u20133.5x",
+                "commander": "2.0x\u20138.0x",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "2 x 30 mm HSS 831L cannon",
+                "features": [
+                    "Two-plane stabilizer"
+                ],
+                "specs": {
+                    "ammunition": "620 rounds",
+                    "belt_capacity": "310 rounds",
+                    "fire_rate": "650 shots/min",
+                    "vertical_guidance": "-10 / 85\u00b0",
+                    "turret_rotation_speed_horizontal": "56 47.6 97.5 70.4 \u2192 80 68 139.3 100.6 \u00b0/s",
+                    "turret_rotation_speed_vertical": "28 22.4 85.4 54.7 \u2192 40 32 122 78.1 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "SAP-I/HEI-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 9,
+                                "60\u00b0": 4
+                            },
+                            "100m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 8,
+                                "60\u00b0": 4
+                            },
+                            "500m": {
+                                "0\u00b0": 7,
+                                "30\u00b0": 7,
+                                "60\u00b0": 4
+                            },
+                            "1000m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 5,
+                                "60\u00b0": 4
+                            },
+                            "1500m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 4
+                            },
+                            "2000m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 4
+                            }
+                        }
+                    },
+                    {
+                        "name": "30x170 APHE-I",
+                        "type": "SAP-I/SAP-I/SAP-I/HEI-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 9,
+                                "60\u00b0": 4
+                            },
+                            "100m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 8,
+                                "60\u00b0": 4
+                            },
+                            "500m": {
+                                "0\u00b0": 7,
+                                "30\u00b0": 7,
+                                "60\u00b0": 4
+                            },
+                            "1000m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 5,
+                                "60\u00b0": 4
+                            },
+                            "1500m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 4
+                            },
+                            "2000m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 4
+                            }
+                        }
+                    },
+                    {
+                        "name": "30x170 APHE-I",
+                        "type": "SAP-I/APDS/SAP-I/HEI-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 9,
+                                "60\u00b0": 4
+                            },
+                            "100m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 8,
+                                "60\u00b0": 4
+                            },
+                            "500m": {
+                                "0\u00b0": 7,
+                                "30\u00b0": 7,
+                                "60\u00b0": 4
+                            },
+                            "1000m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 5,
+                                "60\u00b0": 4
+                            },
+                            "1500m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 4
+                            },
+                            "2000m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 4
+                            }
+                        }
+                    },
+                    {
+                        "name": "30x170 HE-I-T",
+                        "type": "HEI-T/HEI/HEI/SAP-I",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 53,
+                                "30\u00b0": 41,
+                                "60\u00b0": 21
+                            },
+                            "100m": {
+                                "0\u00b0": 50,
+                                "30\u00b0": 39,
+                                "60\u00b0": 20
+                            },
+                            "500m": {
+                                "0\u00b0": 42,
+                                "30\u00b0": 34,
+                                "60\u00b0": 17
+                            },
+                            "1000m": {
+                                "0\u00b0": 34,
+                                "30\u00b0": 28,
+                                "60\u00b0": 14
+                            },
+                            "1500m": {
+                                "0\u00b0": 27,
+                                "30\u00b0": 23,
+                                "60\u00b0": 11
+                            },
+                            "2000m": {
+                                "0\u00b0": 21,
+                                "30\u00b0": 19,
+                                "60\u00b0": 9
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

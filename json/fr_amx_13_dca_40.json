@@ -1,0 +1,190 @@
+{
+    "unit_basic_info": {
+        "name": "fr_amx_13_dca_40",
+        "nation": "fr",
+        "rank": 3,
+        "battle_rating": {
+            "AB": 4.7,
+            "RB": 5.0,
+            "SB": 5.0
+        },
+        "role": "SPAA",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_france.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/fr_amx_13_dca_40.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 78,
+            "crew": 5
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 61.0,
+                    "ab": 66.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 18.6,
+                "rb_basic": 16.5,
+                "ab_ref": 25.7,
+                "ab_basic": 20.8
+            },
+            "engine_power": {
+                "rb_ref": 270,
+                "rb_basic": 239,
+                "ab_ref": 372,
+                "ab_basic": 302
+            },
+            "weight": 14.5
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "7.5x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "40 mm Mle51 T1 cannon",
+                "features": [
+                    "Autoloader"
+                ],
+                "specs": {
+                    "ammunition": "404 rounds",
+                    "belt_capacity": "4 rounds",
+                    "vertical_guidance": "-5 / 85\u00b0",
+                    "turret_rotation_speed_horizontal": "63 53.6 109.7 79.3 \u2192 90 76.5 156.7 113.2 \u00b0/s",
+                    "turret_rotation_speed_vertical": "31.5 25.2 96.1 61.5 \u2192 45 36 137.2 87.8 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP-T/HEFI-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 12,
+                                "30\u00b0": 11,
+                                "60\u00b0": 5
+                            },
+                            "100m": {
+                                "0\u00b0": 11,
+                                "30\u00b0": 11,
+                                "60\u00b0": 5
+                            },
+                            "500m": {
+                                "0\u00b0": 10,
+                                "30\u00b0": 9,
+                                "60\u00b0": 4
+                            },
+                            "1000m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 8,
+                                "60\u00b0": 4
+                            },
+                            "1500m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 6,
+                                "60\u00b0": 4
+                            },
+                            "2000m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 4
+                            }
+                        }
+                    },
+                    {
+                        "name": "40 mm HE-T",
+                        "type": "HEFI-T/HEFI-T/HEFI-T/AP-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 94,
+                                "30\u00b0": 69,
+                                "60\u00b0": 35
+                            },
+                            "100m": {
+                                "0\u00b0": 90,
+                                "30\u00b0": 67,
+                                "60\u00b0": 34
+                            },
+                            "500m": {
+                                "0\u00b0": 77,
+                                "30\u00b0": 58,
+                                "60\u00b0": 29
+                            },
+                            "1000m": {
+                                "0\u00b0": 62,
+                                "30\u00b0": 49,
+                                "60\u00b0": 25
+                            },
+                            "1500m": {
+                                "0\u00b0": 51,
+                                "30\u00b0": 41,
+                                "60\u00b0": 21
+                            },
+                            "2000m": {
+                                "0\u00b0": 41,
+                                "30\u00b0": 35,
+                                "60\u00b0": 17
+                            }
+                        }
+                    },
+                    {
+                        "name": "40 mm AP-T",
+                        "type": "AP-T/AP-T/AP-T/HEFI-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 12,
+                                "30\u00b0": 11,
+                                "60\u00b0": 5
+                            },
+                            "100m": {
+                                "0\u00b0": 11,
+                                "30\u00b0": 11,
+                                "60\u00b0": 5
+                            },
+                            "500m": {
+                                "0\u00b0": 10,
+                                "30\u00b0": 9,
+                                "60\u00b0": 4
+                            },
+                            "1000m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 8,
+                                "60\u00b0": 4
+                            },
+                            "1500m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 6,
+                                "60\u00b0": 4
+                            },
+                            "2000m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 4
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

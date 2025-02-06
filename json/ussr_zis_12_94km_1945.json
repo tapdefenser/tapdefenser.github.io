@@ -1,0 +1,193 @@
+{
+    "unit_basic_info": {
+        "name": "ussr_zis_12_94km_1945",
+        "nation": "ussr",
+        "rank": 2,
+        "battle_rating": {
+            "AB": 3.7,
+            "RB": 3.0,
+            "SB": 3.0
+        },
+        "role": "SPAA",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_ussr.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/ussr_zis_12_94km_1945.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 78,
+            "crew": 4
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 51.0,
+                    "ab": 55.0
+                },
+                "backward": {
+                    "rb": 6.0,
+                    "ab": 7.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 23.3,
+                "rb_basic": 20.7,
+                "ab_ref": 40.7,
+                "ab_basic": 33.0
+            },
+            "engine_power": {
+                "rb_ref": 70,
+                "rb_basic": 62,
+                "ab_ref": 122,
+                "ab_basic": 99
+            },
+            "weight": 3.0
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "1.9x\u20133.5x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "2 x 25 mm 72-K cannon",
+                "features": [],
+                "specs": {
+                    "ammunition": "560 rounds",
+                    "belt_capacity": "7 rounds",
+                    "reload": "0.3 \u2192 0.2 s",
+                    "vertical_guidance": "-10 / 85\u00b0",
+                    "turret_rotation_speed_horizontal": "24.5 20.8 42.7 30.8 \u2192 35 29.8 60.9 44 \u00b0/s",
+                    "turret_rotation_speed_vertical": "14 11.2 42.7 27.3 \u2192 20 16 61 39 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP-T/FI-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 7,
+                                "30\u00b0": 6,
+                                "60\u00b0": 4
+                            },
+                            "100m": {
+                                "0\u00b0": 7,
+                                "30\u00b0": 6,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 5,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            }
+                        }
+                    },
+                    {
+                        "name": "OZT",
+                        "type": "FI-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 7,
+                                "30\u00b0": 6,
+                                "60\u00b0": 4
+                            },
+                            "100m": {
+                                "0\u00b0": 7,
+                                "30\u00b0": 6,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 5,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            }
+                        }
+                    },
+                    {
+                        "name": "BZT",
+                        "type": "AP-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 57,
+                                "30\u00b0": 42,
+                                "60\u00b0": 22
+                            },
+                            "100m": {
+                                "0\u00b0": 54,
+                                "30\u00b0": 41,
+                                "60\u00b0": 21
+                            },
+                            "500m": {
+                                "0\u00b0": 44,
+                                "30\u00b0": 34,
+                                "60\u00b0": 17
+                            },
+                            "1000m": {
+                                "0\u00b0": 34,
+                                "30\u00b0": 28,
+                                "60\u00b0": 14
+                            },
+                            "1500m": {
+                                "0\u00b0": 27,
+                                "30\u00b0": 22,
+                                "60\u00b0": 11
+                            },
+                            "2000m": {
+                                "0\u00b0": 21,
+                                "30\u00b0": 18,
+                                "60\u00b0": 9
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

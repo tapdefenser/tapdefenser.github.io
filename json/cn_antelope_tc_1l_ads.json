@@ -1,0 +1,122 @@
+{
+    "unit_basic_info": {
+        "name": "cn_antelope_tc_1l_ads",
+        "nation": "cn",
+        "rank": 7,
+        "battle_rating": {
+            "AB": 10.3,
+            "RB": 10.3,
+            "SB": 10.3
+        },
+        "role": "SPAA",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_republic_china.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/cn_antelope_tc_1l_ads.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [
+                "Dual control"
+            ],
+            "visibility": 250,
+            "crew": 3
+        },
+        "support_systems": {
+            "features": [
+                "Dual control"
+            ]
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 90.0,
+                    "ab": 98.0
+                },
+                "backward": {
+                    "rb": 11.0,
+                    "ab": 12.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 20.4,
+                "rb_basic": 18.0,
+                "ab_ref": 35.8,
+                "ab_basic": 29.0
+            },
+            "engine_power": {
+                "rb_ref": 145,
+                "rb_basic": 128,
+                "ab_ref": 254,
+                "ab_basic": 206
+            },
+            "weight": 7.1
+        }
+    },
+    "optics": {
+        "features": [
+            {
+                "name": "Radar/Optical Detection"
+            }
+        ],
+        "specs": {
+            "optical_devices": [
+                {
+                    "name": "Thermal imager",
+                    "resolution": {
+                        "gunner": "500x300",
+                        "commander": "\u2014",
+                        "driver": "\u2014"
+                    }
+                },
+                {
+                    "name": "Night vision device"
+                }
+            ],
+            "optics_zoom": {
+                "gunner": "8.0x\u201312.0x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "AAM TC-1L",
+                "features": [],
+                "specs": {
+                    "ammunition": "4 rounds",
+                    "fire_rate": "60 shots/min",
+                    "vertical_guidance": "-8 / 90\u00b0",
+                    "turret_rotation_speed_horizontal": "42 35.7 73.1 52.8 \u2192 60 51 104.5 75.5 \u00b0/s",
+                    "turret_rotation_speed_vertical": "42 33.6 128.1 82 \u2192 60 48 183 117.1 \u00b0/s",
+                    "fire_on_the_move": "up to 10 km/h"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "TC-1L",
+                        "details": {
+                            "type": "SAM",
+                            "caliber": "127 mm",
+                            "projectile_mass": "90 kg",
+                            "guidance": "IR",
+                            "irccm": "",
+                            "launch_range": "6\u00a0km",
+                            "maximum_speed": "2 M",
+                            "missile_guidance_time": "60 s",
+                            "explosive_type": "HBX",
+                            "explosive_mass": "3.6 kg",
+                            "tnt_equivalent": "5.8 kg"
+                        },
+                        "armor_penetration": {}
+                    }
+                ],
+                "available_belts": []
+            }
+        ]
+    }
+}

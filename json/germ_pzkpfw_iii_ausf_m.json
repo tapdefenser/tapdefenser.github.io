@@ -1,0 +1,358 @@
+{
+    "unit_basic_info": {
+        "name": "germ_pzkpfw_iii_ausf_m",
+        "nation": "germ",
+        "rank": 2,
+        "battle_rating": {
+            "AB": 3.3,
+            "RB": 3.3,
+            "SB": 3.3
+        },
+        "role": "Medium tank",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_germany.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/germ_pzkpfw_iii_ausf_m.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [
+                "Smoke grenades"
+            ],
+            "visibility": 88,
+            "crew": 5
+        },
+        "support_systems": {
+            "features": [
+                "Smoke grenades"
+            ]
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 53.0,
+                    "ab": 59.0
+                },
+                "backward": {
+                    "rb": 10.0,
+                    "ab": 11.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 13.0,
+                "rb_basic": 11.5,
+                "ab_ref": 24.9,
+                "ab_basic": 20.2
+            },
+            "engine_power": {
+                "rb_ref": 300,
+                "rb_basic": 265,
+                "ab_ref": 572,
+                "ab_basic": 465
+            },
+            "weight": 23.0
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "1.9x\u20133.5x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "50 mm KwK39 cannon",
+                "features": [],
+                "specs": {
+                    "ammunition": "84 rounds",
+                    "first-order": "22 rounds",
+                    "reload": "4.8 \u2192 3.7 s",
+                    "vertical_guidance": "-10 / 20\u00b0",
+                    "turret_rotation_speed_horizontal": "9.8 8.3 18.4 13.3 \u2192 14 11.9 26.4 19 \u00b0/s",
+                    "turret_rotation_speed_vertical": "2.8 2.2 9.8 6.3 \u2192 4 3.2 14 9 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "PzGr 39",
+                        "details": {
+                            "type": "APC",
+                            "caliber": "50 mm",
+                            "projectile_mass": "2 kg",
+                            "muzzle_velocity": "835 m/s",
+                            "explosive_type": "Np.10",
+                            "explosive_mass": "17 g",
+                            "tnt_equivalent": "29 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 106,
+                                "30\u00b0": 81,
+                                "60\u00b0": 37
+                            },
+                            "100m": {
+                                "0\u00b0": 101,
+                                "30\u00b0": 78,
+                                "60\u00b0": 36
+                            },
+                            "500m": {
+                                "0\u00b0": 83,
+                                "30\u00b0": 64,
+                                "60\u00b0": 30
+                            },
+                            "1000m": {
+                                "0\u00b0": 65,
+                                "30\u00b0": 51,
+                                "60\u00b0": 25
+                            },
+                            "1500m": {
+                                "0\u00b0": 50,
+                                "30\u00b0": 40,
+                                "60\u00b0": 20
+                            },
+                            "2000m": {
+                                "0\u00b0": 39,
+                                "30\u00b0": 32,
+                                "60\u00b0": 16
+                            }
+                        }
+                    },
+                    {
+                        "name": "Sprgr. 38",
+                        "details": {
+                            "type": "HE",
+                            "caliber": "50 mm",
+                            "projectile_mass": "1.8 kg",
+                            "muzzle_velocity": "870 m/s",
+                            "explosive_type": "Fp.02 and Np.10",
+                            "explosive_mass": "170 g",
+                            "tnt_equivalent": "218 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 12,
+                                "30\u00b0": 12,
+                                "60\u00b0": 5
+                            },
+                            "100m": {
+                                "0\u00b0": 11,
+                                "30\u00b0": 11,
+                                "60\u00b0": 5
+                            },
+                            "500m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 9,
+                                "60\u00b0": 5
+                            },
+                            "1000m": {
+                                "0\u00b0": 7,
+                                "30\u00b0": 7,
+                                "60\u00b0": 5
+                            },
+                            "1500m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 6,
+                                "60\u00b0": 5
+                            },
+                            "2000m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 5
+                            }
+                        }
+                    },
+                    {
+                        "name": "PzGr 40/1",
+                        "details": {
+                            "type": "APCR",
+                            "caliber": "50 mm",
+                            "projectile_mass": "1.1 kg",
+                            "muzzle_velocity": "1,130 m/s"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 130,
+                                "30\u00b0": 96,
+                                "60\u00b0": 29
+                            },
+                            "100m": {
+                                "0\u00b0": 121,
+                                "30\u00b0": 90,
+                                "60\u00b0": 28
+                            },
+                            "500m": {
+                                "0\u00b0": 90,
+                                "30\u00b0": 67,
+                                "60\u00b0": 20
+                            },
+                            "1000m": {
+                                "0\u00b0": 62,
+                                "30\u00b0": 46,
+                                "60\u00b0": 14
+                            },
+                            "1500m": {
+                                "0\u00b0": 42,
+                                "30\u00b0": 32,
+                                "60\u00b0": 10
+                            },
+                            "2000m": {
+                                "0\u00b0": 29,
+                                "30\u00b0": 22,
+                                "60\u00b0": 7
+                            }
+                        }
+                    },
+                    {
+                        "name": "PzGr 40",
+                        "details": {
+                            "type": "APCR",
+                            "caliber": "50 mm",
+                            "projectile_mass": "900 g",
+                            "muzzle_velocity": "1,180 m/s"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 137,
+                                "30\u00b0": 102,
+                                "60\u00b0": 31
+                            },
+                            "100m": {
+                                "0\u00b0": 126,
+                                "30\u00b0": 94,
+                                "60\u00b0": 29
+                            },
+                            "500m": {
+                                "0\u00b0": 88,
+                                "30\u00b0": 65,
+                                "60\u00b0": 20
+                            },
+                            "1000m": {
+                                "0\u00b0": 56,
+                                "30\u00b0": 41,
+                                "60\u00b0": 13
+                            },
+                            "1500m": {
+                                "0\u00b0": 36,
+                                "30\u00b0": 27,
+                                "60\u00b0": 8
+                            },
+                            "2000m": {
+                                "0\u00b0": 23,
+                                "30\u00b0": 17,
+                                "60\u00b0": 5
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "7.92 mm MG34 machine gun (coaxial)",
+                "features": [],
+                "specs": {
+                    "ammunition": "3,750 rounds",
+                    "belt_capacity": "150 rounds",
+                    "reload": "10.4 \u2192 8 s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP/AP/AP-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 8,
+                                "60\u00b0": 4
+                            },
+                            "100m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 7,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 5,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 1
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "7.92 mm MG34 machine gun",
+                "features": [],
+                "specs": {
+                    "ammunition": "2,100 rounds",
+                    "belt_capacity": "150 rounds",
+                    "reload": "10.4 \u2192 8 s",
+                    "vertical_guidance": "-10 / 20\u00b0",
+                    "turret_rotation_speed_horizontal": "63 53.6 118.6 85.7 \u2192 90 76.5 169.4 122.4 \u00b0/s",
+                    "turret_rotation_speed_vertical": "63 50.4 220.5 141.1 \u2192 90 72 315 201.6 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP/AP/AP-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 8,
+                                "60\u00b0": 4
+                            },
+                            "100m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 7,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 5,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 1
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

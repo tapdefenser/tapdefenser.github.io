@@ -1,0 +1,223 @@
+{
+    "unit_basic_info": {
+        "name": "fr_pzkpfw_v_panther_dauphine",
+        "nation": "fr",
+        "rank": 4,
+        "battle_rating": {
+            "AB": 6.0,
+            "RB": 6.0,
+            "SB": 6.0
+        },
+        "role": "Medium tank",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_france.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/fr_pzkpfw_v_panther_dauphine.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [
+                "Smoke grenades"
+            ],
+            "visibility": 125,
+            "crew": 5
+        },
+        "support_systems": {
+            "features": [
+                "Smoke grenades"
+            ]
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 46.0,
+                    "ab": 51.0
+                },
+                "backward": {
+                    "rb": 3.0,
+                    "ab": 4.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 13.4,
+                "rb_basic": 11.9,
+                "ab_ref": 25.6,
+                "ab_basic": 20.8
+            },
+            "engine_power": {
+                "rb_ref": 600,
+                "rb_basic": 531,
+                "ab_ref": 1145,
+                "ab_basic": 930
+            },
+            "weight": 44.8
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "2.5x\u20135.0x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "75 mm KwK42 cannon",
+                "features": [],
+                "specs": {
+                    "ammunition": "82 rounds",
+                    "reload": "9.6 \u2192 7.4 s",
+                    "vertical_guidance": "-8 / 18\u00b0",
+                    "turret_rotation_speed_horizontal": "14 11.9 26.4 19 \u2192 20 17 37.6 27.2 \u00b0/s",
+                    "turret_rotation_speed_vertical": "2.8 2.2 9.8 6.3 \u2192 4 3.2 14 9 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "PzGr 39/42",
+                        "details": {
+                            "type": "APCBC",
+                            "caliber": "75 mm",
+                            "projectile_mass": "6.8 kg",
+                            "muzzle_velocity": "935 m/s",
+                            "explosive_type": "H.10",
+                            "explosive_mass": "17 g",
+                            "tnt_equivalent": "29 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 192,
+                                "30\u00b0": 146,
+                                "60\u00b0": 65
+                            },
+                            "100m": {
+                                "0\u00b0": 188,
+                                "30\u00b0": 143,
+                                "60\u00b0": 64
+                            },
+                            "500m": {
+                                "0\u00b0": 173,
+                                "30\u00b0": 132,
+                                "60\u00b0": 60
+                            },
+                            "1000m": {
+                                "0\u00b0": 156,
+                                "30\u00b0": 120,
+                                "60\u00b0": 55
+                            },
+                            "1500m": {
+                                "0\u00b0": 140,
+                                "30\u00b0": 108,
+                                "60\u00b0": 50
+                            },
+                            "2000m": {
+                                "0\u00b0": 126,
+                                "30\u00b0": 98,
+                                "60\u00b0": 46
+                            }
+                        }
+                    },
+                    {
+                        "name": "Sprgr. 42",
+                        "details": {
+                            "type": "HE",
+                            "caliber": "75 mm",
+                            "projectile_mass": "5.7 kg",
+                            "muzzle_velocity": "700 m/s",
+                            "explosive_type": "Fp.60/40",
+                            "explosive_mass": "725 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 13,
+                                "30\u00b0": 12,
+                                "60\u00b0": 11
+                            },
+                            "100m": {
+                                "0\u00b0": 12,
+                                "30\u00b0": 12,
+                                "60\u00b0": 11
+                            },
+                            "500m": {
+                                "0\u00b0": 11,
+                                "30\u00b0": 11,
+                                "60\u00b0": 11
+                            },
+                            "1000m": {
+                                "0\u00b0": 11,
+                                "30\u00b0": 11,
+                                "60\u00b0": 11
+                            },
+                            "1500m": {
+                                "0\u00b0": 11,
+                                "30\u00b0": 11,
+                                "60\u00b0": 11
+                            },
+                            "2000m": {
+                                "0\u00b0": 11,
+                                "30\u00b0": 11,
+                                "60\u00b0": 11
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "7.92 mm MG34 machine gun (coaxial)",
+                "features": [],
+                "specs": {
+                    "ammunition": "2,700 rounds",
+                    "belt_capacity": "150 rounds",
+                    "reload": "10.4 \u2192 8 s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP/AP/AP-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 8,
+                                "60\u00b0": 4
+                            },
+                            "100m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 7,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 5,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 1
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

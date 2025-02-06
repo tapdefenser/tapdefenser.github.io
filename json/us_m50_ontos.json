@@ -1,0 +1,274 @@
+{
+    "unit_basic_info": {
+        "name": "us_m50_ontos",
+        "nation": "us",
+        "rank": 4,
+        "battle_rating": {
+            "AB": 6.7,
+            "RB": 6.7,
+            "SB": 6.7
+        },
+        "role": "Tank destroyer",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_usa_modern.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/us_m50_ontos.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 72,
+            "crew": 2
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 48.0,
+                    "ab": 52.0
+                },
+                "backward": {
+                    "rb": 16.0,
+                    "ab": 18.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 17.5,
+                "rb_basic": 15.4,
+                "ab_ref": 30.6,
+                "ab_basic": 24.8
+            },
+            "engine_power": {
+                "rb_ref": 145,
+                "rb_basic": 128,
+                "ab_ref": 254,
+                "ab_basic": 206
+            },
+            "weight": 8.3
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "6.0x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "106 mm Recoilless Rifle M40A1C",
+                "features": [],
+                "specs": {
+                    "ammunition": "18 rounds",
+                    "belt_capacity": "6 rounds",
+                    "reload": "16.9 \u2192 13 s",
+                    "vertical_guidance": "-10 / 20\u00b0",
+                    "horizontal_guidance": "-40 / 40\u00b0",
+                    "turret_rotation_speed_horizontal": "12.6 10.7 21.9 15.9 \u2192 18 15.3 31.3 22.6 \u00b0/s",
+                    "turret_rotation_speed_vertical": "2.8 2.2 8.5 5.5 \u2192 4 3.2 12.2 7.8 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "M344A1",
+                        "details": {
+                            "type": "HEAT",
+                            "caliber": "106 mm",
+                            "projectile_mass": "8 kg",
+                            "muzzle_velocity": "503 m/s",
+                            "explosive_type": "Composition B",
+                            "explosive_mass": "1.3 kg",
+                            "tnt_equivalent": "1.7 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 433,
+                                "30\u00b0": 375,
+                                "60\u00b0": 216
+                            },
+                            "100m": {
+                                "0\u00b0": 433,
+                                "30\u00b0": 375,
+                                "60\u00b0": 216
+                            },
+                            "500m": {
+                                "0\u00b0": 433,
+                                "30\u00b0": 375,
+                                "60\u00b0": 216
+                            },
+                            "1000m": {
+                                "0\u00b0": 433,
+                                "30\u00b0": 375,
+                                "60\u00b0": 216
+                            },
+                            "1500m": {
+                                "0\u00b0": 433,
+                                "30\u00b0": 375,
+                                "60\u00b0": 216
+                            },
+                            "2000m": {
+                                "0\u00b0": 433,
+                                "30\u00b0": 375,
+                                "60\u00b0": 216
+                            }
+                        }
+                    },
+                    {
+                        "name": "M361A1",
+                        "details": {
+                            "type": "HESH",
+                            "caliber": "106 mm",
+                            "projectile_mass": "7.9 kg",
+                            "muzzle_velocity": "498 m/s",
+                            "explosive_type": "Comp. A",
+                            "explosive_mass": "3.5 kg",
+                            "tnt_equivalent": "5 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 152,
+                                "30\u00b0": 152,
+                                "60\u00b0": 152
+                            },
+                            "100m": {
+                                "0\u00b0": 152,
+                                "30\u00b0": 152,
+                                "60\u00b0": 152
+                            },
+                            "500m": {
+                                "0\u00b0": 152,
+                                "30\u00b0": 152,
+                                "60\u00b0": 152
+                            },
+                            "1000m": {
+                                "0\u00b0": 152,
+                                "30\u00b0": 152,
+                                "60\u00b0": 152
+                            },
+                            "1500m": {
+                                "0\u00b0": 152,
+                                "30\u00b0": 152,
+                                "60\u00b0": 152
+                            },
+                            "2000m": {
+                                "0\u00b0": 152,
+                                "30\u00b0": 152,
+                                "60\u00b0": 152
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "4 x 12.7 mm M8C machine gun",
+                "features": [],
+                "specs": {
+                    "ammunition": "480 rounds",
+                    "belt_capacity": "20 rounds",
+                    "reload": "3.2 \u2192 2.5 s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AI",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 7,
+                                "30\u00b0": 7,
+                                "60\u00b0": 3
+                            },
+                            "100m": {
+                                "0\u00b0": 7,
+                                "30\u00b0": 6,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 6,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "7.62 mm M1919A4 machine gun",
+                "features": [],
+                "specs": {
+                    "ammunition": "1,000 rounds",
+                    "belt_capacity": "250 rounds",
+                    "reload": "10.4 \u2192 8 s",
+                    "vertical_guidance": "-5 / 50\u00b0",
+                    "horizontal_guidance": "-70 / 70\u00b0",
+                    "turret_rotation_speed_horizontal": "63 53.6 109.7 79.3 \u2192 90 76.5 156.7 113.2 \u00b0/s",
+                    "turret_rotation_speed_vertical": "63 50.4 192.1 123 \u2192 90 72 274.5 175.7 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP/T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 2
+                            },
+                            "100m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 2
+                            },
+                            "500m": {
+                                "0\u00b0": 2,
+                                "30\u00b0": 2,
+                                "60\u00b0": 1
+                            },
+                            "1000m": {
+                                "0\u00b0": 1,
+                                "30\u00b0": 1,
+                                "60\u00b0": 0
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,178 @@
+{
+    "unit_basic_info": {
+        "name": "jp_type_98_ke_ni",
+        "nation": "jp",
+        "rank": 1,
+        "battle_rating": {
+            "AB": 1.0,
+            "RB": 1.0,
+            "SB": 1.0
+        },
+        "role": "Light tank",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_japan.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/jp_type_98_ke_ni.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 74,
+            "crew": 3
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 50.0,
+                    "ab": 55.0
+                },
+                "backward": {
+                    "rb": 7.0,
+                    "ab": 8.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 18.6,
+                "rb_basic": 16.4,
+                "ab_ref": 24.7,
+                "ab_basic": 20.1
+            },
+            "engine_power": {
+                "rb_ref": 130,
+                "rb_basic": 115,
+                "ab_ref": 173,
+                "ab_basic": 141
+            },
+            "weight": 7.0
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "1.9x\u20133.5x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "37 mm Type 100 cannon",
+                "features": [
+                    "Shoulder stabilizer"
+                ],
+                "specs": {
+                    "ammunition": "110 rounds",
+                    "reload": "4.3 \u2192 3.3 s",
+                    "vertical_guidance": "-15 / 18\u00b0",
+                    "turret_rotation_speed_horizontal": "11.9 10.1 22.4 16.2 \u2192 17 14.5 32 23.1 \u00b0/s",
+                    "turret_rotation_speed_vertical": "10.5 8.4 36.7 23.5 \u2192 15 12 52.5 33.6 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "Type 1 APHE",
+                        "details": {
+                            "type": "APHE",
+                            "caliber": "37 mm",
+                            "projectile_mass": "720 g",
+                            "muzzle_velocity": "700 m/s",
+                            "explosive_type": "RDX",
+                            "explosive_mass": "8 g",
+                            "tnt_equivalent": "13 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 47,
+                                "30\u00b0": 39,
+                                "60\u00b0": 19
+                            },
+                            "100m": {
+                                "0\u00b0": 44,
+                                "30\u00b0": 37,
+                                "60\u00b0": 18
+                            },
+                            "500m": {
+                                "0\u00b0": 32,
+                                "30\u00b0": 28,
+                                "60\u00b0": 14
+                            },
+                            "1000m": {
+                                "0\u00b0": 22,
+                                "30\u00b0": 20,
+                                "60\u00b0": 9
+                            },
+                            "1500m": {
+                                "0\u00b0": 15,
+                                "30\u00b0": 14,
+                                "60\u00b0": 6
+                            },
+                            "2000m": {
+                                "0\u00b0": 10,
+                                "30\u00b0": 10,
+                                "60\u00b0": 4
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "7.7 mm Type 97 machine gun (coaxial)",
+                "features": [],
+                "specs": {
+                    "ammunition": "3,000 rounds",
+                    "belt_capacity": "20 rounds",
+                    "reload": "3.9 \u2192 3 s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP/AP/T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 2
+                            },
+                            "100m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 2
+                            },
+                            "500m": {
+                                "0\u00b0": 2,
+                                "30\u00b0": 2,
+                                "60\u00b0": 1
+                            },
+                            "1000m": {
+                                "0\u00b0": 1,
+                                "30\u00b0": 1,
+                                "60\u00b0": 0
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,229 @@
+{
+    "unit_basic_info": {
+        "name": "germ_sdkfz_6_2_flak36",
+        "nation": "germ",
+        "rank": 1,
+        "battle_rating": {
+            "AB": 2.3,
+            "RB": 1.7,
+            "SB": 1.7
+        },
+        "role": "SPAA",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_germany.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/germ_sdkfz_6_2_flak36.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 107,
+            "crew": 4
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 50.0,
+                    "ab": 54.0
+                },
+                "backward": {
+                    "rb": 9.0,
+                    "ab": 10.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 12.5,
+                "rb_basic": 11.1,
+                "ab_ref": 21.8,
+                "ab_basic": 17.8
+            },
+            "engine_power": {
+                "rb_ref": 130,
+                "rb_basic": 115,
+                "ab_ref": 227,
+                "ab_basic": 185
+            },
+            "weight": 10.4
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "1.9x\u20133.5x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "37 mm FlaK36 cannon",
+                "features": [],
+                "specs": {
+                    "ammunition": "318 rounds",
+                    "belt_capacity": "6 rounds",
+                    "reload": "0.5 \u2192 0.4 s",
+                    "vertical_guidance": "-8 / 85\u00b0",
+                    "turret_rotation_speed_horizontal": "24.5 20.8 42.7 30.8 \u2192 35 29.8 60.9 44 \u00b0/s",
+                    "turret_rotation_speed_vertical": "14 11.2 42.7 27.3 \u2192 20 16 61 39 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "APHE/FI-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 7,
+                                "30\u00b0": 7,
+                                "60\u00b0": 3
+                            },
+                            "100m": {
+                                "0\u00b0": 7,
+                                "30\u00b0": 6,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            }
+                        }
+                    },
+                    {
+                        "name": "Sprgr.",
+                        "type": "FI-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 7,
+                                "30\u00b0": 7,
+                                "60\u00b0": 3
+                            },
+                            "100m": {
+                                "0\u00b0": 7,
+                                "30\u00b0": 6,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            }
+                        }
+                    },
+                    {
+                        "name": "PzGr.",
+                        "type": "APHE",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 49,
+                                "30\u00b0": 40,
+                                "60\u00b0": 20
+                            },
+                            "100m": {
+                                "0\u00b0": 46,
+                                "30\u00b0": 38,
+                                "60\u00b0": 19
+                            },
+                            "500m": {
+                                "0\u00b0": 33,
+                                "30\u00b0": 28,
+                                "60\u00b0": 14
+                            },
+                            "1000m": {
+                                "0\u00b0": 22,
+                                "30\u00b0": 20,
+                                "60\u00b0": 9
+                            },
+                            "1500m": {
+                                "0\u00b0": 14,
+                                "30\u00b0": 14,
+                                "60\u00b0": 6
+                            },
+                            "2000m": {
+                                "0\u00b0": 10,
+                                "30\u00b0": 9,
+                                "60\u00b0": 4
+                            }
+                        }
+                    },
+                    {
+                        "name": "M.Gr.18",
+                        "type": "HEI-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 7,
+                                "30\u00b0": 7,
+                                "60\u00b0": 4
+                            },
+                            "100m": {
+                                "0\u00b0": 7,
+                                "30\u00b0": 7,
+                                "60\u00b0": 4
+                            },
+                            "500m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 5,
+                                "60\u00b0": 4
+                            },
+                            "1000m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 4
+                            },
+                            "1500m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 4
+                            },
+                            "2000m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 4
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,128 @@
+{
+    "unit_basic_info": {
+        "name": "germ_sdkfz_221_s_pz_b_41",
+        "nation": "germ",
+        "rank": 1,
+        "battle_rating": {
+            "AB": 1.0,
+            "RB": 1.0,
+            "SB": 1.0
+        },
+        "role": "Light tank",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_germany.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/germ_sdkfz_221_s_pz_b_41.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 107,
+            "crew": 2
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 80.0,
+                    "ab": 89.0
+                },
+                "backward": {
+                    "rb": 15.0,
+                    "ab": 17.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 18.8,
+                "rb_basic": 16.5,
+                "ab_ref": 35.8,
+                "ab_basic": 29.0
+            },
+            "engine_power": {
+                "rb_ref": 75,
+                "rb_basic": 66,
+                "ab_ref": 143,
+                "ab_basic": 116
+            },
+            "weight": 4.0
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "1.9x\u20133.5x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "28/20 mm s.Pz.B.41 cannon",
+                "features": [
+                    "Shoulder stabilizer"
+                ],
+                "specs": {
+                    "ammunition": "60 rounds",
+                    "reload": "3.9 \u2192 3 s",
+                    "vertical_guidance": "-10 / 20\u00b0",
+                    "horizontal_guidance": "-20 / 2\u00b0",
+                    "turret_rotation_speed_horizontal": "24.5 20.8 46.1 33.3 \u2192 35 29.8 65.9 47.6 \u00b0/s",
+                    "turret_rotation_speed_vertical": "14 11.2 49 31.4 \u2192 20 16 70 44.8 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "2.8/2cm Pzgr.41",
+                        "details": {
+                            "type": "APCR",
+                            "caliber": "20 mm",
+                            "projectile_mass": "124 g",
+                            "muzzle_velocity": "1,400 m/s"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 90,
+                                "30\u00b0": 66,
+                                "60\u00b0": 20
+                            },
+                            "100m": {
+                                "0\u00b0": 84,
+                                "30\u00b0": 62,
+                                "60\u00b0": 19
+                            },
+                            "500m": {
+                                "0\u00b0": 63,
+                                "30\u00b0": 47,
+                                "60\u00b0": 14
+                            },
+                            "1000m": {
+                                "0\u00b0": 44,
+                                "30\u00b0": 33,
+                                "60\u00b0": 10
+                            },
+                            "1500m": {
+                                "0\u00b0": 31,
+                                "30\u00b0": 23,
+                                "60\u00b0": 7
+                            },
+                            "2000m": {
+                                "0\u00b0": 21,
+                                "30\u00b0": 16,
+                                "60\u00b0": 5
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            }
+        ]
+    }
+}

@@ -1,0 +1,193 @@
+{
+    "unit_basic_info": {
+        "name": "sw_tgdgb_m40_lv",
+        "nation": "sw",
+        "rank": 2,
+        "battle_rating": {
+            "AB": 3.0,
+            "RB": 2.7,
+            "SB": 2.7
+        },
+        "role": "SPAA",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_sweden.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/sw_tgdgb_m40_lv.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 84,
+            "crew": 4
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 44.0,
+                    "ab": 48.0
+                },
+                "backward": {
+                    "rb": 6.0,
+                    "ab": 7.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 15.6,
+                "rb_basic": 13.8,
+                "ab_ref": 27.2,
+                "ab_basic": 22.1
+            },
+            "engine_power": {
+                "rb_ref": 140,
+                "rb_basic": 124,
+                "ab_ref": 245,
+                "ab_basic": 199
+            },
+            "weight": 9.0
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "1.9x\u20133.5x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "40 mm lvakan m/36 cannon",
+                "features": [],
+                "specs": {
+                    "ammunition": "144 rounds",
+                    "belt_capacity": "8 rounds",
+                    "reload": "0.6 \u2192 0.5 s",
+                    "vertical_guidance": "-6 / 85\u00b0",
+                    "turret_rotation_speed_horizontal": "14.7 12.5 25.6 18.5 \u2192 21 17.9 36.6 26.4 \u00b0/s",
+                    "turret_rotation_speed_vertical": "16.8 13.4 51.2 32.8 \u2192 24 19.2 73.2 46.8 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "APC/HEFI-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 9,
+                                "60\u00b0": 4
+                            },
+                            "100m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 9,
+                                "60\u00b0": 4
+                            },
+                            "500m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 8,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 6,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 3
+                            }
+                        }
+                    },
+                    {
+                        "name": "slsgr m/36C",
+                        "type": "HEFI-T/HEFI-T/HEFI-T/APC",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 79,
+                                "30\u00b0": 61,
+                                "60\u00b0": 28
+                            },
+                            "100m": {
+                                "0\u00b0": 75,
+                                "30\u00b0": 58,
+                                "60\u00b0": 27
+                            },
+                            "500m": {
+                                "0\u00b0": 60,
+                                "30\u00b0": 47,
+                                "60\u00b0": 22
+                            },
+                            "1000m": {
+                                "0\u00b0": 46,
+                                "30\u00b0": 36,
+                                "60\u00b0": 18
+                            },
+                            "1500m": {
+                                "0\u00b0": 35,
+                                "30\u00b0": 28,
+                                "60\u00b0": 14
+                            },
+                            "2000m": {
+                                "0\u00b0": 26,
+                                "30\u00b0": 22,
+                                "60\u00b0": 11
+                            }
+                        }
+                    },
+                    {
+                        "name": "slhpgr m/43",
+                        "type": "SAPHEI/SAPHEI/SAPHEI/HEFI-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 9,
+                                "60\u00b0": 4
+                            },
+                            "100m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 9,
+                                "60\u00b0": 4
+                            },
+                            "500m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 8,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 6,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 3
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

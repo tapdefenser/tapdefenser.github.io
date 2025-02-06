@@ -1,0 +1,168 @@
+{
+    "unit_basic_info": {
+        "name": "uk_ram_90mm_aa",
+        "nation": "uk",
+        "rank": 3,
+        "battle_rating": {
+            "AB": 5.3,
+            "RB": 5.3,
+            "SB": 5.3
+        },
+        "role": "Tank destroyer",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_canada.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/uk_ram_90mm_aa.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 89,
+            "crew": 6
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 40.0,
+                    "ab": 43.0
+                },
+                "backward": {
+                    "rb": 5.0,
+                    "ab": 6.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 13.8,
+                "rb_basic": 12.2,
+                "ab_ref": 24.1,
+                "ab_basic": 19.6
+            },
+            "engine_power": {
+                "rb_ref": 400,
+                "rb_basic": 354,
+                "ab_ref": 699,
+                "ab_basic": 568
+            },
+            "weight": 29.0
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "5.0x\u20139.2x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "94 mm OQF Mk.II cannon",
+                "features": [],
+                "specs": {
+                    "ammunition": "44 rounds",
+                    "reload": "7.8 \u2192 6 s",
+                    "vertical_guidance": "-5 / 85\u00b0",
+                    "turret_rotation_speed_horizontal": "7.7 6.5 13.4 9.7 \u2192 11 9.4 19.2 13.8 \u00b0/s",
+                    "turret_rotation_speed_vertical": "4.2 3.4 12.8 8.2 \u2192 6 4.8 18.3 11.7 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "Shot Mk.1",
+                        "details": {
+                            "type": "APCBC",
+                            "caliber": "94 mm",
+                            "projectile_mass": "14.5 kg",
+                            "muzzle_velocity": "792 m/s"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 204,
+                                "30\u00b0": 156,
+                                "60\u00b0": 71
+                            },
+                            "100m": {
+                                "0\u00b0": 202,
+                                "30\u00b0": 154,
+                                "60\u00b0": 70
+                            },
+                            "500m": {
+                                "0\u00b0": 192,
+                                "30\u00b0": 147,
+                                "60\u00b0": 67
+                            },
+                            "1000m": {
+                                "0\u00b0": 180,
+                                "30\u00b0": 139,
+                                "60\u00b0": 64
+                            },
+                            "1500m": {
+                                "0\u00b0": 169,
+                                "30\u00b0": 131,
+                                "60\u00b0": 61
+                            },
+                            "2000m": {
+                                "0\u00b0": 159,
+                                "30\u00b0": 123,
+                                "60\u00b0": 58
+                            }
+                        }
+                    },
+                    {
+                        "name": "Shell Mk.1",
+                        "details": {
+                            "type": "HE",
+                            "caliber": "94 mm",
+                            "projectile_mass": "12.7 kg",
+                            "muzzle_velocity": "792 m/s",
+                            "explosive_type": "TNT",
+                            "explosive_mass": "920 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 13,
+                                "30\u00b0": 13,
+                                "60\u00b0": 13
+                            },
+                            "100m": {
+                                "0\u00b0": 13,
+                                "30\u00b0": 13,
+                                "60\u00b0": 13
+                            },
+                            "500m": {
+                                "0\u00b0": 13,
+                                "30\u00b0": 13,
+                                "60\u00b0": 13
+                            },
+                            "1000m": {
+                                "0\u00b0": 13,
+                                "30\u00b0": 13,
+                                "60\u00b0": 13
+                            },
+                            "1500m": {
+                                "0\u00b0": 13,
+                                "30\u00b0": 13,
+                                "60\u00b0": 13
+                            },
+                            "2000m": {
+                                "0\u00b0": 13,
+                                "30\u00b0": 13,
+                                "60\u00b0": 13
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            }
+        ]
+    }
+}

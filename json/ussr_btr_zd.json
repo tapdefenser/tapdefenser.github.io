@@ -1,0 +1,249 @@
+{
+    "unit_basic_info": {
+        "name": "ussr_btr_zd",
+        "nation": "ussr",
+        "rank": 4,
+        "battle_rating": {
+            "AB": 5.7,
+            "RB": 6.0,
+            "SB": 6.0
+        },
+        "role": "SPAA",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_ussr.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/ussr_btr_zd.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [
+                "Smoke grenades",
+                "ESS"
+            ],
+            "visibility": 70,
+            "crew": 6
+        },
+        "support_systems": {
+            "features": [
+                "Smoke grenades",
+                "ESS"
+            ]
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [
+                "Amphibious"
+            ],
+            "max_speed": {
+                "forward": {
+                    "rb": 61.0,
+                    "ab": 66.0
+                },
+                "backward": {
+                    "rb": 6.0,
+                    "ab": 7.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 26.7,
+                "rb_basic": 23.6,
+                "ab_ref": 46.7,
+                "ab_basic": 37.9
+            },
+            "engine_power": {
+                "rb_ref": 240,
+                "rb_basic": 212,
+                "ab_ref": 420,
+                "ab_basic": 341
+            },
+            "weight": 9.0
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "1.9x\u20133.5x",
+                "commander": "5.0x",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "2 x 23 mm ZU-23 cannon",
+                "features": [],
+                "specs": {
+                    "ammunition": "500 rounds",
+                    "belt_capacity": "50 rounds",
+                    "reload": "13 \u2192 10 s",
+                    "vertical_guidance": "-10 / 90\u00b0",
+                    "turret_rotation_speed_horizontal": "42 35.7 73.1 52.8 \u2192 60 51 104.5 75.5 \u00b0/s",
+                    "turret_rotation_speed_vertical": "28 22.4 85.4 54.7 \u2192 40 32 122 78.1 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "API-T/HEF-I",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 6,
+                                "60\u00b0": 3
+                            },
+                            "100m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 6,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            }
+                        }
+                    },
+                    {
+                        "name": "HEFI-T",
+                        "type": "HEF-I/HEFI-T/HEF-I/API-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 51,
+                                "30\u00b0": 38,
+                                "60\u00b0": 19
+                            },
+                            "100m": {
+                                "0\u00b0": 48,
+                                "30\u00b0": 36,
+                                "60\u00b0": 18
+                            },
+                            "500m": {
+                                "0\u00b0": 36,
+                                "30\u00b0": 28,
+                                "60\u00b0": 14
+                            },
+                            "1000m": {
+                                "0\u00b0": 26,
+                                "30\u00b0": 21,
+                                "60\u00b0": 11
+                            },
+                            "1500m": {
+                                "0\u00b0": 18,
+                                "30\u00b0": 16,
+                                "60\u00b0": 8
+                            },
+                            "2000m": {
+                                "0\u00b0": 13,
+                                "30\u00b0": 12,
+                                "60\u00b0": 5
+                            }
+                        }
+                    },
+                    {
+                        "name": "APIT",
+                        "type": "API-T/API-T/API-T/HEFI-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 6,
+                                "60\u00b0": 3
+                            },
+                            "100m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 6,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "2 x7.62 mm PKT machine gun(coaxial)",
+                "features": [],
+                "specs": {
+                    "ammunition": "1,000 rounds",
+                    "belt_capacity": "250 rounds",
+                    "reload": "10.4 \u2192 8 s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP-I/API-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 7,
+                                "60\u00b0": 4
+                            },
+                            "100m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 7,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 5,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 1
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

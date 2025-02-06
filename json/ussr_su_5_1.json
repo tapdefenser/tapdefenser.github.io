@@ -1,0 +1,208 @@
+{
+    "unit_basic_info": {
+        "name": "ussr_su_5_1",
+        "nation": "ussr",
+        "rank": 1,
+        "battle_rating": {
+            "AB": 1.0,
+            "RB": 1.0,
+            "SB": 1.0
+        },
+        "role": "Tank destroyer",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_ussr.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/ussr_su_5_1.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 76,
+            "crew": 5
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 30.0,
+                    "ab": 33.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 9.0,
+                "rb_basic": 8.0,
+                "ab_ref": 15.7,
+                "ab_basic": 12.8
+            },
+            "engine_power": {
+                "rb_ref": 90,
+                "rb_basic": 80,
+                "ab_ref": 157,
+                "ab_basic": 128
+            },
+            "weight": 10.0
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "1.9x\u20133.5x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "76 mm 1902/30 cannon",
+                "features": [],
+                "specs": {
+                    "ammunition": "8 rounds",
+                    "reload": "5.6 \u2192 4.3 s",
+                    "vertical_guidance": "-5 / 60\u00b0",
+                    "horizontal_guidance": "-15 / 15\u00b0",
+                    "turret_rotation_speed_horizontal": "5.6 4.8 9.8 7 \u2192 8 6.8 13.9 10.1 \u00b0/s",
+                    "turret_rotation_speed_vertical": "2.8 2.2 8.5 5.5 \u2192 4 3.2 12.2 7.8 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "BR-350A (MD-5 fuze)",
+                        "details": {
+                            "type": "APHEBC",
+                            "caliber": "76.2 mm",
+                            "projectile_mass": "6.3 kg",
+                            "muzzle_velocity": "662 m/s",
+                            "explosive_type": "TNT",
+                            "explosive_mass": "150 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 87,
+                                "30\u00b0": 75,
+                                "60\u00b0": 44
+                            },
+                            "100m": {
+                                "0\u00b0": 85,
+                                "30\u00b0": 74,
+                                "60\u00b0": 44
+                            },
+                            "500m": {
+                                "0\u00b0": 77,
+                                "30\u00b0": 68,
+                                "60\u00b0": 42
+                            },
+                            "1000m": {
+                                "0\u00b0": 69,
+                                "30\u00b0": 61,
+                                "60\u00b0": 40
+                            },
+                            "1500m": {
+                                "0\u00b0": 62,
+                                "30\u00b0": 55,
+                                "60\u00b0": 38
+                            },
+                            "2000m": {
+                                "0\u00b0": 55,
+                                "30\u00b0": 50,
+                                "60\u00b0": 36
+                            }
+                        }
+                    },
+                    {
+                        "name": "OF-350M",
+                        "details": {
+                            "type": "HE",
+                            "caliber": "76.2 mm",
+                            "projectile_mass": "6.2 kg",
+                            "muzzle_velocity": "680 m/s",
+                            "explosive_type": "TNT",
+                            "explosive_mass": "621 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 10,
+                                "30\u00b0": 10,
+                                "60\u00b0": 10
+                            },
+                            "100m": {
+                                "0\u00b0": 10,
+                                "30\u00b0": 10,
+                                "60\u00b0": 10
+                            },
+                            "500m": {
+                                "0\u00b0": 10,
+                                "30\u00b0": 10,
+                                "60\u00b0": 10
+                            },
+                            "1000m": {
+                                "0\u00b0": 10,
+                                "30\u00b0": 10,
+                                "60\u00b0": 10
+                            },
+                            "1500m": {
+                                "0\u00b0": 10,
+                                "30\u00b0": 10,
+                                "60\u00b0": 10
+                            },
+                            "2000m": {
+                                "0\u00b0": 10,
+                                "30\u00b0": 10,
+                                "60\u00b0": 10
+                            }
+                        }
+                    },
+                    {
+                        "name": "BR-350SP",
+                        "details": {
+                            "type": "APBC",
+                            "caliber": "76.2 mm",
+                            "projectile_mass": "6.5 kg",
+                            "muzzle_velocity": "655 m/s"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 99,
+                                "30\u00b0": 85,
+                                "60\u00b0": 47
+                            },
+                            "100m": {
+                                "0\u00b0": 96,
+                                "30\u00b0": 83,
+                                "60\u00b0": 47
+                            },
+                            "500m": {
+                                "0\u00b0": 87,
+                                "30\u00b0": 75,
+                                "60\u00b0": 44
+                            },
+                            "1000m": {
+                                "0\u00b0": 76,
+                                "30\u00b0": 66,
+                                "60\u00b0": 41
+                            },
+                            "1500m": {
+                                "0\u00b0": 66,
+                                "30\u00b0": 59,
+                                "60\u00b0": 39
+                            },
+                            "2000m": {
+                                "0\u00b0": 58,
+                                "30\u00b0": 52,
+                                "60\u00b0": 36
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            }
+        ]
+    }
+}

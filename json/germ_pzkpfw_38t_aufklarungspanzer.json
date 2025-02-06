@@ -1,0 +1,277 @@
+{
+    "unit_basic_info": {
+        "name": "germ_pzkpfw_38t_aufklarungspanzer",
+        "nation": "germ",
+        "rank": 1,
+        "battle_rating": {
+            "AB": 1.7,
+            "RB": 2.0,
+            "SB": 2.0
+        },
+        "role": "Light tank",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_germany.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/germ_pzkpfw_38t_aufklarungspanzer.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 73,
+            "crew": 4
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 58.0,
+                    "ab": 65.0
+                },
+                "backward": {
+                    "rb": 6.0,
+                    "ab": 7.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 14.5,
+                "rb_basic": 12.9,
+                "ab_ref": 27.7,
+                "ab_basic": 22.5
+            },
+            "engine_power": {
+                "rb_ref": 160,
+                "rb_basic": 142,
+                "ab_ref": 305,
+                "ab_basic": 248
+            },
+            "weight": 11.0
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "1.9x\u20133.5x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "20 mm KwK38 cannon",
+                "features": [],
+                "specs": {
+                    "ammunition": "300 rounds",
+                    "belt_capacity": "10 rounds",
+                    "reload": "7.8 \u2192 6 s",
+                    "vertical_guidance": "-4 / 70\u00b0",
+                    "turret_rotation_speed_horizontal": "28 23.8 52.7 38.1 \u2192 40 34 75.3 54.4 \u00b0/s",
+                    "turret_rotation_speed_vertical": "28 22.4 98 62.7 \u2192 40 32 140 89.6 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "API-T/HEFI-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 3
+                            },
+                            "100m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            }
+                        }
+                    },
+                    {
+                        "name": "Sprgr.",
+                        "type": "HEFI-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 3
+                            },
+                            "100m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            }
+                        }
+                    },
+                    {
+                        "name": "PzGr.",
+                        "type": "API-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 37,
+                                "30\u00b0": 28,
+                                "60\u00b0": 14
+                            },
+                            "100m": {
+                                "0\u00b0": 34,
+                                "30\u00b0": 26,
+                                "60\u00b0": 13
+                            },
+                            "500m": {
+                                "0\u00b0": 23,
+                                "30\u00b0": 19,
+                                "60\u00b0": 10
+                            },
+                            "1000m": {
+                                "0\u00b0": 14,
+                                "30\u00b0": 13,
+                                "60\u00b0": 6
+                            },
+                            "1500m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 9,
+                                "60\u00b0": 4
+                            },
+                            "2000m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 5,
+                                "60\u00b0": 2
+                            }
+                        }
+                    },
+                    {
+                        "name": "PzGr.40",
+                        "type": "HVAP-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 48,
+                                "30\u00b0": 36,
+                                "60\u00b0": 11
+                            },
+                            "100m": {
+                                "0\u00b0": 45,
+                                "30\u00b0": 33,
+                                "60\u00b0": 10
+                            },
+                            "500m": {
+                                "0\u00b0": 31,
+                                "30\u00b0": 23,
+                                "60\u00b0": 7
+                            },
+                            "1000m": {
+                                "0\u00b0": 20,
+                                "30\u00b0": 15,
+                                "60\u00b0": 5
+                            },
+                            "1500m": {
+                                "0\u00b0": 13,
+                                "30\u00b0": 10,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 6,
+                                "60\u00b0": 2
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "7.92 mm MG42 machine gun (coaxial)",
+                "features": [],
+                "specs": {
+                    "ammunition": "1,800 rounds",
+                    "belt_capacity": "150 rounds",
+                    "reload": "10.4 \u2192 8 s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP/AP/AP-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 8,
+                                "60\u00b0": 4
+                            },
+                            "100m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 7,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 5,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 1
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

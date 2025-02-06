@@ -1,0 +1,193 @@
+{
+    "unit_basic_info": {
+        "name": "jp_type_94",
+        "nation": "jp",
+        "rank": 1,
+        "battle_rating": {
+            "AB": 1.3,
+            "RB": 1.3,
+            "SB": 1.3
+        },
+        "role": "SPAA",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_japan.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/jp_type_94.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 75,
+            "crew": 3
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 60.0,
+                    "ab": 65.0
+                },
+                "backward": {
+                    "rb": 17.0,
+                    "ab": 19.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 17.4,
+                "rb_basic": 15.4,
+                "ab_ref": 30.5,
+                "ab_basic": 24.9
+            },
+            "engine_power": {
+                "rb_ref": 68,
+                "rb_basic": 60,
+                "ab_ref": 119,
+                "ab_basic": 97
+            },
+            "weight": 3.9
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "1.9x\u20133.5x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "20 mm Type 98 cannon",
+                "features": [],
+                "specs": {
+                    "ammunition": "400 rounds",
+                    "belt_capacity": "20 rounds",
+                    "reload": "3.9 \u2192 3 s",
+                    "vertical_guidance": "-9 / 82\u00b0",
+                    "turret_rotation_speed_horizontal": "24.5 20.8 42.7 30.8 \u2192 35 29.8 60.9 44 \u00b0/s",
+                    "turret_rotation_speed_vertical": "14 11.2 42.7 27.3 \u2192 20 16 61 39 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "API-T/HEFI-T/HEFI-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 5,
+                                "60\u00b0": 3
+                            },
+                            "100m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            }
+                        }
+                    },
+                    {
+                        "name": "Type 100 HE-T",
+                        "type": "HEFI-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 5,
+                                "60\u00b0": 3
+                            },
+                            "100m": {
+                                "0\u00b0": 5,
+                                "30\u00b0": 5,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 4,
+                                "30\u00b0": 4,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "1500m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            },
+                            "2000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 3
+                            }
+                        }
+                    },
+                    {
+                        "name": "Type 100 AP-T",
+                        "type": "API-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 48,
+                                "30\u00b0": 35,
+                                "60\u00b0": 18
+                            },
+                            "100m": {
+                                "0\u00b0": 45,
+                                "30\u00b0": 33,
+                                "60\u00b0": 17
+                            },
+                            "500m": {
+                                "0\u00b0": 35,
+                                "30\u00b0": 27,
+                                "60\u00b0": 14
+                            },
+                            "1000m": {
+                                "0\u00b0": 26,
+                                "30\u00b0": 21,
+                                "60\u00b0": 10
+                            },
+                            "1500m": {
+                                "0\u00b0": 19,
+                                "30\u00b0": 16,
+                                "60\u00b0": 8
+                            },
+                            "2000m": {
+                                "0\u00b0": 14,
+                                "30\u00b0": 13,
+                                "60\u00b0": 6
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

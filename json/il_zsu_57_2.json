@@ -1,0 +1,225 @@
+{
+    "unit_basic_info": {
+        "name": "il_zsu_57_2",
+        "nation": "il",
+        "rank": 4,
+        "battle_rating": {
+            "AB": 7.0,
+            "RB": 7.0,
+            "SB": 7.0
+        },
+        "role": "SPAA",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_israel.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/il_zsu_57_2.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 103,
+            "crew": 6
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 50.0,
+                    "ab": 54.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 18.6,
+                "rb_basic": 16.4,
+                "ab_ref": 32.5,
+                "ab_basic": 26.4
+            },
+            "engine_power": {
+                "rb_ref": 520,
+                "rb_basic": 460,
+                "ab_ref": 909,
+                "ab_basic": 739
+            },
+            "weight": 28.0
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "1.9x\u20133.5x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "2 x 57 mm S-68 cannon",
+                "features": [],
+                "specs": {
+                    "ammunition": "296 rounds",
+                    "belt_capacity": "4 rounds",
+                    "reload": "2.6 \u2192 2 s",
+                    "vertical_guidance": "-5 / 85\u00b0",
+                    "turret_rotation_speed_horizontal": "21 17.9 36.6 26.4 \u2192 30 25.5 52.2 37.7 \u00b0/s",
+                    "turret_rotation_speed_vertical": "14 11.2 42.7 27.3 \u2192 20 16 61 39 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "APCBC/HE",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 17,
+                                "30\u00b0": 17,
+                                "60\u00b0": 7
+                            },
+                            "100m": {
+                                "0\u00b0": 17,
+                                "30\u00b0": 16,
+                                "60\u00b0": 7
+                            },
+                            "500m": {
+                                "0\u00b0": 15,
+                                "30\u00b0": 14,
+                                "60\u00b0": 6
+                            },
+                            "1000m": {
+                                "0\u00b0": 13,
+                                "30\u00b0": 12,
+                                "60\u00b0": 5
+                            },
+                            "1500m": {
+                                "0\u00b0": 11,
+                                "30\u00b0": 11,
+                                "60\u00b0": 5
+                            },
+                            "2000m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 9,
+                                "60\u00b0": 5
+                            }
+                        }
+                    },
+                    {
+                        "name": "BR-281SP",
+                        "type": "APCBC",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 151,
+                                "30\u00b0": 114,
+                                "60\u00b0": 50
+                            },
+                            "100m": {
+                                "0\u00b0": 147,
+                                "30\u00b0": 111,
+                                "60\u00b0": 49
+                            },
+                            "500m": {
+                                "0\u00b0": 130,
+                                "30\u00b0": 99,
+                                "60\u00b0": 45
+                            },
+                            "1000m": {
+                                "0\u00b0": 112,
+                                "30\u00b0": 86,
+                                "60\u00b0": 40
+                            },
+                            "1500m": {
+                                "0\u00b0": 96,
+                                "30\u00b0": 75,
+                                "60\u00b0": 35
+                            },
+                            "2000m": {
+                                "0\u00b0": 83,
+                                "30\u00b0": 65,
+                                "60\u00b0": 31
+                            }
+                        }
+                    },
+                    {
+                        "name": "OR-281U",
+                        "type": "HE",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 17,
+                                "30\u00b0": 17,
+                                "60\u00b0": 7
+                            },
+                            "100m": {
+                                "0\u00b0": 17,
+                                "30\u00b0": 16,
+                                "60\u00b0": 7
+                            },
+                            "500m": {
+                                "0\u00b0": 15,
+                                "30\u00b0": 14,
+                                "60\u00b0": 6
+                            },
+                            "1000m": {
+                                "0\u00b0": 13,
+                                "30\u00b0": 12,
+                                "60\u00b0": 5
+                            },
+                            "1500m": {
+                                "0\u00b0": 11,
+                                "30\u00b0": 11,
+                                "60\u00b0": 5
+                            },
+                            "2000m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 9,
+                                "60\u00b0": 5
+                            }
+                        }
+                    },
+                    {
+                        "name": "BR-281U",
+                        "type": "APCBC",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 151,
+                                "30\u00b0": 114,
+                                "60\u00b0": 50
+                            },
+                            "100m": {
+                                "0\u00b0": 147,
+                                "30\u00b0": 111,
+                                "60\u00b0": 49
+                            },
+                            "500m": {
+                                "0\u00b0": 130,
+                                "30\u00b0": 99,
+                                "60\u00b0": 45
+                            },
+                            "1000m": {
+                                "0\u00b0": 112,
+                                "30\u00b0": 86,
+                                "60\u00b0": 40
+                            },
+                            "1500m": {
+                                "0\u00b0": 96,
+                                "30\u00b0": 75,
+                                "60\u00b0": 35
+                            },
+                            "2000m": {
+                                "0\u00b0": 83,
+                                "30\u00b0": 65,
+                                "60\u00b0": 31
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

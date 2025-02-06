@@ -1,0 +1,132 @@
+{
+    "unit_basic_info": {
+        "name": "it_l3_cc",
+        "nation": "it",
+        "rank": 1,
+        "battle_rating": {
+            "AB": 1.0,
+            "RB": 1.0,
+            "SB": 1.0
+        },
+        "role": "Tank destroyer",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_italy_kingdom.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/it_l3_cc.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [],
+            "visibility": 62,
+            "crew": 2
+        },
+        "support_systems": {
+            "features": []
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 42.0,
+                    "ab": 46.0
+                },
+                "backward": {
+                    "rb": 6.0,
+                    "ab": 7.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 13.4,
+                "rb_basic": 11.9,
+                "ab_ref": 23.4,
+                "ab_basic": 19.1
+            },
+            "engine_power": {
+                "rb_ref": 43,
+                "rb_basic": 38,
+                "ab_ref": 75,
+                "ab_basic": 61
+            },
+            "weight": 3.2
+        }
+    },
+    "optics": {
+        "features": [],
+        "specs": {
+            "optical_devices": [],
+            "optics_zoom": {
+                "gunner": "1.9x\u20133.5x",
+                "commander": "\u2014",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "20 mm Fucile Controcarri S Mod.39 antitank rifle",
+                "features": [
+                    "Shoulder stabilizer"
+                ],
+                "specs": {
+                    "ammunition": "110 rounds",
+                    "belt_capacity": "10 rounds",
+                    "reload": "7.8 \u2192 6 s",
+                    "vertical_guidance": "-15 / 15\u00b0",
+                    "horizontal_guidance": "-10 / 10\u00b0",
+                    "turret_rotation_speed_horizontal": "14 11.9 24.4 17.6 \u2192 20 17 34.8 25.2 \u00b0/s",
+                    "turret_rotation_speed_vertical": "10.5 8.4 32 20.5 \u2192 15 12 45.7 29.3 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "Perforante mod.35",
+                        "details": {
+                            "type": "APHE",
+                            "caliber": "20 mm",
+                            "projectile_mass": "140 g",
+                            "muzzle_velocity": "832 m/s",
+                            "explosive_type": "PETN",
+                            "explosive_mass": "1 g",
+                            "tnt_equivalent": "2 g"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 38,
+                                "30\u00b0": 29,
+                                "60\u00b0": 15
+                            },
+                            "100m": {
+                                "0\u00b0": 36,
+                                "30\u00b0": 27,
+                                "60\u00b0": 14
+                            },
+                            "500m": {
+                                "0\u00b0": 27,
+                                "30\u00b0": 22,
+                                "60\u00b0": 11
+                            },
+                            "1000m": {
+                                "0\u00b0": 19,
+                                "30\u00b0": 16,
+                                "60\u00b0": 8
+                            },
+                            "1500m": {
+                                "0\u00b0": 14,
+                                "30\u00b0": 12,
+                                "60\u00b0": 6
+                            },
+                            "2000m": {
+                                "0\u00b0": 10,
+                                "30\u00b0": 9,
+                                "60\u00b0": 4
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            }
+        ]
+    }
+}

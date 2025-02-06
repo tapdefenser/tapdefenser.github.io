@@ -1,0 +1,387 @@
+{
+    "unit_basic_info": {
+        "name": "cn_t_80ud_478be",
+        "nation": "cn",
+        "rank": 7,
+        "battle_rating": {
+            "AB": 10.7,
+            "RB": 10.7,
+            "SB": 10.7
+        },
+        "role": "Medium tank",
+        "images": {
+            "country_flag": "https://static.encyclopedia.warthunder.com/unit_tooltip/country_pakistan.png",
+            "unit_image": "https://static.encyclopedia.warthunder.com/images/cn_t_80ud_478be.png"
+        }
+    },
+    "survivability": {
+        "survivability": {
+            "features": [
+                "Composite armour",
+                "ERA"
+            ],
+            "visibility": 78,
+            "crew": 3
+        },
+        "support_systems": {
+            "features": [
+                "Smoke grenades",
+                "ESS",
+                "Self-entrenching equipment",
+                "Dual control"
+            ]
+        }
+    },
+    "mobility": {
+        "mobility": {
+            "features": [],
+            "max_speed": {
+                "forward": {
+                    "rb": 60.0,
+                    "ab": 67.0
+                },
+                "backward": {
+                    "rb": 4.0,
+                    "ab": 5.0
+                }
+            },
+            "power_to_weight_ratio": {
+                "rb_ref": 21.7,
+                "rb_basic": 19.2,
+                "ab_ref": 41.5,
+                "ab_basic": 33.7
+            },
+            "engine_power": {
+                "rb_ref": 1000,
+                "rb_basic": 884,
+                "ab_ref": 1908,
+                "ab_basic": 1550
+            },
+            "weight": 46.0
+        }
+    },
+    "optics": {
+        "features": [
+            {
+                "name": "Laser rangefinder"
+            }
+        ],
+        "specs": {
+            "optical_devices": [
+                {
+                    "name": "Thermal imager",
+                    "resolution": {
+                        "gunner": "800x600",
+                        "commander": "\u2014",
+                        "driver": "\u2014"
+                    }
+                },
+                {
+                    "name": "Night vision device"
+                }
+            ],
+            "optics_zoom": {
+                "gunner": "2.7x\u201312.0x",
+                "commander": "1.0x\u20138.0x",
+                "driver": "\u2014"
+            }
+        }
+    },
+    "armaments": {
+        "armaments": [
+            {
+                "name": "125 mm 2A46M-1 cannon",
+                "features": [
+                    "Two-plane stabilizer",
+                    "Autoloader"
+                ],
+                "specs": {
+                    "ammunition": "45 rounds",
+                    "first-order": "28 rounds",
+                    "vertical_guidance": "-5 / 15\u00b0",
+                    "turret_rotation_speed_horizontal": "16.8 14.3 31.6 22.8 \u2192 24 20.4 45.2 32.6 \u00b0/s",
+                    "turret_rotation_speed_vertical": "3.1 2.5 10.8 6.9 \u2192 4.4 3.5 15.4 9.9 \u00b0/s"
+                },
+                "available_ammunition": [
+                    {
+                        "name": "3BK18M",
+                        "details": {
+                            "type": "HEATFS",
+                            "caliber": "125 mm",
+                            "projectile_mass": "19 kg",
+                            "muzzle_velocity": "905 m/s",
+                            "explosive_type": "OKFOL",
+                            "explosive_mass": "1.8 kg",
+                            "tnt_equivalent": "2.8 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 550,
+                                "30\u00b0": 476,
+                                "60\u00b0": 275
+                            },
+                            "100m": {
+                                "0\u00b0": 550,
+                                "30\u00b0": 476,
+                                "60\u00b0": 275
+                            },
+                            "500m": {
+                                "0\u00b0": 550,
+                                "30\u00b0": 476,
+                                "60\u00b0": 275
+                            },
+                            "1000m": {
+                                "0\u00b0": 550,
+                                "30\u00b0": 476,
+                                "60\u00b0": 275
+                            },
+                            "1500m": {
+                                "0\u00b0": 550,
+                                "30\u00b0": 476,
+                                "60\u00b0": 275
+                            },
+                            "2000m": {
+                                "0\u00b0": 550,
+                                "30\u00b0": 476,
+                                "60\u00b0": 275
+                            }
+                        }
+                    },
+                    {
+                        "name": "3OF26",
+                        "details": {
+                            "type": "HE",
+                            "caliber": "125 mm",
+                            "projectile_mass": "23 kg",
+                            "muzzle_velocity": "850 m/s",
+                            "explosive_type": "A-IX-2",
+                            "explosive_mass": "3.4 kg",
+                            "tnt_equivalent": "5.2 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 42,
+                                "30\u00b0": 42,
+                                "60\u00b0": 42
+                            },
+                            "100m": {
+                                "0\u00b0": 42,
+                                "30\u00b0": 42,
+                                "60\u00b0": 42
+                            },
+                            "500m": {
+                                "0\u00b0": 42,
+                                "30\u00b0": 42,
+                                "60\u00b0": 42
+                            },
+                            "1000m": {
+                                "0\u00b0": 42,
+                                "30\u00b0": 42,
+                                "60\u00b0": 42
+                            },
+                            "1500m": {
+                                "0\u00b0": 42,
+                                "30\u00b0": 42,
+                                "60\u00b0": 42
+                            },
+                            "2000m": {
+                                "0\u00b0": 42,
+                                "30\u00b0": 42,
+                                "60\u00b0": 42
+                            }
+                        }
+                    },
+                    {
+                        "name": "3BM42",
+                        "details": {
+                            "type": "APFSDS",
+                            "caliber": "125 mm",
+                            "projectile_mass": "4.8 kg",
+                            "muzzle_velocity": "1,700 m/s"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 457,
+                                "30\u00b0": 386,
+                                "60\u00b0": 264
+                            },
+                            "100m": {
+                                "0\u00b0": 454,
+                                "30\u00b0": 383,
+                                "60\u00b0": 262
+                            },
+                            "500m": {
+                                "0\u00b0": 445,
+                                "30\u00b0": 376,
+                                "60\u00b0": 257
+                            },
+                            "1000m": {
+                                "0\u00b0": 431,
+                                "30\u00b0": 364,
+                                "60\u00b0": 249
+                            },
+                            "1500m": {
+                                "0\u00b0": 419,
+                                "30\u00b0": 354,
+                                "60\u00b0": 242
+                            },
+                            "2000m": {
+                                "0\u00b0": 406,
+                                "30\u00b0": 343,
+                                "60\u00b0": 235
+                            }
+                        }
+                    },
+                    {
+                        "name": "9M119",
+                        "details": {
+                            "type": "ATGM",
+                            "caliber": "125 mm",
+                            "projectile_mass": "16.5 kg",
+                            "guidance": "Beam riding",
+                            "launch_range": "5\u00a0km",
+                            "maximum_speed": "470 m/s",
+                            "missile_guidance_time": "19 s",
+                            "explosive_type": "OKFOL",
+                            "explosive_mass": "3.6 kg",
+                            "tnt_equivalent": "5.8 kg"
+                        },
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 700,
+                                "30\u00b0": 606,
+                                "60\u00b0": 350
+                            },
+                            "100m": {
+                                "0\u00b0": 700,
+                                "30\u00b0": 606,
+                                "60\u00b0": 350
+                            },
+                            "500m": {
+                                "0\u00b0": 700,
+                                "30\u00b0": 606,
+                                "60\u00b0": 350
+                            },
+                            "1000m": {
+                                "0\u00b0": 700,
+                                "30\u00b0": 606,
+                                "60\u00b0": 350
+                            },
+                            "1500m": {
+                                "0\u00b0": 700,
+                                "30\u00b0": 606,
+                                "60\u00b0": 350
+                            },
+                            "2000m": {
+                                "0\u00b0": 700,
+                                "30\u00b0": 606,
+                                "60\u00b0": 350
+                            }
+                        }
+                    }
+                ],
+                "available_belts": []
+            },
+            {
+                "name": "12.7 mm NSVT machine gun",
+                "features": [],
+                "specs": {
+                    "ammunition": "450 rounds",
+                    "belt_capacity": "150 rounds",
+                    "reload": "6.5 \u2192 5 s",
+                    "vertical_guidance": "-3 / 66\u00b0",
+                    "horizontal_guidance": "-40 / 55\u00b0",
+                    "turret_rotation_speed_horizontal": "63 53.6 118.6 85.7 \u2192 90 76.5 169.4 122.4 \u00b0/s",
+                    "turret_rotation_speed_vertical": "63 50.4 220.5 141.1 \u2192 90 72 315 201.6 \u00b0/s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "API-T/IAI/API-T/AP-I(c)",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 34,
+                                "30\u00b0": 24,
+                                "60\u00b0": 12
+                            },
+                            "100m": {
+                                "0\u00b0": 32,
+                                "30\u00b0": 23,
+                                "60\u00b0": 12
+                            },
+                            "500m": {
+                                "0\u00b0": 24,
+                                "30\u00b0": 18,
+                                "60\u00b0": 9
+                            },
+                            "1000m": {
+                                "0\u00b0": 17,
+                                "30\u00b0": 13,
+                                "60\u00b0": 7
+                            },
+                            "1500m": {
+                                "0\u00b0": 12,
+                                "30\u00b0": 10,
+                                "60\u00b0": 5
+                            },
+                            "2000m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 7,
+                                "60\u00b0": 4
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "name": "7.62 mm PKT machine gun(coaxial)",
+                "features": [],
+                "specs": {
+                    "ammunition": "1,250 rounds",
+                    "belt_capacity": "250 rounds",
+                    "reload": "10.4 \u2192 8 s"
+                },
+                "available_ammunition": [],
+                "available_belts": [
+                    {
+                        "name": "Default",
+                        "type": "AP-I/API-T",
+                        "armor_penetration": {
+                            "10m": {
+                                "0\u00b0": 9,
+                                "30\u00b0": 7,
+                                "60\u00b0": 4
+                            },
+                            "100m": {
+                                "0\u00b0": 8,
+                                "30\u00b0": 7,
+                                "60\u00b0": 3
+                            },
+                            "500m": {
+                                "0\u00b0": 6,
+                                "30\u00b0": 5,
+                                "60\u00b0": 3
+                            },
+                            "1000m": {
+                                "0\u00b0": 3,
+                                "30\u00b0": 3,
+                                "60\u00b0": 1
+                            },
+                            "1500m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            },
+                            "2000m": {
+                                "0\u00b0": 0,
+                                "30\u00b0": 0,
+                                "60\u00b0": 0
+                            }
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
