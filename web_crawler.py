@@ -1,6 +1,5 @@
 import requests
 from fake_useragent import UserAgent
-import time
 from tools import *
 import json
 from bs4 import BeautifulSoup
@@ -66,7 +65,6 @@ def init_session(get_ground_list=False):
 
 def auto_get_ground_data(now_unit):
     s,unit_list = init_session(get_ground_list=True)
-    start = time.time()
     for i in range(now_unit, len(unit_list)):
         ground_type = unit_list[i]
         response = s.get(
@@ -84,9 +82,7 @@ def auto_get_ground_data(now_unit):
         save_text(json.dumps(data, indent=4), f'json/{ground_type}.json')
         # 检查授权状态
         if response.status_code != 200:
-            print(f"授权有效时长：{time.time()-start:.2f}s")
             print("授权已过期")
-            start = time.time()
             tries =4
             s = init_session()
             i-=1
@@ -118,8 +114,8 @@ def auto_get_ground_data_async(now_unit,max_worker = 5):
             
             html = response.text
             save_text(html, f'html/{ground_type}.html')
-            data = parse_ground_data(html, ground_type)
-            save_text(json.dumps(data, indent=4), f'json/{ground_type}.json')
+            # data = parse_ground_data(html, ground_type)
+            # save_text(json.dumps(data, indent=4), f'json/{ground_type}.json')
             
             return i, True
         except Exception as e:
@@ -179,7 +175,7 @@ def auto_get_ground_data_async(now_unit,max_worker = 5):
 
 # 执行示例
 if __name__ == "__main__":
-    start = time.time()
+
     html_data = init_session(get_ground_list=True)
     auto_get_ground_data_async(check_now_unit(),max_worker=10)
     
