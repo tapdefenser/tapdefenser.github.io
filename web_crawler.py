@@ -103,7 +103,7 @@ condition = threading.Condition()
 task_status = {}  # {task_index: (success, future)}
 lock = threading.Lock()
 
-def auto_get_ground_data_async(now_unit):
+def auto_get_ground_data_async(now_unit,max_worker = 5):
     def process_unit(i, unit_list, session):
         ground_type = unit_list[i]
         try:
@@ -128,7 +128,7 @@ def auto_get_ground_data_async(now_unit):
 
     # 初始化
     s, unit_list = init_session(get_ground_list=True)
-    executor = concurrent.futures.ThreadPoolExecutor(max_workers=5)  # 调整线程数以适应你的需求
+    executor = concurrent.futures.ThreadPoolExecutor(max_workers=max_worker)  # 调整线程数以适应你的需求
     futures = []
     tries_map = {}
     global task_status
@@ -181,5 +181,5 @@ def auto_get_ground_data_async(now_unit):
 if __name__ == "__main__":
     start = time.time()
     html_data = init_session(get_ground_list=True)
-    auto_get_ground_data_async(check_now_unit())
+    auto_get_ground_data_async(check_now_unit(),max_worker=10)
     
