@@ -6,6 +6,8 @@ import json
 from bs4 import BeautifulSoup
 import re
 from parse_data import *
+import concurrent.futures
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 base_url = "https://wiki.warthunder.com/"
 
@@ -82,7 +84,7 @@ def auto_get_ground_data(now_unit):
             print(f"授权有效时长：{time.time()-start:.2f}s")
             print("授权已过期")
             start = time.time()
-            tries =3
+            tries =4
             s = init_session()
             i-=1
             tries -= 1
@@ -91,11 +93,68 @@ def auto_get_ground_data(now_unit):
                 break
             continue
 
-        save_text(str(i), 'now_unit.txt')
+        save_text(str(i), 'now_unit.txt') #更新now_unit
+
+def auto_get_ground_data_async(now_unit):
+    def process_unit(i, unit_list, session):
+        ground_type = unit_list[i]
+        try:
+            response = session.get(
+                f"https://wiki.warthunder.com/unit/{ground_type}",
+                headers=get_dynamic_headers(),
+                timeout=15
+            )
+            if response.status_code != 200:
+                print(f"获取{ground_type}详情失败，状态码：{response.status_code}")
+                return i, False
+            
+            html = response.text
+            save_text(html, f'html/{ground_type}.html')
+            data = parse_ground_data(html, ground_type)
+            save_text(json.dumps(data, indent=4), f'json/{ground_type}.json')
+            
+            return i, True
+        except Exception as e:
+            print(f"处理单元{i}时出错: {e}")
+            return i, False
+        
+    # 此处开始
+
+    s, unit_list = init_session(get_ground_list=True)
+    executor = ThreadPoolExecutor(max_workers=5)  # 调整线程数以适应你的需求
+    futures = {}
+    tries_map = {}
+
+    for i in range(now_unit, len(unit_list)):
+        future = executor.submit(process_unit, i, unit_list, s)
+        futures[future] = i
+        tries_map[i] = 4  # 初始化重试次数
+
+    for future in as_completed(futures):
+        index = futures[future]
+        try:
+            result_i, success = future.result()
+            if not success and tries_map[result_i] > 0:
+                # 如果失败且还有重试机会，则重新提交该任务
+                new_future = executor.submit(process_unit, result_i, unit_list, init_session())
+                futures[new_future] = result_i
+                tries_map[result_i] -= 1
+            else:
+                # 成功或无重试机会则更新now_unit
+                if success:
+                    save_text(str(result_i + 1), 'now_unit.txt')  # 更新now_unit为下一个
+                elif tries_map[result_i] == 0:
+                    print("多次尝试失败，程序退出")
+                    executor.shutdown(wait=False)
+                    exit(1)
+        except Exception as e:
+            print(f"任务{index}处理异常: {e}")
+
+    executor.shutdown()
 
 # 执行示例
 if __name__ == "__main__":
     start = time.time()
     html_data = init_session(get_ground_list=True)
-    auto_get_ground_data(check_now_unit())
+    auto_get_ground_data_async(check_now_unit())
     
