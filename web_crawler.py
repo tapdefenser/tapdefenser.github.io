@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 import re
 
 base_url = "https://wiki.warthunder.com/"
-v_type="it_fiat_cm52"
+v_type="sw_pt_76b"
 
 def get_dynamic_headers():
     """生成动态请求头，包含随机UA和时效性参数"""
@@ -48,7 +48,8 @@ def get_ground_data():
         links = soup.find_all('a', class_='wt-tree_item-link')
         # 提取 href 属性中包含 /unit/ 的链接
         unit_links = [link['href'] for link in links if link['href'].startswith('/unit/')]
-        save_text(json.dumps(unit_links), 'ground_unit_links.json')
+        unit_list = [s[6:] for s in unit_links if len(s) > 6]
+        save_text(json.dumps(unit_list), 'ground_unit_links.json')
 
         ground_type=v_type
         response = s.get(
@@ -69,10 +70,6 @@ def get_ground_data():
     finally:
         # 手动关闭Session
         s.close()
-
-
-from bs4 import BeautifulSoup
-import re
 
 def parse_unit_basic_info(html_content):
     soup = BeautifulSoup(html_content, 'html.parser')
@@ -141,7 +138,7 @@ def parse_armor_data(html_content):
     
     result = {
         "survivability": {
-            "armor": {},
+            #"armor": {},
             "features": [],
             "visibility": None,
             "crew": None
@@ -161,23 +158,23 @@ def parse_armor_data(html_content):
     # Step 2: 解析装甲数据（限定在 Survivability 模块内）
     armor_block = survivability_block.find('div', class_='game-unit_chars')
     if armor_block:
-        for line in armor_block.find_all('div', class_='game-unit_chars-subline'):
-            armor_type = line.find('span')
-            if armor_type:
-                armor_type = armor_type.get_text(strip=True)
-                values = line.find('span', class_='game-unit_chars-value')
-                if values:
-                    # 精确提取数值（处理可能的空格和单位）
-                    cleaned_values = [
-                        v.strip().replace(' mm', '') 
-                        for v in values.get_text(strip=True).split('/')
-                    ]
-                    if len(cleaned_values) == 3:
-                        result["survivability"]["armor"][armor_type.lower()] = {
-                            "front": int(cleaned_values[0]),
-                            "side": int(cleaned_values[1]),
-                            "back": int(cleaned_values[2])
-                        }
+        # for line in armor_block.find_all('div', class_='game-unit_chars-subline'):
+        #     armor_type = line.find('span')
+        #     if armor_type:
+        #         armor_type = armor_type.get_text(strip=True)
+        #         values = line.find('span', class_='game-unit_chars-value')
+        #         if values:
+        #             # 精确提取数值（处理可能的空格和单位）
+        #             cleaned_values = [
+        #                 v.strip().replace(' mm', '') 
+        #                 for v in values.get_text(strip=True).split('/')
+        #             ]
+        #             if len(cleaned_values) == 3:
+        #                 result["survivability"]["armor"][armor_type.lower()] = {
+        #                     "front": int(cleaned_values[0]),
+        #                     "side": int(cleaned_values[1]),
+        #                     "back": int(cleaned_values[2])
+        #                 }
 
         # Step 3: 解析可见度和乘员（同样限定在模块内）
         for line in armor_block.find_all('div', class_='game-unit_chars-line'):
@@ -525,10 +522,8 @@ def parse_armaments_data(html_content):
                         # 提取基本信息
                         belt_name = popover_soup.find('span').text.strip()
                         belt_type = popover_soup.find('div', style="font-size: .9em").text.split(':')[1].split('<')[0].strip()
-                        
-                        print(belt_type)
                         belt_type = remove_last_duplicate(belt_type)
-                        print(belt_type)
+
                         
                         # 提取穿深数据
                         armor_pen = {}
