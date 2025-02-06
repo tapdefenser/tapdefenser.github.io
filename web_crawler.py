@@ -53,7 +53,7 @@ def init_session(get_ground_list=False):
     print("Cookies:", s.cookies.get_dict())
     if get_ground_list:
         html_content = response.text
-        save_text(html_content, 'ground.txt')
+        save_text(html_content, 'ground.html')
         soup = BeautifulSoup(html_content, 'html.parser')
         # 查找所有 <a> 标签
         links = soup.find_all('a', class_='wt-tree_item-link')
