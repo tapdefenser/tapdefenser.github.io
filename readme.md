@@ -1,2 +1,3 @@
 - a wt tool
-- try twice
+- a data Analysis tool based on warthunder wiki
+- aim to rank the Performance of vehicles between ±1.0 br
